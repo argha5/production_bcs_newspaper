@@ -94,18 +94,35 @@ export function htmlToText(html) {
     .trim();
 }
 
-/** Pull the article body out of a page by taking its longest run of <p> text. */
+/** Pull the article body out of a page by taking clean paragraph text. */
 function extractArticleBody(html) {
   const paragraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
     .map((m) => htmlToText(m[1]).trim())
     .filter((p) =>
-      p.length > 40 &&
-      !/^(share|read more|also read|advertisement|আরও পড়ুন|বিজ্ঞাপন|copyright|©|all rights reserved)/i.test(p) &&
+      p.length > 35 &&
+      !/^(share|read more|also read|advertisement|আরও পড়ুন|বিজ্ঞাপন|copyright|©|all rights reserved|by\s+|photo:|file photo:|image:|courtesy:|published:|updated:)/i.test(p) &&
       !/thedailystar\.net|tbsnews\.net|prothomalo\.com|ajkerpatrika\.com/i.test(p) &&
-      !/(E-paper|Today’s News|Politics|Governance|Crime and Justice|Lifestyle|Entertainment)/i.test(p)
+      !/(E-paper|Today’s News|Politics|Governance|Crime and Justice|Lifestyle|Entertainment|Slow Reads|In Focus|Geopolitical Insights)/i.test(p)
     );
-  return paragraphs.join('\n\n');
+  return cleanArticleContent(paragraphs.join('\n\n'));
 }
+
+export function cleanArticleContent(text) {
+  if (!text) return '';
+  return text
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter((line) => {
+      if (line.length < 25) return false;
+      if (/^(By\s+|Photo:|File photo:|Image:|Courtesy:|Follow us|Subscribe|Sign up|Read more|Also read|Author:|Published:|Updated:)/i.test(line)) return false;
+      if (/^(©|Copyright|All rights reserved|thedailystar\.net|tbsnews\.net|prothomalo\.com|ajkerpatrika\.com)/i.test(line)) return false;
+      if (/(E-paper|Today’s News|Politics|Governance|Crime and Justice|Lifestyle|Entertainment|Slow Reads|In Focus|Geopolitical Insights)/i.test(line)) return false;
+      if (/https?:\/\/|\S+@\S+\.\S+/.test(line)) return false;
+      return true;
+    })
+    .join('\n\n');
+}
+
 
 
 export function countWords(text, isBengali = false) {
@@ -217,7 +234,7 @@ export async function collectArticles({
     if (picked.length >= want) break;
 
     // The feed body is often the whole article; only hit the site when it isn't.
-    let content = htmlToText(item.body);
+    let content = cleanArticleContent(htmlToText(item.body));
     if (countWords(content, isBn) < minWords) {
       try {
         content = extractArticleBody(await get(item.link));

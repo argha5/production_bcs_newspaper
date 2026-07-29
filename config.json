@@ -23,7 +23,7 @@
   "sentenceBatchSize": 10,
   "qnaBatchSize": 2,
 
-  "glossaryWords": 12,
+  "glossaryWords": 20,
   "qnaPerArticle": 5,
 
   "//answers": "BCS Written answers run 220-320 words. Anything under minAnswerWords is regenerated once with the short draft shown to the model, because a stunted answer is exactly what this rewrite set out to fix.",
