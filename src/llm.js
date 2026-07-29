@@ -208,6 +208,9 @@ export async function generate({
   // instead, which costs no quota and cannot produce an invented URL.
   if (schema) {
     base.response_format = { type: 'json_object' };
+    if (!messages.some((m) => (m.content || '').toLowerCase().includes('json'))) {
+      messages[messages.length - 1].content += '\n\nOutput must be valid JSON.';
+    }
   }
 
   const maxAttempts = 5;
