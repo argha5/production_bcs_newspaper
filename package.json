@@ -1,0 +1,15 @@
+{
+  "name": "bcsnewspaperapi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily BCS newspaper edition generator. Runs on GitHub Actions, commits static JSON consumed by the BCS Editorial Master app.",
+  "scripts": {
+    "build": "node src/build.js",
+    "build:force": "node src/build.js --force",
+    "validate": "node src/validate.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-29T11:41:37.341Z",
+  "latestDate": "2026-07-29",
+  "latestHash": "c211a03576a31263b33ee1b2",
+  "keepDays": 7,
+  "editions": [
+    {
+      "date": "2026-07-29",
+      "dateBn": "২৯ জুলাই ২০২৬, বুধবার",
+      "hash": "c211a03576a31263b33ee1b2",
+      "file": "data/2026-07-29.json",
+      "articleCount": 9,
+      "bengaliCount": 4,
+      "englishCount": 5,
+      "generatedAt": "2026-07-29T11:41:37.341Z",
+      "headlines": [
+        {
+          "id": "bn-52f65bf4",
+          "lang": "bn",
+          "topic": "শিক্ষা ও প্রযুক্তি",
+          "title": "মনোযোগের অর্থনীতি: কেন বই থেকে দূরে সরে যাচ্ছে তরুণেরা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-86c8919c",
+          "lang": "en",
+          "topic": "ডিজিটাল নিরাপত্তা",
+          "title": "Stop cyberbullying of women",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-915c205b",
+          "lang": "bn",
+          "topic": "মানসিক স্বাস্থ্য",
+          "title": "আমরা কেন মানসিক স্বাস্থ্য সমস্যাকে গুরুত্ব দেই না",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
+        },
+        {
+          "id": "en-9e5e598f",
+          "lang": "en",
+          "topic": "সাইবার নিরাপত্তা",
+          "title": "Defeating digital violence against women requires a unified front",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-6c54a96e",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "হরমুজ প্রণালির ভবিষ্যৎ কোন দিকে: তিন সম্ভাব্য সমীকরণ",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
+        },
+        {
+          "id": "en-c9227108",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "A trillion-dollar ambition needs a stronger investment climate",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-824202c5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "ব্যাংক ঋণের টানাপোড়েন: বেসরকারি খাতের সংকট ও সরকারি বিনিয়োগের কার্যকারিতা",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
+        },
+        {
+          "id": "en-0c57c589",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Bangladesh’s care economy cannot be built on child labour",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-f028787d",
+          "lang": "en",
+          "topic": "ভূমি ও সম্পত্তি অধিকার",
+          "title": "Technology cannot compensate for the missing trust in land offices",
+          "source": "The Daily Star"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "dateBn": "২৭ জুলাই ২০২৬, সোমবার",
+      "hash": "43b4dca33b91e4c596fab010",
+      "file": "data/2026-07-27.json",
+      "articleCount": 4,
+      "bengaliCount": 2,
+      "englishCount": 2,
+      "generatedAt": "2026-07-27T15:29:30.760Z",
+      "headlines": [
+        {
+          "id": "bn-09661949",
+          "lang": "bn",
+          "topic": "রাজনীতি ও শাসন",
+          "title": "ভারতে তেলাপোকাদের আন্দোলন কী অর্জন করল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ff4271b8",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Fixing our corporate tax system is overdue",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-4b52d3d6",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "টুথপেস্টে প্লাস্টিক, এখন উপায়?",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
+        },
+        {
+          "id": "en-4bae99ed",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Revamping primary healthcare is crucial",
+          "source": "The Daily Star"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "dateBn": "২৬ জুলাই ২০২৬, রবিবার",
+      "hash": "f3bc485e8f9c07fcc8af0580",
+      "file": "data/2026-07-26.json",
+      "articleCount": 2,
+      "bengaliCount": 1,
+      "englishCount": 1,
+      "generatedAt": "2026-07-26T16:01:45.407Z",
+      "headlines": [
+        {
+          "id": "bn-103114eb",
+          "lang": "bn",
+          "topic": "জনসেবা ও প্রশাসন",
+          "title": "ঢাকার সদরঘাটে প্রবাসীদের লাগেজ টানাহেঁচড়া: প্রতিবাদ করায় আমাকে অসুস্থ করে বাসায় ফেরানোর হুমকি!",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
+        },
+        {
+          "id": "en-b94b00b1",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "FY27 budget gets healthcare right, now comes the hard part",
+          "source": "The Business Standard"
+        }
+      ]
+    }
+  ]
+}

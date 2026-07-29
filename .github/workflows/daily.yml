@@ -1,0 +1,67 @@
+name: Daily edition
+
+on:
+  schedule:
+    # 01:20 UTC = 07:20 Asia/Dhaka — the day's papers are online by then.
+    - cron: '20 1 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Edition date (YYYY-MM-DD). Blank = today in Dhaka.'
+        required: false
+      force:
+        description: 'Rebuild even if the edition already exists'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # A full edition spends most of its wall clock waiting out the per-minute
+    # token ceiling rather than generating, so the job needs room to sit idle.
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build today's edition
+        env:
+          # Groq's limits apply per organization, so keys from separate Groq
+          # accounts multiply the daily token allowance. Only the first is
+          # required; the build simply has more room when the others are set.
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+        run: |
+          node src/build.js \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
+            ${{ inputs.force && '--force' || '' }}
+
+      - name: Validate data tree
+        run: node src/validate.js
+
+      - name: Commit edition
+        run: |
+          git config user.name  "bcsnewspaper-bot"
+          git config user.email "actions@github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          HASH=$(node -e "console.log(require('./data/index.json').latestHash)")
+          DATE=$(node -e "console.log(require('./data/index.json').latestDate)")
+          git commit -m "edition $DATE ($HASH)"
+          git push
