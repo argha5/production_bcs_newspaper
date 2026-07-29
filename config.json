@@ -19,7 +19,7 @@
   "//tokens": "Every request must fit prompt + reserved output inside the provider's 8k/minute ceiling, so the article text and each batch are sized to leave room for the answer.",
   "maxArticleTokens": 1800,
   "translationChunkTokens": 700,
-  "maxSentencesPerArticle": 20,
+  "maxSentencesPerArticle": 100,
   "sentenceBatchSize": 10,
   "qnaBatchSize": 2,
 
