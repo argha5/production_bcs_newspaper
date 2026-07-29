@@ -207,10 +207,7 @@ export async function generate({
   // constrained. Web search is deliberately not used: articles come from RSS
   // instead, which costs no quota and cannot produce an invented URL.
   if (schema) {
-    base.response_format = {
-      type: 'json_schema',
-      json_schema: { name: schemaName, strict: true, schema },
-    };
+    base.response_format = { type: 'json_object' };
   }
 
   const maxAttempts = 5;
