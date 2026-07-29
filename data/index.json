@@ -1,82 +1,54 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T11:41:37.341Z",
+  "updatedAt": "2026-07-29T12:12:44.208Z",
   "latestDate": "2026-07-29",
-  "latestHash": "c211a03576a31263b33ee1b2",
+  "latestHash": "7d0f3335cc3dc7c00091c274",
   "keepDays": 7,
   "editions": [
     {
       "date": "2026-07-29",
       "dateBn": "২৯ জুলাই ২০২৬, বুধবার",
-      "hash": "c211a03576a31263b33ee1b2",
+      "hash": "7d0f3335cc3dc7c00091c274",
       "file": "data/2026-07-29.json",
-      "articleCount": 9,
+      "articleCount": 5,
       "bengaliCount": 4,
-      "englishCount": 5,
-      "generatedAt": "2026-07-29T11:41:37.341Z",
+      "englishCount": 1,
+      "generatedAt": "2026-07-29T12:12:44.208Z",
       "headlines": [
         {
-          "id": "bn-52f65bf4",
+          "id": "bn-4042a8d5",
           "lang": "bn",
-          "topic": "শিক্ষা ও প্রযুক্তি",
-          "title": "মনোযোগের অর্থনীতি: কেন বই থেকে দূরে সরে যাচ্ছে তরুণেরা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-86c8919c",
-          "lang": "en",
-          "topic": "ডিজিটাল নিরাপত্তা",
-          "title": "Stop cyberbullying of women",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-915c205b",
-          "lang": "bn",
-          "topic": "মানসিক স্বাস্থ্য",
-          "title": "আমরা কেন মানসিক স্বাস্থ্য সমস্যাকে গুরুত্ব দেই না",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "প্রতিশ্রুতি ও সম্ভাবনার মাঝে বাজেট ২০২৬-২৭",
           "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
         },
         {
-          "id": "en-9e5e598f",
+          "id": "en-83744d05",
           "lang": "en",
-          "topic": "সাইবার নিরাপত্তা",
-          "title": "Defeating digital violence against women requires a unified front",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6c54a96e",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "হরমুজ প্রণালির ভবিষ্যৎ কোন দিকে: তিন সম্ভাব্য সমীকরণ",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
-        },
-        {
-          "id": "en-c9227108",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "A trillion-dollar ambition needs a stronger investment climate",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-824202c5",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "ব্যাংক ঋণের টানাপোড়েন: বেসরকারি খাতের সংকট ও সরকারি বিনিয়োগের কার্যকারিতা",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
-        },
-        {
-          "id": "en-0c57c589",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh’s care economy cannot be built on child labour",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "The new government: A rare opportunity for reform",
           "source": "The Business Standard"
         },
         {
-          "id": "en-f028787d",
-          "lang": "en",
-          "topic": "ভূমি ও সম্পত্তি অধিকার",
-          "title": "Technology cannot compensate for the missing trust in land offices",
-          "source": "The Daily Star"
+          "id": "bn-2edfd5d4",
+          "lang": "bn",
+          "topic": "শহর পরিকল্পনা ও পরিবেশ",
+          "title": "জনসমুদ্র ও অপরিকল্পিত উন্নয়ন: ঢাকাকে বিশ্বের তৃতীয় সর্বনিম্ন বাসযোগ্য শহর বানিয়েছে",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
+        },
+        {
+          "id": "bn-ba68f1f5",
+          "lang": "bn",
+          "topic": "ধর্ম ও সমাজ",
+          "title": "আলোচনায় বিশ্বকাপ ও কালেমাখচিত পতাকা",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
+        },
+        {
+          "id": "bn-050c57c3",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "‘তুমি আর নেই সে তুমি, হে ব্রাজিল!’",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
         }
       ]
     },
