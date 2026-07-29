@@ -81,9 +81,9 @@ async function dissectSentences(sentences, topicLabel) {
         schema: sentenceBatchSchema,
         schemaName: 'sentence_dna',
         temperature: 0.4,
-        maxOutputTokens: 3500,
-        // Grammar labelling is mechanical; deep reasoning here just burns the
-        // per-minute token budget that the long answers actually need.
+        // Ceiling raised to handle larger batches (up to 15 sentences) without
+        // any risk of mid-JSON truncation.
+        maxOutputTokens: 6000,
         effort: 'low',
         label: `dissect ${topicLabel} [${batch[0].index}-${batch[batch.length - 1].index}]`,
       });
@@ -137,11 +137,9 @@ async function fetchQna(raw) {
         schema: qnaSchema,
         schemaName: 'bcs_qna',
         temperature: 0.65,
-        // Reasoning tokens are billed against the same reservation as the
-        // answer, so 'high' effort here starved the output and truncated the
-        // JSON mid-object. The structure these answers need comes from the
-        // prompt rules, not from extra deliberation.
-        maxOutputTokens: 5600,
+        // Ceiling raised: 3 answers × 300 words + keyPoints + examTips fits
+        // comfortably inside 10000 tokens with no risk of truncation.
+        maxOutputTokens: 10000,
         effort: 'medium',
         label,
       });
@@ -168,7 +166,8 @@ async function fetchQna(raw) {
         schema: singleAnswerSchema,
         schemaName: 'bcs_answer',
         temperature: 0.6,
-        maxOutputTokens: 5600,
+        // Generous ceiling so the expanded answer is never cut short.
+        maxOutputTokens: 10000,
         effort: 'medium',
         label,
       });
@@ -222,7 +221,9 @@ async function fetchTranslation(raw, toBengali) {
         schema: translationSchema,
         schemaName: 'translation',
         temperature: 0.35,
-        maxOutputTokens: 2500,
+        // 2000-token input chunk can expand to ~3500 tokens in Bengali — 6000
+        // gives a 70 % headroom so finish_reason is never 'length'.
+        maxOutputTokens: 6000,
         effort: 'low',
         label,
       });
@@ -242,7 +243,8 @@ async function buildEnglishArticle(raw, date) {
     schema: englishStudySchema,
     schemaName: 'english_study',
     temperature: 0.6,
-    maxOutputTokens: 5000,
+    // 25 glossary words with all form fields + full breakdown = needs room.
+    maxOutputTokens: 9000,
     label: `study en/${raw.title.slice(0, 36)}`,
   });
 
@@ -288,7 +290,8 @@ async function buildBengaliArticle(raw, date) {
     schema: bengaliStudySchema,
     schemaName: 'bengali_study',
     temperature: 0.6,
-    maxOutputTokens: 5000,
+    // 25 Bengali glossary words with examples + breakdown comfortably needs 9k.
+    maxOutputTokens: 9000,
     label: `study bn/${raw.title.slice(0, 36)}`,
   });
 
@@ -426,18 +429,7 @@ const failures = [];
 // by rate limits we would rather lose an English piece than the whole tab.
 const jobs = [...sourced.bn, ...sourced.en];
 
-const totalSpent = () => Object.values(tokensSpent()).reduce((n, t) => n + t, 0);
-
 for (const raw of jobs) {
-  // Stop while there is still room to finish an article rather than leaving a
-  // half-analysed one: a shorter edition is fine, a broken one is not.
-  if (totalSpent() > config.dailyTokenBudget - 35_000) {
-    const note = `stopped after ${articles.length} article(s) — ${Math.round(totalSpent() / 1000)}k tokens of the ${Math.round(config.dailyTokenBudget / 1000)}k daily budget used`;
-    console.warn(`\n! ${note}`);
-    failures.push(note);
-    break;
-  }
-
   console.log(`\n▶ ${raw.lang}: ${raw.title.slice(0, 70)}`);
   try {
     const article = raw.lang === 'bn'

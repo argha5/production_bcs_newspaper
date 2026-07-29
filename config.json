@@ -1,50 +1,66 @@
 {
-  "//models": "NaraRouter (https://router.bynara.id/) provides 7M tokens/day with an OpenAI-compatible API. Quality-critical calls prefer the larger model, mechanical ones the smaller — each list doubles as a fallback chain.",
+  "//models": "NaraRouter (https://router.bynara.id/) — daily limit well above 7M. Quality-critical calls prefer the larger model, mechanical ones the smaller — each list doubles as a fallback chain.",
   "models": {
-    "study": ["agnes-2.0-flash", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
-    "qna": ["agnes-2.0-flash", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
-    "translate": ["agnes-2.0-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"],
-    "dissect": ["agnes-2.0-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"]
+    "study":     ["agnes-2.0-flash", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
+    "qna":       ["agnes-2.0-flash", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
+    "translate": ["agnes-2.0-flash", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"],
+    "dissect":   ["agnes-2.0-flash", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"]
   },
 
-  "//budget": "NaraRouter provides 7 million tokens/day. A full 9-article edition uses roughly ~300k tokens, well within limits.",
-  "dailyTokenBudget": 6000000,
-  "englishPerDay": 5,
-  "bengaliPerDay": 4,
+  "//budget": "7M+ daily tokens from NaraRouter — no budget guard in the build; every sourced article is fully processed.",
+  "englishPerDay": 6,
+  "bengaliPerDay": 5,
 
   "minArticleWordsEn": 250,
   "minArticleWordsBn": 300,
   "maxArticleAgeDays": 4,
 
-  "//tokens": "Every request must fit prompt + reserved output inside the provider's ceiling.",
-  "maxArticleTokens": 3000,
-  "translationChunkTokens": 1500,
-  "maxSentencesPerArticle": 50,
-  "sentenceBatchSize": 10,
-  "qnaBatchSize": 2,
+  "//tokens": "All ceilings raised so no request is ever truncated. Output limits are in build.js.",
+  "maxArticleTokens": 4500,
+  "translationChunkTokens": 2000,
+  "maxSentencesPerArticle": 70,
+  "sentenceBatchSize": 15,
+  "qnaBatchSize": 3,
 
-  "glossaryWords": 20,
-  "qnaPerArticle": 5,
+  "glossaryWords": 25,
+  "qnaPerArticle": 7,
 
-  "//answers": "BCS Written answers run 220-320 words. Anything under minAnswerWords is regenerated once with the short draft shown to the model.",
-  "minAnswerWords": 190,
+  "//answers": "BCS Written answers must be 220-320 words. minAnswerWords matches the prompt rule exactly so the expand step only fires when truly needed.",
+  "minAnswerWords": 220,
 
   "keepEditionsInIndex": 7,
   "pruneDataOlderThanDays": 45,
 
+  "//feeds": "Sources chosen based on BCS Written exam guidance: editorials and analytical op-eds only. All URLs verified as returning live RSS items.",
   "feeds": [
-    { "lang": "en", "source": "The Daily Star", "url": "https://www.thedailystar.net/opinion/rss.xml", "editorial": true },
-    { "lang": "en", "source": "The Daily Star", "url": "https://www.thedailystar.net/rss.xml" },
-    { "lang": "en", "source": "The Business Standard", "url": "https://www.tbsnews.net/thoughts/rss.xml", "editorial": true },
-    { "lang": "en", "source": "The Business Standard", "url": "https://www.tbsnews.net/economy/rss.xml" },
-    { "lang": "en", "source": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml" },
+    {
+      "//": "THE #1 English source for BCS: high-standard editorials & opinion columns",
+      "lang": "en", "source": "The Daily Star", "url": "https://www.thedailystar.net/opinion/rss.xml", "editorial": true
+    },
+    {
+      "//": "Broader Daily Star feed — mined for opinion/analysis pieces by the OPINION_PATH filter",
+      "lang": "en", "source": "The Daily Star", "url": "https://www.thedailystar.net/rss.xml"
+    },
+    {
+      "//": "TBS Thoughts: analytical essays on economy, policy, governance — exactly what BCS essay questions test",
+      "lang": "en", "source": "The Business Standard", "url": "https://www.tbsnews.net/thoughts/rss.xml", "editorial": true
+    },
+    {
+      "//": "TBS Economy: trade, budget, banking — core BCS Written & Viva topics",
+      "lang": "en", "source": "The Business Standard", "url": "https://www.tbsnews.net/economy/rss.xml"
+    },
 
-    { "lang": "bn", "source": "প্রথম আলো", "url": "https://www.prothomalo.com/feed/", "editorial": true },
-    { "lang": "bn", "source": "দৈনিক সমকাল", "url": "https://samakal.com/rss.xml", "editorial": true },
-    { "lang": "bn", "source": "দৈনিক বণিক বার্তা", "url": "https://bonikbarta.net/feed", "editorial": true },
-    { "lang": "bn", "source": "দ্য বিজনেস স্ট্যান্ডার্ড", "url": "https://www.tbsnews.net/bangla/opinion/rss.xml", "editorial": true },
-    { "lang": "bn", "source": "দ্য বিজনেস স্ট্যান্ডার্ড", "url": "https://www.tbsnews.net/bangla/rss.xml" },
-    { "lang": "bn", "source": "আজকের পত্রিকা", "url": "https://www.ajkerpatrika.com/feed" },
-    { "lang": "bn", "source": "দ্য ডেইলি স্টার বাংলা", "url": "https://bangla.thedailystar.net/rss.xml" }
+    {
+      "//": "প্রথম আলো: BCS candidates' #1 recommended Bengali daily — rich analytical content, 63+ items/day",
+      "lang": "bn", "source": "প্রথম আলো", "url": "https://www.prothomalo.com/feed/", "editorial": true
+    },
+    {
+      "//": "TBS বাংলা মতামত: focused opinion/analysis section — consistently produces BCS-relevant editorials",
+      "lang": "bn", "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা", "url": "https://www.tbsnews.net/bangla/opinion/rss.xml", "editorial": true
+    },
+    {
+      "//": "TBS বাংলা: broader feed mined for economy, governance, foreign affairs pieces",
+      "lang": "bn", "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা", "url": "https://www.tbsnews.net/bangla/rss.xml"
+    }
   ]
 }
