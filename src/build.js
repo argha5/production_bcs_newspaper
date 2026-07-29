@@ -407,7 +407,6 @@ const sourced = {
     want: config.bengaliPerDay,
     minWords: config.minArticleWordsBn,
     maxAgeDays: config.maxArticleAgeDays,
-    maxTokens: config.maxArticleTokens,
     skipTitles: avoidTitles,
   }),
   en: await collectArticles({
@@ -416,7 +415,6 @@ const sourced = {
     want: config.englishPerDay,
     minWords: config.minArticleWordsEn,
     maxAgeDays: config.maxArticleAgeDays,
-    maxTokens: config.maxArticleTokens,
     skipTitles: avoidTitles,
   }),
 };

@@ -15,8 +15,7 @@
   "minArticleWordsBn": 300,
   "maxArticleAgeDays": 4,
 
-  "//tokens": "All ceilings raised so no request is ever truncated. Output limits are in build.js.",
-  "maxArticleTokens": 4500,
+  "//tokens": "Limits raised across the board so no request is ever truncated. Output limits are in build.js.",
   "translationChunkTokens": 2000,
   "maxSentencesPerArticle": 70,
   "sentenceBatchSize": 15,

@@ -15,7 +15,6 @@ try {
     want: config.englishPerDay,
     minWords: config.minArticleWordsEn,
     maxAgeDays: config.maxArticleAgeDays,
-    maxTokens: config.maxArticleTokens,
   });
 
   console.log(`\nSuccessfully fetched ${articles.length} English articles:`);

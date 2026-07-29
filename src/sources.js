@@ -252,10 +252,8 @@ export async function collectArticles({
       source: item.source,
       url: item.link,
       published: item.pubDate,
-      // Each analysis request has to carry the whole article, so the text is
-      // capped by tokens rather than characters — Bengali costs nearly twice
-      // as many tokens per character as English.
-      content: clampToTokens(content, maxTokens),
+      // Full article content is preserved completely without token truncation.
+      content: content.trim(),
     });
   }
 
