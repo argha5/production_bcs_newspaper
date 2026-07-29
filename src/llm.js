@@ -26,6 +26,9 @@ const maxLaneWaitMs = Number(process.env.AI_MAX_WAIT_MINUTES || 25) * 60_000;
 
 const apiKeys = [
   process.env.AI_API_KEY,
+  process.env.GROQ_API_KEY,
+  process.env.GROQ_API_KEY_2,
+  process.env.GROQ_API_KEY_3,
   ...String(process.env.AI_API_KEYS || '').split(','),
 ]
   .map((k) => (k || '').trim())
@@ -33,7 +36,7 @@ const apiKeys = [
   .filter((k, i, all) => all.indexOf(k) === i);
 
 if (apiKeys.length === 0) {
-  console.error('No AI API key set. Add AI_API_KEY as a repository secret.');
+  console.error('No AI/Groq API key set. Add AI_API_KEY or GROQ_API_KEY as repository secrets.');
   process.exit(1);
 }
 
@@ -233,6 +236,13 @@ export async function generate({
         if (res.status === 429 || res.status === 413) {
           l.remaining = 0;
           l.readyAt = now() + (parseDuration(res.headers.get('retry-after')) || 30_000);
+          lastError = new Error(`HTTP ${res.status} — ${detail}`);
+          continue;
+        }
+
+        if (res.status === 403 || res.status === 401) {
+          console.warn(`  ! ${label}: ${l.model} on ${keyName(l.key)} returned HTTP ${res.status}, skipping lane`);
+          l.dailyDone = true;
           lastError = new Error(`HTTP ${res.status} — ${detail}`);
           continue;
         }

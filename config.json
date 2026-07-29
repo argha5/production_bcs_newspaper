@@ -1,10 +1,10 @@
 {
   "//models": "Bynara Router (https://router.bynara.id/) provides 7M tokens/day with an OpenAI-compatible API. Quality-critical calls prefer the larger model, mechanical ones the smaller — each list doubles as a fallback chain.",
   "models": {
-    "study": ["google/gemini-2.5-flash", "google/gemini-2.0-flash"],
-    "qna": ["google/gemini-2.5-flash", "google/gemini-2.0-flash"],
-    "translate": ["google/gemini-2.0-flash", "google/gemini-2.5-flash"],
-    "dissect": ["google/gemini-2.0-flash", "google/gemini-2.5-flash"]
+    "study": ["google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
+    "qna": ["google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
+    "translate": ["google/gemini-2.0-flash", "llama-3.1-8b-instant"],
+    "dissect": ["google/gemini-2.0-flash", "llama-3.1-8b-instant"]
   },
 
   "//budget": "Bynara provides 7 million tokens/day. A full 9-article edition uses roughly ~300k tokens, well within limits.",
@@ -40,14 +40,11 @@
     { "lang": "en", "source": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml" },
 
     { "lang": "bn", "source": "প্রথম আলো", "url": "https://www.prothomalo.com/feed/", "editorial": true },
-    { "lang": "bn", "source": "প্রথম আলো", "url": "https://www.prothomalo.com/opinion/feed/" },
-    { "lang": "bn", "source": "দৈনিক ইত্তেফাক", "url": "https://www.ittefaq.com.bd/feed" },
-    { "lang": "bn", "source": "বাংলাদেশ প্রতিদিন", "url": "https://www.bd-pratidin.com/rss" },
-    { "lang": "bn", "source": "দৈনিক যুগান্তর", "url": "https://www.jugantor.com/feed" },
-    { "lang": "bn", "source": "দৈনিক সমকাল", "url": "https://samakal.com/feed" },
-    { "lang": "bn", "source": "দৈনিক বণিক বার্তা", "url": "https://bonikbarta.net/feed" },
+    { "lang": "bn", "source": "দৈনিক সমকাল", "url": "https://samakal.com/rss.xml", "editorial": true },
+    { "lang": "bn", "source": "দৈনিক বণিক বার্তা", "url": "https://bonikbarta.net/feed", "editorial": true },
     { "lang": "bn", "source": "দ্য বিজনেস স্ট্যান্ডার্ড", "url": "https://www.tbsnews.net/bangla/opinion/rss.xml", "editorial": true },
     { "lang": "bn", "source": "দ্য বিজনেস স্ট্যান্ডার্ড", "url": "https://www.tbsnews.net/bangla/rss.xml" },
-    { "lang": "bn", "source": "আজকের পত্রিকা", "url": "https://www.ajkerpatrika.com/feed" }
+    { "lang": "bn", "source": "আজকের পত্রিকা", "url": "https://www.ajkerpatrika.com/feed" },
+    { "lang": "bn", "source": "দ্য ডেইলি স্টার বাংলা", "url": "https://bangla.thedailystar.net/rss.xml" }
   ]
 }
