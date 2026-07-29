@@ -91,32 +91,7 @@
           "source": "The Daily Star"
         }
       ]
-    },
-    {
-      "date": "2026-07-26",
-      "dateBn": "২৬ জুলাই ২০২৬, রবিবার",
-      "hash": "f3bc485e8f9c07fcc8af0580",
-      "file": "data/2026-07-26.json",
-      "articleCount": 2,
-      "bengaliCount": 1,
-      "englishCount": 1,
-      "generatedAt": "2026-07-26T16:01:45.407Z",
-      "headlines": [
-        {
-          "id": "bn-103114eb",
-          "lang": "bn",
-          "topic": "জনসেবা ও প্রশাসন",
-          "title": "ঢাকার সদরঘাটে প্রবাসীদের লাগেজ টানাহেঁচড়া: প্রতিবাদ করায় আমাকে অসুস্থ করে বাসায় ফেরানোর হুমকি!",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড"
-        },
-        {
-          "id": "en-b94b00b1",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "FY27 budget gets healthcare right, now comes the hard part",
-          "source": "The Business Standard"
-        }
-      ]
     }
   ]
 }
+
