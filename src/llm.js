@@ -157,6 +157,13 @@ function readRateLimits(l, res) {
  * @param {string} [o.label]    log label
  * @returns {Promise<string>} raw model text
  */
+function getEndpoint(key) {
+  if (key.startsWith('gsk_')) {
+    return 'https://api.groq.com/openai/v1/chat/completions';
+  }
+  return 'https://router.bynara.id/v1/chat/completions';
+}
+
 export async function generate({
   models,
   prompt,
@@ -201,7 +208,8 @@ export async function generate({
 
     try {
       callCount++;
-      const res = await fetch(ENDPOINT, {
+      const endpointUrl = getEndpoint(l.key);
+      const res = await fetch(endpointUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${l.key}` },
         body: JSON.stringify(body),
