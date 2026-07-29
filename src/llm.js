@@ -92,56 +92,45 @@ function parseDuration(value) {
 
 const isDailyLimit = (detail) => /per day|\bTPD\b|\bRPD\b/i.test(detail);
 
-// Round-robin cursor, so consecutive calls spread across keys instead of
-// hammering the first one until it rate-limits.
+// Round-robin cursor, so consecutive calls spread across keys.
 let cursor = 0;
 
 /**
- * Pick a lane with room for `needed` tokens, waiting only if every lane for
- * these models is cooling down.
+ * Pick an available lane immediately (no waiting).
+ * Bynara router has generous limits, so we skip any lane that signals
+ * a temporary 429 and immediately try the next model/key.
  */
-async function acquireLane(models, needed, label) {
+function acquireLane(models, label) {
   const candidates = [];
   for (const model of models) {
     for (const key of apiKeys) candidates.push(lane(key, model));
   }
 
-  const deadline = now() + maxLaneWaitMs;
-
-  while (true) {
-    const alive = candidates.filter((l) => !l.dailyDone);
-    if (alive.length === 0) {
-      throw new Error(`every key/model lane has spent its daily allowance (${models.join(', ')})`);
-    }
-
-    // A lane whose cooldown has elapsed gets its per-minute budget back.
-    for (const l of alive) {
-      if (l.readyAt <= now()) l.remaining = TPM;
-    }
-
-    // Model order is a preference, so scan in the order given and rotate only
-    // the key within each model.
-    for (const model of models) {
-      const forModel = apiKeys
-        .map((_, i) => lane(apiKeys[(cursor + i) % apiKeys.length], model))
-        .filter((l) => !l.dailyDone);
-
-      const ready = forModel.find((l) => l.readyAt <= now() && l.remaining >= needed);
-      if (ready) {
-        cursor = (cursor + 1) % apiKeys.length;
-        return ready;
-      }
-    }
-
-    const soonest = Math.min(...alive.map((l) => l.readyAt));
-    if (soonest > deadline) {
-      throw new Error(`no lane frees up within ${Math.round(maxLaneWaitMs / 60_000)} minutes (${models.join(', ')})`);
-    }
-
-    const wait = Math.max(2000, Math.min(soonest - now(), 60_000));
-    console.log(`  … ${label}: all lanes busy, waiting ${Math.round(wait / 1000)}s`);
-    await sleep(wait);
+  const alive = candidates.filter((l) => !l.dailyDone);
+  if (alive.length === 0) {
+    throw new Error(`every key/model lane has spent its daily allowance (${models.join(', ')})`);
   }
+
+  // Reset any lane whose brief cooldown has elapsed
+  for (const l of alive) {
+    if (l.readyAt <= now()) l.remaining = TPM;
+  }
+
+  // Prefer ready lanes in model-preference order
+  for (const model of models) {
+    const forModel = apiKeys
+      .map((_, i) => lane(apiKeys[(cursor + i) % apiKeys.length], model))
+      .filter((l) => !l.dailyDone && l.readyAt <= now());
+    if (forModel.length > 0) {
+      cursor = (cursor + 1) % apiKeys.length;
+      return forModel[0];
+    }
+  }
+
+  // All lanes briefly cooling — pick the least-busy one without waiting
+  const fallback = alive.reduce((a, b) => (a.readyAt < b.readyAt ? a : b));
+  console.log(`  … ${label}: all lanes briefly busy, proceeding with ${fallback.model}`);
+  return fallback;
 }
 
 function readRateLimits(l, res) {
@@ -176,13 +165,7 @@ export async function generate({
   effort = 'medium',
   label = 'call',
 }) {
-  const promptTokens = estimateTokens(system) + estimateTokens(prompt);
-  const headroom = TPM - TPM_MARGIN - promptTokens;
-  if (headroom < 600) {
-    throw new Error(`prompt is too long for the ${TPM}-token per-minute ceiling (${promptTokens} tokens)`);
-  }
-  const reserved = Math.min(maxOutputTokens, headroom);
-  const needed = promptTokens + reserved;
+  const reserved = maxOutputTokens;
 
   const messages = [];
   if (system) messages.push({ role: 'system', content: system });
@@ -210,7 +193,7 @@ export async function generate({
   let body = { ...base };
 
   while (attempt < maxAttempts) {
-    const l = await acquireLane(models, needed, label);
+    const l = acquireLane(models, label);
     body.model = l.model;
 
     try {
