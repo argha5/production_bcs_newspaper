@@ -1,14 +1,14 @@
 {
-  "//models": "Groq's limits are per organization AND per model: 200k tokens/day and 8k tokens/minute for each pair. With three keys from three separate organizations that is six independent lanes. Work is routed by task — quality-critical calls prefer the larger model, mechanical ones the smaller — and each list doubles as a fallback chain.",
+  "//models": "Bynara Router (https://router.bynara.id/) provides 7M tokens/day with an OpenAI-compatible API. Quality-critical calls prefer the larger model, mechanical ones the smaller — each list doubles as a fallback chain.",
   "models": {
-    "study": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"],
-    "qna": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"],
-    "translate": ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"],
-    "dissect": ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"]
+    "study": ["google/gemini-2.5-flash", "google/gemini-2.0-flash"],
+    "qna": ["google/gemini-2.5-flash", "google/gemini-2.0-flash"],
+    "translate": ["google/gemini-2.0-flash", "google/gemini-2.5-flash"],
+    "dissect": ["google/gemini-2.0-flash", "google/gemini-2.5-flash"]
   },
 
-  "//budget": "~24k tokens per Bengali article and ~31k per English one. Six lanes give 1.2M tokens/day, so a full edition uses roughly a fifth of the allowance and leaves ample room for retries.",
-  "dailyTokenBudget": 900000,
+  "//budget": "Bynara provides 7 million tokens/day. A full 9-article edition uses roughly ~300k tokens, well within limits.",
+  "dailyTokenBudget": 6000000,
   "englishPerDay": 5,
   "bengaliPerDay": 4,
 
@@ -16,17 +16,17 @@
   "minArticleWordsBn": 300,
   "maxArticleAgeDays": 4,
 
-  "//tokens": "Every request must fit prompt + reserved output inside the provider's 8k/minute ceiling, so the article text and each batch are sized to leave room for the answer.",
-  "maxArticleTokens": 1800,
-  "translationChunkTokens": 700,
-  "maxSentencesPerArticle": 35,
+  "//tokens": "Every request must fit prompt + reserved output inside the provider's ceiling.",
+  "maxArticleTokens": 3000,
+  "translationChunkTokens": 1500,
+  "maxSentencesPerArticle": 50,
   "sentenceBatchSize": 10,
   "qnaBatchSize": 2,
 
   "glossaryWords": 20,
   "qnaPerArticle": 5,
 
-  "//answers": "BCS Written answers run 220-320 words. Anything under minAnswerWords is regenerated once with the short draft shown to the model, because a stunted answer is exactly what this rewrite set out to fix.",
+  "//answers": "BCS Written answers run 220-320 words. Anything under minAnswerWords is regenerated once with the short draft shown to the model.",
   "minAnswerWords": 190,
 
   "keepEditionsInIndex": 7,
@@ -39,10 +39,15 @@
     { "lang": "en", "source": "The Business Standard", "url": "https://www.tbsnews.net/economy/rss.xml" },
     { "lang": "en", "source": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml" },
 
+    { "lang": "bn", "source": "প্রথম আলো", "url": "https://www.prothomalo.com/feed/", "editorial": true },
+    { "lang": "bn", "source": "প্রথম আলো", "url": "https://www.prothomalo.com/opinion/feed/" },
+    { "lang": "bn", "source": "দৈনিক ইত্তেফাক", "url": "https://www.ittefaq.com.bd/feed" },
+    { "lang": "bn", "source": "বাংলাদেশ প্রতিদিন", "url": "https://www.bd-pratidin.com/rss" },
+    { "lang": "bn", "source": "দৈনিক যুগান্তর", "url": "https://www.jugantor.com/feed" },
+    { "lang": "bn", "source": "দৈনিক সমকাল", "url": "https://samakal.com/feed" },
+    { "lang": "bn", "source": "দৈনিক বণিক বার্তা", "url": "https://bonikbarta.net/feed" },
     { "lang": "bn", "source": "দ্য বিজনেস স্ট্যান্ডার্ড", "url": "https://www.tbsnews.net/bangla/opinion/rss.xml", "editorial": true },
-    { "lang": "bn", "source": "প্রথম আলো", "url": "https://www.prothomalo.com/feed/" },
     { "lang": "bn", "source": "দ্য বিজনেস স্ট্যান্ডার্ড", "url": "https://www.tbsnews.net/bangla/rss.xml" },
-    { "lang": "bn", "source": "আজকের পত্রিকা", "url": "https://www.ajkerpatrika.com/feed" },
-    { "lang": "bn", "source": "দ্য ডেইলি স্টার বাংলা", "url": "https://bangla.thedailystar.net/rss.xml" }
+    { "lang": "bn", "source": "আজকের পত্রিকা", "url": "https://www.ajkerpatrika.com/feed" }
   ]
 }

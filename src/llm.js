@@ -1,27 +1,20 @@
-// Minimal Groq client. No dependencies — plain fetch (Node >= 20).
+// AI API client using Bynara Router (https://router.bynara.id/).
+// No dependencies — plain fetch (Node >= 20).
 //
-// API keys never ship with the app; they live only in GitHub Actions secrets
-// and are used exclusively inside this generator.
+// API key lives only in GitHub Actions secrets and is used exclusively
+// inside this generator. Bynara Router provides 7 million tokens/day,
+// routing to multiple underlying models via an OpenAI-compatible API.
 //
-// Groq's free tier is generous on requests (1000/day) but tight on throughput:
-// 8k tokens/minute and 200k tokens/day, applied per (organization, model) pair.
-// One article analysis costs ~5k tokens, so a full edition does not fit behind
-// a single pair.
-//
-// The client therefore treats each (key, model) combination as its own lane.
-// Given keys from separate Groq organizations, the lanes have genuinely
-// independent budgets, and the run spreads across them round-robin. Each lane's
-// remaining budget is tracked from the rate-limit headers so a busy lane is
-// routed around rather than discovered through a 429; waiting only happens when
-// every lane is cooling down at once.
+// The client treats each (key, model) combination as its own lane.
+// Remaining budget is tracked from rate-limit headers so a busy lane is
+// routed around rather than discovered through a 429.
 
 import { estimateTokens } from './util.js';
 
-const ENDPOINT = 'https://api.groq.com/openai/v1/chat/completions';
+const ENDPOINT = 'https://router.bynara.id/v1/chat/completions';
 
-/** Per-minute token ceiling; also a hard per-request ceiling, since Groq counts
- *  the reserved max_completion_tokens against it and rejects oversized calls. */
-const TPM = Number(process.env.GROQ_TPM || 8000);
+/** Per-minute token ceiling. Bynara router has generous limits. */
+const TPM = Number(process.env.AI_TPM || 50000);
 const TPM_MARGIN = 400;
 
 /**
@@ -29,20 +22,18 @@ const TPM_MARGIN = 400;
  * to roll over. Beyond this the lane is written off for the run and the edition
  * ships with whatever it managed — a shorter paper beats a workflow that hangs.
  */
-const maxLaneWaitMs = Number(process.env.GROQ_MAX_WAIT_MINUTES || 25) * 60_000;
+const maxLaneWaitMs = Number(process.env.AI_MAX_WAIT_MINUTES || 25) * 60_000;
 
 const apiKeys = [
-  process.env.GROQ_API_KEY,
-  process.env.GROQ_API_KEY_2,
-  process.env.GROQ_API_KEY_3,
-  ...String(process.env.GROQ_API_KEYS || '').split(','),
+  process.env.AI_API_KEY,
+  ...String(process.env.AI_API_KEYS || '').split(','),
 ]
   .map((k) => (k || '').trim())
   .filter(Boolean)
   .filter((k, i, all) => all.indexOf(k) === i);
 
 if (apiKeys.length === 0) {
-  console.error('No Groq API key set. Add GROQ_API_KEY (and optionally GROQ_API_KEY_2/_3) as repository secrets.');
+  console.error('No AI API key set. Add AI_API_KEY as a repository secret.');
   process.exit(1);
 }
 
