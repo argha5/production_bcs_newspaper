@@ -1,10 +1,10 @@
 {
   "//models": "Groq's limits are per organization AND per model: 200k tokens/day and 8k tokens/minute for each pair. With three keys from three separate organizations that is six independent lanes. Work is routed by task — quality-critical calls prefer the larger model, mechanical ones the smaller — and each list doubles as a fallback chain.",
   "models": {
-    "study": ["openai/gpt-oss-120b", "openai/gpt-oss-20b"],
-    "qna": ["openai/gpt-oss-120b", "openai/gpt-oss-20b"],
-    "translate": ["openai/gpt-oss-20b", "openai/gpt-oss-120b"],
-    "dissect": ["openai/gpt-oss-20b", "openai/gpt-oss-120b"]
+    "study": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"],
+    "qna": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"],
+    "translate": ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"],
+    "dissect": ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"]
   },
 
   "//budget": "~24k tokens per Bengali article and ~31k per English one. Six lanes give 1.2M tokens/day, so a full edition uses roughly a fifth of the allowance and leaves ample room for retries.",
@@ -19,7 +19,7 @@
   "//tokens": "Every request must fit prompt + reserved output inside the provider's 8k/minute ceiling, so the article text and each batch are sized to leave room for the answer.",
   "maxArticleTokens": 1800,
   "translationChunkTokens": 700,
-  "maxSentencesPerArticle": 100,
+  "maxSentencesPerArticle": 35,
   "sentenceBatchSize": 10,
   "qnaBatchSize": 2,
 
