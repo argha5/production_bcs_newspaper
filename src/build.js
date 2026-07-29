@@ -125,31 +125,40 @@ async function fetchQna(raw) {
 
   for (const [n, batch] of batches.entries()) {
     const label = `qna ${raw.lang}/${raw.title.slice(0, 30)} [${n + 1}/${batches.length}]`;
-    try {
-      const json = await generateJson({
-        models: modelsFor('qna'),
-        prompt: qnaPrompt({
-          article: raw,
-          qnaCount: batch.length,
-          askedQuestions: qna.map((q) => q.q),
-          withTips: n === 0,
-        }),
-        schema: qnaSchema,
-        schemaName: 'bcs_qna',
-        temperature: 0.65,
-        // Ceiling raised: 3 answers × 300 words + keyPoints + examTips fits
-        // comfortably inside 10000 tokens with no risk of truncation.
-        maxOutputTokens: 10000,
-        effort: 'medium',
-        label,
-      });
-      qna.push(...normaliseQna(json.qna));
-      if (n === 0 && json.examTips?.length) examTips = json.examTips;
-    } catch (err) {
-      // An article with a translation and a glossary but fewer answers is still
-      // worth publishing, so this must not take the whole article down.
-      console.warn(`  ! ${label} failed: ${err.message.slice(0, 160)}`);
+    let success = false;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const json = await generateJson({
+          models: modelsFor('qna'),
+          prompt: qnaPrompt({
+            article: raw,
+            qnaCount: batch.length,
+            askedQuestions: qna.map((q) => q.q),
+            withTips: n === 0,
+          }),
+          schema: qnaSchema,
+          schemaName: 'bcs_qna',
+          temperature: 0.65,
+          maxOutputTokens: 8000,
+          effort: 'medium',
+          label,
+        });
+        const items = normaliseQna(json.qna);
+        if (items.length > 0) {
+          qna.push(...items);
+          if (n === 0 && json.examTips?.length) examTips = json.examTips;
+          success = true;
+          break;
+        }
+      } catch (err) {
+        console.warn(`  ! ${label} (attempt ${attempt + 1}) failed: ${err.message.slice(0, 160)}`);
+        await sleep(2000);
+      }
     }
+  }
+
+  if (qna.length === 0) {
+    throw new Error(`Q&A generation failed completely for article "${raw.title}"`);
   }
 
   // Short answers were the original complaint about this app, so a stunted one

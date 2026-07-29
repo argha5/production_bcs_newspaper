@@ -16,13 +16,13 @@
   "maxArticleAgeDays": 4,
 
   "//tokens": "Limits raised across the board so no request is ever truncated. Output limits are in build.js.",
-  "translationChunkTokens": 2000,
-  "maxSentencesPerArticle": 70,
-  "sentenceBatchSize": 15,
-  "qnaBatchSize": 3,
+  "translationChunkTokens": 1000,
+  "maxSentencesPerArticle": 60,
+  "sentenceBatchSize": 10,
+  "qnaBatchSize": 1,
 
-  "glossaryWords": 25,
-  "qnaPerArticle": 7,
+  "glossaryWords": 20,
+  "qnaPerArticle": 5,
 
   "//answers": "BCS Written answers must be 220-320 words. minAnswerWords matches the prompt rule exactly so the expand step only fires when truly needed.",
   "minAnswerWords": 220,
