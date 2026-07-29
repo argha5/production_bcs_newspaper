@@ -98,9 +98,15 @@ export function htmlToText(html) {
 function extractArticleBody(html) {
   const paragraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
     .map((m) => htmlToText(m[1]).trim())
-    .filter((p) => p.length > 40 && !/^(share|read more|also read|advertisement|আরও পড়ুন|বিজ্ঞাপন)/i.test(p));
+    .filter((p) =>
+      p.length > 40 &&
+      !/^(share|read more|also read|advertisement|আরও পড়ুন|বিজ্ঞাপন|copyright|©|all rights reserved)/i.test(p) &&
+      !/thedailystar\.net|tbsnews\.net|prothomalo\.com|ajkerpatrika\.com/i.test(p) &&
+      !/(E-paper|Today’s News|Politics|Governance|Crime and Justice|Lifestyle|Entertainment)/i.test(p)
+    );
   return paragraphs.join('\n\n');
 }
+
 
 export function countWords(text, isBengali = false) {
   const trimmed = String(text || '').trim();
