@@ -201,7 +201,6 @@ export async function generate({
     messages,
     temperature,
     max_completion_tokens: reserved,
-    reasoning_effort: effort,
   };
 
   // Every call in this generator is an analysis call, so it is always JSON-
