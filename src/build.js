@@ -123,6 +123,7 @@ async function fetchQna(raw) {
   let examTips = [];
   const batches = chunk(Array.from({ length: config.qnaPerArticle }, (_, i) => i), config.qnaBatchSize);
 
+  let lastBatchError = '';
   for (const [n, batch] of batches.entries()) {
     const label = `qna ${raw.lang}/${raw.title.slice(0, 30)} [${n + 1}/${batches.length}]`;
     let success = false;
@@ -143,22 +144,43 @@ async function fetchQna(raw) {
           effort: 'medium',
           label,
         });
-        const items = normaliseQna(json.qna);
+
+        // Models sometimes return Q&A under alternate keys — try the likely
+        // candidates before giving up on an otherwise valid response.
+        let rawQna = json.qna;
+        if (!rawQna?.length) {
+          rawQna = json.questions || json.qna_items || json.data;
+          if (rawQna?.length) console.warn(`  ! ${label}: found Q&A under alternate key (not "qna")`);
+        }
+        // If the response itself is an array of {q, a, ...} objects, use it.
+        if (!rawQna?.length && Array.isArray(json) && json[0]?.q) {
+          rawQna = json;
+          console.warn(`  ! ${label}: response was a bare array, not wrapped in {qna: [...]}`);
+        }
+
+        const items = normaliseQna(rawQna);
         if (items.length > 0) {
           qna.push(...items);
-          if (n === 0 && json.examTips?.length) examTips = json.examTips;
+          if (n === 0 && (json.examTips?.length || json.exam_tips?.length)) {
+            examTips = json.examTips ?? json.exam_tips;
+          }
           success = true;
           break;
         }
+        // If we reach here, the model returned valid JSON but nothing usable.
+        const keys = Array.isArray(json) ? '[array]' : Object.keys(json).join(', ');
+        lastBatchError = `valid JSON but no Q&A items (keys: ${keys})`;
+        console.warn(`  ! ${label} (attempt ${attempt + 1}): ${lastBatchError}`);
       } catch (err) {
-        console.warn(`  ! ${label} (attempt ${attempt + 1}) failed: ${err.message.slice(0, 160)}`);
+        lastBatchError = err.message.slice(0, 200);
+        console.warn(`  ! ${label} (attempt ${attempt + 1}) failed: ${lastBatchError}`);
         await sleep(2000);
       }
     }
   }
 
   if (qna.length === 0) {
-    throw new Error(`Q&A generation failed completely for article "${raw.title}"`);
+    throw new Error(`Q&A generation failed completely for article "${raw.title}" — last batch: ${lastBatchError}`);
   }
 
   // Short answers were the original complaint about this app, so a stunted one

@@ -1,10 +1,10 @@
 {
   "//models": "NaraRouter (https://router.bynara.id/) — daily limit well above 7M. Quality-critical calls prefer the larger model, mechanical ones the smaller — each list doubles as a fallback chain.",
   "models": {
-    "study":     ["agnes-2.0-flash", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
-    "qna":       ["agnes-2.0-flash", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
-    "translate": ["agnes-2.0-flash", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"],
-    "dissect":   ["agnes-2.0-flash", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"]
+    "study":     ["agnes-2.0-flash", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash", "openai/gpt-oss-120b"],
+    "qna":       ["agnes-2.0-flash", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash", "openai/gpt-oss-120b", "openai/gpt-oss-20b"],
+    "translate": ["agnes-2.0-flash", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant", "openai/gpt-oss-20b"],
+    "dissect":   ["agnes-2.0-flash", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant", "openai/gpt-oss-20b"]
   },
 
   "//budget": "7M+ daily tokens from NaraRouter — no budget guard in the build; every sourced article is fully processed.",

@@ -39,6 +39,9 @@ if (apiKeys.length === 0) {
   console.error('No AI/Groq API key set. Add AI_API_KEY or GROQ_API_KEY as repository secrets.');
   process.exit(1);
 }
+const groqKeys = apiKeys.filter((k) => k.startsWith('gsk_')).length;
+const routerKeys = apiKeys.length - groqKeys;
+console.log(`LLM: ${apiKeys.length} API key(s) loaded (${routerKeys} router, ${groqKeys} Groq)`);
 
 const keyName = (key) => `key…${key.slice(-4)}`;
 
@@ -111,7 +114,13 @@ function acquireLane(models, label) {
 
   const alive = candidates.filter((l) => !l.dailyDone);
   if (alive.length === 0) {
-    throw new Error(`every key/model lane has spent its daily allowance (${models.join(', ')})`);
+    // Log lane status so the GA log shows exactly what happened.
+    const summary = candidates
+      .map((l) => `${l.model}/${keyName(l.key)}: dailyDone`)
+      .join(', ');
+    throw new Error(
+      `every key/model lane has spent its daily allowance (${models.join(', ')}). Lanes: ${summary}`,
+    );
   }
 
   // Reset any lane whose brief cooldown has elapsed
