@@ -2,8 +2,8 @@ name: Daily edition
 
 on:
   schedule:
-    # 01:20 UTC = 07:20 Asia/Dhaka — the day's papers are online by then.
-    - cron: '20 1 * * *'
+    # 00:00 UTC = 06:00 AM Asia/Dhaka — papers publish by 5:30 AM, completes by 7:30 AM.
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       date:
