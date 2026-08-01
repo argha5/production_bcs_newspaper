@@ -1,101 +1,74 @@
-# bcsnewspaperapi
+# 📰 BCS Editorial Master – BCS এর জন্য পত্রিকা পড়ার স্মার্ট উপায়
 
-Static JSON backend for the **BCS Editorial Master** app.
+[![Download on Google Play](https://img.shields.io/badge/Download-Google%20Play-green?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=dev.bcs.written)
+[![GitHub Actions Daily Edition](https://github.com/argha5/bcsnewspaperapi/actions/workflows/daily.yml/badge.svg)](https://github.com/argha5/bcsnewspaperapi/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-The Groq API is called **only here, inside GitHub Actions** — once a day. The
-Flutter app ships no API key and makes no model calls; it just downloads the
-JSON that this repo commits.
+> **BCS Editorial Master** হলো BCS Written, Bank Job, এবং অন্যান্য প্রতিযোগিতামূলক পরীক্ষার পরীক্ষার্থীদের জন্য দৈনিক পত্রিকা (Bangla & English Newspaper Editorials) অ্যানালাইসিস এবং ফ্রি স্ট্যাটিক JSON ব্যাকএন্ড। 
 
-## How it works
+📱 **Download the Official App on Google Play Store:**
+👉 [https://play.google.com/store/apps/details?id=dev.bcs.written](https://play.google.com/store/apps/details?id=dev.bcs.written)
 
-```
-GitHub Actions (daily 07:20 Dhaka)
-      │
-      ├─ src/sources.js → newspaper RSS + article HTML → real editorials (0 API calls)
-      │
-      ├─ src/build.js   → Groq (JSON schema) → breakdown, translation, glossary
-      │                 → Groq (JSON schema) → the long BCS Written answers
-      │                 → Groq (JSON schema) → sentence-by-sentence grammar (English only)
-      │
-      ├─ data/YYYY-MM-DD.json   the whole day's paper in one file
-      └─ data/index.json        manifest of the last 7 editions + hashes
-```
+---
 
-### Why articles come from RSS, not from the model
+## 🎯 BCS এর জন্য পত্রিকা পড়ার স্মার্ট উপায় কেন?
 
-Titles, URLs and publication dates are read from the newspapers' own feeds, so
-they are **facts rather than model output** — the generator has no way to invent
-a source. Groq only ever analyses text that was really published. This is also
-what keeps the daily run inside the Groq free tier: sourcing costs nothing, so
-the entire quota goes to analysis.
+দৈনিক পত্রিকা পড়া BCS লিখিত (BCS Written) এবং অনুবাদ (Translation) অংশের জন্য অত্যন্ত জরুরি। কিন্তু ঘণ্টার পর ঘণ্টা পত্রিকা পড়ে সময় নষ্ট না করে, **BCS Editorial Master** অ্যাপের মাধ্যমে আপনি পাচ্ছেন:
 
-Feeds are configured in `config.json`. Items are filtered (no sports,
-entertainment, crime or celebrity content), ranked — opinion/editorial sections
-score highest, whether the whole feed is a column section or just the individual
-URL sits in one — and the top candidates are fetched and body-extracted until
-enough long-enough articles are found.
+* 📄 **দৈনিক সেরা এডিটোরিয়াল (Editorial Breakdown):** প্রথম আলো, The Daily Star ইত্যাদি শীর্ষ দৈনিক পত্রিকার বাছাইকৃত সম্পাদকীয়।
+* 🌐 **শব্দানুবাদ ও ব্যাকরণ বিচ্ছেদ (Grammar Dissection):** Sentence-by-sentence অনুবাদ, Tense, Voice, Clause বিচ্ছেদ এবং Glossary।
+* 📝 **BCS Written মানসম্মত উত্তর (220–320 Words Q&A):** ভূমিকা ➔ প্রেক্ষাপট ➔ বিশ্লেষণ ➔ চ্যালেঞ্জ ➔ সুপারিশ ➔ উপসংহার ফরম্যাটে লিখিত পরীক্ষার প্রশ্নোত্তর।
+* ⚡ **১০০% অফলাইন সুবিধা:** প্রতিদিন মাত্র একটি JSON ফাইল ডাউনলোড করে সারাদিন অফলাইনে ফ্রি পড়ার সুবিধা।
 
-### Token budget — the thing that actually constrains this
+---
 
-Groq's free tier limits are **per organization and per model**: 8 000 tokens a
-minute and 200 000 tokens a day for each pair. Two facts follow, and between
-them they dictate the whole shape of the generator:
+## 🏗️ How It Works (Backend Architecture)
 
-1. **The per-minute ceiling is also a per-request ceiling.** Groq counts the
-   `max_completion_tokens` you *reserve*, not what you use, and rejects an
-   oversized request with a 413. So the work is split finely — breakdown,
-   translation and answers are separate calls over the same article, the
-   translation is chunked by paragraph, and answers come a couple at a time.
-   `config.json` sizes each piece to leave room for its own reply.
-2. **Each model has its own allowance.** Work is routed by task: the
-   quality-critical calls (breakdown, answers) prefer `gpt-oss-120b`, the
-   mechanical ones (translation, grammar dissection) prefer `gpt-oss-20b`. Keys
-   from *separate Groq accounts* multiply this again, because the limit is
-   per-organization — `src/llm.js` treats every (key, model) pair as a lane,
-   tracks each lane's budget from the rate-limit headers, and routes around a
-   busy lane instead of stalling on it.
+This repository serves as a **zero-cost static JSON API backend** for the **BCS Editorial Master** mobile app. 
 
-A full edition (4 Bengali + 5 English) costs roughly 250k tokens across ~80
-requests. With three keys that is about a fifth of the daily allowance. Most of
-the run's wall-clock is spent waiting out the per-minute ceiling rather than
-generating, which is why the workflow allows two hours.
+The **Groq AI Engine** is triggered **only inside GitHub Actions** — once every day (07:20 Dhaka Time). The Flutter app requires no API key and makes zero runtime model calls; it simply downloads the precomputed static JSON committed by this repo.
 
-### Answer length
+GitHub Actions (Daily 07:20 Dhaka)
+│
+├─ src/sources.js → Newspaper RSS Feeds + HTML Content Extraction (0 API Calls)
+│
+├─ src/build.js   → Groq (JSON Schema) → Editorial Breakdown & Glossary
+│                 → Groq (JSON Schema) → BCS Written Long Essay Answers
+│                 → Groq (JSON Schema) → Sentence Grammar Dissection (English)
+│
+├─ data/YYYY-MM-DD.json   → Complete day's analyzed editorials in 1 file
+└─ data/index.json        → Manifest of last 7 editions + SHA-256 hashes
 
-BCS Written answers are essay-length, and the app's original failing was 3–4
-sentence blurbs. `src/prompts.js` mandates a 220–320 word answer in a six-part
-structure, and any answer that still comes back under `minAnswerWords` is
-regenerated once with its own short draft shown to the model — rewriting the one
-weak answer works far better than re-rolling the whole batch.
 
-## Endpoints (raw GitHub, no server needed)
+### 📰 Why Articles Come From Real Newspaper RSS Feeds
+Titles, URLs, and publication dates are directly fetched from official newspaper feeds (`config.json`), ensuring **100% real journalism, zero AI hallucinations**. Non-exam topics (sports, entertainment, crime) are filtered out, while opinion/editorial columns score highest.
 
-| What | URL |
+### ⚡ Token & API Rate Limit Management
+To stay comfortably inside Groq’s Free Tier (8,000 TPM / 200,000 TPD):
+1. **Request Chunking:** Articles are analyzed across segmented calls (breakdown, paragraph-wise translation, and Q&A).
+2. **Multi-Model Routing:** Quality-critical tasks use high-capacity models (`gpt-oss-120b`), while mechanical parsing uses lighter models (`gpt-oss-20b`). Multi-key lane rotation tracks token ceilings in real-time.
+
+---
+
+## 🔗 Endpoints (Raw GitHub API)
+
+| Resource | Direct URL |
 |---|---|
-| Manifest (last 7 days) | `https://raw.githubusercontent.com/argha5/bcsnewspaperapi/main/data/index.json` |
-| One day's edition | `https://raw.githubusercontent.com/argha5/bcsnewspaperapi/main/data/2026-07-26.json` |
+| **Manifest (Last 7 Days)** | `https://raw.githubusercontent.com/argha5/bcsnewspaperapi/main/data/index.json` |
+| **Daily Edition Example** | `https://raw.githubusercontent.com/argha5/bcsnewspaperapi/main/data/2026-07-26.json` |
 
-The app fetches `index.json` (a couple of KB), then downloads at most **one**
-edition file per day. Everything the app can display — article text, Bengali
-translation, per-sentence grammar dissection, word anatomy, breakdown and Q&A —
-is already inside that single file, so tapping a sentence or long-pressing a
-word works fully offline.
+---
 
-## The edition hash
+## 🔒 Security & Verification (Edition Hash)
 
-Every edition carries an `editionHash`: a SHA-256 over `{date, articles}`,
-truncated to 24 hex chars. It deliberately excludes `generatedAt`, so identical
-content always hashes identically.
+Every edition carries a unique `editionHash` (SHA-256 over `{date, articles}` truncated to 24 hex characters). 
+- `index.json` broadcasts each day's valid hash.
+- The app checks the hash against the manifest before rendering.
+- Prevents corrupt, partial, or modified files from reaching users offline.
 
-- `index.json` advertises each day's hash.
-- The app caches the edition under its hash and re-downloads only when the hash
-  for that date changes.
-- Before displaying, the app recomputes nothing but **compares** the downloaded
-  file's `editionHash` against the manifest. A mismatch is rejected, so a
-  half-written or stale file can never show up as today's paper.
-- `src/validate.js` runs in CI and fails the job if two dates ever share a hash.
+---
 
-## Data shape
+## 📊 Data Schema Overview
 
 ```jsonc
 {
@@ -107,64 +80,65 @@ content always hashes identically.
   "articles": [
     {
       "id": "bn-1a2b3c4d",
-      "lang": "bn",                  // "bn" | "en"
+      "lang": "bn",
       "topic": "অর্থ-বাণিজ্য ও মূল্যস্ফীতি",
-      "title": "…", "source": "প্রথম আলো", "url": "https://…", "published": "…",
-      "content": "full article text",
-      "sentences": [                 // tap-a-sentence data, precomputed
-        { "i": 0, "text": "…", "bn": "…", "type": "Complex",
-          "voice": "Active", "tense": "Present Perfect",
-          "clauses": "…", "connectors": "…" }
+      "title": "…", 
+      "source": "প্রথম আলো", 
+      "url": "https://…", 
+      "published": "…",
+      "content": "Full article content...",
+      "sentences": [
+        { "i": 0, "text": "…", "bn": "…", "type": "Complex", "voice": "Active", "tense": "Present Perfect", "clauses": "…", "connectors": "…" }
       ],
-      "glossary": [                  // long-press-a-word data, precomputed
-        { "word": "mitigate", "bn": "প্রশমিত করা", "pos": "Verb",
-          "nounForm": "…", "verbForm": "…", "adjectiveForm": "…", "adverbForm": "…",
-          "synonyms": "…", "antonyms": "…", "fromArticle": "…", "example": "…" }
+      "glossary": [
+        { "word": "mitigate", "bn": "প্রশমিত করা", "pos": "Verb", "synonyms": "…", "antonyms": "…" }
       ],
-      "breakdown": { "mainTopic": "…", "problem": "…", "cause": "…",
-                     "effect": "…", "solution": "…", "conclusion": "…", "keyQuote": "…" },
-      "translationBn": "…",          // English articles: full Bengali translation
-      "translationEn": "…",          // Bengali articles: full English translation
+      "breakdown": { "mainTopic": "…", "problem": "…", "cause": "…", "effect": "…", "solution": "…", "conclusion": "…" },
+      "translationBn": "…",
+      "translationEn": "…",
       "qna": [ { "q": "…", "a": "…", "keyPoints": ["…"], "words": 247 } ],
       "examTips": ["…"]
     }
   ]
 }
-```
+🛠️ Local Development & Setup
+Prerequisites & API Setup
+Fork / Clone the repository.
 
-`qna[].words` is the answer's word count. BCS Written answers are expected to run
-220–320 words with a ভূমিকা → প্রেক্ষাপট → বিশ্লেষণ → চ্যালেঞ্জ → সুপারিশ →
-উপসংহার structure, so `src/validate.js` **fails the build** if any answer comes
-in under 120 words. It also rejects an article with no real source URL, and
-scans for the repeated-filler signature of a truncated model response.
+Go to Settings → Secrets and variables → Actions → New repository secret.
 
-## Setup
+Add GROQ_API_KEY with your API key.
 
-1. Add the API key as a repository secret:
-   `Settings → Secrets and variables → Actions → New repository secret`
-   - Name: `GROQ_API_KEY`
-   - Value: your Google AI Studio key
-2. Optional repository *variable* `GROQ_MODEL` to override `config.json`'s model.
-3. `Actions → Daily edition → Run workflow` to build the first edition by hand.
+Commands
+Bash
+# Install dependencies
+npm install
 
-## Local run
+# Build today's edition (skips if already built)
+npm run build
 
-```bash
-export GROQ_API_KEY=...
-npm run build           # today's edition, skips if it already exists
-npm run build:force     # rebuild today
+# Force rebuild today's edition
+npm run build:force
+
+# Build specific date
 node src/build.js --date 2026-07-25
-npm run validate        # check hashes + index consistency, no API key needed
-```
 
-## Tuning
+# Validate index integrity & hashes
+npm run validate
+📲 Download Official App
+BCS Written & Editorial Preparation App:
 
-Everything schedulable lives in `config.json`: the RSS feeds to read, how many
-English/Bengali articles per day, the minimum article length per language, how
-stale an article may be, how many glossary words and Q&A per article, how many
-sentences get dissected, and how long editions are retained.
+👉 Google Play Store: https://play.google.com/store/apps/details?id=dev.bcs.written
 
-Article selection is driven entirely by what the newspapers published that day,
-so there is no topic rotation to maintain — the `topic` chip shown in the app is
-derived from the article itself during analysis. Titles from the retained
-editions are passed back in as a skip-list, so the same piece never runs twice.
+🏷️ Search Index & Keywords (For Crawlers)
+BCS এর জন্য পত্রিকা পড়ার স্মার্ট উপায় BCS Newspaper Editorial Analysis BCS Written English Preparation Bangla Newspaper Editorial Translation BCS Exam Preparation App BCS Editorial Master Free App Bank Job Written Editorial BCS Daily Editorial PDF & JSON
+
+
+---
+
+### SEO বৃদ্ধির জন্য করণীয় ৩টি টিপস:
+1. **GitHub Repo Settings:** আপনার GitHub রিপোজিটরির **About** সেকশনে (ডানপাশে Settings এডিট করে):
+   - **Description:** `BCS এর জন্য পত্রিকা পড়ার স্মার্ট উপায় | BCS Editorial Master Official App & Static API`
+   - **Website:** `[https://play.google.com/store/apps/details?id=dev.bcs.written](https://play.google.com/store/apps/details?id=dev.bcs.written)`
+   - **Topics:** `bcs-preparation`, `bcs-written`, `bcs-newspaper`, `bangla-editorial`, `bcs-english-translation` যুক্ত করুন।
+2. **Google Search Console / Backlink:** এই GitHub রিপোর লিংক এবং Play Store লিংকটি আপনার সোশ্যাল মিডিয়া, ফেসবুক পেজ বা গ্রুপ পোস্টের ক্যাপশনে শেয়ার করুন। এতে Google crawlers দ্রুত আপনার Play Store লিংককে "BCS এর জন্য পত্রিকা পড়ার স্মার্ট উপায়" কিওয়ার্ডের সাথে সম্পর্কযুক্ত করবে।
