@@ -153,9 +153,16 @@ async function fetchQna(raw) {
           if (rawQna?.length) console.warn(`  ! ${label}: found Q&A under alternate key (not "qna")`);
         }
         // If the response itself is an array of {q, a, ...} objects, use it.
-        if (!rawQna?.length && Array.isArray(json) && json[0]?.q) {
+        if (!rawQna?.length && Array.isArray(json) && json.length > 0) {
           rawQna = json;
           console.warn(`  ! ${label}: response was a bare array, not wrapped in {qna: [...]}`);
+        }
+        // The model sometimes returns a flat single object {question, answer, ...}
+        // instead of wrapping items in a qna array. Wrap it so normaliseQna can
+        // map the verbose keys.
+        if (!rawQna?.length && !Array.isArray(json) && (json.question || json.q)) {
+          rawQna = [json];
+          console.warn(`  ! ${label}: response was a flat Q&A object, wrapped into array`);
         }
 
         const items = normaliseQna(rawQna);
@@ -365,12 +372,14 @@ async function buildBengaliArticle(raw, date) {
 }
 
 function normaliseQna(qna) {
-  return (qna ?? []).map((item) => ({
-    q: item.q,
-    a: item.a,
-    keyPoints: item.keyPoints ?? [],
-    words: wordCount(item.a),
-  }));
+  return (qna ?? [])
+    .map((item) => ({
+      q: item.q ?? item.question ?? '',
+      a: item.a ?? item.answer ?? '',
+      keyPoints: item.keyPoints ?? item.key_points ?? [],
+      words: wordCount(item.a ?? item.answer ?? ''),
+    }))
+    .filter((item) => item.q && item.a);
 }
 
 // ─── index / archive bookkeeping ─────────────────────────────────────────────
