@@ -168,8 +168,13 @@ async function fetchQna(raw) {
         const items = normaliseQna(rawQna);
         if (items.length > 0) {
           qna.push(...items);
-          if (n === 0 && (json.examTips?.length || json.exam_tips?.length)) {
-            examTips = json.examTips ?? json.exam_tips;
+          if (n === 0) {
+            const tips = json.examTips ?? json.exam_tips;
+            if (Array.isArray(tips) && tips.length) {
+              examTips = tips;
+            } else if (typeof tips === 'string' && tips.trim()) {
+              examTips = [tips.trim()];
+            }
           }
           success = true;
           break;
