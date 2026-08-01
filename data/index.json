@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-01T08:49:35.223Z",
+  "latestDate": "2026-08-01",
+  "latestHash": "7ae78bf4cdf15911854b1d73",
+  "keepDays": 7,
+  "editions": [
+    {
+      "date": "2026-08-01",
+      "dateBn": "১ আগস্ট ২০২৬, শনিবার",
+      "hash": "7ae78bf4cdf15911854b1d73",
+      "file": "data/2026-08-01.json",
+      "articleCount": 11,
+      "bengaliCount": 5,
+      "englishCount": 6,
+      "generatedAt": "2026-08-01T08:49:35.223Z",
+      "headlines": [
+        {
+          "id": "bn-ee90ca44",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি ও প্রশাসন",
+          "title": "স্থানীয় সরকার নির্বাচনে একা অংশ নিতে চায় জামায়াত, জোটের অন্যরা কী করবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-42e44ca8",
+          "lang": "en",
+          "topic": "বিজ্ঞান ও প্রযুক্তি",
+          "title": "Leveraging on space technology and AI for flood and disaster management: Predict, protect, respond and recover",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-60df6610",
+          "lang": "bn",
+          "topic": "শাসনতন্ত্র ও প্রশাসন",
+          "title": "ঢাকার সদরঘাটে প্রবাসীদের লাগেজ টানাহেঁচড়া: প্রতিবাদ করায় আমাকে অসুস্থ করে বাসায় ফেরানোর হুমকি!",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-78fad8d3",
+          "lang": "en",
+          "topic": "",
+          "title": "We must count the cost of growing climate anxiety",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-f5ed5ed7",
+          "lang": "bn",
+          "topic": "আইন, ন্যায়বিচার ও সরকারব্যবস্থা",
+          "title": "চোখের সামনে নৃশংস ঘটনা দেখে মানুষ ভিডিও করে, কিন্তু প্রতিবাদ করে না",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-fa7644db",
+          "lang": "en",
+          "topic": "পরিবেশ ও অর্থনীতি",
+          "title": "Extreme heat is turning into a threat to economy",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-63f91292",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "আমরা কেন মানসিক স্বাস্থ্য সমস্যাকে গুরুত্ব দেই না",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-87f88a5f",
+          "lang": "en",
+          "topic": "",
+          "title": "Rid public healthcare of chronic shortages and systemic failures",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-c9abc2f2",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "হরমুজ প্রণালির ভবিষ্যৎ কোন দিকে: তিন সম্ভাব্য সমীকরণ",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-265025e5",
+          "lang": "en",
+          "topic": "শক্তি ও পরিবেশ",
+          "title": "Higher electricity tariffs should accelerate our clean energy transition",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-5424327d",
+          "lang": "en",
+          "topic": "শাসন ও সংস্কার",
+          "title": "The new government: A rare opportunity for reform",
+          "source": "The Business Standard"
+        }
+      ]
+    }
+  ]
+}
