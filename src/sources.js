@@ -28,21 +28,33 @@ const NEWSY_BN = /(সাক্ষাৎ|বৈঠক|জানালেন|ব�
 
 /** Words that mark an article as BCS-relevant; used to rank candidates. */
 const RELEVANT_EN = [
-  'economy', 'budget', 'inflation', 'bank', 'tax', 'revenue', 'trade', 'export', 'investment',
-  'constitution', 'governance', 'reform', 'election', 'parliament', 'judiciary', 'corruption',
-  'climate', 'environment', 'flood', 'energy', 'renewable', 'agriculture', 'water',
-  'education', 'health', 'poverty', 'inequality', 'women', 'gender', 'labour', 'migrant',
-  'diplomacy', 'foreign policy', 'geopolitic', 'rohingya', 'india', 'china', 'indo-pacific',
-  'technology', 'digital', 'artificial intelligence', 'cyber', 'sdg', 'development', 'policy',
+  // 1. National & International Affairs
+  'national', 'politics', 'polity', 'governance', 'parliament', 'election', 'constitution', 'judiciary',
+  'reform', 'diplomacy', 'foreign policy', 'geopolitics', 'international', 'bilateral', 'security', 'defence',
+  'rohingya', 'south asia', 'indo-pacific', 'china', 'india', 'us', 'global', 'un', 'summit',
+  // 2. Editorial & Op-Ed
+  'editorial', 'opinion', 'column', 'commentary', 'analysis', 'perspective', 'viewpoint',
+  // 3. Economy & Commerce
+  'economy', 'economic', 'budget', 'gdp', 'inflation', 'bank', 'banking', 'tax', 'taxation', 'revenue',
+  'trade', 'export', 'import', 'remittance', 'investment', 'finance', 'fiscal', 'monetary', 'tariff',
+  // 4. Science & Technology
+  'science', 'technology', 'tech', 'artificial intelligence', 'ai', 'cyber', 'digital', 'innovation',
+  'research', 'space', 'automation', 'biotech', 'climate', 'environment', 'energy'
 ];
 
 const RELEVANT_BN = [
-  'অর্থনীতি', 'বাজেট', 'মূল্যস্ফীতি', 'মুদ্রাস্ফীতি', 'ব্যাংক', 'রাজস্ব', 'কর', 'রপ্তানি', 'বিনিয়োগ', 'বাণিজ্য',
-  'সংবিধান', 'সুশাসন', 'সংস্কার', 'নির্বাচন', 'সংসদ', 'বিচার', 'দুর্নীতি', 'প্রশাসন', 'নীতি',
-  'জলবায়ু', 'পরিবেশ', 'বন্যা', 'জ্বালানি', 'বিদ্যুৎ', 'কৃষি', 'নদী',
-  'শিক্ষা', 'স্বাস্থ্য', 'দারিদ্র্য', 'বৈষম্য', 'নারী', 'শ্রমিক', 'প্রবাসী', 'জনসংখ্যা',
-  'কূটনীতি', 'পররাষ্ট্র', 'ভূরাজনীতি', 'রোহিঙ্গা', 'ভারত', 'চীন',
-  'প্রযুক্তি', 'ডিজিটাল', 'কৃত্রিম বুদ্ধিমত্তা', 'সাইবার', 'উন্নয়ন', 'সম্পাদকীয়', 'মতামত',
+  // ১. জাতীয় ও আন্তর্জাতিক খবর
+  'জাতীয়', 'রাজনীতি', 'প্রশাসন', 'শাসন', 'সংসদ', 'নির্বাচন', 'সংবিধান', 'বিচার', 'সংস্কার',
+  'কূটনীতি', 'পররাষ্ট্র', 'ভূরাজনীতি', 'আন্তর্জাতিক', 'দ্বিপক্ষীয়', 'নিরাপত্তা', 'রোহিঙ্গা',
+  'ভারত', 'চীন', 'যুক্তরাষ্ট্র', 'দক্ষিণ এশিয়া',
+  // ২. সম্পাদকীয় ও উপসম্পাদকীয়
+  'সম্পাদকীয়', 'উপ-সম্পাদকীয়', 'উপসম্পাদকীয়', 'মতামত', 'কলাম', 'বিশ্লেষণ', 'দৃষ্টিভঙ্গি',
+  // ৩. অর্থনীতি ও বাণিজ্য
+  'অর্থনীতি', 'অর্থনৈতিক', 'বাজেট', 'জিডিপি', 'মূল্যস্ফীতি', 'মুদ্রাস্ফীতি', 'ব্যাংক', 'ব্যাংকিং', 'কর',
+  'রাজস্ব', 'বাণিজ্য', 'রপ্তানি', 'আমদানি', 'রেমিট্যান্স', 'বিনিয়োগ', 'অর্থায়ন', 'শুল্ক',
+  // ৪. বিজ্ঞান ও প্রযুক্তি
+  'বিজ্ঞান', 'প্রযুক্তি', 'কৃত্রিম বুদ্ধিমত্তা', 'সাইবার', 'ডিজিটাল', 'উদ্ভাবন', 'গবেষণা',
+  'মহাকাশ', 'জলবায়ু', 'পরিবেশ', 'জ্বালানি', 'বিদ্যুৎ'
 ];
 
 async function get(url, timeoutMs = 25000) {
@@ -177,11 +189,28 @@ function relevanceScore(item) {
   return score;
 }
 
+export function parsePubDate(pubDate) {
+  if (!pubDate) return null;
+  let timestamp = Date.parse(pubDate);
+  if (Number.isNaN(timestamp)) {
+    // Handle 'Thu, 07/30/2026 - 12:30' or non-standard RSS date formats
+    const cleaned = pubDate.replace(/\s*-\s*/, ' ');
+    timestamp = Date.parse(cleaned);
+  }
+  if (Number.isNaN(timestamp)) return null;
+  return new Date(timestamp);
+}
+
+export function getDhakaDateStr(pubDate) {
+  const d = parsePubDate(pubDate);
+  if (!d) return null;
+  return d.toLocaleDateString('sv-SE', { timeZone: 'Asia/Dhaka' });
+}
+
 function ageInDays(pubDate) {
-  if (!pubDate) return 0;
-  const published = Date.parse(pubDate);
-  if (Number.isNaN(published)) return 0;
-  return (Date.now() - published) / 86_400_000;
+  const d = parsePubDate(pubDate);
+  if (!d) return 999; // Treat invalid/unparseable dates as very old
+  return (Date.now() - d.getTime()) / 86_400_000;
 }
 
 /**
@@ -198,6 +227,7 @@ export async function collectArticles({
   minWords,
   maxAgeDays,
   maxTokens = 1800,
+  targetDate,
   skipTitles = [],
 }) {
   const seen = new Set(skipTitles.map((t) => t.toLowerCase().trim()));
@@ -215,16 +245,41 @@ export async function collectArticles({
   const ranked = candidates
     .filter((item) => item.title && /^https?:\/\//.test(item.link))
     .filter((item) => !isBlocked(item))
-    .filter((item) => ageInDays(item.pubDate) <= maxAgeDays)
+    .filter((item) => {
+      const d = parsePubDate(item.pubDate);
+      if (!d) return false; // Reject unparseable dates
+      const age = ageInDays(item.pubDate);
+      const itemDhakaDate = getDhakaDateStr(item.pubDate);
+      // Keep if published on targetDate OR within 1 day (maxAgeDays)
+      if (targetDate && itemDhakaDate === targetDate) return true;
+      return age >= 0 && age <= (maxAgeDays ?? 1.0);
+    })
     .filter((item) => {
       const key = item.title.toLowerCase().trim();
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     })
-    .map((item) => ({ item, score: relevanceScore(item) }))
+    .map((item) => {
+      const itemDhakaDate = getDhakaDateStr(item.pubDate);
+      const isTargetDate = targetDate ? (itemDhakaDate === targetDate) : false;
+      let score = relevanceScore(item);
+      if (isTargetDate) score += 10;
+      return { item, score, isTargetDate };
+    })
     .filter((entry) => entry.score > 0)
-    .sort((a, b) => b.score - a.score || ageInDays(a.item.pubDate) - ageInDays(b.item.pubDate))
+    .sort((a, b) => {
+      // Articles matching targetDate come first
+      if (a.isTargetDate !== b.isTargetDate) {
+        return a.isTargetDate ? -1 : 1;
+      }
+      // Newer published items come first
+      const ageDiff = ageInDays(a.item.pubDate) - ageInDays(b.item.pubDate);
+      if (Math.abs(ageDiff) > 0.2) {
+        return ageDiff;
+      }
+      return b.score - a.score;
+    })
     .map((entry) => entry.item);
 
   const picked = [];
