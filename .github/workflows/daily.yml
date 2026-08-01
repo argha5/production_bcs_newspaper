@@ -2,8 +2,8 @@ name: Daily edition
 
 on:
   schedule:
-    # 00:00 UTC = 06:00 AM Asia/Dhaka — papers publish by 5:30 AM, completes by 7:30 AM.
-    - cron: '0 0 * * *'
+    # 23:47 UTC = 05:47 AM Asia/Dhaka — avoids top-of-the-hour GitHub queue delay & finishes by 07:15 AM.
+    - cron: '47 23 * * *'
   workflow_dispatch:
     inputs:
       date:
