@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T08:49:35.223Z",
-  "latestDate": "2026-08-01",
-  "latestHash": "7ae78bf4cdf15911854b1d73",
+  "updatedAt": "2026-08-02T02:15:39.519Z",
+  "latestDate": "2026-08-02",
+  "latestHash": "6eb269c9ceb6213794ea61f7",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-02",
+      "dateBn": "২ আগস্ট ২০২৬, রবিবার",
+      "hash": "6eb269c9ceb6213794ea61f7",
+      "file": "data/2026-08-02.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-08-02T02:15:39.519Z",
+      "headlines": [
+        {
+          "id": "bn-a860fd83",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ইরানের পরমাণু, ক্ষেপণাস্ত্র ও জ্বালানি স্থাপনায় হামলার পরিকল্পনা যুক্তরাষ্ট্রের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c69d3b06",
+          "lang": "en",
+          "topic": "মানবাধিকার ও সংবিধান",
+          "title": "The cycle of custodial deaths, enforced disappearances and the culture of impunity in Bangladesh: What should we do immediately?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-faa737e9",
+          "lang": "bn",
+          "topic": "ইসলাম ও বিশ্বধর্ম",
+          "title": "যে ৪ ধরনের ধর্মীয় জ্ঞান শিক্ষা করা সবার জন্য ফরজ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-6589e006",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Every inflationary lever is being pulled at once",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-dcf1b4c0",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "সেউতা থেকে ফিরছেন অভিবাসীরা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-7e5e3f48",
+          "lang": "en",
+          "topic": "বিজ্ঞান ও প্রযুক্তি",
+          "title": "The invisible infrastructure behind every trusted number",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-fcdcd30e",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও মধ্যপ্রাচ্য",
+          "title": "ইরান নিয়ে সৌদি-ইসরায়েল\nভিন্ন অবস্থানে, সংশয়ে ট্রাম্প",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4b7f8841",
+          "lang": "en",
+          "topic": "আইন ও ন্যায়বিচার",
+          "title": "End the criminality within our crime fighters",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-08-01",
       "dateBn": "১ আগস্ট ২০২৬, শনিবার",
