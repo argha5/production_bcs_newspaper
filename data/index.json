@@ -1,10 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T02:15:39.519Z",
-  "latestDate": "2026-08-02",
-  "latestHash": "6eb269c9ceb6213794ea61f7",
+  "updatedAt": "2026-08-03T01:58:24.915Z",
+  "latestDate": "2026-08-03",
+  "latestHash": "b504f7df55054f0b328d5b80",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-03",
+      "dateBn": "৩ আগস্ট ২০২৬, সোমবার",
+      "hash": "b504f7df55054f0b328d5b80",
+      "file": "data/2026-08-03.json",
+      "articleCount": 7,
+      "bengaliCount": 3,
+      "englishCount": 4,
+      "generatedAt": "2026-08-03T01:58:24.915Z",
+      "headlines": [
+        {
+          "id": "bn-dff2e641",
+          "lang": "bn",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "কই মাছ পানি ছাড়াও অনেক সময় বেঁচে থাকে কীভাবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d020dd55",
+          "lang": "en",
+          "topic": "শিক্ষা ও গবেষণা",
+          "title": "Dishonest academic practices must stop",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-dc5c4ca5",
+          "lang": "bn",
+          "topic": "পরিবেশ ও জীববিজ্ঞান",
+          "title": "বিরল দুই মাথার গেকোর দেখা মিলেছে পেনসিলভানিয়ায়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-329ef642",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও প্রযুক্তি",
+          "title": "Can AI address the shortage of speech therapists in Bangladesh?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e87c522f",
+          "lang": "bn",
+          "topic": "নৈতিকতা ও চরিত্র গঠন",
+          "title": "সুন্দর ব্যক্তিত্ব গড়তে মুমিনের ৯ অভ্যাস",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0576b676",
+          "lang": "en",
+          "topic": "পরিবার ও সামাজিক সমস্যা",
+          "title": "Blaming the youth is easy. We must rethink how we support parents",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-67ce4b10",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Why Bangladesh needs environmental foresight over populism",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-02",
       "dateBn": "২ আগস্ট ২০২৬, রবিবার",
