@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T01:58:24.915Z",
-  "latestDate": "2026-08-03",
-  "latestHash": "b504f7df55054f0b328d5b80",
+  "updatedAt": "2026-08-04T01:13:11.150Z",
+  "latestDate": "2026-08-04",
+  "latestHash": "a6172f104a7541dceda986c4",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-04",
+      "dateBn": "৪ আগস্ট ২০২৬, মঙ্গলবার",
+      "hash": "a6172f104a7541dceda986c4",
+      "file": "data/2026-08-04.json",
+      "articleCount": 1,
+      "bengaliCount": 1,
+      "englishCount": 0,
+      "generatedAt": "2026-08-04T01:13:11.150Z",
+      "headlines": [
+        {
+          "id": "bn-8e895cc8",
+          "lang": "bn",
+          "topic": "মানসিক স্বাস্থ্য ও আধ্যাত্মিকতা",
+          "title": "বিপদ এলে নবীরা যেভাবে আল্লাহকে ডাকতেন",
+          "source": "প্রথম আলো"
+        }
+      ]
+    },
     {
       "date": "2026-08-03",
       "dateBn": "৩ আগস্ট ২০২৬, সোমবার",

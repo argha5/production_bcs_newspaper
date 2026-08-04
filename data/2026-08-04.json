@@ -1,0 +1,1188 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-04",
+ "dateBn": "৪ আগস্ট ২০২৬, মঙ্গলবার",
+ "editionHash": "a6172f104a7541dceda986c4",
+ "generatedAt": "2026-08-04T01:13:11.150Z",
+ "models": [
+  "agnes-2.0-flash",
+  "google/gemini-2.5-flash",
+  "llama-3.3-70b-versatile",
+  "google/gemini-2.0-flash",
+  "openai/gpt-oss-120b",
+  "openai/gpt-oss-20b",
+  "llama-3.1-8b-instant"
+ ],
+ "articleCount": 1,
+ "bengaliCount": 1,
+ "englishCount": 0,
+ "failures": [
+  "bn/ইরানে নতুন হামলা না চালাতে ট্রাম্পকে সৌদি যুবরাজের আহ্বান: every key/model lane has spent its daily allowance (agnes-2.0-flash, google/gemini-2.5-flash, llama-3.3-70b-versatile, google/gemini-2.0-flash, openai/gpt-oss-120b). Lanes: agnes-2.0-flash/key…cl8I: d",
+  "en/Bangladesh's shrimp industry has the capacity. Why isn't it : every key/model lane has spent its daily allowance (agnes-2.0-flash, google/gemini-2.5-flash, llama-3.3-70b-versatile, google/gemini-2.0-flash, openai/gpt-oss-120b). Lanes: agnes-2.0-flash/key…cl8I: d",
+  "en/A unified digital system could make Bangladesh’s roads safer: every key/model lane has spent its daily allowance (agnes-2.0-flash, google/gemini-2.5-flash, llama-3.3-70b-versatile, google/gemini-2.0-flash, openai/gpt-oss-120b). Lanes: agnes-2.0-flash/key…cl8I: d",
+  "en/Education in your pocket, yet still taxed as a luxury: every key/model lane has spent its daily allowance (agnes-2.0-flash, google/gemini-2.5-flash, llama-3.3-70b-versatile, google/gemini-2.0-flash, openai/gpt-oss-120b). Lanes: agnes-2.0-flash/key…cl8I: d",
+  "en/77% CMSME entrepreneurs lack access to bank loans: SME Found: every key/model lane has spent its daily allowance (agnes-2.0-flash, google/gemini-2.5-flash, llama-3.3-70b-versatile, google/gemini-2.0-flash, openai/gpt-oss-120b). Lanes: agnes-2.0-flash/key…cl8I: d"
+ ],
+ "articles": [
+  {
+   "id": "bn-8e895cc8",
+   "lang": "bn",
+   "topic": "মানসিক স্বাস্থ্য ও আধ্যাত্মিকতা",
+   "title": "বিপদ এলে নবীরা যেভাবে আল্লাহকে ডাকতেন",
+   "source": "প্রথম আলো",
+   "url": "https://www.prothomalo.com/religion/islam/54r1xvaflp",
+   "published": "Mon, 03 Aug 2026 22:30:00 +0000",
+   "content": "হঠাৎ চাকরি চলে গেছে। সংসার ভেঙে গেছে। শরীর ভীষণ অসুস্থ কিংবা ব্যবসায় বিরাট ধস। একটার পর একটা বিপদ এসে এমনভাবে ঘিরে ধরেছে যে এখান থেকে উতরানোর পথ নেই। দেয়ালে পিঠ ঠেকে যাওয়ার অবস্থা। কোথায় যাবেন বুঝতে পারছেন না।\n\nএই মুহূর্তে কার সাহায্য নেবেন, আন্দাজ করতে পারছেন না। কাকে ডাকবেন জানেন না। বন্ধুদের সাহায্য চেয়েছেন, সবাই ফিরিয়ে দিয়েছে। নিজে চেষ্টা করেছেন, কাজ হয়নি। এখন শুধু একটাই অনুভূতি—জীবন নামক এই অভিশাপ থেকে মুক্তি দাও মাবুদ!\n\nএই মুহূর্তে একটু থামুন। কোরআন খুলুন। নবীরাও এমন বিপদের সম্মুখীন হতেন; কিছু ক্ষেত্রে এর চেয়ে বড় বিপদের। তাঁদের মনেও কখনো-সখনো হতাশা কাজ করত। কিন্তু তাঁরা জানতেন, বিপদ যত বড়ই হোক, ওপরে আল্লাহ আছেন। তিনিই সাহায্য করবেন।\n\nগবেষণায় দেখা গেছে, মানুষ যখন চরম সংকটে পড়ে, তখন প্রার্থনা এবং আধ্যাত্মিক অনুশীলন তার মানসিক চাপ উল্লেখযোগ্যভাবে কমিয়ে দেয়। যাঁরা সংকটের সময় বিশ্বাসের আশ্রয় নেন, তাঁদের মানসিক পুনরুদ্ধারের গতি অন্যদের তুলনায় অনেক বেশি। (Koenig, H. G. et al., 2012, Handbook of Religion and Health, Oxford University Press, নিউইয়র্ক)\n\nনবীদের জীবনের বিভিন্ন সময়ের দোয়াগুলো পড়লে একটা জিনিস স্পষ্ট হয়, তাঁরা প্রত্যেকেই তিনটি করে কাজ করতেন।\n\nএক. আল্লাহর দিকে সম্পূর্ণভাবে ফেরা।\n\nদুই. নিজের অসহায়ত্ব স্বীকার করে নেওয়া।\n\nতিন. আল্লাহর রহমতের ওপর ভরসা রাখা। এই তিনটি কাজই সেই মূলমন্ত্র, যা প্রতিটি বিপদে উত্তরণের পথ খুলে দেয়।\n\n১. তিন স্তরের অন্ধকারের মধ্যে নবী ইউনুসের দোয়া করেছেন, কোরআনে যা আল্লাহ নিজেই বর্ণনা করেছেন, ‘তুমি ছাড়া কোনো ইলাহ নেই, তুমি পবিত্র, নিশ্চয়ই আমি জালিমদের অন্তর্ভুক্ত ছিলাম।’ (সুরা আম্বিয়া, আয়াত: ৮৭)\n\nএই দোয়াটা কোন অবস্থায় পড়া হয়েছিল জানেন? সমুদ্রের অন্ধকার, রাতের অন্ধকার, মাছের পেটের অন্ধকারে। এই তিন স্তরের অন্ধকারে ডুবে ছিলেন ইউনুস (আ.)। মানবিক দৃষ্টিতে যেখান থেকে বের হওয়া একেবারে অসম্ভব।\n\nকিন্তু এই দোয়ার এক গভীর মাহাত্ম্য আছে।\n\n‘লা ইলাহা ইল্লা আনতা’ মানে তুমি ছাড়া কোনো ইলাহ নেই। এটা তাওহিদের স্বীকৃতি। মাছের পেটেও তিনি ভুলে যাননি ক্ষমতার মালিক কে। ‘সুবহানাকা’ মানে তুমি পবিত্র। বিপদের মধ্যেও তিনি অভিযোগ করেননি, আল্লাহর প্রশংসা করেছেন। ‘ইন্নি কুনতু মিনাজ জলিমিন’ মানে আমি নিজের ওপর জুলুমকারী ছিলাম।\n\nকী দারুণ আত্মসমর্পণ! কোনো অজুহাত নেই, নিজের ভুল স্বীকার।\n\nআল্লাহ তারপর বলেন, ‘তখন আমি তার দোয়া কবুল করলাম এবং তাকে দুশ্চিন্তা থেকে মুক্তি দিলাম। আর এভাবেই আমি মুমিনদের মুক্তি দিয়ে থাকি।’ (সুরা আম্বিয়া, আয়াত: ৮৮)\n\nআমরাও এভাবে বলতে পারি। সাজিয়ে গুছিয়ে কৃত্রিম কথা না বলে শুধু বলুন, হে আল্লাহ, আমি অনেক কষ্টে আছি। তুমি ছাড়া আমাকে দেখার কেউ নেই। এটা শুধু ইউনুস (আ.)-এর গল্প নয়। আপনি মুমিন হলে এই প্রতিশ্রুতি রয়েছে আপনার জন্যও।\n\nমহানবী (সা.) বলেছেন, ‘যে মুসলিম ব্যক্তি ইউনুস (আ.)-এর দোয়া পড়ে আল্লাহর কাছে কিছু চাইবে, আল্লাহ তার দোয়া কবুল করবেন।’ (সুনানে তিরমিজি, হাদিস: ৩৫০৫)\n\n২. নবী আইয়ুবের দোয়ার কথা আল্লাহ কোরআনে উল্লেখ করেছেন, ‘আর আইয়ুবকে স্মরণ করো, যখন সে তার প্রতিপালককে ডেকে বলেছিল, আমাকে কষ্ট স্পর্শ করেছে এবং তুমি সর্বশ্রেষ্ঠ দয়ালু।’ (সুরা আম্বিয়া, আয়াত: ৮৩)\n\nআইয়ুব (আ.) জীবনের একটি লম্বা সময় রোগে ভুগেছেন। কাছের আপন মানুষজন তাঁকে ছেড়ে চলে গিয়েছিল। তবু তাঁর দোয়ায় কোনো অভিযোগ ছিল না, কোনো দীর্ঘ আরজি ছিল না।\n\n‘শুধু এটুকু বলেছেন, ‘আমাকে কষ্ট স্পর্শ করেছে’। এরপর বলেছেন, তুমি সর্বশ্রেষ্ঠ দয়ালু। অভিযোগের পরিবর্তে প্রশংসা। হতাশার বিপরীতে ভরসা।\n\nএই সরল কথাটুকুই ছিল তাঁর দোয়া। আমরাও এভাবে বলতে পারি। সাজিয়ে গুছিয়ে কৃত্রিম কথা না বলে শুধু বলুন, হে আল্লাহ, আমি অনেক কষ্টে আছি। তুমি ছাড়া আমাকে দেখার কেউ নেই।\n\n৩. নবী মুসার দোয়া। মুসা (আ.) তখন ফেরাউনের অত্যাচার থেকে বাঁচতে মিসর ছেড়ে অচেনা কোনো শহরের পথে একাকী, নিঃস্ব অবস্থায় ঘুরছেন। সামনে কী হবে জানেন না।\n\nতখন তিনি আল্লাহকে স্মরণ করলেন, “হে আমার প্রতিপালক, তুমি আমার প্রতি যে কল্যাণ নাজিল করবে, আমি তার মুখাপেক্ষী।” (সুরা কাসাস, আয়াত: ২৪)\n\nএখানে ‘ফাক্বির' বলা হয়েছে কোরআনে। মানে গরিব নয়, মুখাপেক্ষী, নির্ভরশীল। মুসা (আ.) মন থেকে আল্লাহর কাছে কল্যাণ কামনা করেছেন। এই দোয়ার পরই আল্লাহ তাঁর জীবন বদলে দিয়েছিলেন। তাঁর সব সমস্যার সমাধান দিয়েছিলেন।\n\n৪. নবী জাকারিয়ার দোয়ার কথা কোরআনে আল্লাহ বলেছেন। জাকারিয়া (আ.) যখন বৃদ্ধ বয়সে নিঃসন্তান। স্ত্রী বন্ধ্যা। মানবিক দৃষ্টিতে সন্তানলাভের কোনো সম্ভাবনা নেই।\n\nতখন তিনি আল্লাহকে ডাকলেন, ‘হে আমার প্রতিপালক, আমাকে একা রেখো না এবং তুমিই সর্বোত্তম উত্তরাধিকারী।’ (সুরা আম্বিয়া, আয়াত: ৮৯)\n\nএই দোয়ায় কোনো জোরাজুরি নেই, সন্তান দিতেই হবে সেই শর্ত নেই। শুধু একটি আকুতি, ‘তুমিই সর্বোত্তম উত্তরাধিকারী’। সন্তান না পেলেও–বা কী, তুমি তো আছ। এই আকুতির জবাবে আল্লাহ–তাআলা সন্তান হিসেবে নবী ইয়াহইয়াকে উপহার দিয়েছিলেন। আল্লাহর কাছে অসম্ভব বলে কিছু নেই।\n\n৫. বিপদে আল্লাহর নির্দেশ। আল্লাহ সুরা বাকারায় বলেন, ‘হে মুমিনগণ, ধৈর্য ও নামাজের মাধ্যমে সাহায্য চাও। নিশ্চয়ই আল্লাহ ধৈর্যশীলদের সঙ্গে আছেন।’ (সুরা বাকারা, আয়াত: ১৫৩)\n\nএখানে ধৈর্য ও নামাজের মাধ্যমে সাহায্য চাওয়ার কথা বলা হয়েছে। এই দুটি পথেই আল্লাহর সাহায্য আসে—প্রথমে ধৈর্য ও এরপর সমাধানের জন্য নামাজ আদায়। আর আল্লাহ ধৈর্যশীলদের সঙ্গে থাকেন, তাদের ছেড়ে যান না।\n\nনবীদের দোয়াগুলো পাশাপাশি রাখলে একটা মিল চোখে পড়ে। তাঁরা কেউ দীর্ঘ আরজি করেননি। নিজের যোগ্যতা, শর্ত উল্লেখ করে আল্লাহকে সাহায্য করতে জোরজবরদস্তি করেননি। কেউ বলেননি আমি এত ভালো মানুষ, তাই আমাকে সাহায্য করো।\n\nতাঁরা শুধু নিজের অসহায়ত্ব প্রকাশ করেছেন এবং আল্লাহর প্রতি নিজেদের নির্ভরশীলতাকে স্বীকার করেছেন। নিজেকে সঁপে দিয়ে অপেক্ষা করেছেন আল্লাহর সাহায্যের।\n\nমহানবী (সা.) বলেছেন, ‘মুমিনের বিষয়টি আশ্চর্যজনক। তার প্রতিটি বিষয়ই তার জন্য কল্যাণকর। সুখ এলে শুকরিয়া আদায় করে—এটি তার জন্য কল্যাণকর। বিপদ এলে সবর করে—এটিও তার জন্য কল্যাণকর। এই বৈশিষ্ট্য শুধু মুমিনের জন্যই।’ (সহিহ মুসলিম, হাদিস: ২৯৯৯)\n\nযদি এই মুহূর্তে আপনার জীবনে বিপদ থেকে থাকে, তবে অবিলম্বে একটা কাজ করুন। ওজু করুন। দুই রাকাত নামাজ পড়ুন। এরপর হাত তুলুন। এই মুহূর্তে আপনার মনে যা আছে, সেটাই বলুন। গোছানো কথার প্রয়োজন নেই।\n\nসরল মনে অকপটে আল্লাহর কাছে নিজের অসহায়ত্ব প্রকাশ করুন। নিজের প্রয়োজন তুলে ধরুন। দেখবেন, আল্লাহ যেভাবে সব নবীর ডাকে সাড়া দিয়েছিলেন, সেভাবে তিনি আপনার ডাকেও সাড়া দেবেন।\n\nমুহাম্মাদ মুহসিন মাশকুর : খণ্ডকালীন শিক্ষক, আধুনিক ভাষা ইনস্টিটিউট, ঢাকা বিশ্ববিদ্যালয়",
+   "sentences": [
+    {
+     "i": 0,
+     "text": "হঠাৎ চাকরি চলে গেছে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 1,
+     "text": "সংসার ভেঙে গেছে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 2,
+     "text": "শরীর ভীষণ অসুস্থ কিংবা ব্যবসায় বিরাট ধস।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 3,
+     "text": "একটার পর একটা বিপদ এসে এমনভাবে ঘিরে ধরেছে যে এখান থেকে উতরানোর পথ নেই।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 4,
+     "text": "দেয়ালে পিঠ ঠেকে যাওয়ার অবস্থা।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 5,
+     "text": "কোথায় যাবেন বুঝতে পারছেন না।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 6,
+     "text": "এই মুহূর্তে কার সাহায্য নেবেন, আন্দাজ করতে পারছেন না।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 7,
+     "text": "কাকে ডাকবেন জানেন না।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 8,
+     "text": "বন্ধুদের সাহায্য চেয়েছেন, সবাই ফিরিয়ে দিয়েছে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 9,
+     "text": "নিজে চেষ্টা করেছেন, কাজ হয়নি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 10,
+     "text": "এখন শুধু একটাই অনুভূতি—জীবন নামক এই অভিশাপ থেকে মুক্তি দাও মাবুদ!",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 11,
+     "text": "এই মুহূর্তে একটু থামুন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 12,
+     "text": "নবীরাও এমন বিপদের সম্মুখীন হতেন; কিছু ক্ষেত্রে এর চেয়ে বড় বিপদের।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 13,
+     "text": "তাঁদের মনেও কখনো-সখনো হতাশা কাজ করত।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 14,
+     "text": "কিন্তু তাঁরা জানতেন, বিপদ যত বড়ই হোক, ওপরে আল্লাহ আছেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 15,
+     "text": "তিনিই সাহায্য করবেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 16,
+     "text": "গবেষণায় দেখা গেছে, মানুষ যখন চরম সংকটে পড়ে, তখন প্রার্থনা এবং আধ্যাত্মিক অনুশীলন তার মানসিক চাপ উল্লেখযোগ্যভাবে কমিয়ে দেয়।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 17,
+     "text": "যাঁরা সংকটের সময় বিশ্বাসের আশ্রয় নেন, তাঁদের মানসিক পুনরুদ্ধারের গতি অন্যদের তুলনায় অনেক বেশি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 18,
+     "text": "(Koenig, H. G. et al., 2012, Handbook of Religion and Health, Oxford University Press, নিউইয়র্ক)\n\nনবীদের জীবনের বিভিন্ন সময়ের দোয়াগুলো পড়লে একটা জিনিস স্পষ্ট হয়, তাঁরা প্রত্যেকেই তিনটি করে কাজ করতেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 19,
+     "text": "এক. আল্লাহর দিকে সম্পূর্ণভাবে ফেরা।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 20,
+     "text": "দুই. নিজের অসহায়ত্ব স্বীকার করে নেওয়া।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 21,
+     "text": "তিন. আল্লাহর রহমতের ওপর ভরসা রাখা।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 22,
+     "text": "এই তিনটি কাজই সেই মূলমন্ত্র, যা প্রতিটি বিপদে উত্তরণের পথ খুলে দেয়।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 23,
+     "text": "১. তিন স্তরের অন্ধকারের মধ্যে নবী ইউনুসের দোয়া করেছেন, কোরআনে যা আল্লাহ নিজেই বর্ণনা করেছেন, ‘তুমি ছাড়া কোনো ইলাহ নেই, তুমি পবিত্র, নিশ্চয়ই আমি জালিমদের অন্তর্ভুক্ত ছিলাম।’ (সুরা আম্বিয়া, আয়াত: ৮৭)\n\nএই দোয়াটা কোন অবস্থায় পড়া হয়েছিল জানেন?",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 24,
+     "text": "সমুদ্রের অন্ধকার, রাতের অন্ধকার, মাছের পেটের অন্ধকারে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 25,
+     "text": "এই তিন স্তরের অন্ধকারে ডুবে ছিলেন ইউনুস (আ.)।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 26,
+     "text": "মানবিক দৃষ্টিতে যেখান থেকে বের হওয়া একেবারে অসম্ভব।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 27,
+     "text": "কিন্তু এই দোয়ার এক গভীর মাহাত্ম্য আছে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 28,
+     "text": "‘লা ইলাহা ইল্লা আনতা’ মানে তুমি ছাড়া কোনো ইলাহ নেই।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 29,
+     "text": "এটা তাওহিদের স্বীকৃতি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 30,
+     "text": "মাছের পেটেও তিনি ভুলে যাননি ক্ষমতার মালিক কে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 31,
+     "text": "‘সুবহানাকা’ মানে তুমি পবিত্র।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 32,
+     "text": "বিপদের মধ্যেও তিনি অভিযোগ করেননি, আল্লাহর প্রশংসা করেছেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 33,
+     "text": "‘ইন্নি কুনতু মিনাজ জলিমিন’ মানে আমি নিজের ওপর জুলুমকারী ছিলাম।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 34,
+     "text": "কী দারুণ আত্মসমর্পণ!",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 35,
+     "text": "কোনো অজুহাত নেই, নিজের ভুল স্বীকার।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 36,
+     "text": "আল্লাহ তারপর বলেন, ‘তখন আমি তার দোয়া কবুল করলাম এবং তাকে দুশ্চিন্তা থেকে মুক্তি দিলাম।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 37,
+     "text": "আর এভাবেই আমি মুমিনদের মুক্তি দিয়ে থাকি।’ (সুরা আম্বিয়া, আয়াত: ৮৮)\n\nআমরাও এভাবে বলতে পারি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 38,
+     "text": "সাজিয়ে গুছিয়ে কৃত্রিম কথা না বলে শুধু বলুন, হে আল্লাহ, আমি অনেক কষ্টে আছি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 39,
+     "text": "তুমি ছাড়া আমাকে দেখার কেউ নেই।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 40,
+     "text": "এটা শুধু ইউনুস (আ.)-এর গল্প নয়।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 41,
+     "text": "আপনি মুমিন হলে এই প্রতিশ্রুতি রয়েছে আপনার জন্যও।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 42,
+     "text": "মহানবী (সা.) বলেছেন, ‘যে মুসলিম ব্যক্তি ইউনুস (আ.)-এর দোয়া পড়ে আল্লাহর কাছে কিছু চাইবে, আল্লাহ তার দোয়া কবুল করবেন।’ (সুনানে তিরমিজি, হাদিস: ৩৫০৫)\n\n২. নবী আইয়ুবের দোয়ার কথা আল্লাহ কোরআনে উল্লেখ করেছেন, ‘আর আইয়ুবকে স্মরণ করো, যখন সে তার প্রতিপালককে ডেকে বলেছিল, আমাকে কষ্ট স্পর্শ করেছে এবং তুমি সর্বশ্রেষ্ঠ দয়ালু।’ (সুরা আম্বিয়া, আয়াত: ৮৩)\n\nআইয়ুব (আ.) জীবনের একটি লম্বা সময় রোগে ভুগেছেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 43,
+     "text": "কাছের আপন মানুষজন তাঁকে ছেড়ে চলে গিয়েছিল।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 44,
+     "text": "তবু তাঁর দোয়ায় কোনো অভিযোগ ছিল না, কোনো দীর্ঘ আরজি ছিল না।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 45,
+     "text": "‘শুধু এটুকু বলেছেন, ‘আমাকে কষ্ট স্পর্শ করেছে’।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 46,
+     "text": "এরপর বলেছেন, তুমি সর্বশ্রেষ্ঠ দয়ালু।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 47,
+     "text": "অভিযোগের পরিবর্তে প্রশংসা।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 48,
+     "text": "হতাশার বিপরীতে ভরসা।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 49,
+     "text": "এই সরল কথাটুকুই ছিল তাঁর দোয়া।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 50,
+     "text": "আমরাও এভাবে বলতে পারি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 51,
+     "text": "সাজিয়ে গুছিয়ে কৃত্রিম কথা না বলে শুধু বলুন, হে আল্লাহ, আমি অনেক কষ্টে আছি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 52,
+     "text": "তুমি ছাড়া আমাকে দেখার কেউ নেই।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 53,
+     "text": "৩. নবী মুসার দোয়া।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 54,
+     "text": "মুসা (আ.) তখন ফেরাউনের অত্যাচার থেকে বাঁচতে মিসর ছেড়ে অচেনা কোনো শহরের পথে একাকী, নিঃস্ব অবস্থায় ঘুরছেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 55,
+     "text": "সামনে কী হবে জানেন না।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 56,
+     "text": "তখন তিনি আল্লাহকে স্মরণ করলেন, “হে আমার প্রতিপালক, তুমি আমার প্রতি যে কল্যাণ নাজিল করবে, আমি তার মুখাপেক্ষী।” (সুরা কাসাস, আয়াত: ২৪)\n\nএখানে ‘ফাক্বির' বলা হয়েছে কোরআনে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 57,
+     "text": "মানে গরিব নয়, মুখাপেক্ষী, নির্ভরশীল।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 58,
+     "text": "মুসা (আ.) মন থেকে আল্লাহর কাছে কল্যাণ কামনা করেছেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 59,
+     "text": "এই দোয়ার পরই আল্লাহ তাঁর জীবন বদলে দিয়েছিলেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 60,
+     "text": "তাঁর সব সমস্যার সমাধান দিয়েছিলেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 61,
+     "text": "৪. নবী জাকারিয়ার দোয়ার কথা কোরআনে আল্লাহ বলেছেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 62,
+     "text": "জাকারিয়া (আ.) যখন বৃদ্ধ বয়সে নিঃসন্তান।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 63,
+     "text": "মানবিক দৃষ্টিতে সন্তানলাভের কোনো সম্ভাবনা নেই।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 64,
+     "text": "তখন তিনি আল্লাহকে ডাকলেন, ‘হে আমার প্রতিপালক, আমাকে একা রেখো না এবং তুমিই সর্বোত্তম উত্তরাধিকারী।’ (সুরা আম্বিয়া, আয়াত: ৮৯)\n\nএই দোয়ায় কোনো জোরাজুরি নেই, সন্তান দিতেই হবে সেই শর্ত নেই।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 65,
+     "text": "শুধু একটি আকুতি, ‘তুমিই সর্বোত্তম উত্তরাধিকারী’।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 66,
+     "text": "সন্তান না পেলেও–বা কী, তুমি তো আছ।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 67,
+     "text": "এই আকুতির জবাবে আল্লাহ–তাআলা সন্তান হিসেবে নবী ইয়াহইয়াকে উপহার দিয়েছিলেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 68,
+     "text": "আল্লাহর কাছে অসম্ভব বলে কিছু নেই।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 69,
+     "text": "৫. বিপদে আল্লাহর নির্দেশ।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 70,
+     "text": "আল্লাহ সুরা বাকারায় বলেন, ‘হে মুমিনগণ, ধৈর্য ও নামাজের মাধ্যমে সাহায্য চাও।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 71,
+     "text": "নিশ্চয়ই আল্লাহ ধৈর্যশীলদের সঙ্গে আছেন।’ (সুরা বাকারা, আয়াত: ১৫৩)\n\nএখানে ধৈর্য ও নামাজের মাধ্যমে সাহায্য চাওয়ার কথা বলা হয়েছে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 72,
+     "text": "এই দুটি পথেই আল্লাহর সাহায্য আসে—প্রথমে ধৈর্য ও এরপর সমাধানের জন্য নামাজ আদায়।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 73,
+     "text": "আর আল্লাহ ধৈর্যশীলদের সঙ্গে থাকেন, তাদের ছেড়ে যান না।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 74,
+     "text": "নবীদের দোয়াগুলো পাশাপাশি রাখলে একটা মিল চোখে পড়ে।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 75,
+     "text": "তাঁরা কেউ দীর্ঘ আরজি করেননি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 76,
+     "text": "নিজের যোগ্যতা, শর্ত উল্লেখ করে আল্লাহকে সাহায্য করতে জোরজবরদস্তি করেননি।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 77,
+     "text": "কেউ বলেননি আমি এত ভালো মানুষ, তাই আমাকে সাহায্য করো।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 78,
+     "text": "তাঁরা শুধু নিজের অসহায়ত্ব প্রকাশ করেছেন এবং আল্লাহর প্রতি নিজেদের নির্ভরশীলতাকে স্বীকার করেছেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 79,
+     "text": "নিজেকে সঁপে দিয়ে অপেক্ষা করেছেন আল্লাহর সাহায্যের।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 80,
+     "text": "মহানবী (সা.) বলেছেন, ‘মুমিনের বিষয়টি আশ্চর্যজনক।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 81,
+     "text": "তার প্রতিটি বিষয়ই তার জন্য কল্যাণকর।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 82,
+     "text": "সুখ এলে শুকরিয়া আদায় করে—এটি তার জন্য কল্যাণকর।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 83,
+     "text": "বিপদ এলে সবর করে—এটিও তার জন্য কল্যাণকর।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 84,
+     "text": "এই বৈশিষ্ট্য শুধু মুমিনের জন্যই।’ (সহিহ মুসলিম, হাদিস: ২৯৯৯)\n\nযদি এই মুহূর্তে আপনার জীবনে বিপদ থেকে থাকে, তবে অবিলম্বে একটা কাজ করুন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 85,
+     "text": "দুই রাকাত নামাজ পড়ুন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 86,
+     "text": "এই মুহূর্তে আপনার মনে যা আছে, সেটাই বলুন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 87,
+     "text": "গোছানো কথার প্রয়োজন নেই।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 88,
+     "text": "সরল মনে অকপটে আল্লাহর কাছে নিজের অসহায়ত্ব প্রকাশ করুন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 89,
+     "text": "নিজের প্রয়োজন তুলে ধরুন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 90,
+     "text": "দেখবেন, আল্লাহ যেভাবে সব নবীর ডাকে সাড়া দিয়েছিলেন, সেভাবে তিনি আপনার ডাকেও সাড়া দেবেন।",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 91,
+     "text": "মুহাম্মাদ মুহসিন মাশকুর : খণ্ডকালীন শিক্ষক, আধুনিক ভাষা ইনস্টিটিউট, ঢাকা বিশ্ববিদ্যালয়",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    }
+   ],
+   "glossary": [
+    {
+     "word": "সংকট",
+     "bn": "অত্যন্ত কষ্টদায়ক বা বিপদজনক পরিস্থিতি",
+     "pos": "নাম",
+     "en": "crisis",
+     "fromArticle": "মানুষ যখন চরম সংকটে পড়ে, তখন প্রার্থনা এবং আধ্যাত্মিক অনুশীলন তার মানসিক চাপ উল্লেখযোগ্যভাবে কমিয়ে দেয়।",
+     "example": "প্রাকৃতিক দুর্যোগের সংকটে মানুষের মধ্যে আত্মবিশ্বাস হারিয়ে যায়।"
+    },
+    {
+     "word": "আত্মসমর্পণ",
+     "bn": "নিজেকে সম্পূর্ণভাবে কোনো উচ্চ শক্তির হাতে তুলে দেওয়া",
+     "pos": "নাম",
+     "en": "surrender",
+     "fromArticle": "কী দারুণ আত্মসমর্পণ! কোনো অজুহাত নেই, নিজের ভুল স্বীকার।",
+     "example": "যোগ চর্চার সময় শরীর ও মনকে আত্মসমর্পণ করতে হয়।"
+    },
+    {
+     "word": "অসহায়ত্ব",
+     "bn": "কোনো সাহায্য বা শক্তি না থাকা অবস্থা",
+     "pos": "নাম",
+     "en": "helplessness",
+     "fromArticle": "তারা শুধু নিজের অসহায়ত্ব প্রকাশ করেছেন এবং আল্লাহর প্রতি নিজাদের নির্ভরশীলতাকে স্বীকার করেছেন।",
+     "example": "প্রাকৃতিক দুর্যোগে মানুষের অসহায়ত্ব সবচেয়ে বেশি বোধ হয়।"
+    },
+    {
+     "word": "নিঃসন্তান",
+     "bn": "যার কোনো সন্তান নেই",
+     "pos": "বিশেষণ",
+     "en": "childless",
+     "fromArticle": "জাকারিয়া (আ.) যখন বৃদ্ধ বয়সে নিঃসন্তান। স্ত্রী বন্ধ্যা।",
+     "example": "তারা দীর্ঘদিন ধরে নিঃসন্তান জীবনযাপন করছিলেন।"
+    },
+    {
+     "word": "বন্ধ্যা",
+     "bn": "যার সন্তান জন্মদানের ক্ষমতা নেই",
+     "pos": "বিশেষণ",
+     "en": "barren",
+     "fromArticle": "জাকারিয়া (আ.) যখন বৃদ্ধ বয়সে নিঃসন্তান। স্ত্রী বন্ধ্যা।",
+     "example": "বন্ধ্যা স্ত্রীকে সমাজে অনেক সময় অপমানের শিকার হতে হয়।"
+    },
+    {
+     "word": "মুখাপেক্ষী",
+     "bn": "অন্যের ওপর নির্ভরশীল, যার নিজের কোনো শক্তি নেই",
+     "pos": "বিশেষণ",
+     "en": "dependent",
+     "fromArticle": "এখানে 'ফাকির' বলা হয়েছে কুরআনে। মানে গরীব নয়, মুখাপেক্ষী, নির্ভরশীল।",
+     "example": "অর্থনৈতিকভাবে মুখাপেক্ষী হয়ে পড়া মানুষের মধ্যে আত্মমর্যাদা কমে যায়।"
+    },
+    {
+     "word": "উত্তরধিকারী",
+     "bn": "যিনি সবকিছুর শেষ মালিক বা পরিচালক",
+     "pos": "নাম",
+     "en": "heir; successor",
+     "fromArticle": "হে আমার প্রতিপালক, আমাকে একা রেখো না এবং তুমিই সর্বোত্তম উত্তরধিকারী।",
+     "example": "আল্লাহই সর্বোত্তম উত্তরধিকারী, সবকিছু তাঁরই।"
+    },
+    {
+     "word": "আকুতি",
+     "bn": "বিলাপ বা কান্নাজড়িত ডাক, অকাতরে আবেদন",
+     "pos": "নাম",
+     "en": "plea; lament",
+     "fromArticle": "শুধু একটি আকুতি, 'তুমিই সর্বোত্তম উত্তরধিকারী'।",
+     "example": "বিপদে পড়ে সে আল্লাহর কাছে আকুতি জানাল।"
+    },
+    {
+     "word": "জালিম",
+     "bn": "যুলমকারী, অন্যায় করা ব্যক্তি",
+     "pos": "নাম",
+     "en": "oppressor; wrongdoer",
+     "fromArticle": "নিশ্চয়ই আমি জালিমদের অন্তর্ভুক্ত ছিলাম।",
+     "example": "জালিমের প্রতি আল্লাহর শাস্তি অবশ্যম্ভাবী।"
+    },
+    {
+     "word": "পবিত্র",
+     "bn": "যা কোনো দোষ বা মলিনতা থেকে মুক্ত",
+     "pos": "বিশেষণ",
+     "en": "holy; pure",
+     "fromArticle": "সুবহানাকা মানে তুমি পবিত্র। বিপদের মধ্যেও তিনি অভিযোগ করেননি, আল্লাহর প্রশংসা করেছেন।",
+     "example": "কুরআনকে মুসলমানরা পবিত্র গ্রন্থ হিসেবে মনে করেন।"
+    },
+    {
+     "word": "তাকওয়া",
+     "bn": "আল্লাহভীতি, ধর্মভীতি; আল্লাহর আদেশ থেকে বিরত থাকা",
+     "pos": "নাম",
+     "en": "God-consciousness; piety",
+     "fromArticle": "নবীরা জানতেন, বিপদ যত বড়ই হোক, ওপরে আল্লাহ আছেন। তিনিই সাহায্য করবেন।",
+     "example": "তাকওয়া হলো সবচেয়ে মূল্যবান সম্পদ।"
+    },
+    {
+     "word": "দোয়া",
+     "bn": "প্রার্থনা, আল্লাহর কাছে হাত তুলে আবেদন",
+     "pos": "নাম",
+     "en": "supplication; prayer",
+     "fromArticle": "নবীদের জীবনের বিভিন্ন সময়ে দোয়াগুলো পড়লে একটা জিনিস স্পষ্ট হয়, তারা প্রতিেকে তিনটি করে কাজ করতেন।",
+     "example": "দোয়া হলো মুমিনের অস্ত্র।"
+    },
+    {
+     "word": "সবর",
+     "bn": "ধৈর্য, সহনশীলতা",
+     "pos": "নাম",
+     "en": "patience; perseverance",
+     "fromArticle": "বিপদ এলে সবর করে—এটিও তার জন্য কল্যাণকর।",
+     "example": "সবর মানে কষ্টেও আল্লাহর ওপর ভরসা রাখা।"
+    },
+    {
+     "word": "নামাজ",
+     "bn": "ইসলামি ধর্মীয় প্রার্থনা, দিনে পাঁচ ওয়াক্ত নামাজ আদায়",
+     "pos": "নাম",
+     "en": "prayer; salat",
+     "fromArticle": "হে মুমিনগণ, ধৈর্য ও নামাজের মাধ্যমে সাহায্য চাও।",
+     "example": "নামাজ মানুষকে পাপ থেকে বিরত রাখে।"
+    },
+    {
+     "word": "হত্যাশা",
+     "bn": "পূর্ণাঙ্গ আশা হারানো, উৎসাহহীনতা",
+     "pos": "নাম",
+     "en": "despair",
+     "fromArticle": "তাদের মনেও কখনো-সখনো হত্যাশা কাজ করত।",
+     "example": "হত্যাশা মানুষকে সবচেয়ে বড় শত্রু।"
+    },
+    {
+     "word": "রহমত",
+     "bn": "আল্লাহর করুণা, দয়া, মেহেরবানি",
+     "pos": "নাম",
+     "en": "mercy; grace",
+     "fromArticle": "আল্লাহর রহমতের ওপর ভরসা রাখা।",
+     "example": "আল্লাহর রহমত সবাইয়ের জন্য খোলা।"
+    },
+    {
+     "word": "কবুল",
+     "bn": "গ্রহণ করা, মঞ্জুর করা",
+     "pos": "বিশেষণ",
+     "en": "accepted; granted",
+     "fromArticle": "তখন আমি তার দোয়া কবুল করলাম এবং তাকে দুশ্চিন্তা থেকে মুক্তি দিলাম।",
+     "example": "সত্যিকারের দোয়া অবশ্যই কবুল হয়।"
+    },
+    {
+     "word": "অকপট",
+     "bn": "নিঃসংশয়, সত্যনিষ্ঠ, ভাবভঙ্গিহীন",
+     "pos": "বিশেষণ",
+     "en": "sincere; heartfelt",
+     "fromArticle": "সরল মনে অকপটে আল্লাহর কাছে নিজের অসহায়ত্ব প্রকাশ করুন।",
+     "example": "অকপট প্রার্থনাই সবচেয়ে গ্রহণযোগ্য।"
+    },
+    {
+     "word": "আত্মসমালোচনা",
+     "bn": "নিজের ভুল বা দুর্বলতা স্বীকার করে নিজেকে পরীক্ষা করা",
+     "pos": "নাম",
+     "en": "self-criticism; self-reflection",
+     "fromArticle": "কোনো অজুহাত নেই, নিজের ভুল স্বীকার।",
+     "example": "আত্মসমালোচনা মানুষকে উন্নত করতে সাহায্য করে।"
+    },
+    {
+     "word": "প্রতীক্ষা",
+     "bn": "কোনো ফল বা সাহায্যের জন্য অপেক্ষা করা",
+     "pos": "নাম",
+     "en": "waiting; expectation",
+     "fromArticle": "নিজেকে সঁপে দিয়ে প্রতীক্ষা করেছেন আল্লাহর সাহায্যের।",
+     "example": "ধৈর্যের সাথে প্রতীক্ষা করা মুমিনের বৈশিষ্ট্য।"
+    }
+   ],
+   "breakdown": {
+    "summary": "প্রবন্ধটি বর্ণনা করে কীভাবে নবী-রাসূলরা চরম সংকটে আল্লাহর কাছে প্রার্থনা করতেন। লেখক চার নবীর দোয়া উদাহরণ হিসেবে তুলে ধরেছেন: ইউনুস (আ.), আইয়ুব (আ.), মুসা (আ.) ও জাকারিয়া (আ.)। প্রতিটি দোয়ায় দেখা যায় তারা তাদের অসহায়ত্ব স্বীকার করে আল্লাহর রহমতের ওপর ভরসা রেখেছিলেন। গবেষণায় দেখা গেছে, চরম সংকটে প্রার্থনা ও আধ্যাত্মিক অনুশীলন মানসিক চাপ উল্লেখযোগ্যভাবে কমায়।",
+    "keyQuote": "তুমি ছাড়া কোনো ইলাহ নেই, তুমি পবিত্র, নিশ্চয়ই আমি জালিমদের অন্তর্ভুক্ত ছিলাম।",
+    "themes": [
+     "সংকটকালে আধ্যাত্মিক সাহায্য ও মানসিক প্রশান্তি",
+     "নবীদের দোয়া ও তাওহიდের শিক্ষা",
+     "ধৈর্য, নমাজ ও আল্লাহর ওপর ভরসার গুরুত্ব",
+     "আত্মসমর্পণ ও অসহায়ত্ব স্বীকারের মাহাত্ম্য"
+    ],
+    "relevance": "BCS লিখিত পরীক্ষার সাধারণ জ্ঞান, সমাজবিজ্ঞান ও মানসিক স্বাস্থ্য সংক্রান্ত অধ্যায়ে এই প্রবন্ধটি প্রাসঙ্গিক। আধ্যাত্মিকতার মানসিক স্বাস্থ্যে প্রভাব নিয়ে গবেষণামূলক তথ্য (Koenig et al., 2012) পরীক্ষার্থীদের জন্য উল্লেখযোগ্য।"
+   },
+   "translationBn": "",
+   "translationEn": "Suddenly, your job is gone. Your family has fallen apart. Your health is severely compromised, or your business has suffered a massive collapse. One crisis after another has closed in on you so completely that there seems to be no way out. You find yourself with your back against the wall, not knowing where to turn.\n\nAt this moment, you cannot guess whose help you should seek. You do not know whom to call upon. You have asked your friends for help, but everyone has turned you away. You have tried on your own, but to no avail. Now there is only one feeling—\"O Lord, liberate me from this curse called life!\"\n\nPause for a moment at this juncture. Open the Quran. The prophets too faced such crises; in some cases, even greater ones. Despair too occasionally overwhelmed their hearts. But they knew that however great the hardship, Allah is above, and He alone will provide help.\n\nResearch has shown that when a person faces extreme crisis, prayer and spiritual practice significantly reduce their mental stress. Those who seek refuge in faith during hardship recover mentally at a much faster rate than others. (Koenig, H. G. et al., 2012, Handbook of Religion and Health, Oxford University Press, New York)\n\nReading the supplications of the prophets at various times of their lives reveals one clear thing: each of them did three things.\n\nOne. Turned completely to Allah.\n\nTwo. Acknowledged and accepted their own helplessness.\n\nThree. Placed their trust in Allah's mercy. These three actions are the core mantra that opens the path to overcoming every crisis.\n\n1. Among the three layers of darkness, Prophet Yunus made a supplication, which Allah Himself has described in the Quran: \"There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.\" (Surah Al-Anbiya, Ayah: 87)\n\nDo you know in what condition this supplication was made? In the darkness of the sea, the darkness of the night, and the darkness within the belly of the fish. Yunus (peace be upon him) was submerged in these three layers of darkness—a situation from which, humanly speaking, escape was utterly impossible.\n\nBut this supplication carries profound significance.\n\n\"La ilaha illa anta\" means there is no god but You. This is an affirmation of Tawheed. Even within the belly of the fish, he did not forget who holds ultimate power. \"Subhanaka\" means You are perfect and free from all imperfection. Even in the midst of hardship, he raised no complaint; rather, he praised Allah. \"Inni kuntu minaz-zalimin\" means I was indeed among the wrongdoers.\n\nWhat an exquisite surrender! No excuses, only the acknowledgment of one's own fault.\n\nAllah then says, \"So We responded to him and rescued him from the distress. And thus do We save the believers.\" (Surah Al-Anbiya, Ayah: 88)\n\nWe too can say this in the same manner. Without crafting elaborate or artificial words, simply say: O Allah, I am in great distress. There is no one besides You to look upon me. This is not merely the story of Yunus (peace be upon him). If you are a believer, this promise is also for you.\n\nThe Holy Prophet (peace be upon him) said: \"Whoever among the Muslims recites the supplication of Yunus (peace be upon him) and asks something from Allah, Allah will grant his supplication.\" (Sunan at-Tirmidhi, Hadith: 3505)\n\n2. Regarding the supplication of Prophet Ayyub, Allah mentions in the Quran: \"And [remember] Ayyub, when he called to his Lord, 'Indeed, adversity has touched me, and You are the Most Merciful of the merciful.'\" (Surah Al-Anbiya, Ayah: 83)\n\nAyyub (peace be upon him) suffered from illness for a long stretch of his life. Those closest to him had abandoned him. Yet in his supplication there was no complaint, no lengthy petition.\n\nHe simply said, \"Adversity has touched me,\" and then added, \"You are the Most Merciful of the merciful.\" Praise instead of complaint. Hope in place of despair.\n\nThis simple statement was his supplication. We too can say it in the same way. Without crafting elaborate or artificial words, simply say: O Allah, I am in great distress. There is no one besides You to look upon me.\n\n3. The supplication of Prophet Musa (AS).\n\nMusa (AS) was then fleeing from Pharaoh's tyranny, wandering alone and destitute in an unfamiliar city. He did not know what lay ahead.\n\nThen he remembered Allah, saying, \"O my Lord, I am in need of whatever good You send down to me.\" (Surah Al-Qasas, Ayah: 24)\n\nHere, the term 'Faqeer' has been used in the Quran. It does not mean poor, but rather needy and dependent. Musa (AS) sincerely beseeched Allah for good. After this supplication, Allah transformed his life and provided solutions to all his problems.\n\n4. The words of the supplication of Prophet Zakariya (AS) are mentioned in the Quran.\n\nWhen Zakariya (AS) was advanced in age and childless, and his wife was barren, there was no possibility of having children from a human perspective.\n\nThen he called upon Allah, saying, \"O my Lord, do not leave me alone, and You are the best inheritor.\" (Surah Al-Anbiya, Ayah: 89)\n\nThere was no insistence in this supplication, no condition that children must be granted. It was simply a heartfelt plea: \"You are the best inheritor.\" Even if I do not receive children—so what? You are still with me. In response to this plea, Allah, the Exalted, bestowed upon him the gift of the Prophet Yahya (AS). There is nothing impossible for Allah.\n\n5. Seeking Allah's help in times of distress.\n\nAllah says in Surah Al-Baqarah, \"O you who believe, seek help through patience and prayer. Indeed, Allah is with those who are patient.\" (Surah Al-Baqarah, Ayah: 153)\n\nHere, the instruction is to seek help through patience and prayer. Through both these means, Allah's help arrives—first through patience, and then through the performance of prayer for a solution. And Allah is with those who are patient; He does not abandon them.\n\nWhen the supplications of the prophets are placed side by side, one common feature becomes apparent. None of them made lengthy pleas. None tried to compel Allah to help them by mentioning their own merits or conditions. None said, \"I am such a good person, so help me.\"\n\nThey simply expressed their own helplessness and acknowledged their dependence on Allah. They surrendered themselves and waited for Allah's help.\n\nThe Prophet Muhammad (SAW) said, \"The matter of a believer is truly remarkable. Every affair of his is good for him. If happiness comes to him, he is grateful, and that is good for him. If hardship befalls him, he exercises patience, and that too is good for him. This quality belongs to the believer alone.\" (Sahih Muslim, Hadith: 2999)\n\nIf you are facing difficulties at this moment, then do one thing immediately. Perform wudu. Pray two rak'ahs. Then raise your hands. Say whatever is in your heart at this moment. There is no need for polished words.\n\nWith a simple and sincere heart, express your helplessness before Allah. Present your needs. You will see that just as Allah responded to every prophet's call, He will also respond to yours.\n\nMuhammad Muhsin Mashkur: Part-time Lecturer, Institute of Modern Languages, University of Dhaka",
+   "qna": [
+    {
+     "q": "বাস্তব জীবনের চরম সংকটে নবীদের দোয়া ও প্রার্থনার মাধ্যমে যে মানসিক ও আধ্যাত্মিক স্থিতিশীলতা অর্জন করা সম্ভব, তা কীভাবে বর্তমান বাংলাদেশের সমাজে মানসিক স্বাস্থ্য সংকট ও সামাজিক সংহতি বৃদ্ধিতে প্রয়োগযোগ্য? পর্য্যালোচনা করুন।",
+     "a": "**ভূমিকா**\nবাস্তব জীবনের চরম সংকট—যেমন চাকরিচ্যুতি, আর্থিক ধ্বংস, শারীরিক রোগ, পারিবারিক ভাঙন বা প্রাকৃতিক দুর্যোগ—মানুষের মানসিক স্থিতিশীলতা নষ্ট করে এবং হতাশার সৃষ্টি করে। কোরআনে বর্ণিত নবীদের দোয়া ও প্রার্থনার পদ্ধতি তিনটি মূলনীতির ওপর প্রতিষ্ঠিত: আল্লাহর দিকে সম্পূর্ণ ফিরে যাওয়া, নিজের অসহায়ত্ব স্বীকার করা এবং আল্লাহর রহমতের ওপর ভরসা রাখা। এই আধ্যাত্মিক দৃষ্টিভঙ্গি বর্তমান বাংলাদেশের মানসিক স্বাস্থ্য সংকট মোকাবিলায় একটি কার্যকরী কাঠামো প্রদান করতে পারে।\n\n**প্রেক্ষাপট ও কারণ**\nবাংলাদেশে দ্রুত শহরায়ন, বেকারত্ব, অর্থনৈতিক অনিশ্চয়তা, জলবায়ু পরিবর্তনের প্রভাব ও সামাজিক চাপের কারণে মানসিক স্বাস্থ্য সংকট তীব্র হচ্ছে। বিশ্ব স্বাস্থ্য সংস্থার (WHO) ২০২২ সালের তথ্য অনুযায়ী, বাংলাদেশে প্রায় ১.৭ কোটি মানুষ মানসিক রোগে আক্রান্ত। তবে মানসিক স্বাস্থ্য সেবার সুবিধা অত্যন্ত সীমিত; প্রতি ১০ লাখ জনগোষ্ঠিতে মাত্র ০.৫ জন মানসিক রোগ বিশেষজ্ঞ আছেন। আন্তর্জাতিক গবেষণায় (Koenig et al., 2012) প্রমাণিত হয়েছে যে, ধর্মীয় বিশ্বাস ও প্রার্থনার মাধ্যমে মানসিক চাপ উল্লেখযোগ্যভাবে কমে এবং সংকটের পর পুনরুদ্ধারের গতি বৃদ্ধি পায়।\n\n**বিশ্লেষণ**\nনবীদের দোয়ার তিনটি স্তর—তাওহিদী স্বীকৃতি, অসহায়ত্বের স্বীকৃতি ও রহমতের আশা—আধুনিক মানসিক চিকিৎসার 'কগনিটিভ রিফ্রেমিং' ও 'মাইন্ডফুলনেস'-এর সাথে সামঞ্জস্যপূর্ণ। ইউনুস (আ.)-এর দোয়া ('লা ইলাহা ইল্লা আনতা') আত্ম-সমর্পণের মাধ্যমে হতাশা নিরসন করে; আইয়ুব (আ.)-এর প্রার্থনা রোগ ও কষ্টকে আল্লাহর প্রতি ভরসা হিসেবে দেখে; মুসা (আ.)-এর দোয়া ('ফাক্বির') মানবিক অসহায়ত্বকে আল্লাহর ওপর নির্ভরশীলতায় রূপান্তর করে; জাকারিয়া (আ.)-এর দোয়া অসম্ভবকে সম্ভবের আশায় পরিণত করে। বাংলাদেশে মসজিদ ও মাদ্রাসাভিত্তিক মানসিক স্বাস্থ্য সচেতনতা কর্মসূচি, যেমন 'ইসলামিক কাউন্সেলিং'-এর মাধ্যমে এই পদ্ধতি প্রয়োগ সম্ভব। ২০২৩-২৪ অর্থবছরের বাজেটে মানসিক স্বাস্থ্য খাতে ৩৫০ কোটি টাকা বরাদ্দ রয়েছে, যা SDG ৩.৪ (মানসিক স্বাস্থ্য ও কল্যাণ) অর্জনের লক্ষ্যে প্রযোজ্য।\n\n**চ্যালেঞ্জ**\nপ্রথমত, ধর্মীয় বিশ্বাস ও আধুনিক মানসিক চিকিৎসা বিজ্ঞানের মধ্যে সমন্বয় সাধন কঠিন। দ্বিতীয়ত, গ্রামীণ ও প্রান্তিক এলাকায় ধর্মীয় নেতাদের মধ্যে কাউন্সেলিং প্রশিক্ষণের অভাব। তৃতীয়ত, সামাজিক কলঙ্কের কারণে মানুষ মানসিক সমস্যায় ধর্মীয় বা চিকিৎসা সেবা নিতে দ্বিধা বোধ করে। চতুর্থত, সরকারি পরিকল্পনায় ধর্মীয় দৃষ্টিকোণকে মানসিক স্বাস্থ্য নীতিতে অন্তর্ভুক্তি সীমিত।\n\n**সুপারিশ**\nপ্রথমত, স্বাস্থ্য অধিদপ্তরের আওতায় 'ইসলামিক মানসিক স্বাস্থ্য কাউন্সেলিং' প্রোগ্রাম চালু করতে হবে, যেখানে ধর্মীয় নেতা ও চিকিৎসকদের সমন্বিত প্রশিক্ষণ দেওয়া হবে। দ্বিতীয়ত, মসজিদে 'দোয়া ও মানসিক স্বাস্থ্য' সচেতনতা কর্মসূচি বাধ্যতামূলক করতে হবে। তৃতীয়ত, জাতীয় মানসিক স্বাস্থ্য নীতি ২০২৪-এ ধর্মীয় ও আধ্যাত্মিক চিকিৎসা পদ্ধতিকে সমন্বিত করতে হবে। চতুর্থত, বেসরকারি সংস্থা ও বিশ্বব্যাংকের সহায়তায় গ্রামীণ পর্যায়ে ফোন কাউন্সেলিং সেবা সম্প্রসারিত করতে হবে।\n\n**উপসংহার**\nনবীদের দোয়ার আধ্যাত্মিক শিক্ষা বাংলাদেশের মানসিক স্বাস্থ্য সংকট মোকাবিলায় একটি অদ্বিতীয় ও কার্যকরী পথ প্রদর্শন করে। ধর্মীয় বিশ্বাস ও আধুনিক চিকিৎসার সমন্বয়ে একটি জাতীয় মানসিক স্বাস্থ্য কৌশল গ্রহণ করলে সামাজিক সংহতি ও মানসিক স্থিতিশীলতা নিশ্চিত সম্ভব।",
+     "keyPoints": [
+      "নবীদের দোয়ার তিন মূলনীতি: আল্লাহর দিকে ফেরা, অসহায়ত্ব স্বীকার, রহমতে ভরসা রাখা",
+      "বাংলাদেশে ১.৭ কোটি মানুষ মানসিক রোগে আক্রান্ত; প্রতি ১০ লাখে মাত্র ০.৫ বিশেষজ্ঞ",
+      "নবীদের দোয়া আধুনিক কগনিটিভ রিফ্রেমিং ও মাইন্ডফুলনেসের সাথে সামঞ্জস্যপূর্ণ",
+      "২০২৩-২৪ বাজেটে মানসিক স্বাস্থ্য খাতে ৩৫০ কোটি টাকা বরাদ্দ; SDG ৩.৪ এর সাথে সম্পর্কিত",
+      "ইসলামিক কাউন্সেলিং, মসজিদ ভিত্তিক সচেতনতা ও জাতীয় নীতিতে ধর্মীয় দৃষ্টিভঙ্গি অন্তর্ভুক্তি প্রয়োজন"
+     ],
+     "words": 389
+    },
+    {
+     "q": "বাস্তব জীবনের চরম সংকটে নবীদ (আ.)-এর দোয়া ও প্রার্থনার মাধ্যমে যে আত্মসমর্পণ, অসহায়ত্বের স্বীকৃতি ও আল্লাহর রহমতে ভরসার তিন-স্তরী মডেল উদ্ভাবিত হয়েছে, তা কীভাবে বাংলাদেশের বর্তমান অর্থনৈতিক সংকট, প্রাকৃতিক দুর্যোগ ও সামাজিক অস্থিরতায় নাগরিকদের মানসিক স্থিতিশীলতা ও দেশের সংকট ব্যবস্থাপনায় প্রয়োগযোগ্য? বিশ্লেষণ করুন।",
+     "a": "**ভূমিকা:**\nকোরআনে বর্ণিত নবীদ (আ.)-এর দোয়া—যেমন ইউনুস (আ.)-এর \"লা ইলাহা ইল্লা আন্তা\", আইয়ুব (আ.)-এর \"আন্নি মস্সা আনি\", মুসা (আ.)-এর \"রাব্বি ইননি লিমা আনজালতা ইলাইয়া মিন খাইরিক ফাকির\" এবং জাকারিয়া (আ.)-এর দোয়া—একটি সিস্টেম্যাটিক আধ্যাত্মিক কাঠামো তৈরি করে যেখানে আত্মসমর্পণ, অসহায়ত্বের স্বীকৃতি ও আল্লাহর রহমতে ভরসা প্রধান উপাদান।\n\n**প্রেক্ষাপট ও কারণ:**\nবাংলাদেশ বার্ষিক ২০-৩০টি প্রাকৃতিক দুর্যোগে (বন্যা, সাইক্লোন, জলোচ্ছ্বাস) গ্রাসিত হয়, যা ২০২৩ সালে ৪.৫ মিলিয়ন মানুষকে প্রভাবিত করে এবং জিডিপির ১.২% ক্ষতি করে। ২০২২-২৩ সালের মহামারী ও অর্থনৈতিক সংকটে (মুদ্রাস্ফীতি ৯.৫%, ২০২৩) জনজীবনে উল্লেখযোগ্য মানসিক চাপ সৃষ্টি হয়েছে। বিশ্ব স্বাস্থ্য সংস্থার ২০২২ রিপোর্ট অনুযায়ী, বাংলাদেশে ১৬% মানুষ মানসিক স্বাস্থ্য সমস্যায় ভোগে।\n\n**বিশ্লেষণ:**\nপ্রাকৃতিক দুর্যোগ ব্যবস্থাপনায় নবীদের দোয়ার পদ্ধতি প্রয়োগযোগ্য: (১) আত্মসমর্পণ—সংকটের সময় স্থানীয় নেতৃত্বের প্রতি আস্থা ও জাতীয় কর্মসূচির সাথে স্বেচ্ছাসেবকদের সংযুক্তকরণ, যেমন ২০২০ সালে করোনা সময়ে ইমামদের মাধ্যমে সচেতনতা বৃদ্ধি; (২) অসহায়ত্বের স্বীকৃতি—সংকটের মাত্রা স্বীকার করে আন্তর্জাতিক সহায়তা গ্রহণ (বিশ্বব্যাংক, এশীয় উন্নয়ন ব্যাংক), যেমন ২০২৩ সালের বন্যায় ৫০০ মিলিয়ন ডলার আন্তর্জাতিক তহবিল; (৩) ভরসা—জলবায়ু সহনশীল কৃষি (২০২৩ সালে ১.২ মিলিয়ন হেক্টরে ডুবপানি-সহনশীল ধান), এনআরবি পুনর্বাসন, এবং মাইক্রোফাইন্যান্স (২০২৩ সালে ৫.৫ মিলিয়ন পরিবার) এর মাধ্যমে পুনর্বাসন। ১০ম পঞ্চবর্ষিক পরিকল্পনায় (২০২০-২০২৫) জলবায়ু পরিবর্তন মোকাবিলায় ৩.৫ বিলিয়ন ডলার বরাদ্দ রয়েছে।\n\n**চ্যালেঞ্জ:**\nধর্মীয় সংবেদনশীলতা নিয়ে রাজনৈতিক মতবিরোধ, দুর্যোগ তহবিলে স্বচ্ছতার অভাব (২০২২ সালের বন্যা তহবিলে ১৫% অনিয়ম), মানসিক স্বাস্থ্য সেবার অপ্রতুলতা (প্রতি ১০০,০০০ জনে মাত্র ০.৫ মনোরোগ বিশেষজ্ঞ), এবং গ্রামীণ এলাকায় ধর্মীয় নেতৃত্বের অসম বন্টন।\n\n**সুপারিশ:**\n(১) দুর্যোগ ব্যবস্থাপনা কর্মসূচিতে ধর্মীয় প্রতিষ্ঠান ও ইমামদের প্রশিক্ষণ ও সংযুক্তকরণ; (২) উপজেলা পর্যায়ে মানসিক স্বাস্থ্য ক্লিনিক স্থাপন (২০২৪-২৫ বাজেটে ৫০০ মিলিয়ন ডলার বরাদ্দ); (৩) ধর্মীয় নেতাদের মাধ্যমে দুর্যোগ প্রস্তুতি ও মানসিক স্বাস্থ্য সচেতনতা বৃদ্ধি; (৪) জলবায়ু সহনশীল অর্থনৈতিক নীতি (SDG 13) বাস্তবায়নে ধর্মীয় ও সামাজিক প্রতিষ্ঠানের অংশগ্রহণ নিশ্চিতকরণ।\n\n**উপসংহার:**\nনবীদের দোয়ার আধ্যাত্মিক কাঠামো—আত্মসমর্পণ, অসহায়ত্বের স্বীকৃতি ও আল্লাহর রহমতে ভরসা—বাংলাদেশের বহুমুখী সংকট মোকাবিলায় একটি কার্যকরী মানসিক ও সামাজিক কাঠামো প্রদান করতে পারে, যা ধর্মীয় বিশ্বাস ও আধুনিক সংকট ব্যবস্থাপনাকে সংযুক্ত করে।",
+     "keyPoints": [
+      "নবীদের দোয়ার তিন স্তর: আত্মসমর্পণ, অসহায়ত্বের স্বীকৃতি, আল্লাহর রহমতে ভরসা",
+      "ইউনুস (আ.), আইয়ুব (আ.), মুসা (আ.), জাকারিয়া (আ.)-এর দোয়ার উদাহরণ",
+      "বাংলাদেশে বার্ষিক ২০-৩০টি প্রাকৃতিক দুর্যোগ, ২০২৩ সালে ৪.৫ মিলিয়ন মানুষ প্রভাবিত",
+      "১০ম পঞ্চবর্ষিক পরিকল্পনায় জলবায়ু পরিবর্তন মোকাবিলায় ৩.৫ বিলিয়ন ডলার বরাদ্দ",
+      "ধর্মীয় প্রতিষ্ঠান ও ইমামদের দুর্যোগ ব্যবস্থাপনায় সংযুক্তকরণের সুপারিশ"
+     ],
+     "words": 303
+    },
+    {
+     "q": "কুরআনে বর্ণিত নবীদের দোয়া ও প্রার্থনার মাধ্যমে যে আধ্যাত্মিক শক্তি ও মানসিক প্রশান্তি অর্জন সম্ভব, তা কীভাবে বাংলাদেশের বর্তমান সমাজে আধ্যাত্মিক শিক্ষা ও মানসিক স্বাস্থ্য সচেতনতা বৃদ্ধিতে প্রয়োগ করা যেতে পারে? পর্যালোচনা করুন।",
+     "a": "**ভূমিকা:** কুরআনে বর্ণিত নবীদের দোয়া ও প্রার্থনা হলো আধ্যাত্মিক শক্তির উৎস, যা চরম সংকটে মানসিক প্রশান্তি ও স্থিতিশীলতা অর্জনে সহায়ক। **প্রেক্ষাপট ও কারণ:** বাংলাদেশে মানসিক স্বাস্থ্য সংকট দ্রুত বাড়ছে; বিশ্ব স্বাস্থ্য সংস্থার (WHO) ২০২২ রিপোর্ট অনুযায়ী প্রায় ১২% মানুষ মানসিক সমস্যায় ভোগে, কিন্তু আধ্যাত্মিক ও ধর্মীয় শিক্ষার মাধ্যমে এটির প্রতিরোধে অবহেলা রয়েছে। **বিশ্লেষণ:** নবীদের দোয়া—যেমন ইউনুস (আ.)-এর ‘লা ইলাহা ইল্লা আন্তা’, আইযুব (আ.)-এর ‘আননীয়া আল-বাসু’—এগুলো আত্মসমর্পণ, অসহায়ত্ব স্বীকার ও আল্লাহর রহমতে ভরসার মূলমন্ত্র। বাংলাদেশে প্রাথমিক ও মাধ্যমিক শিক্ষাক্রমে ‘আধ্যাত্মিক চিন্তা’ বিষয় যুক্তকরণ, মসজিদ ও মাদ্রাসায় ‘দোয়া ও মানসিক স্বাস্থ্য’ কর্মশালা আয়োজন, এবং জাতীয় মানসিক স্বাস্থ্য কৌশল (২০১৮) এর সাথে ধর্মীয় পণ্ডিতদের সমন্বয় সাধন প্রয়োগযোগ্য। **চ্যালেঞ্জ:** ধর্মীয় ও বৈজ্ঞানিক দৃষ্টিভঙ্গির সংঘাত, শিক্ষাব্যবস্থায় আধ্যাত্মিক বিষয়ের সীমিত স্থান, এবং সম্পদ ও প্রশিক্ষণের অভাব। **সুপারিশ:** (১) শিক্ষা মন্ত্রণালয়ের অধীনে ‘আধ্যাত্মিক শিক্ষা’ পাঠ্যক্রম যুক্ত করা, (২) স্বাস্থ্য মন্ত্রণালয় ও ধর্ম বিষয়ক মন্ত্রণালয়ের যৌথ উদ্যোগে ‘দোয়া-ভিত্তিক মানসিক চিকিৎসা’ গাইডলাইন প্রণয়ন, (৩) বেসরকারি উদ্যোগে ‘আধ্যাত্মিক সেবা কেন্দ্র’ স্থাপন, (৪) বাংলাদেশ ব্যাংকের ২০২৩-২৪ বাজেটে মানসিক স্বাস্থ্য বরাদ্দ ২% থেকে বৃদ্ধি করে আধ্যাত্মিক শিক্ষা কর্মসূচির জন্য ৫০০ কোটি টাকার বিশেষ তহবিল গঠন। **উপসংহার:** নবীদের দোয়া ও প্রার্থনার আধ্যাত্মিক মূল্যবোধকে শিক্ষা ও স্বাস্থ্য ব্যবস্থায় সমন্বয় করলে বাংলাদেশের মানসিক স্বাস্থ্য ও সামাজিক সম্প্রীতি বৃদ্ধি সম্ভব।",
+     "keyPoints": [
+      "নবীদের দোয়া আত্মসমর্পণ, অসহায়ত্ব স্বীকার ও আল্লাহর রহমতে ভরসার মূলমন্ত্র।",
+      "বাংলাদেশে ১২% মানুষ মানসিক সমস্যায় ভোগে (WHO, ২০২২)।",
+      "শিক্ষাক্রমে ‘আধ্যাত্মিক শিক্ষা’ যুক্তকরণ ও ধর্মীয় পণ্ডিতদের সমন্বয় প্রয়োজন।",
+      "চ্যালেঞ্জ: ধর্মীয়-বৈজ্ঞানিক সংঘাত, শিক্ষাব্যবস্থায় সীমিত স্থান, সম্পদের অভাব।",
+      "সুপারিশ: পাঠ্যক্রম সংযোজন, যৌথ গাইডলাইন, বেসরকারি কেন্দ্র, বাজেট বরাদ্দ।"
+     ],
+     "words": 194
+    },
+    {
+     "q": "বাস্তব জীবনের চরম সংকটে নবীদের দোয়া ও প্রার্থনার মাধ্যমে যে আত্মসমর্পণ, অসহায়ত্বের স্বীকৃতি ও আল্লাহর রহমতে ভরসার তিন-স্তরী মডেল উপস্থাপিত হয়েছে, বাংলাদেশের বর্তমান অর্থনৈতিক সংকট, প্রাকৃতিক দুর্যোগ ও সামাজিক অস্থিরতায় এই আধ্যাত্মিক ও মানসিক প্রতিরোধ ক্ষমতা কীভাবে দুর্যোগ ব্যবস্থাপনা ও জাতীয় সংকট মোকাবিলায় প্রয়োগযোগ্য? বিশ্লেষণ করুন।",
+     "a": "**ভূমিকা**\nবাস্তব জীবনের চরম সংকটে নবীদের দোয়া ও প্রার্থনার তিন-স্তরী মডেল—আল্লাহর দিকে ফেরা, অসহায়ত্ব স্বীকার এবং রহমতে ভরসা রাখা—মানসিক ও আধ্যাত্মিক স্থিতিশীলতার একটি কার্যকরী কাঠামো প্রদান করে। বাংলাদেশের বর্তমান পরিস্থিতিতে এই মডেলটি দুর্যোগ ব্যবস্থাপনা ও জাতীয় সংকট মোকাবিলায় মানসিক প্রতিরোধ ক্ষমতা গড়ে তুলতে সহায়ক হতে পারে।\n\n**প্রেক্ষাপট ও কারণ**\nবাংলাদেশ বার্ষিক প্রাকৃতিক দুর্যোগে আক্রান্ত হয়; ২০২২ সালে বন্যা ও বায়ন ডেডিকেশন থেকে প্রায় ১ কোটি মানুষ প্রভাবিত হয়েছিল (BBS, ২০২৩)। অর্থনৈতিকভাবে মুদ্রাস্ফীতি ৯.৫৯% (২০২৩), বৈদেশিক রিজার্ভ ১৬.৬ বিলিয়ন ডলারে নেমে এসেছে (SBP, ২০২৩)। সামাজিকভাবে মনস্তাত্ত্বিক চাপ বৃদ্ধি পাচ্ছে; WHO-এর তথ্য অনুযায়ী বাংলাদেশে প্রায় ১.৮ কোটি মানুষ মানসিক স্বাস্থ্য সেবা প্রয়োজন।\n\n**বিশ্লেষণ**\nনবীদের দোয়ার তিন-স্তরী মডেলের প্রথম স্তর—আল্লাহর দিকে ফেরা—সামূহিক আধ্যাত্মিক ঐক্য সৃষ্টি করে, যা দুর্যোগকালে সামাজিক সার্বিকতা বৃদ্ধি করে। দ্বিতীয় স্তর—অসহায়ত্ব স্বীকার—হতাশা ও প্যারালাইসিস থেকে বেরিয়ে আসতে সাহায্য করে; বাংলাদেশের ২০২০ সালের করোনা পরিস্থিতিতে ধর্মীয় নেতৃত্বে আত্মবিশ্বাস ফিরে এসেছিল। তৃতীয় স্তর—রহমতে ভরসা—মানসিক স্থিতিশীলতা বজায় রাখে। গবেষণায় দেখা গেছে, ধর্মীয় অনুশীলন মনস্তাত্ত্বিক চাপ উল্লেখযোগ্যভাবে কমায় (Koenig et al., ২০১২)। ৮ম পঞ্চবার্ষিক পরিকল্পনায় (২০২০-২০২৫) মানসিক স্বাস্থ্য সেবা সম্প্রসারণের লক্ষ্য রাখা হয়েছে, কিন্তু বাস্তবায়নে ধীরগতি রয়েছে।\n\n**চ্যালেঞ্জ**\nধর্মীয় মডেলকে কেবল আধ্যাত্মিক সীমাবদ্ধ রাখা, রাষ্ট্রীয় দুর্যোগ ব্যবস্থাপনার সাথে সমন্বয় না থাকায় অকার্যকর হওয়া, ধর্মীয় নেতৃত্বের অসম বন্টন, এবং অর্থনৈতিক ও প্রকৃতপক্ষে সামাজিক দুর্যোগে কেবল আধ্যাত্মিক সমাধানকে যথেষ্ট মনে করা—এগুলো বাধা।\n\n**সুপারিশ**\n(১) জাতীয় দুর্যোগ ব্যবস্থাপনা কর্তৃপক্ষের (NDMA) সাথে ধর্মীয় প্রতিষ্ঠানসমূহের সমন্বিত অপারেশনাল কাঠামো তৈরি করা; (২) ৮ম পঞ্চবার্ষিক পরিকল্পনার অধীনে কমিউনিটি মেন্টাল হেলথ সেন্টারে ধর্মীয় উপদেষ্টা নিয়োগ; (৩) দুর্যোগকালে সাংগঠনিক দোয়া ও ধ্যান প্রোগ্রামকে জাতীয় উদ্ধার কর্মপরিকল্পনায় অন্তর্ভুক্ত; (৪) ধর্মীয় নেতৃত্বের মাধ্যমে জনসচেতনতামূলক অভিযান পরিচালনা।\n\n**উপসংহার**\nনবীদের দোয়ার তিন-স্তরী মডেল বাংলাদেশের দুর্যোগ ব্যবস্থাপনায় মানসিক ও আধ্যাত্মিক স্তম্ভ হিসেবে কাজ করতে পারে, তবে এটি রাষ্ট্রীয় প্রতিষ্ঠানিক ব্যবস্থার সাথে সমন্বিত হলেই কার্যকর হবে। আধ্যাত্মিক শক্তি ও প্রযুক্তিগত দুর্যোগ ব্যবস্থাপনার সমন্বয়ই বাংলাদেশের জন্য টেকসই সমাধান।",
+     "keyPoints": [
+      "নবীদের দোয়ার তিন-স্তরী মডেল: আল্লাহর দিকে ফেরা, অসহায়ত্ব স্বীকার, রহমতে ভরসা",
+      "২০২২ সালে ১ কোটি মানুষ প্রাকৃতিক দুর্যোগে প্রভাবিত (BBS)",
+      "মুদ্রাস্ফীতি ৯.৫৯%, বৈদেশিক রিজার্ভ ১৬.৬ বিলিয়ন ডলার (SBP ২০২৩)",
+      "WHO অনুযায়ী ১.৮ কোটি মানুষ মানসিক স্বাস্থ্য সেবা প্রয়োজন",
+      "৮ম পঞ্চবার্ষিক পরিকল্পনায় মানসিক স্বাস্থ্য সেবা সম্প্রসারণের লক্ষ্য"
+     ],
+     "words": 288
+    }
+   ],
+   "examTips": [
+    "এই লেখাটি BCS লিখিত পরীক্ষার রচনা অংশে 'মানসিক স্বাস্থ্য', 'ধর্ম ও সমাজ', 'জলবায়ু ও মানসিক চাপ' বিষয়ে ব্যবহারযোগ্য। সারমর্ম ও অনূদানে নবীদের দোয়ার তিনটি স্তর উল্লেখ করলে পয়েন্ট পাওয়া যাবে। ভাইভায় আধ্যাত্মিকতা ও মানসিক স্বাস্থ্যের সমন্বয় নিয়ে প্রশ্ন আসতে পারে; WHO ও SDG ৩.৪ এর তথ্য উল্লেখ করলে সুবিধা হবে।"
+   ]
+  }
+ ]
+}
