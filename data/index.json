@@ -1,10 +1,64 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T01:13:11.150Z",
-  "latestDate": "2026-08-04",
-  "latestHash": "a6172f104a7541dceda986c4",
+  "updatedAt": "2026-08-05T01:57:11.268Z",
+  "latestDate": "2026-08-05",
+  "latestHash": "b811a78732a09b5c566bceb5",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-05",
+      "dateBn": "৫ আগস্ট ২০২৬, বুধবার",
+      "hash": "b811a78732a09b5c566bceb5",
+      "file": "data/2026-08-05.json",
+      "articleCount": 6,
+      "bengaliCount": 2,
+      "englishCount": 4,
+      "generatedAt": "2026-08-05T01:57:11.268Z",
+      "headlines": [
+        {
+          "id": "bn-b53187ea",
+          "lang": "bn",
+          "topic": "ইসলামি দর্শন",
+          "title": "মানুষ কি স্বাধীন নাকি তকদিরের অধীন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ca4ee760",
+          "lang": "en",
+          "topic": "নেতৃত্ব ও প্রশাসন",
+          "title": "The other CEO: How the 'Chief Excuse Officer' is quietly running your company",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-e5aa4374",
+          "lang": "bn",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "শিশুর বিকাশ ও জলবায়ু সুরক্ষায় সমন্বিত উদ্যোগের আহ্বান",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b77df9c0",
+          "lang": "en",
+          "topic": "বাংলদেশের রাজনীতি",
+          "title": "It’s time to complete July's agenda",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-d7a4f893",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "BB lifts lending caps on five key Sonali Bank branches",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-bda2dc9b",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Preventable deaths, preventable failures: Learning from Ruma’s measles outbreak",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-04",
       "dateBn": "৪ আগস্ট ২০২৬, মঙ্গলবার",
