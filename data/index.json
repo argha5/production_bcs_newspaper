@@ -1,10 +1,64 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T01:57:11.268Z",
-  "latestDate": "2026-08-05",
-  "latestHash": "b811a78732a09b5c566bceb5",
+  "updatedAt": "2026-08-06T01:56:20.016Z",
+  "latestDate": "2026-08-06",
+  "latestHash": "f9c0b14a1c7de1d150af28d5",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-06",
+      "dateBn": "৬ আগস্ট ২০২৬, বৃহস্পতিবার",
+      "hash": "f9c0b14a1c7de1d150af28d5",
+      "file": "data/2026-08-06.json",
+      "articleCount": 6,
+      "bengaliCount": 2,
+      "englishCount": 4,
+      "generatedAt": "2026-08-06T01:56:20.016Z",
+      "headlines": [
+        {
+          "id": "bn-4d2faea5",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "জার্মানির বিমানবন্দরে বিস্ফোরক বোঝাই ড্রোনটি এল কোথা থেকে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-62ef1568",
+          "lang": "en",
+          "topic": "প্রযুক্তি ও সমাজ",
+          "title": "The hidden grip: social media addiction at its peak",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-d060b5b2",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "হরমুজ প্রণালিতে নতুন নৌপথ নিয়ে ইরান ও ওমানের ঐকমত্য",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ff6ea0e8",
+          "lang": "en",
+          "topic": "বাংলদেশের রাজনীতি",
+          "title": "Campus violence betrays the July spirit",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-d97faf78",
+          "lang": "en",
+          "topic": "সমাজ ও নৈতিকতা",
+          "title": "What cruelty to animals says about our society",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-8deb69c1",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "More than 20% of garment factories declare three-day break, sparking workers’ rush home",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-05",
       "dateBn": "৫ আগস্ট ২০২৬, বুধবার",
