@@ -1,10 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-08T00:48:39.007Z",
-  "latestDate": "2026-08-08",
-  "latestHash": "329a88e1b7046f96b72cd627",
+  "updatedAt": "2026-08-09T01:12:33.295Z",
+  "latestDate": "2026-08-09",
+  "latestHash": "ae4bc713910a24a683fbb7c7",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-09",
+      "dateBn": "৯ আগস্ট ২০২৬, রবিবার",
+      "hash": "ae4bc713910a24a683fbb7c7",
+      "file": "data/2026-08-09.json",
+      "articleCount": 7,
+      "bengaliCount": 3,
+      "englishCount": 4,
+      "generatedAt": "2026-08-09T01:12:33.295Z",
+      "headlines": [
+        {
+          "id": "bn-e37de5f6",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "কূটনীতিতে জোর ইরান–যুক্তরাষ্ট্রের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a4ead2dd",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "The AI-driven economic flywheel",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-38a038bd",
+          "lang": "bn",
+          "topic": "নীতিবোধ ও ইসলামি চিন্তা",
+          "title": "বিপদের তীব্রতায় মৃত্যু কামনা: কী বলে ইসলাম",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-97c8fdd4",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Child stunting is putting our future at risk",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-80d25706",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "আমলাতান্ত্রিক অচলাবস্থা ও চিংড়ি শিল্পের কাঠামোগত সংকট",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-cacd7ad8",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "The echoes of 1971: Pakistan’s hypocrisy on human rights is a familiar wound",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-5ac33c81",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Transforming and restructuring the health sector to implement the BNP election manifesto",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-08",
       "dateBn": "৮ আগস্ট ২০২৬, শনিবার",
@@ -312,74 +373,6 @@
           "topic": "পরিবেশ ও জলবায়ু",
           "title": "Why Bangladesh needs environmental foresight over populism",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "dateBn": "২ আগস্ট ২০২৬, রবিবার",
-      "hash": "6eb269c9ceb6213794ea61f7",
-      "file": "data/2026-08-02.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-08-02T02:15:39.519Z",
-      "headlines": [
-        {
-          "id": "bn-a860fd83",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ইরানের পরমাণু, ক্ষেপণাস্ত্র ও জ্বালানি স্থাপনায় হামলার পরিকল্পনা যুক্তরাষ্ট্রের",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-c69d3b06",
-          "lang": "en",
-          "topic": "মানবাধিকার ও সংবিধান",
-          "title": "The cycle of custodial deaths, enforced disappearances and the culture of impunity in Bangladesh: What should we do immediately?",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-faa737e9",
-          "lang": "bn",
-          "topic": "ইসলাম ও বিশ্বধর্ম",
-          "title": "যে ৪ ধরনের ধর্মীয় জ্ঞান শিক্ষা করা সবার জন্য ফরজ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-6589e006",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Every inflationary lever is being pulled at once",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-dcf1b4c0",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "সেউতা থেকে ফিরছেন অভিবাসীরা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-7e5e3f48",
-          "lang": "en",
-          "topic": "বিজ্ঞান ও প্রযুক্তি",
-          "title": "The invisible infrastructure behind every trusted number",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-fcdcd30e",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও মধ্যপ্রাচ্য",
-          "title": "ইরান নিয়ে সৌদি-ইসরায়েল\nভিন্ন অবস্থানে, সংশয়ে ট্রাম্প",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4b7f8841",
-          "lang": "en",
-          "topic": "আইন ও ন্যায়বিচার",
-          "title": "End the criminality within our crime fighters",
-          "source": "The Daily Star"
         }
       ]
     }
