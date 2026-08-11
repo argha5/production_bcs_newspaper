@@ -1,10 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T01:04:31.860Z",
-  "latestDate": "2026-08-10",
-  "latestHash": "cf7144fac8fe8299f49e7879",
+  "updatedAt": "2026-08-11T01:14:35.281Z",
+  "latestDate": "2026-08-11",
+  "latestHash": "65d3cc38ae1ecafea7d056c3",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-11",
+      "dateBn": "১১ আগস্ট ২০২৬, মঙ্গলবার",
+      "hash": "65d3cc38ae1ecafea7d056c3",
+      "file": "data/2026-08-11.json",
+      "articleCount": 7,
+      "bengaliCount": 3,
+      "englishCount": 4,
+      "generatedAt": "2026-08-11T01:14:35.281Z",
+      "headlines": [
+        {
+          "id": "bn-9e6dff54",
+          "lang": "bn",
+          "topic": "বাংলাদেশের সমসাময়িক বিষয়",
+          "title": "উচ্চশিক্ষা ও প্রযুক্তিতে বাংলার প্রমিতকরণ জরুরি, প্রয়োজন স্থায়ী ভাষাতাত্ত্বিক কমিশন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-04b5caec",
+          "lang": "en",
+          "topic": "শিক্ষা ব্যবস্থা",
+          "title": "Falling SSC pass rate tells only half the story",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-96bcfd09",
+          "lang": "bn",
+          "topic": "বাংলাদেশের শিক্ষা ব্যবস্থা",
+          "title": "১৯ বছরে সর্বনিম্ন পাসের হার",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ba613cdb",
+          "lang": "en",
+          "topic": "অর্থপাচার ও সাইবার অপরাধ",
+          "title": "Financial scams in Bangladesh: Why fraudsters continue to outsmart the system",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-16c51cc3",
+          "lang": "bn",
+          "topic": "প্রযুক্তি ও সমাজ",
+          "title": "ঘৃণার চাষাবাদ",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-03034ac9",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Lifting the IPO debt-repayment cap is the second step, not the first",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-c53a8c01",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "National Steering Committee on Creative Economy formed",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-10",
       "dateBn": "১০ আগস্ট ২০২৬, সোমবার",
@@ -347,25 +408,6 @@
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "Preventable deaths, preventable failures: Learning from Ruma’s measles outbreak",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "dateBn": "৪ আগস্ট ২০২৬, মঙ্গলবার",
-      "hash": "a6172f104a7541dceda986c4",
-      "file": "data/2026-08-04.json",
-      "articleCount": 1,
-      "bengaliCount": 1,
-      "englishCount": 0,
-      "generatedAt": "2026-08-04T01:13:11.150Z",
-      "headlines": [
-        {
-          "id": "bn-8e895cc8",
-          "lang": "bn",
-          "topic": "মানসিক স্বাস্থ্য ও আধ্যাত্মিকতা",
-          "title": "বিপদ এলে নবীরা যেভাবে আল্লাহকে ডাকতেন",
-          "source": "প্রথম আলো"
         }
       ]
     }
