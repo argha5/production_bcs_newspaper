@@ -6,8 +6,7 @@
 
 > **BCS Editorial Master** হলো BCS Written, Bank Job, এবং অন্যান্য প্রতিযোগিতামূলক পরীক্ষার পরীক্ষার্থীদের জন্য দৈনিক পত্রিকা (Bangla & English Newspaper Editorials) অ্যানালাইসিস এবং ফ্রি স্ট্যাটিক JSON ব্যাকএন্ড। 
 
-📱 **Download the Official App on Google Play Store:**
-👉 [https://play.google.com/store/apps/details?id=dev.bcs.written](https://play.google.com/store/apps/details?id=dev.bcs.written)
+
 
 ---
 
