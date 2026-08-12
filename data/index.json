@@ -1,10 +1,57 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T01:14:35.281Z",
-  "latestDate": "2026-08-11",
-  "latestHash": "65d3cc38ae1ecafea7d056c3",
+  "updatedAt": "2026-08-12T01:11:43.270Z",
+  "latestDate": "2026-08-12",
+  "latestHash": "e16469d1263536603b482ad0",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-12",
+      "dateBn": "১২ আগস্ট ২০২৬, বুধবার",
+      "hash": "e16469d1263536603b482ad0",
+      "file": "data/2026-08-12.json",
+      "articleCount": 5,
+      "bengaliCount": 1,
+      "englishCount": 4,
+      "generatedAt": "2026-08-12T01:11:43.270Z",
+      "headlines": [
+        {
+          "id": "bn-fc1fa1f4",
+          "lang": "bn",
+          "topic": "পারিবারিক শিক্ষা",
+          "title": "ইসলাম যেভাবে সন্তানকে আত্মনির্ভরশীল করতে বলে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4c895086",
+          "lang": "en",
+          "topic": "জনসংখ্যা নীতি ও পরিবার কল্যাণ",
+          "title": "Why does Biman keep fixing problems the hard way?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-02f6eba2",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "DU's concrete-choked trees expose Bangladesh's defunct urban climate governance",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-451e01f1",
+          "lang": "en",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "BNP's Awami League dilemma",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-046a3cde",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "SDG implementation, LDC graduation must move together: Irene Khan",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "dateBn": "১১ আগস্ট ২০২৬, মঙ্গলবার",
@@ -353,60 +400,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "More than 20% of garment factories declare three-day break, sparking workers’ rush home",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "dateBn": "৫ আগস্ট ২০২৬, বুধবার",
-      "hash": "b811a78732a09b5c566bceb5",
-      "file": "data/2026-08-05.json",
-      "articleCount": 6,
-      "bengaliCount": 2,
-      "englishCount": 4,
-      "generatedAt": "2026-08-05T01:57:11.268Z",
-      "headlines": [
-        {
-          "id": "bn-b53187ea",
-          "lang": "bn",
-          "topic": "ইসলামি দর্শন",
-          "title": "মানুষ কি স্বাধীন নাকি তকদিরের অধীন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ca4ee760",
-          "lang": "en",
-          "topic": "নেতৃত্ব ও প্রশাসন",
-          "title": "The other CEO: How the 'Chief Excuse Officer' is quietly running your company",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-e5aa4374",
-          "lang": "bn",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "শিশুর বিকাশ ও জলবায়ু সুরক্ষায় সমন্বিত উদ্যোগের আহ্বান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b77df9c0",
-          "lang": "en",
-          "topic": "বাংলদেশের রাজনীতি",
-          "title": "It’s time to complete July's agenda",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-d7a4f893",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "BB lifts lending caps on five key Sonali Bank branches",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-bda2dc9b",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Preventable deaths, preventable failures: Learning from Ruma’s measles outbreak",
           "source": "The Business Standard"
         }
       ]
