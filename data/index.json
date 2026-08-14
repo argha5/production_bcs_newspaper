@@ -1,10 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T01:26:09.093Z",
-  "latestDate": "2026-08-13",
-  "latestHash": "6d52b8988124c4d5d212c57b",
+  "updatedAt": "2026-08-14T01:23:12.988Z",
+  "latestDate": "2026-08-14",
+  "latestHash": "330f34f5cd787efe98339de7",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-14",
+      "dateBn": "১৪ আগস্ট ২০২৬, শুক্রবার",
+      "hash": "330f34f5cd787efe98339de7",
+      "file": "data/2026-08-14.json",
+      "articleCount": 7,
+      "bengaliCount": 3,
+      "englishCount": 4,
+      "generatedAt": "2026-08-14T01:23:12.988Z",
+      "headlines": [
+        {
+          "id": "bn-b910d6e8",
+          "lang": "bn",
+          "topic": "বাংলাদেশের সামাজিক ইতিহাস ও সংস্কৃতি",
+          "title": "জুমার দিনে মুমিনের বিশেষ ১০ করণীয়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-96371f83",
+          "lang": "en",
+          "topic": "মানবাধিকার ও শাসনতন্ত্র",
+          "title": "NHRC’s autonomy and authority must be ensured",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-c6e43a0c",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "পুতিনের বিতর্কিত কুরিল দ্বীপপুঞ্জ সফরে ক্ষেপেছে জাপান",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ae15a138",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Why small businesses remain invisible to traditional credit ratings",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-b7d093da",
+          "lang": "bn",
+          "topic": "শিক্ষা ব্যবস্থা ও এসএসসি",
+          "title": "সর্বনিম্ন পাসের হার: শিক্ষাব্যবস্থার জন্য ‘সতর্ক সংকেত’",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-c051017b",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Are you aware of the hidden cost of writing on banknotes?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-225518e0",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Bangladesh's shadow economy is too big to ignore",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-13",
       "dateBn": "১৩ আগস্ট ২০২৬, বৃহস্পতিবার",
@@ -347,74 +408,6 @@
           "topic": "বাংলদেশের সামাজিক সংস্কৃতি",
           "title": "A guide to Dhaka’s best rainy day food spots",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "dateBn": "৭ আগস্ট ২০২৬, শুক্রবার",
-      "hash": "b9b4c1916095b908f78c4e2e",
-      "file": "data/2026-08-07.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-08-07T02:42:06.918Z",
-      "headlines": [
-        {
-          "id": "bn-dc912407",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "কূটনীতির অন্দরমহলে নির্মোহ দৃষ্টি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-54c7a9a0",
-          "lang": "en",
-          "topic": "বাংলান্দের অর্থনীতি",
-          "title": "Political acumen is fine, but economic expertise is crucial",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-d03503f8",
-          "lang": "bn",
-          "topic": "পরিবেশ ও প্রাকৃতিক সম্পদ",
-          "title": "চিতল মাছের কালো দাগ কী সুবিধা দেয়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-06f69bce",
-          "lang": "en",
-          "topic": "শিক্ষা ব্যবস্থা",
-          "title": "Teacher shortage must be addressed",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-79c21a0a",
-          "lang": "bn",
-          "topic": "বিজ্ঞান ও প্রযুক্তি",
-          "title": "কৌতূহলকে কখনো হারিয়ে ফেলো না — মারজানা আক্তার, গবেষক",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a37ed49f",
-          "lang": "en",
-          "topic": "আইন ও ন্যায়বিচার",
-          "title": "Beyond crime: How delayed justice weakens public trust",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-ec279928",
-          "lang": "bn",
-          "topic": "ইসলাম ও বিশ্বধর্ম",
-          "title": "জুমার খুতবা চলাকালে মসজিদের অর্থ সংগ্রহ: বিধান কী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-11d09a2c",
-          "lang": "en",
-          "topic": "শিক্ষা ও শিক্ষানীতি",
-          "title": "Public universities must not fall back into partisan control",
-          "source": "The Daily Star"
         }
       ]
     }
