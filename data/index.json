@@ -1,10 +1,64 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-14T01:23:12.988Z",
-  "latestDate": "2026-08-14",
-  "latestHash": "330f34f5cd787efe98339de7",
+  "updatedAt": "2026-08-15T00:34:34.563Z",
+  "latestDate": "2026-08-15",
+  "latestHash": "67d25544a155c86d210cd3d9",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-15",
+      "dateBn": "১৫ আগস্ট ২০২৬, শনিবার",
+      "hash": "67d25544a155c86d210cd3d9",
+      "file": "data/2026-08-15.json",
+      "articleCount": 6,
+      "bengaliCount": 3,
+      "englishCount": 3,
+      "generatedAt": "2026-08-15T00:34:34.563Z",
+      "headlines": [
+        {
+          "id": "bn-6b7e3830",
+          "lang": "bn",
+          "topic": "ইসলামি জীবনদর্শন",
+          "title": "জান্নাত পাওয়ার জন্য একটি অমূল্য দোয়া",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-73668c8e",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "India's space sector: A launchpad for global partnerships",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-1f3e7198",
+          "lang": "bn",
+          "topic": "বাংলাদেশের সমাজ ও রাজনীতি",
+          "title": "মধ্যদ্বিত্ব সমাজ : রাজনৈতিক মধ্যবর্গ পরিচিতি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-7dffeff7",
+          "lang": "en",
+          "topic": "পরিবেশ ও উন্নয়ন",
+          "title": "How sustainable is sustainability?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-e8d4710e",
+          "lang": "bn",
+          "topic": "সংস্কৃতি ও শিল্পকলা",
+          "title": "শিল্পের সৌন্দর্য ও প্রতিবাদে গ্যালারিগুলো নয়নাভিরাম",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d50991f2",
+          "lang": "en",
+          "topic": "পরিবহন ও শক্তি",
+          "title": "Regulating battery rickshaws necessary",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-08-14",
       "dateBn": "১৪ আগস্ট ২০২৬, শুক্রবার",
@@ -353,60 +407,6 @@
           "lang": "en",
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "Transforming and restructuring the health sector to implement the BNP election manifesto",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-08",
-      "dateBn": "৮ আগস্ট ২০২৬, শনিবার",
-      "hash": "329a88e1b7046f96b72cd627",
-      "file": "data/2026-08-08.json",
-      "articleCount": 6,
-      "bengaliCount": 2,
-      "englishCount": 4,
-      "generatedAt": "2026-08-08T00:48:39.007Z",
-      "headlines": [
-        {
-          "id": "bn-f3a83611",
-          "lang": "bn",
-          "topic": "ইসলাম ও বিশ্বাস",
-          "title": "বেহেশতে গেলেও যে আমলের আফসোস রয়ে যাবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-6d009cc6",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Why Bangladesh should power the AI economy",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-940ad104",
-          "lang": "bn",
-          "topic": "সামাজিক সমস্যা ও নারী উন্নয়ন",
-          "title": "সহিংস দাম্পত্য সম্পর্ক: একদিন সব ঠিক হয়ে যাবে, এ ধারণা ভুল",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-7a544ed3",
-          "lang": "en",
-          "topic": "বাংলাদেশের সামাজিক সমস্যা",
-          "title": "Government must prioritise road safety",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-799c9636",
-          "lang": "en",
-          "topic": "শিক্ষা ও গবেষণা",
-          "title": "What we publish is who we become: How 325 retracted research articles rewrite Bangladeshi universities’ branding",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-4e5b7961",
-          "lang": "en",
-          "topic": "বাংলদেশের সামাজিক সংস্কৃতি",
-          "title": "A guide to Dhaka’s best rainy day food spots",
           "source": "The Business Standard"
         }
       ]
