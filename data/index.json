@@ -1,10 +1,64 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-15T00:34:34.563Z",
-  "latestDate": "2026-08-15",
-  "latestHash": "67d25544a155c86d210cd3d9",
+  "updatedAt": "2026-08-16T00:27:44.791Z",
+  "latestDate": "2026-08-16",
+  "latestHash": "500719d2161e045e1d07169f",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-16",
+      "dateBn": "১৬ আগস্ট ২০২৬, রবিবার",
+      "hash": "500719d2161e045e1d07169f",
+      "file": "data/2026-08-16.json",
+      "articleCount": 6,
+      "bengaliCount": 2,
+      "englishCount": 4,
+      "generatedAt": "2026-08-16T00:27:44.791Z",
+      "headlines": [
+        {
+          "id": "bn-18cbee88",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "করদাতা কি ব্যাংকের সংকটেরও কর দেবেন?",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-c9d65767",
+          "lang": "en",
+          "topic": "বাংলার অর্থনীতি",
+          "title": "Will taxpayers have to pay for the banking crisis too?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-894e6a60",
+          "lang": "bn",
+          "topic": "মানবিক মূল্যবোধ",
+          "title": "সঠিক সিদ্ধান্তে পৌঁছতে আলীকে শেখানো নবীজির দোয়া",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-10f8843a",
+          "lang": "en",
+          "topic": "শক্তি ও অর্থনীতি",
+          "title": "Bangladesh’s untapped energy source: Efficiency",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-425894ec",
+          "lang": "en",
+          "topic": "পরিবেশ ও শ্রমিক নিরাপত্তা",
+          "title": "Shipbreaking industry needs real oversight",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-66278253",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Money, markets, and military: The economic pivot of the Mecca Agreement",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-15",
       "dateBn": "১৫ আগস্ট ২০২৬, শনিবার",
@@ -346,67 +400,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "PMI hits 57.8 as manufacturing posts strongest gain in months on export rebound",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "dateBn": "৯ আগস্ট ২০২৬, রবিবার",
-      "hash": "ae4bc713910a24a683fbb7c7",
-      "file": "data/2026-08-09.json",
-      "articleCount": 7,
-      "bengaliCount": 3,
-      "englishCount": 4,
-      "generatedAt": "2026-08-09T01:12:33.295Z",
-      "headlines": [
-        {
-          "id": "bn-e37de5f6",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "কূটনীতিতে জোর ইরান–যুক্তরাষ্ট্রের",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a4ead2dd",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "The AI-driven economic flywheel",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-38a038bd",
-          "lang": "bn",
-          "topic": "নীতিবোধ ও ইসলামি চিন্তা",
-          "title": "বিপদের তীব্রতায় মৃত্যু কামনা: কী বলে ইসলাম",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-97c8fdd4",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Child stunting is putting our future at risk",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-80d25706",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "আমলাতান্ত্রিক অচলাবস্থা ও চিংড়ি শিল্পের কাঠামোগত সংকট",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-cacd7ad8",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "The echoes of 1971: Pakistan’s hypocrisy on human rights is a familiar wound",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-5ac33c81",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Transforming and restructuring the health sector to implement the BNP election manifesto",
           "source": "The Business Standard"
         }
       ]
