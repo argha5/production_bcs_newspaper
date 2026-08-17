@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-16T00:27:44.791Z",
-  "latestDate": "2026-08-16",
-  "latestHash": "500719d2161e045e1d07169f",
+  "updatedAt": "2026-08-17T00:41:36.784Z",
+  "latestDate": "2026-08-17",
+  "latestHash": "dda3f6ab88221e22b294aec6",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-17",
+      "dateBn": "১৭ আগস্ট ২০২৬, সোমবার",
+      "hash": "dda3f6ab88221e22b294aec6",
+      "file": "data/2026-08-17.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-08-17T00:41:36.784Z",
+      "headlines": [
+        {
+          "id": "bn-3ef6c4f9",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "কারখানা উৎপাদনে ফিরছে, তবে সংকট\nপুরো কাটেনি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-eac814e5",
+          "lang": "en",
+          "topic": "বাংলদেশের অর্থনীতি ও শাসনতন্ত্র",
+          "title": "Businesses seek simpler trade licence process, lower fees",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-df8b7595",
+          "lang": "bn",
+          "topic": "মানসিক স্বাস্থ্য ও নৈতিক শিক্ষা",
+          "title": "হৃদয়ে প্রশান্তি পেতে নবীজির শেখানো ৩টি দোয়া",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4730f68a",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Create conditions for safe return of Rohingya",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-90bc72f0",
+          "lang": "bn",
+          "topic": "বাংলাদেশের সংস্কৃতি",
+          "title": "ধানমন্ডির গণ্ডি পেরিয়ে বিশ্বজুড়ে\n ছায়ানটের সংগীত শিক্ষা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e1972fb2",
+          "lang": "en",
+          "topic": "বাংলার অর্থনীতি",
+          "title": "Fruit imports get easier as Bangladesh Bank lifts 100% cash margin rule",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-df3a14d5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের সমাজ ও কর্মপরিবেশ",
+          "title": "কেক",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-721fab2b",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "BB approves LC opening for SS Power through Rupali Bank",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-16",
       "dateBn": "১৬ আগস্ট ২০২৬, রবিবার",
@@ -346,60 +414,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "National Steering Committee on Creative Economy formed",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "dateBn": "১০ আগস্ট ২০২৬, সোমবার",
-      "hash": "cf7144fac8fe8299f49e7879",
-      "file": "data/2026-08-10.json",
-      "articleCount": 6,
-      "bengaliCount": 2,
-      "englishCount": 4,
-      "generatedAt": "2026-08-10T01:04:31.860Z",
-      "headlines": [
-        {
-          "id": "bn-a0d4f802",
-          "lang": "bn",
-          "topic": "নৈতিকতা ও চরিত্র গঠন",
-          "title": "বিনয়ী মুমিন হওয়ার কার্যকর ৬ উপায়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-2d1970b3",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Current account deficit hits $1.6b as import bills surge",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-660173a9",
-          "lang": "bn",
-          "topic": "বাংলাদেশের সংস্কৃতি",
-          "title": "জীবনের মঞ্চে রামেন্দু মজুমদারের ৮৫ বছর",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f853e8f5",
-          "lang": "en",
-          "topic": "বাংলদেশের অর্থনীতি",
-          "title": "Don’t rush fuel import privatisation",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-897374bc",
-          "lang": "en",
-          "topic": "শাসনতন্ত্র ও গণতন্ত্র",
-          "title": "Between happiness and governance: What Bangladesh can learn from Bhutan about democracy",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-918152d3",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "PMI hits 57.8 as manufacturing posts strongest gain in months on export rebound",
           "source": "The Business Standard"
         }
       ]
