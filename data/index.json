@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T00:48:54.219Z",
-  "latestDate": "2026-08-18",
-  "latestHash": "a71805046970975ec700cb85",
+  "updatedAt": "2026-08-19T00:37:54.892Z",
+  "latestDate": "2026-08-19",
+  "latestHash": "768510ea3e7a9d9bf9d421ff",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-19",
+      "dateBn": "১৯ আগস্ট ২০২৬, বুধবার",
+      "hash": "768510ea3e7a9d9bf9d421ff",
+      "file": "data/2026-08-19.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-08-19T00:37:54.892Z",
+      "headlines": [
+        {
+          "id": "bn-b259a259",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "নতুন চুক্তিতে ’৭৭ সালের ধারা যুক্ত করার তাগিদ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1371c66f",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "India must choose: Sheikh Hasina or a sustainable relationship with Bangladesh?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-a732042a",
+          "lang": "bn",
+          "topic": "ইসলাম ও নৈতিকতা",
+          "title": "যে ৫ কাজ আল্লাহর অসন্তোষ থেকে বাঁচায়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f5b9e22d",
+          "lang": "en",
+          "topic": "মানবাধিকার ও শাসন",
+          "title": "Renaming Rab as SRB is not reforming",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-0460799a",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "দরকারের সময় অক্সিজেন পান না ৭০% মানুষ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-32c7259e",
+          "lang": "en",
+          "topic": "বাংলান্দেশের অর্থনীতি",
+          "title": "NCC Bank moves to empower board to remove chairman by vote",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-03fef52d",
+          "lang": "bn",
+          "topic": "সাহিত্য ও সংস্কৃতি",
+          "title": "ঐতিহ্য-শান্তনু কায়সার সাহিত্য পুরস্কার প্রদান, প্রকাশিত হলো ১০ খণ্ডের রচনাবলি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d5e4d87f",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "DSEX erases 100-point gain as margin gazette triggers ‘sell-on-news’ reaction",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-18",
       "dateBn": "১৮ আগস্ট ২০২৬, মঙ্গলবার",
@@ -374,53 +442,6 @@
           "lang": "en",
           "topic": "শিক্ষা ব্যবস্থা",
           "title": "Beyond the report card: Bangladesh must stop failing its failing students",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "dateBn": "১২ আগস্ট ২০২৬, বুধবার",
-      "hash": "e16469d1263536603b482ad0",
-      "file": "data/2026-08-12.json",
-      "articleCount": 5,
-      "bengaliCount": 1,
-      "englishCount": 4,
-      "generatedAt": "2026-08-12T01:11:43.270Z",
-      "headlines": [
-        {
-          "id": "bn-fc1fa1f4",
-          "lang": "bn",
-          "topic": "পারিবারিক শিক্ষা",
-          "title": "ইসলাম যেভাবে সন্তানকে আত্মনির্ভরশীল করতে বলে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4c895086",
-          "lang": "en",
-          "topic": "জনসংখ্যা নীতি ও পরিবার কল্যাণ",
-          "title": "Why does Biman keep fixing problems the hard way?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-02f6eba2",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "DU's concrete-choked trees expose Bangladesh's defunct urban climate governance",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-451e01f1",
-          "lang": "en",
-          "topic": "বাংলাদেশের রাজনীতি",
-          "title": "BNP's Awami League dilemma",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-046a3cde",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "SDG implementation, LDC graduation must move together: Irene Khan",
           "source": "The Business Standard"
         }
       ]
