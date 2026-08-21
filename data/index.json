@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T00:27:06.075Z",
-  "latestDate": "2026-08-20",
-  "latestHash": "9b9a358534da4bf6011ece2c",
+  "updatedAt": "2026-08-21T01:08:43.912Z",
+  "latestDate": "2026-08-21",
+  "latestHash": "931eb3047d9dfff4d57f60f4",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-21",
+      "dateBn": "২১ আগস্ট ২০২৬, শুক্রবার",
+      "hash": "931eb3047d9dfff4d57f60f4",
+      "file": "data/2026-08-21.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-08-21T01:08:43.912Z",
+      "headlines": [
+        {
+          "id": "bn-4f7167da",
+          "lang": "bn",
+          "topic": "বাংলাদেশের শাসনতন্ত্র",
+          "title": "মির্জা ফখরুল রাষ্ট্রপতি নির্বাচিত, শপথ শুক্রবার সন্ধ্যায়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-69d7cc9c",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "US Treasury officials meet BB governor, discuss economic, banking reforms",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-ddb391b3",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "বাংলাদেশি শিক্ষকের সানারিজে যুক্তরাষ্ট্রের ১০৪ শিক্ষার্থীর সাফল্য উদ্‌যাপন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f98968d9",
+          "lang": "en",
+          "topic": "বাংলদেশের রাজনীতি",
+          "title": "Expectations from BNP’s next secretary general",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-70ce37ed",
+          "lang": "bn",
+          "topic": "ইসলামী শরিয়ত",
+          "title": "পানি না থাকলে পবিত্র হওয়ার বৈধ উপায় কী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-dce5afa4",
+          "lang": "en",
+          "topic": "বাংলান্দেশের অর্থনীতি",
+          "title": "Cenbank introduces ADR policy to speed up loan recovery, ease court backlog",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-2b2e73db",
+          "lang": "bn",
+          "topic": "জীবনদর্শন ও সিদ্ধান্তগ্রহণ",
+          "title": "লাইফ ইজ ম্যাথ: জীবনের প্রতিটি সিদ্ধান্তেই আছে হিসাব",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-b56bdf10",
+          "lang": "en",
+          "topic": "পরিস্থিতি ও জলবায়ু",
+          "title": "Why capability must sit at the heart of the green transition",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-20",
       "dateBn": "২০ আগস্ট ২০২৬, বৃহস্পতিবার",
@@ -361,67 +429,6 @@
           "topic": "পরিবহন ও শক্তি",
           "title": "Regulating battery rickshaws necessary",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "dateBn": "১৪ আগস্ট ২০২৬, শুক্রবার",
-      "hash": "330f34f5cd787efe98339de7",
-      "file": "data/2026-08-14.json",
-      "articleCount": 7,
-      "bengaliCount": 3,
-      "englishCount": 4,
-      "generatedAt": "2026-08-14T01:23:12.988Z",
-      "headlines": [
-        {
-          "id": "bn-b910d6e8",
-          "lang": "bn",
-          "topic": "বাংলাদেশের সামাজিক ইতিহাস ও সংস্কৃতি",
-          "title": "জুমার দিনে মুমিনের বিশেষ ১০ করণীয়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-96371f83",
-          "lang": "en",
-          "topic": "মানবাধিকার ও শাসনতন্ত্র",
-          "title": "NHRC’s autonomy and authority must be ensured",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-c6e43a0c",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "পুতিনের বিতর্কিত কুরিল দ্বীপপুঞ্জ সফরে ক্ষেপেছে জাপান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ae15a138",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Why small businesses remain invisible to traditional credit ratings",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b7d093da",
-          "lang": "bn",
-          "topic": "শিক্ষা ব্যবস্থা ও এসএসসি",
-          "title": "সর্বনিম্ন পাসের হার: শিক্ষাব্যবস্থার জন্য ‘সতর্ক সংকেত’",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-c051017b",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Are you aware of the hidden cost of writing on banknotes?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-225518e0",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh's shadow economy is too big to ignore",
-          "source": "The Business Standard"
         }
       ]
     }
