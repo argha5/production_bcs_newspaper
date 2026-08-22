@@ -1,10 +1,57 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T01:08:43.912Z",
-  "latestDate": "2026-08-21",
-  "latestHash": "931eb3047d9dfff4d57f60f4",
+  "updatedAt": "2026-08-22T01:09:20.532Z",
+  "latestDate": "2026-08-22",
+  "latestHash": "5134d4d1870c8e87f9125b2e",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-22",
+      "dateBn": "২২ আগস্ট ২০২৬, শনিবার",
+      "hash": "5134d4d1870c8e87f9125b2e",
+      "file": "data/2026-08-22.json",
+      "articleCount": 5,
+      "bengaliCount": 1,
+      "englishCount": 4,
+      "generatedAt": "2026-08-22T01:09:20.532Z",
+      "headlines": [
+        {
+          "id": "bn-ae0f9174",
+          "lang": "bn",
+          "topic": "ইসলাম ও ধর্ম",
+          "title": "ডান হাতে আমলনামা মিলবে যে ৬ আমলে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-22d5423a",
+          "lang": "en",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "Rare to have a personality like Mirza Fakhrul as president: Debapriya",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-6db920c0",
+          "lang": "en",
+          "topic": "পরিবেশ ও অর্থনীতি",
+          "title": "Beyond sustainability: What do we actually want to sustain?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-d83643c1",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Invest Bangladesh needs to measure what matters — investment realised",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-7b03587a",
+          "lang": "en",
+          "topic": "শিক্ষা ও প্রযুক্তি",
+          "title": "AI won’t replace teachers. It will redefine them",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-21",
       "dateBn": "২১ আগস্ট ২০২৬, শুক্রবার",
@@ -375,60 +422,6 @@
           "topic": "আন্তর্জাতিক সম্পর্ক",
           "title": "Money, markets, and military: The economic pivot of the Mecca Agreement",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "dateBn": "১৫ আগস্ট ২০২৬, শনিবার",
-      "hash": "67d25544a155c86d210cd3d9",
-      "file": "data/2026-08-15.json",
-      "articleCount": 6,
-      "bengaliCount": 3,
-      "englishCount": 3,
-      "generatedAt": "2026-08-15T00:34:34.563Z",
-      "headlines": [
-        {
-          "id": "bn-6b7e3830",
-          "lang": "bn",
-          "topic": "ইসলামি জীবনদর্শন",
-          "title": "জান্নাত পাওয়ার জন্য একটি অমূল্য দোয়া",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-73668c8e",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "India's space sector: A launchpad for global partnerships",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-1f3e7198",
-          "lang": "bn",
-          "topic": "বাংলাদেশের সমাজ ও রাজনীতি",
-          "title": "মধ্যদ্বিত্ব সমাজ : রাজনৈতিক মধ্যবর্গ পরিচিতি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-7dffeff7",
-          "lang": "en",
-          "topic": "পরিবেশ ও উন্নয়ন",
-          "title": "How sustainable is sustainability?",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-e8d4710e",
-          "lang": "bn",
-          "topic": "সংস্কৃতি ও শিল্পকলা",
-          "title": "শিল্পের সৌন্দর্য ও প্রতিবাদে গ্যালারিগুলো নয়নাভিরাম",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-d50991f2",
-          "lang": "en",
-          "topic": "পরিবহন ও শক্তি",
-          "title": "Regulating battery rickshaws necessary",
-          "source": "The Daily Star"
         }
       ]
     }
