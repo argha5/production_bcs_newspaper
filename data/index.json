@@ -1,10 +1,64 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-22T01:09:20.532Z",
-  "latestDate": "2026-08-22",
-  "latestHash": "5134d4d1870c8e87f9125b2e",
+  "updatedAt": "2026-08-23T00:48:47.784Z",
+  "latestDate": "2026-08-23",
+  "latestHash": "bf8b8a654ffcdb88aef42e1e",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-23",
+      "dateBn": "২৩ আগস্ট ২০২৬, রবিবার",
+      "hash": "bf8b8a654ffcdb88aef42e1e",
+      "file": "data/2026-08-23.json",
+      "articleCount": 6,
+      "bengaliCount": 2,
+      "englishCount": 4,
+      "generatedAt": "2026-08-23T00:48:47.784Z",
+      "headlines": [
+        {
+          "id": "bn-9fca1505",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "আয় কমছে শ্রমিকের, সংসারে টানাটানি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-dbff128a",
+          "lang": "en",
+          "topic": "পরিবেশ ও পরিবেশনীতি",
+          "title": "Plastic producers must clean up their own mess",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-fd42a51d",
+          "lang": "bn",
+          "topic": "সংস্কৃতি ও শিক্ষা",
+          "title": "পাঠাগারগুলো এখন ছোট ছোট সামাজিক শক্তির কেন্দ্র হয়ে উঠেছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-47bc2c87",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "‘Business as usual is not an option in resolving the Rohingya crisis’",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-e77cc23c",
+          "lang": "en",
+          "topic": "পর্যবেশ ও শহর পরিকল্পনা",
+          "title": "Dhaka must learn to care for its trees",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-ec1af8e1",
+          "lang": "en",
+          "topic": "বাংলান্দেশের অর্থনীতি",
+          "title": "Recasting Bangladesh’s idle industrial assets",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-08-22",
       "dateBn": "২২ আগস্ট ২০২৬, শনিবার",
@@ -367,60 +421,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "BB approves LC opening for SS Power through Rupali Bank",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "dateBn": "১৬ আগস্ট ২০২৬, রবিবার",
-      "hash": "500719d2161e045e1d07169f",
-      "file": "data/2026-08-16.json",
-      "articleCount": 6,
-      "bengaliCount": 2,
-      "englishCount": 4,
-      "generatedAt": "2026-08-16T00:27:44.791Z",
-      "headlines": [
-        {
-          "id": "bn-18cbee88",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "করদাতা কি ব্যাংকের সংকটেরও কর দেবেন?",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-c9d65767",
-          "lang": "en",
-          "topic": "বাংলার অর্থনীতি",
-          "title": "Will taxpayers have to pay for the banking crisis too?",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-894e6a60",
-          "lang": "bn",
-          "topic": "মানবিক মূল্যবোধ",
-          "title": "সঠিক সিদ্ধান্তে পৌঁছতে আলীকে শেখানো নবীজির দোয়া",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-10f8843a",
-          "lang": "en",
-          "topic": "শক্তি ও অর্থনীতি",
-          "title": "Bangladesh’s untapped energy source: Efficiency",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-425894ec",
-          "lang": "en",
-          "topic": "পরিবেশ ও শ্রমিক নিরাপত্তা",
-          "title": "Shipbreaking industry needs real oversight",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-66278253",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Money, markets, and military: The economic pivot of the Mecca Agreement",
           "source": "The Business Standard"
         }
       ]
