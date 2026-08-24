@@ -1,10 +1,57 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T00:48:47.784Z",
-  "latestDate": "2026-08-23",
-  "latestHash": "bf8b8a654ffcdb88aef42e1e",
+  "updatedAt": "2026-08-24T00:29:40.950Z",
+  "latestDate": "2026-08-24",
+  "latestHash": "c08eb8b95be7735f941a36ef",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-24",
+      "dateBn": "২৪ আগস্ট ২০২৬, সোমবার",
+      "hash": "c08eb8b95be7735f941a36ef",
+      "file": "data/2026-08-24.json",
+      "articleCount": 5,
+      "bengaliCount": 1,
+      "englishCount": 4,
+      "generatedAt": "2026-08-24T00:29:40.950Z",
+      "headlines": [
+        {
+          "id": "bn-84f53241",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও বিজ্ঞান",
+          "title": "ক্যানসার চিকিৎসায় কি সত্যিই নতুন এক অধ্যায় শুরু হচ্ছে?",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-df1f7cbf",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Invest Bangladesh Authority formally begins journey",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-62f9b378",
+          "lang": "en",
+          "topic": "শাসনতন্ত্র ও সংস্কার",
+          "title": "Let police do their job without fear",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-40edbf73",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Parliamentary panel recommends replacing direct communication with digital systems to curb corruption",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-4a708f9d",
+          "lang": "en",
+          "topic": "পরিবহন ও অবকাঠামো",
+          "title": "Why our ports need a sustainability scorecard",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-08-23",
       "dateBn": "২৩ আগস্ট ২০২৬, রবিবার",
@@ -353,74 +400,6 @@
           "lang": "en",
           "topic": "নগর উন্নয়ন ও জলবায়ু",
           "title": "Bangladesh needs climate-ready cities, not just another masterplan",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "dateBn": "১৭ আগস্ট ২০২৬, সোমবার",
-      "hash": "dda3f6ab88221e22b294aec6",
-      "file": "data/2026-08-17.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-08-17T00:41:36.784Z",
-      "headlines": [
-        {
-          "id": "bn-3ef6c4f9",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "কারখানা উৎপাদনে ফিরছে, তবে সংকট\nপুরো কাটেনি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-eac814e5",
-          "lang": "en",
-          "topic": "বাংলদেশের অর্থনীতি ও শাসনতন্ত্র",
-          "title": "Businesses seek simpler trade licence process, lower fees",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-df8b7595",
-          "lang": "bn",
-          "topic": "মানসিক স্বাস্থ্য ও নৈতিক শিক্ষা",
-          "title": "হৃদয়ে প্রশান্তি পেতে নবীজির শেখানো ৩টি দোয়া",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4730f68a",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Create conditions for safe return of Rohingya",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-90bc72f0",
-          "lang": "bn",
-          "topic": "বাংলাদেশের সংস্কৃতি",
-          "title": "ধানমন্ডির গণ্ডি পেরিয়ে বিশ্বজুড়ে\n ছায়ানটের সংগীত শিক্ষা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-e1972fb2",
-          "lang": "en",
-          "topic": "বাংলার অর্থনীতি",
-          "title": "Fruit imports get easier as Bangladesh Bank lifts 100% cash margin rule",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-df3a14d5",
-          "lang": "bn",
-          "topic": "বাংলাদেশের সমাজ ও কর্মপরিবেশ",
-          "title": "কেক",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-721fab2b",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "BB approves LC opening for SS Power through Rupali Bank",
           "source": "The Business Standard"
         }
       ]
