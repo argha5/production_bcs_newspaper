@@ -1,10 +1,64 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T00:55:36.635Z",
-  "latestDate": "2026-08-25",
-  "latestHash": "5a9afc055523e453039397bb",
+  "updatedAt": "2026-08-26T00:42:21.663Z",
+  "latestDate": "2026-08-26",
+  "latestHash": "4e49b56e8290a9c02ec9af84",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-26",
+      "dateBn": "২৬ আগস্ট ২০২৬, বুধবার",
+      "hash": "4e49b56e8290a9c02ec9af84",
+      "file": "data/2026-08-26.json",
+      "articleCount": 6,
+      "bengaliCount": 2,
+      "englishCount": 4,
+      "generatedAt": "2026-08-26T00:42:21.663Z",
+      "headlines": [
+        {
+          "id": "bn-50c05b91",
+          "lang": "bn",
+          "topic": "জাতীয় নিরাপত্তা ও আইনশৃঙ্খলা",
+          "title": "ঈদে মিলাদুন্নবী (সা.) উপলক্ষে রাজধানীতে ডিএমপির কঠোর নিরাপত্তাবলয়, দেশজুড়ে সতর্ক র‌্যাব",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-7d2b0094",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "RMG net earnings rebound 10% in April-June amid looming energy, cost pressures",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-34336f81",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "সিআইএর সতর্কতা শোনেননি ট্রাম্প,\nনেতানিয়াহুর পরামর্শে যুদ্ধে জড়ান",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-76cedcee",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Tax relief on cards for firms with turnover up to Tk2cr",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-ba9f5ddb",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "DSE turnover plunges 58% in 15 sessions as liquidity dries up",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-b5a1c4e6",
+          "lang": "en",
+          "topic": "শিক্ষা ও শাসনতন্ত্র",
+          "title": "Public universities must not become instruments of political power",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-08-25",
       "dateBn": "২৫ আগস্ট ২০২৬, মঙ্গলবার",
@@ -332,74 +386,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "Bida survey to map investment barriers, industrial potential across 64 districts",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "dateBn": "১৯ আগস্ট ২০২৬, বুধবার",
-      "hash": "768510ea3e7a9d9bf9d421ff",
-      "file": "data/2026-08-19.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-08-19T00:37:54.892Z",
-      "headlines": [
-        {
-          "id": "bn-b259a259",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "নতুন চুক্তিতে ’৭৭ সালের ধারা যুক্ত করার তাগিদ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1371c66f",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "India must choose: Sheikh Hasina or a sustainable relationship with Bangladesh?",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-a732042a",
-          "lang": "bn",
-          "topic": "ইসলাম ও নৈতিকতা",
-          "title": "যে ৫ কাজ আল্লাহর অসন্তোষ থেকে বাঁচায়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f5b9e22d",
-          "lang": "en",
-          "topic": "মানবাধিকার ও শাসন",
-          "title": "Renaming Rab as SRB is not reforming",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-0460799a",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "দরকারের সময় অক্সিজেন পান না ৭০% মানুষ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-32c7259e",
-          "lang": "en",
-          "topic": "বাংলান্দেশের অর্থনীতি",
-          "title": "NCC Bank moves to empower board to remove chairman by vote",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-03fef52d",
-          "lang": "bn",
-          "topic": "সাহিত্য ও সংস্কৃতি",
-          "title": "ঐতিহ্য-শান্তনু কায়সার সাহিত্য পুরস্কার প্রদান, প্রকাশিত হলো ১০ খণ্ডের রচনাবলি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-d5e4d87f",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "DSEX erases 100-point gain as margin gazette triggers ‘sell-on-news’ reaction",
           "source": "The Business Standard"
         }
       ]
