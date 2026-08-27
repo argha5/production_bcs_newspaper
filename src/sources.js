@@ -11,9 +11,9 @@ import { clampToTokens } from './util.js';
 const UA ='Mozilla/5.0 (compatible; bcsnewspaperapi/1.0; +https://github.com/argha5/bcsnewspaperapi)';
 
 /** Sections that are never useful for BCS preparation. */
-const BLOCKED_PATH = /\/(sports?|cricket|football|entertainment|showbiz|glitz|celebrity|lifestyle|fashion|food|travel|horoscope|crime|accident|obituary|photo|video|gallery|job|chakri)(\/|$)/i;
-const BLOCKED_BN = /(খেলা|ক্রিকেট|ফুটবল|বিনোদন|সিনেমা|নাটক|তারকা|রাশিফল|লাইফস্টাইল|ভ্রমণ|রেসিপি|দুর্ঘটনা|নিহত|গ্রেপ্তার|ধর্ষণ|খুন|লাশ|চাকরি|বিজ্ঞপ্তি)/;
-const BLOCKED_EN = /\b(cricket|football|match|tournament|actor|actress|film|movie|celebrity|arrested|murder|rape|killed in|road crash)\b/i;
+const BLOCKED_PATH = /\/(sports?|cricket|football|entertainment|showbiz|glitz|celebrity|lifestyle|fashion|food|travel|horoscope|crime|accident|obituary|photo|video|gallery|job|chakri|religion|islam|dharma|prayer|mosque|temple|church|namaz|salah|hajj|umrah|quran|puja|ramadan)(\/|$)/i;
+const BLOCKED_BN = /(খেলা|ক্রিকেট|ফুটবল|বিনোদন|সিনেমা|নাটক|তারকা|রাশিফল|লাইফস্টাইল|ভ্রমণ|রেসিপি|দুর্ঘটনা|নিহত|গ্রেপ্তার|ধর্ষণ|খুন|লাশ|চাকরি|বিজ্ঞপ্তি|নামাজ|রোজা|ইফতার|সেহরি|তারাবি|জুমার নামাজ|ঈদের নামাজ|ঈদ মোবারক|পূজা উদযাপন|পূজামণ্ডপ|ওয়াজ মাহফিল|তাবলিগ|দোয়া মাহফিল|মিলাদ|ইসলামী জলসা|হজ পালন|উমরা পালন|আযান|কোরআন তেলাওয়াত)/;
+const BLOCKED_EN = /\b(cricket|football|match|tournament|actor|actress|film|movie|celebrity|arrested|murder|rape|killed in|road crash|friday prayer|jumma prayer|eid prayer|eid mubarak|namaz|hajj pilgrimage|umrah|puja celebration|durga puja|church service|mosque sermon|religious sermon|quran recitation|tabligh|waz mahfil)\b/i;
 
 /**
  * A URL that lives in an opinion/editorial section. Newspapers encode this in
@@ -242,17 +242,33 @@ export async function collectArticles({
     }
   }
 
+  // Compute yesterday's Dhaka date (targetDate - 1 day) once, so late-night
+  // articles published the previous calendar day in Dhaka are not missed.
+  let targetDateYesterday = null;
+  if (targetDate) {
+    const d = new Date(`${targetDate}T00:00:00+06:00`);
+    d.setDate(d.getDate() - 1);
+    targetDateYesterday = d.toLocaleDateString('sv-SE', { timeZone: 'Asia/Dhaka' });
+  }
+
   const ranked = candidates
     .filter((item) => item.title && /^https?:\/\//.test(item.link))
     .filter((item) => !isBlocked(item))
     .filter((item) => {
-      const d = parsePubDate(item.pubDate);
-      if (!d) return false; // Reject unparseable dates
-      const age = ageInDays(item.pubDate);
+      if (!parsePubDate(item.pubDate)) return false; // Reject unparseable dates
       const itemDhakaDate = getDhakaDateStr(item.pubDate);
-      // Keep if published on targetDate OR within 1 day (maxAgeDays)
+      if (!itemDhakaDate) return false;
+      // Primary: exact match on today's Dhaka date.
       if (targetDate && itemDhakaDate === targetDate) return true;
-      return age >= 0 && age <= (maxAgeDays ?? 1.0);
+      // Secondary: yesterday's Dhaka date — covers articles published late
+      // at night (e.g., 23:30 Dhaka) which belong to today's edition.
+      if (targetDateYesterday && itemDhakaDate === targetDateYesterday) return true;
+      // Fallback when no targetDate is given: use the configured age window.
+      if (!targetDate) {
+        const age = ageInDays(item.pubDate);
+        return age >= 0 && age <= (maxAgeDays ?? 1.5);
+      }
+      return false;
     })
     .filter((item) => {
       const key = item.title.toLowerCase().trim();
@@ -263,8 +279,12 @@ export async function collectArticles({
     .map((item) => {
       const itemDhakaDate = getDhakaDateStr(item.pubDate);
       const isTargetDate = targetDate ? (itemDhakaDate === targetDate) : false;
+      const isYesterday = targetDateYesterday ? (itemDhakaDate === targetDateYesterday) : false;
       let score = relevanceScore(item);
+      // Today's articles get the biggest boost; yesterday's get a smaller one
+      // so they appear only when today's pool is thin.
       if (isTargetDate) score += 10;
+      else if (isYesterday) score += 3;
       return { item, score, isTargetDate };
     })
     .filter((entry) => entry.score > 0)

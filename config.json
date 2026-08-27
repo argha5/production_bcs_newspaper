@@ -13,7 +13,7 @@
 
   "minArticleWordsEn": 250,
   "minArticleWordsBn": 300,
-  "maxArticleAgeDays": 1.0,
+  "maxArticleAgeDays": 1.5,
 
   "//tokens": "Limits raised across the board so no request is ever truncated. Output limits are in build.js.",
   "translationChunkTokens": 1000,
