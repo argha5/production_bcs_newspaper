@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T00:42:21.663Z",
-  "latestDate": "2026-08-26",
-  "latestHash": "4e49b56e8290a9c02ec9af84",
+  "updatedAt": "2026-08-27T06:08:11.448Z",
+  "latestDate": "2026-08-27",
+  "latestHash": "234881ff8bd9b620478a57d1",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-27",
+      "dateBn": "২৭ আগস্ট ২০২৬, বৃহস্পতিবার",
+      "hash": "234881ff8bd9b620478a57d1",
+      "file": "data/2026-08-27.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-08-27T06:08:11.448Z",
+      "headlines": [
+        {
+          "id": "bn-583cd3ad",
+          "lang": "bn",
+          "topic": "শ্রম ও অর্থনীতি",
+          "title": "বেসরকারি নিরাপত্তাকর্মীর ‘নিরাপত্তাহীন’ জীবন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-92fe49fc",
+          "lang": "en",
+          "topic": "সামাজিক সমস্যা",
+          "title": "Utilising the power of volunteerism for a cleaner Bangladesh",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-866ae6c4",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "প্রতিরোধে চাই সামাজিক শুশ্রূষা ও আইনি সংস্কার",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-bc8ea8e1",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Why Bangladesh must make trust its next competitive advantage",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-c1a5cffc",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "গাজায় কি সিরিয়া মডেল প্রয়োগ করছে আমেরিকা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-fb4c8557",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Can Invest Bangladesh live up to the expectations?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-56de3b41",
+          "lang": "bn",
+          "topic": "নারী ও সমাজ",
+          "title": "অফিস লুক মানেই কি বোরিং? পাওয়ার-স্যুট স্টাইলের বোল্ড স্টেটমেন্টে কর্মব্যস্ত মনামী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-fa9cf496",
+          "lang": "en",
+          "topic": "সাইবার নিরাপত্তা",
+          "title": "Protect people from online loan scams",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-08-26",
       "dateBn": "২৬ আগস্ট ২০২৬, বুধবার",
@@ -339,53 +407,6 @@
           "lang": "en",
           "topic": "পরিস্থিতি ও জলবায়ু",
           "title": "Why capability must sit at the heart of the green transition",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "dateBn": "২০ আগস্ট ২০২৬, বৃহস্পতিবার",
-      "hash": "9b9a358534da4bf6011ece2c",
-      "file": "data/2026-08-20.json",
-      "articleCount": 5,
-      "bengaliCount": 1,
-      "englishCount": 4,
-      "generatedAt": "2026-08-20T00:27:06.075Z",
-      "headlines": [
-        {
-          "id": "bn-46763e7d",
-          "lang": "bn",
-          "topic": "ইসলাম ও জীবনদর্শন",
-          "title": "সকালের যে ৭ আমল আপনার দিনের অনুভূতি বদলে দেবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1b0c284a",
-          "lang": "en",
-          "topic": "বাংলদেশের সামাজিক সমস্যা",
-          "title": "Overcrowded prisons need urgent attention",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-9788ea64",
-          "lang": "en",
-          "topic": "ব্যবস্থাপনা ও নেতৃত্ব",
-          "title": "Beyond pay: Rethinking employee rewards",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-cc4751c6",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "BFIU orders banks to report linked accounts when any account is frozen",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-6e4be98f",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bida survey to map investment barriers, industrial potential across 64 districts",
           "source": "The Business Standard"
         }
       ]
