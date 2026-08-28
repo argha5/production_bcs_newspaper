@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T06:08:11.448Z",
-  "latestDate": "2026-08-27",
-  "latestHash": "234881ff8bd9b620478a57d1",
+  "updatedAt": "2026-08-28T14:50:51.288Z",
+  "latestDate": "2026-08-28",
+  "latestHash": "57500185df4f0bff3334049f",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-08-28",
+      "dateBn": "২৮ আগস্ট ২০২৬, শুক্রবার",
+      "hash": "57500185df4f0bff3334049f",
+      "file": "data/2026-08-28.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-08-28T14:50:51.288Z",
+      "headlines": [
+        {
+          "id": "bn-4314b217",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও রাজনীতি",
+          "title": "বিভাজনের রাজনীতি থেকে মানুষ মুখ ফেরাচ্ছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1cba0339",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Dhaka must reclaim its lost water bodies",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-14dc8118",
+          "lang": "bn",
+          "topic": "প্রশাসন ও আইনশৃঙ্খলা",
+          "title": "সপরিবার আত্মগোপন করা চাঁদপুরের সেই স্বর্ণ ব্যবসায়ীর খোঁজ মিলল যেভাবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-553860d8",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "What Norway's sovereign fund exit says about Dhaka's stock market",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-ebb7f0e0",
+          "lang": "bn",
+          "topic": "পর্যাবরণ ও বন্যপ্রাণী",
+          "title": "হাওরে মৃত গাঙ্গেয় শুশুক উদ্ধার, মাছ ভেবে কেটে ভাগ করে নিলেন বাসিন্দারা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-fb8d31f9",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Dhaka’s strategic shift leaves ties with Delhi in doldrums",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-7823e61b",
+          "lang": "bn",
+          "topic": "প্রযুক্তি ও অর্থনীতি",
+          "title": "পিৎজা বানানোর রোবট নিয়ে প্রত্যাশা অনেক, সাফল্য এখনো আধাখেঁচড়া",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d68a2910",
+          "lang": "en",
+          "topic": "নারী ও সামাজিক নিরাপত্তা",
+          "title": "The Pink Bus paradox and the price of women's safety",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-08-27",
       "dateBn": "২৭ আগস্ট ২০২৬, বৃহস্পতিবার",
@@ -339,74 +407,6 @@
           "lang": "en",
           "topic": "শিক্ষা ও প্রযুক্তি",
           "title": "AI won’t replace teachers. It will redefine them",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "dateBn": "২১ আগস্ট ২০২৬, শুক্রবার",
-      "hash": "931eb3047d9dfff4d57f60f4",
-      "file": "data/2026-08-21.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-08-21T01:08:43.912Z",
-      "headlines": [
-        {
-          "id": "bn-4f7167da",
-          "lang": "bn",
-          "topic": "বাংলাদেশের শাসনতন্ত্র",
-          "title": "মির্জা ফখরুল রাষ্ট্রপতি নির্বাচিত, শপথ শুক্রবার সন্ধ্যায়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-69d7cc9c",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "US Treasury officials meet BB governor, discuss economic, banking reforms",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-ddb391b3",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "বাংলাদেশি শিক্ষকের সানারিজে যুক্তরাষ্ট্রের ১০৪ শিক্ষার্থীর সাফল্য উদ্‌যাপন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f98968d9",
-          "lang": "en",
-          "topic": "বাংলদেশের রাজনীতি",
-          "title": "Expectations from BNP’s next secretary general",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-70ce37ed",
-          "lang": "bn",
-          "topic": "ইসলামী শরিয়ত",
-          "title": "পানি না থাকলে পবিত্র হওয়ার বৈধ উপায় কী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-dce5afa4",
-          "lang": "en",
-          "topic": "বাংলান্দেশের অর্থনীতি",
-          "title": "Cenbank introduces ADR policy to speed up loan recovery, ease court backlog",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-2b2e73db",
-          "lang": "bn",
-          "topic": "জীবনদর্শন ও সিদ্ধান্তগ্রহণ",
-          "title": "লাইফ ইজ ম্যাথ: জীবনের প্রতিটি সিদ্ধান্তেই আছে হিসাব",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-b56bdf10",
-          "lang": "en",
-          "topic": "পরিস্থিতি ও জলবায়ু",
-          "title": "Why capability must sit at the heart of the green transition",
           "source": "The Business Standard"
         }
       ]
