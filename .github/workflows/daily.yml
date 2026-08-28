@@ -24,9 +24,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # A full edition spends most of its wall clock waiting out the per-minute
-    # token ceiling rather than generating, so the job needs room to sit idle.
-    timeout-minutes: 120
+    # A full edition with 8 articles + API slowdowns can exceed 2 hours.
+    # GitHub Actions maximum is 6 hours; 360 gives plenty of headroom.
+    timeout-minutes: 360
 
     steps:
       - uses: actions/checkout@v4

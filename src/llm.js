@@ -62,7 +62,7 @@ const lanes = new Map();
 function lane(key, model) {
   const id = `${key}|${model}`;
   if (!lanes.has(id)) {
-    lanes.set(id, { key, model, remaining: TPM, readyAt: 0, dailyDone: false });
+    lanes.set(id, { key, model, remaining: TPM, readyAt: 0, dailyDone: false, consecutive5xx: 0 });
   }
   return lanes.get(id);
 }
@@ -139,9 +139,10 @@ function acquireLane(models, label) {
     }
   }
 
-  // All lanes briefly cooling — pick the least-busy one without waiting
+  // All lanes cooling — pick the one that resumes soonest
   const fallback = alive.reduce((a, b) => (a.readyAt < b.readyAt ? a : b));
-  console.log(`  … ${label}: all lanes briefly busy, proceeding with ${fallback.model}`);
+  const waitSec = Math.max(0, Math.round((fallback.readyAt - now()) / 1000));
+  console.log(`  … ${label}: all lanes busy, waiting ${waitSec}s (next: ${fallback.model}/${keyName(fallback.key)})`);
   return fallback;
 }
 
@@ -282,15 +283,26 @@ export async function generate({
 
         if (res.status >= 500) {
           attempt++;
+          l.consecutive5xx = (l.consecutive5xx ?? 0) + 1;
           lastError = new Error(`HTTP ${res.status} — ${detail}`);
-          console.warn(`  ! ${label}: HTTP ${res.status}, retrying`);
-          await sleep(3000 * attempt);
+          // After 3 consecutive 5xx hits, cool the lane for 2 minutes so
+          // subsequent retries are routed to a different key/model.
+          const backoffMs = l.consecutive5xx >= 3
+            ? 2 * 60_000
+            : Math.min(30_000, 3000 * Math.pow(2, l.consecutive5xx - 1));
+          l.readyAt = now() + backoffMs;
+          console.warn(
+            `  ! ${label}: HTTP ${res.status} (hit ${l.consecutive5xx}), backoff ${Math.round(backoffMs / 1000)}s on ${l.model}/${keyName(l.key)}`,
+          );
+          await sleep(Math.min(5000, 1500 * attempt));
           continue;
         }
 
         throw new Error(`HTTP ${res.status} — ${detail}`);
       }
 
+      // Successful response: reset the 5xx counter for this lane.
+      l.consecutive5xx = 0;
       const json = await res.json();
       spentByModel.set(l.model, (spentByModel.get(l.model) ?? 0) + (json.usage?.total_tokens ?? 0));
 
