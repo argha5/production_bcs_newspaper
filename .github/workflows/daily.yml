@@ -2,8 +2,8 @@ name: Daily edition
 
 on:
   schedule:
-    # 23:47 UTC = 05:47 AM Asia/Dhaka — avoids top-of-the-hour GitHub queue delay & finishes by 07:15 AM.
-    - cron: '47 23 * * *'
+    # 03:00 UTC = 09:00 AM Asia/Dhaka (every day at 9:00 AM Bangladesh time)
+    - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
       date:
