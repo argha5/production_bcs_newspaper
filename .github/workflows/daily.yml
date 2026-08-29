@@ -2,8 +2,12 @@ name: Daily edition
 
 on:
   schedule:
-    # 03:00 UTC = 09:00 AM Asia/Dhaka (every day at 9:00 AM Bangladesh time)
-    - cron: '0 3 * * *'
+    # Primary: 03:15 UTC = 09:15 AM Asia/Dhaka (non-zero minute avoids top-of-the-hour GitHub queue delays)
+    - cron: '15 3 * * *'
+    # Backup 1: 04:15 UTC = 10:15 AM Asia/Dhaka (runs only if 09:15 was dropped/delayed; exits in 1s if already built)
+    - cron: '15 4 * * *'
+    # Backup 2: 06:15 UTC = 12:15 PM Asia/Dhaka (failsafe backup)
+    - cron: '15 6 * * *'
   workflow_dispatch:
     inputs:
       date:
