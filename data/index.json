@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T07:31:53.270Z",
-  "latestDate": "2026-08-31",
-  "latestHash": "8125650f7263e66a66824a9d",
+  "updatedAt": "2026-09-01T06:59:47.323Z",
+  "latestDate": "2026-09-01",
+  "latestHash": "0391a246fb1ba5b1e7ed5e4a",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-01",
+      "dateBn": "১ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
+      "hash": "0391a246fb1ba5b1e7ed5e4a",
+      "file": "data/2026-09-01.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-01T06:59:47.323Z",
+      "headlines": [
+        {
+          "id": "bn-ce0a4fdd",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "ডান-বামের সমীকরণে বিএনপির আস্থার রাজনীতি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1b74394e",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "New pay scale justified amid inflation, but funding a challenge: Fahmida Khatun",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-4dbc4d55",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও পরিবেশ",
+          "title": "চীনের কঠোর নিয়ন্ত্রণে তিব্বত কীভাবে এই বিপর্যয় সামাল দিচ্ছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-35ddcb8a",
+          "lang": "en",
+          "topic": "মানবাধিকার ও আইন",
+          "title": "Diary of a lawmaker: Laws for rights and the unmaking of them",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d0b86460",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "বাংলাদেশের গণতান্ত্রিক সরকারের পাশে আছে যুক্তরাষ্ট্র, যেকোনো সহায়তায় প্রস্তুত: সারাহ আলড্রিচ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0f00a80a",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Tarique Rahman’s India visit and the end of automatic deference",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-34bbacd5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের প্রশাসন ও শিক্ষা",
+          "title": "এমপিওভুক্ত শিক্ষক-কর্মচারীরাও পাবেন নতুন বেতনকাঠামোর সুবিধা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-de7ba9d7",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Weighing the Mecca defence pact",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "dateBn": "৩১ আগস্ট ২০২৬, সোমবার",
@@ -396,74 +464,6 @@
           "topic": "শিক্ষা ও শাসনতন্ত্র",
           "title": "Public universities must not become instruments of political power",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "dateBn": "২৫ আগস্ট ২০২৬, মঙ্গলবার",
-      "hash": "5a9afc055523e453039397bb",
-      "file": "data/2026-08-25.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-08-25T00:55:36.635Z",
-      "headlines": [
-        {
-          "id": "bn-2af8f493",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ভারতকে জ্বালানি ও সার সরবরাহের আশ্বাস রাশিয়ার",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b39daaf9",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Don't repeat old mistakes in labour migration to Malaysia",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e5a91011",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "আন্তর্জাতিক শিক্ষার্থীদের যুক্তরাষ্ট্রে ফেরার তাগিদ মার্কিন বিশ্ববিদ্যালয়গুলোর",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a6821bf1",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "From nationalisation to Invest Bangladesh Authority: A journey of continuous change",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-685da330",
-          "lang": "bn",
-          "topic": "ভারতের রাজনীতি",
-          "title": "যাদবপুরে এবিভিপির তাণ্ডবের প্রতিবাদে কলকাতায় মিছিল ও পাল্টা মিছিল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-9ecdcba3",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Lack of political courage, capacity behind sluggish economic recovery: CPD",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-844d12f6",
-          "lang": "bn",
-          "topic": "বাংলাদেশের সংস্কৃতি ও শিল্প",
-          "title": "তারেক মাসুদের চলচ্চিত্রে বাঙালি মুসলমানের অন্তর্দ্বন্দ্বের প্রতিফলন আছে: সলিমুল্লাহ খান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b2a1c0b6",
-          "lang": "en",
-          "topic": "প্রযুক্তি ও সমাজ",
-          "title": "AI and automation: The real questions that only a few are asking",
-          "source": "The Business Standard"
         }
       ]
     }
