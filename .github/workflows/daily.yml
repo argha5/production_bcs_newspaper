@@ -2,14 +2,21 @@ name: Daily edition
 
 on:
   schedule:
-    # Early morning primary: 01:23 UTC = 07:23 AM Asia/Dhaka (off-peak runner queue, quick start)
-    - cron: '23 1 * * *'
-    # Morning backup 1: 03:17 UTC = 09:17 AM Asia/Dhaka (covers any runner queue drops)
-    - cron: '17 3 * * *'
-    # Mid-morning backup 2: 05:12 UTC = 11:12 AM Asia/Dhaka (failsafe backup)
-    - cron: '12 5 * * *'
-    # Final backup: 06:48 UTC = 12:48 PM Asia/Dhaka (guarantees completion by 1:00 PM)
-    - cron: '48 6 * * *'
+    # ─── Primary window: 08:00 AM – 10:00 AM Asia/Dhaka ───────────────────────
+    # Run multiple times so at least one hits an available runner.
+    # Each backup exits in ~2 s if today's edition already exists.
+    - cron: '07 2 * * *'   # 08:07 AM Dhaka
+    - cron: '32 2 * * *'   # 08:32 AM Dhaka
+    - cron: '03 3 * * *'   # 09:03 AM Dhaka
+    - cron: '47 3 * * *'   # 09:47 AM Dhaka
+
+    # ─── Backup window: 10:00 AM – 12:00 PM Asia/Dhaka ────────────────────────
+    # Kicks in only if every primary attempt was queued / dropped by GitHub.
+    - cron: '13 4 * * *'   # 10:13 AM Dhaka
+    - cron: '42 4 * * *'   # 10:42 AM Dhaka
+    - cron: '18 5 * * *'   # 11:18 AM Dhaka
+    - cron: '52 5 * * *'   # 11:52 AM Dhaka
+
   workflow_dispatch:
     inputs:
       date:
@@ -43,8 +50,8 @@ jobs:
         with:
           node-version: '22'
 
-      # Fast check: If edition is already built today, exit cleanly in seconds
-      # without exhausting daily AI token quotas or triggering push conflicts.
+      # Fast-exit check: skip in ~2 seconds if today's edition is already built.
+      # This prevents duplicate API usage and push conflicts on backup runs.
       - name: Check if already built today
         run: |
           git pull --rebase origin main || true
@@ -84,9 +91,9 @@ jobs:
           HASH=$(node -e "console.log(require('./data/index.json').latestHash)")
           DATE=$(node -e "console.log(require('./data/index.json').latestDate)")
           git commit -m "edition $DATE ($HASH)"
-          
-          # Rebase and push with retry to prevent race condition push rejections
+
+          # Rebase-then-push with 5 retries to handle concurrent run race conditions.
           for i in 1 2 3 4 5; do
             echo "Push attempt $i..."
-            git pull --rebase origin main && git push origin main && break || sleep 6
+            git pull --rebase origin main && git push origin main && break || sleep 8
           done
