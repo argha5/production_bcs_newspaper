@@ -2,12 +2,14 @@ name: Daily edition
 
 on:
   schedule:
-    # Primary: 03:15 UTC = 09:15 AM Asia/Dhaka (non-zero minute avoids top-of-the-hour GitHub queue delays)
-    - cron: '15 3 * * *'
-    # Backup 1: 04:15 UTC = 10:15 AM Asia/Dhaka (runs only if 09:15 was dropped/delayed; exits in 1s if already built)
-    - cron: '15 4 * * *'
-    # Backup 2: 06:15 UTC = 12:15 PM Asia/Dhaka (failsafe backup)
-    - cron: '15 6 * * *'
+    # Early morning primary: 01:23 UTC = 07:23 AM Asia/Dhaka (off-peak runner queue, quick start)
+    - cron: '23 1 * * *'
+    # Morning backup 1: 03:17 UTC = 09:17 AM Asia/Dhaka (covers any runner queue drops)
+    - cron: '17 3 * * *'
+    # Mid-morning backup 2: 05:12 UTC = 11:12 AM Asia/Dhaka (failsafe backup)
+    - cron: '12 5 * * *'
+    # Final backup: 06:48 UTC = 12:48 PM Asia/Dhaka (guarantees completion by 1:00 PM)
+    - cron: '48 6 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -34,10 +36,27 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+
+      # Fast check: If edition is already built today, exit cleanly in seconds
+      # without exhausting daily AI token quotas or triggering push conflicts.
+      - name: Check if already built today
+        run: |
+          git pull --rebase origin main || true
+          DHAKA_DATE="${{ inputs.date }}"
+          if [ -z "$DHAKA_DATE" ]; then
+            DHAKA_DATE=$(node -e "const d = new Date(Date.now() + 6 * 3600 * 1000); console.log(d.toISOString().slice(0, 10))")
+          fi
+          echo "Target edition date: $DHAKA_DATE"
+          if [ -f "data/${DHAKA_DATE}.json" ] && [ "${{ inputs.force }}" != "true" ]; then
+            echo "Edition for ${DHAKA_DATE} already exists. Skipping duplicate build."
+            exit 0
+          fi
 
       - name: Build today's edition
         env:
@@ -53,7 +72,7 @@ jobs:
       - name: Validate data tree
         run: node src/validate.js
 
-      - name: Commit edition
+      - name: Commit and push edition
         run: |
           git config user.name  "bcsnewspaper-bot"
           git config user.email "actions@github.com"
@@ -65,4 +84,9 @@ jobs:
           HASH=$(node -e "console.log(require('./data/index.json').latestHash)")
           DATE=$(node -e "console.log(require('./data/index.json').latestDate)")
           git commit -m "edition $DATE ($HASH)"
-          git push
+          
+          # Rebase and push with retry to prevent race condition push rejections
+          for i in 1 2 3 4 5; do
+            echo "Push attempt $i..."
+            git pull --rebase origin main && git push origin main && break || sleep 6
+          done
