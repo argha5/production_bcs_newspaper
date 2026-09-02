@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T06:59:47.323Z",
-  "latestDate": "2026-09-01",
-  "latestHash": "0391a246fb1ba5b1e7ed5e4a",
+  "updatedAt": "2026-09-02T09:02:41.119Z",
+  "latestDate": "2026-09-02",
+  "latestHash": "a24540d1cd959fc6dbf33524",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-02",
+      "dateBn": "২ সেপ্টেম্বর ২০২৬, বুধবার",
+      "hash": "a24540d1cd959fc6dbf33524",
+      "file": "data/2026-09-02.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-02T09:02:41.119Z",
+      "headlines": [
+        {
+          "id": "bn-0f7eccae",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "প্রত্যাবাসনের অপেক্ষায় প্রায় এক দশক: রোহিঙ্গা সংকটে বাংলাদেশের সামনে আর কী পথ?",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-21f5affa",
+          "lang": "en",
+          "topic": "কৃষি ও খাদ্য নিরাপত্তা",
+          "title": "Agricultural aid must be better targeted",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-0e6bcca1",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি ও শাসনব্যবস্থা",
+          "title": "বিএনপি সরকারের তিন ‘ফল্ট লাইন’ যে ঝুঁকি তৈরি করছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-23eac60e",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "The Rohingya need a unified strategy, not piecemeal efforts",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-1994a895",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ইরান-যুক্তরাষ্ট্রের পাল্টাপাল্টি হামলা, তেলের দাম বাড়ল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-49d499b9",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "What Nepal’s devastating floods teach us about climate vulnerability",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e819e304",
+          "lang": "bn",
+          "topic": "কৃষি ও পরিবেশ",
+          "title": "কৃষিজমিতে সৌরবিদ্যুৎকেন্দ্র করতে চান এমপিপত্নী, আপত্তির ২৭ দিন পরেই পেলেন অনাপত্তিপত্র",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-7f559d66",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও চিকিৎসাবিজ্ঞান",
+          "title": "We take lab reports on trust. How can we make them more reliable?",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-01",
       "dateBn": "১ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
@@ -409,60 +477,6 @@
           "lang": "en",
           "topic": "সাইবার নিরাপত্তা",
           "title": "Protect people from online loan scams",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "dateBn": "২৬ আগস্ট ২০২৬, বুধবার",
-      "hash": "4e49b56e8290a9c02ec9af84",
-      "file": "data/2026-08-26.json",
-      "articleCount": 6,
-      "bengaliCount": 2,
-      "englishCount": 4,
-      "generatedAt": "2026-08-26T00:42:21.663Z",
-      "headlines": [
-        {
-          "id": "bn-50c05b91",
-          "lang": "bn",
-          "topic": "জাতীয় নিরাপত্তা ও আইনশৃঙ্খলা",
-          "title": "ঈদে মিলাদুন্নবী (সা.) উপলক্ষে রাজধানীতে ডিএমপির কঠোর নিরাপত্তাবলয়, দেশজুড়ে সতর্ক র‌্যাব",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-7d2b0094",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "RMG net earnings rebound 10% in April-June amid looming energy, cost pressures",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-34336f81",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "সিআইএর সতর্কতা শোনেননি ট্রাম্প,\nনেতানিয়াহুর পরামর্শে যুদ্ধে জড়ান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-76cedcee",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Tax relief on cards for firms with turnover up to Tk2cr",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-ba9f5ddb",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "DSE turnover plunges 58% in 15 sessions as liquidity dries up",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-b5a1c4e6",
-          "lang": "en",
-          "topic": "শিক্ষা ও শাসনতন্ত্র",
-          "title": "Public universities must not become instruments of political power",
           "source": "The Daily Star"
         }
       ]
