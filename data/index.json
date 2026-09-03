@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T09:02:41.119Z",
-  "latestDate": "2026-09-02",
-  "latestHash": "a24540d1cd959fc6dbf33524",
+  "updatedAt": "2026-09-03T08:08:22.978Z",
+  "latestDate": "2026-09-03",
+  "latestHash": "c5f228f1bb438263c610b9d3",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-03",
+      "dateBn": "৩ সেপ্টেম্বর ২০২৬, বৃহস্পতিবার",
+      "hash": "c5f228f1bb438263c610b9d3",
+      "file": "data/2026-09-03.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-03T08:08:22.978Z",
+      "headlines": [
+        {
+          "id": "bn-4258ad4e",
+          "lang": "bn",
+          "topic": "পর্যটন ও দুর্যোগ ব্যবস্থাপনা",
+          "title": "নিরাপত্তা নিশ্চিতে নির্দেশনা বাস্তবায়ন জরুরি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5be896d7",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Bangladesh’s climate pledges need political ownership",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-b6aaf846",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "বেসরকারি খাতেও বেতনের সমন্বয় কেন জরুরি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a753ebba",
+          "lang": "en",
+          "topic": "ডিজিটাল নিরাপত্তা",
+          "title": "Citizens’ personal data is not for sale",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-1d87f800",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "দুই স্বাস্থ্যকর্মীর হাতে সাড়ে ১০ হাজারের বেশি স্বাভাবিক প্রসব",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-81940de6",
+          "lang": "en",
+          "topic": "বাংলার অর্থনীতি",
+          "title": "Govt jobs are getting better, but what about the private sector?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-54206b7a",
+          "lang": "bn",
+          "topic": "বাংলাদেশের প্রশাসন",
+          "title": "র‍্যাবের নতুন সদর দপ্তর ভবন নির্মাণে ১৭২ কোটি টাকার কাজ পেল এম জামাল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1cd39e7e",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "NBR mulls return to monthly VAT payments amid collection slump",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-09-02",
       "dateBn": "২ সেপ্টেম্বর ২০২৬, বুধবার",
@@ -409,74 +477,6 @@
           "lang": "en",
           "topic": "নারী ও সামাজিক নিরাপত্তা",
           "title": "The Pink Bus paradox and the price of women's safety",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "dateBn": "২৭ আগস্ট ২০২৬, বৃহস্পতিবার",
-      "hash": "234881ff8bd9b620478a57d1",
-      "file": "data/2026-08-27.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-08-27T06:08:11.448Z",
-      "headlines": [
-        {
-          "id": "bn-583cd3ad",
-          "lang": "bn",
-          "topic": "শ্রম ও অর্থনীতি",
-          "title": "বেসরকারি নিরাপত্তাকর্মীর ‘নিরাপত্তাহীন’ জীবন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-92fe49fc",
-          "lang": "en",
-          "topic": "সামাজিক সমস্যা",
-          "title": "Utilising the power of volunteerism for a cleaner Bangladesh",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-866ae6c4",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "প্রতিরোধে চাই সামাজিক শুশ্রূষা ও আইনি সংস্কার",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-bc8ea8e1",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Why Bangladesh must make trust its next competitive advantage",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-c1a5cffc",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "গাজায় কি সিরিয়া মডেল প্রয়োগ করছে আমেরিকা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-fb4c8557",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Can Invest Bangladesh live up to the expectations?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-56de3b41",
-          "lang": "bn",
-          "topic": "নারী ও সমাজ",
-          "title": "অফিস লুক মানেই কি বোরিং? পাওয়ার-স্যুট স্টাইলের বোল্ড স্টেটমেন্টে কর্মব্যস্ত মনামী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-fa9cf496",
-          "lang": "en",
-          "topic": "সাইবার নিরাপত্তা",
-          "title": "Protect people from online loan scams",
           "source": "The Daily Star"
         }
       ]
