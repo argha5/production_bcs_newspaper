@@ -58,11 +58,19 @@ export function tokensSpent() {
 
 /** Lane state, keyed by `${key}|${model}`. */
 const lanes = new Map();
+const retiredModels = new Set();
 
 function lane(key, model) {
   const id = `${key}|${model}`;
   if (!lanes.has(id)) {
-    lanes.set(id, { key, model, remaining: TPM, readyAt: 0, dailyDone: false, consecutive5xx: 0 });
+    lanes.set(id, {
+      key,
+      model,
+      remaining: TPM,
+      readyAt: 0,
+      dailyDone: retiredModels.has(model),
+      consecutive5xx: 0,
+    });
   }
   return lanes.get(id);
 }
@@ -107,8 +115,13 @@ let cursor = 0;
  * a temporary 429 and immediately try the next model/key.
  */
 function acquireLane(models, label) {
+  const filteredModels = models.filter((model) => !retiredModels.has(model));
+  if (filteredModels.length === 0) {
+    throw new Error(`all configured models are unavailable: ${models.join(', ')}`);
+  }
+
   const candidates = [];
-  for (const model of models) {
+  for (const model of filteredModels) {
     for (const key of apiKeys) candidates.push(lane(key, model));
   }
 
@@ -119,7 +132,7 @@ function acquireLane(models, label) {
       .map((l) => `${l.model}/${keyName(l.key)}: dailyDone`)
       .join(', ');
     throw new Error(
-      `every key/model lane has spent its daily allowance (${models.join(', ')}). Lanes: ${summary}`,
+      `every key/model lane has spent its daily allowance (${filteredModels.join(', ')}). Lanes: ${summary}`,
     );
   }
 
@@ -129,7 +142,7 @@ function acquireLane(models, label) {
   }
 
   // Prefer ready lanes in model-preference order
-  for (const model of models) {
+  for (const model of filteredModels) {
     const forModel = apiKeys
       .map((_, i) => lane(apiKeys[(cursor + i) % apiKeys.length], model))
       .filter((l) => !l.dailyDone && l.readyAt <= now());
@@ -265,12 +278,13 @@ export async function generate({
           continue;
         }
 
-        // Router can return 404 when a configured model id is unavailable.
-        // Retire that lane for this run and fall through to the next model.
-        if (res.status === 404 && /model does not exist|requested model/i.test(detail)) {
-          console.warn(`  ! ${label}: ${l.model} is unavailable (HTTP 404), skipping model lane`);
-          l.dailyDone = true;
-          lastError = new Error(`HTTP 404 — ${detail}`);
+        if (res.status === 404 && /model does not exist|model_not_found|requested model/i.test(detail)) {
+          retiredModels.add(l.model);
+          for (const state of lanes.values()) {
+            if (state.model === l.model) state.dailyDone = true;
+          }
+          console.warn(`  ! ${label}: model "${l.model}" is unavailable, retiring it and falling back`);
+          lastError = new Error(`HTTP 404 model-not-found — ${l.model}`);
           continue;
         }
 
