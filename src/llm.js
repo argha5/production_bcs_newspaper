@@ -265,6 +265,15 @@ export async function generate({
           continue;
         }
 
+        // Router can return 404 when a configured model id is unavailable.
+        // Retire that lane for this run and fall through to the next model.
+        if (res.status === 404 && /model does not exist|requested model/i.test(detail)) {
+          console.warn(`  ! ${label}: ${l.model} is unavailable (HTTP 404), skipping model lane`);
+          l.dailyDone = true;
+          lastError = new Error(`HTTP 404 — ${detail}`);
+          continue;
+        }
+
         // Smaller models can fail to satisfy a deeply nested strict schema and
         // return nothing at all. Plain JSON mode still yields a parseable
         // object — the prompt describes every field anyway.
