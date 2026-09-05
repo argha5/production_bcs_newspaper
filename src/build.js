@@ -495,6 +495,15 @@ for (const raw of jobs) {
 }
 
 if (articles.length === 0) {
+  const allModelsUnavailable = failures.length === jobs.length
+    && failures.every((f) => f.includes('all configured models are unavailable'));
+
+  if (allModelsUnavailable) {
+    console.warn('\nNo articles were produced because all configured models are unavailable.');
+    console.warn('Keeping existing data unchanged; this run will exit successfully.');
+    process.exit(0);
+  }
+
   console.error('\nNo articles were produced — refusing to write an empty edition.');
   console.error(failures.join('\n'));
   process.exit(1);
