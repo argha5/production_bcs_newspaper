@@ -58,7 +58,10 @@ export async function checkAvailableModels() {
         const json = await res.json();
         const ids = (json.data || []).map((m) => m.id);
         console.log(`[LLM] Available models on ${isGroq ? 'Groq' : 'Bynara'} (${keyName(key)}): ${ids.length} models ->`, ids.join(', '));
-        ids.forEach((id) => found.add(id));
+        ids.forEach((id) => {
+          found.add(id);
+          discoveredModels.add(id);
+        });
       } else {
         const errText = await res.text();
         console.warn(`[LLM] Could not list models on ${isGroq ? 'Groq' : 'Bynara'} (${keyName(key)}): HTTP ${res.status} — ${errText.slice(0, 300)}`);
@@ -84,6 +87,7 @@ export function tokensSpent() {
 /** Lane state, keyed by `${key}|${model}`. */
 const lanes = new Map();
 const retiredModels = new Set();
+const discoveredModels = new Set();
 
 function lane(key, model) {
   const id = `${key}|${model}`;
@@ -140,9 +144,15 @@ let cursor = 0;
  * a temporary 429 and immediately try the next model/key.
  */
 function acquireLane(models, label) {
-  const filteredModels = models.filter((model) => !retiredModels.has(model));
+  let filteredModels = models.filter((model) => !retiredModels.has(model));
   if (filteredModels.length === 0) {
-    throw new Error(`all configured models are unavailable: ${models.join(', ')}`);
+    const fallback = [...discoveredModels].filter((m) => !retiredModels.has(m) && !models.includes(m));
+    if (fallback.length > 0) {
+      console.warn(`  ! ${label}: all configured models retired, dynamically falling back to "${fallback[0]}"`);
+      filteredModels = [fallback[0]];
+    } else {
+      throw new Error(`all configured models are unavailable: ${models.join(', ')}`);
+    }
   }
 
   const candidates = [];

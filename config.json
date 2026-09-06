@@ -1,10 +1,10 @@
 {
-  "//models": "NaraRouter (https://router.bynara.id/) — confirmed working: openai/gpt-oss-120b and openai/gpt-oss-20b (verified in last successful build log). Google/Gemini and Llama listed as fallbacks.",
+  "//models": "NaraRouter (https://router.bynara.id/) — active models verified on 2026-09-07: agnes-2.5-flash, gemini-3.8-flash-high, deepseek-v4-flash, qwen3.8-flash, mimo-v2.5.",
   "models": {
-    "study":     ["openai/gpt-oss-120b", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
-    "qna":       ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
-    "translate": ["openai/gpt-oss-20b", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"],
-    "dissect":   ["openai/gpt-oss-20b", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"]
+    "study":     ["agnes-2.5-flash", "gemini-3.8-flash-high", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.5"],
+    "qna":       ["agnes-2.5-flash", "gemini-3.8-flash-high", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.5"],
+    "translate": ["agnes-2.5-flash", "gemini-3.8-flash-high", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.5"],
+    "dissect":   ["agnes-2.5-flash", "gemini-3.8-flash-high", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.5"]
   },
 
   "//budget": "7M+ daily tokens from NaraRouter — no budget guard in the build; every sourced article is fully processed.",
