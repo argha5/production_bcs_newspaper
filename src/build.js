@@ -13,7 +13,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { generateJson, callsMade, exhaustedModels, tokensSpent } from './llm.js';
+import { generateJson, checkAvailableModels, callsMade, exhaustedModels, tokensSpent } from './llm.js';
 import {
   bengaliStudySchema,
   englishStudySchema,
@@ -441,6 +441,7 @@ const avoidTitles = await recentTitles(index);
 
 const allModels = [...new Set(Object.values(config.models).flat())];
 console.log(`Building edition ${date} using ${allModels.join(', ')}`);
+await checkAvailableModels();
 
 // Sourcing happens first and costs nothing: if the feeds are down we find out
 // before spending a single model call.
@@ -495,17 +496,10 @@ for (const raw of jobs) {
 }
 
 if (articles.length === 0) {
-  const allModelsUnavailable = failures.length === jobs.length
-    && failures.every((f) => f.includes('all configured models are unavailable'));
-
-  if (allModelsUnavailable) {
-    console.warn('\nNo articles were produced because all configured models are unavailable.');
-    console.warn('Keeping existing data unchanged; this run will exit successfully.');
-    process.exit(0);
-  }
-
   console.error('\nNo articles were produced — refusing to write an empty edition.');
-  console.error(failures.join('\n'));
+  if (failures.length > 0) {
+    console.error(failures.join('\n'));
+  }
   process.exit(1);
 }
 

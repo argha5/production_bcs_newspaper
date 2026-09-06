@@ -45,6 +45,31 @@ console.log(`LLM: ${apiKeys.length} API key(s) loaded (${routerKeys} router, ${g
 
 const keyName = (key) => `key…${key.slice(-4)}`;
 
+export async function checkAvailableModels() {
+  const found = new Set();
+  for (const key of apiKeys) {
+    const isGroq = key.startsWith('gsk_');
+    const endpoint = isGroq ? 'https://api.groq.com/openai/v1/models' : 'https://router.bynara.id/v1/models';
+    try {
+      const res = await fetch(endpoint, {
+        headers: { Authorization: `Bearer ${key}` },
+      });
+      if (res.ok) {
+        const json = await res.json();
+        const ids = (json.data || []).map((m) => m.id);
+        console.log(`[LLM] Available models on ${isGroq ? 'Groq' : 'Bynara'} (${keyName(key)}): ${ids.length} models ->`, ids.join(', '));
+        ids.forEach((id) => found.add(id));
+      } else {
+        const errText = await res.text();
+        console.warn(`[LLM] Could not list models on ${isGroq ? 'Groq' : 'Bynara'} (${keyName(key)}): HTTP ${res.status} — ${errText.slice(0, 300)}`);
+      }
+    } catch (err) {
+      console.warn(`[LLM] Error querying models on ${isGroq ? 'Groq' : 'Bynara'}: ${err.message}`);
+    }
+  }
+  return [...found];
+}
+
 let callCount = 0;
 export function callsMade() {
   return callCount;
@@ -283,7 +308,7 @@ export async function generate({
           for (const state of lanes.values()) {
             if (state.model === l.model) state.dailyDone = true;
           }
-          console.warn(`  ! ${label}: model "${l.model}" is unavailable, retiring it and falling back`);
+          console.warn(`  ! ${label}: model "${l.model}" is unavailable (HTTP 404: ${detail.trim()}), retiring it and falling back`);
           lastError = new Error(`HTTP 404 model-not-found — ${l.model}`);
           continue;
         }
