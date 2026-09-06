@@ -1,10 +1,10 @@
 {
-  "//models": "NaraRouter (https://router.bynara.id/) — daily limit well above 7M. Quality-critical calls prefer the larger model, mechanical ones the smaller — each list doubles as a fallback chain.",
+  "//models": "NaraRouter (https://router.bynara.id/) — confirmed working: openai/gpt-oss-120b and openai/gpt-oss-20b (verified in last successful build log). Google/Gemini and Llama listed as fallbacks.",
   "models": {
-    "study":     ["google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash", "openai/gpt-oss-120b"],
-    "qna":       ["google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash", "openai/gpt-oss-120b", "openai/gpt-oss-20b"],
-    "translate": ["google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant", "openai/gpt-oss-20b"],
-    "dissect":   ["google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant", "openai/gpt-oss-20b"]
+    "study":     ["openai/gpt-oss-120b", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
+    "qna":       ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "google/gemini-2.5-flash", "llama-3.3-70b-versatile", "google/gemini-2.0-flash"],
+    "translate": ["openai/gpt-oss-20b", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"],
+    "dissect":   ["openai/gpt-oss-20b", "google/gemini-2.5-flash", "google/gemini-2.0-flash", "llama-3.1-8b-instant"]
   },
 
   "//budget": "7M+ daily tokens from NaraRouter — no budget guard in the build; every sourced article is fully processed.",
