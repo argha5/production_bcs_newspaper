@@ -52,7 +52,10 @@ jobs:
 
       # Fast-exit check: skip in ~2 seconds if today's edition is already built.
       # This prevents duplicate API usage and push conflicts on backup runs.
+      # NOTE: exit 0 inside a step does NOT stop subsequent steps in GitHub Actions.
+      # We use a step output (`skip=true`) and `if` conditions on later steps instead.
       - name: Check if already built today
+        id: check
         run: |
           git pull --rebase origin main || true
           DHAKA_DATE="${{ inputs.date }}"
@@ -60,12 +63,16 @@ jobs:
             DHAKA_DATE=$(node -e "const d = new Date(Date.now() + 6 * 3600 * 1000); console.log(d.toISOString().slice(0, 10))")
           fi
           echo "Target edition date: $DHAKA_DATE"
+          echo "date=$DHAKA_DATE" >> "$GITHUB_OUTPUT"
           if [ -f "data/${DHAKA_DATE}.json" ] && [ "${{ inputs.force }}" != "true" ]; then
             echo "Edition for ${DHAKA_DATE} already exists. Skipping duplicate build."
-            exit 0
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Build today's edition
+        if: steps.check.outputs.skip != 'true'
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -77,9 +84,11 @@ jobs:
             ${{ inputs.force && '--force' || '' }}
 
       - name: Validate data tree
+        if: steps.check.outputs.skip != 'true'
         run: node src/validate.js
 
       - name: Commit and push edition
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name  "bcsnewspaper-bot"
           git config user.email "actions@github.com"
