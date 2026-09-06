@@ -1,10 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T08:27:34.694Z",
-  "latestDate": "2026-09-04",
-  "latestHash": "d7ba6357656c56b1e541fbb2",
+  "updatedAt": "2026-09-06T19:32:19.736Z",
+  "latestDate": "2026-09-05",
+  "latestHash": "44f8f08cf271266f076b2be5",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-05",
+      "dateBn": "৫ সেপ্টেম্বর ২০২৬, শনিবার",
+      "hash": "44f8f08cf271266f076b2be5",
+      "file": "data/2026-09-05.json",
+      "articleCount": 3,
+      "bengaliCount": 0,
+      "englishCount": 3,
+      "generatedAt": "2026-09-06T19:32:19.736Z",
+      "headlines": [
+        {
+          "id": "en-38b76074",
+          "lang": "en",
+          "topic": "বাংলার অর্থনৈতি",
+          "title": "Global uncertainty is reshaping the world. Is Bangladesh ready?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-f8a481a7",
+          "lang": "en",
+          "topic": "ব্যাংকিং ও আর্থিক প্রতিষ্ঠান",
+          "title": "Beyond seismic zones: Rethinking banking data resilience",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "en-9495699e",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Progress for the privileged: Celebrating innovation, ignoring access",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-09-04",
       "dateBn": "৪ সেপ্টেম্বর ২০২৬, শুক্রবার",
@@ -410,74 +443,6 @@
           "topic": "বাংলান্দের অর্থনীতি",
           "title": "Bangladesh-made seat-trim covers find way into Japan’s Honda, Suzuki",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "dateBn": "২৯ আগস্ট ২০২৬, শনিবার",
-      "hash": "cf22e096454e34eb80637661",
-      "file": "data/2026-08-29.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-08-29T08:44:56.191Z",
-      "headlines": [
-        {
-          "id": "bn-441cb270",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "আন্তর্জাতিক শিক্ষার্থীদের ইন্টার্নশিপে বিধিনিষেধ জারি করল যুক্তরাষ্ট্র",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5226f341",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Nine years on, the Rohingya still don't have a safe road home",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-350decbf",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "জ্বালানির অভাবে চলে না জেনারেটর, বিদ্যুৎ গেলে হাতপাখাই ভরসা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-2f93b850",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh needs to invest in home-based childcare",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b3b48865",
-          "lang": "bn",
-          "topic": "স্থানীয় সরকার ও সংবিধান",
-          "title": "জেলায় দায়িত্বে মন্ত্রী-প্রতিমন্ত্রীরা, এমপিরা কী করবেন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-877607f3",
-          "lang": "en",
-          "topic": "নারী উন্নয়ন",
-          "title": "It is time to make menstrual leave a reality in Bangladesh",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a6522311",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও ভূ-রাজনীতি",
-          "title": "‘রেয়ার–আর্থ’ কি চীনের নতুন হাতিয়ার হতে যাচ্ছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a14df1f8",
-          "lang": "en",
-          "topic": "পরিবেশ ও দুর্যোগ",
-          "title": "Lasting solutions for river erosion needed",
-          "source": "The Daily Star"
         }
       ]
     }
