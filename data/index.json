@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T08:13:56.715Z",
-  "latestDate": "2026-09-09",
-  "latestHash": "1f6bb5e975d1e23885ec2168",
+  "updatedAt": "2026-09-10T08:10:26.106Z",
+  "latestDate": "2026-09-10",
+  "latestHash": "e17782e87e71cadb05a01cdf",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-10",
+      "dateBn": "১০ সেপ্টেম্বর ২০২৬, বৃহস্পতিবার",
+      "hash": "e17782e87e71cadb05a01cdf",
+      "file": "data/2026-09-10.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-10T08:10:26.106Z",
+      "headlines": [
+        {
+          "id": "bn-3c8230ab",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "নির্বাচনে রিপাবলিকানরা জিতলে প্রাপ্তবয়স্কদের ৫ হাজার ডলার দেওয়ার প্রতিশ্রুতি ট্রাম্পের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b755e1de",
+          "lang": "en",
+          "topic": "বাংলান্দেশর অর্থনীতি",
+          "title": "Tea workers deserve fair wages, and BNP is pledge-bound to deliver them",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-8534c3e6",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "কুয়েতে উপহারের সেই গলদা চিংড়ি ও রূপচাঁদার ক্রেতা পাওয়া যায়নি, আবার নিলামে ১৫ টন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-7a27c682",
+          "lang": "en",
+          "topic": "শ্রম ও নিরাপত্তা",
+          "title": "Ferdous Steel probe answered how the workers died, but not why",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d77a9f03",
+          "lang": "bn",
+          "topic": "পরিবেশ ও বন্যপ্রাণী",
+          "title": "খ্যাঁকশিয়াল কেবল ‘মুরগিচোর’ নয়, প্রকৃতি-কৃষির রক্ষকও",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-58606228",
+          "lang": "en",
+          "topic": "প্রশাসন ও মানবাধিকার",
+          "title": "Bandarban jail needs urgent expansion",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-cba71312",
+          "lang": "bn",
+          "topic": "শিক্ষা ব্যবস্থা",
+          "title": "ফেল থেকে পাস ৪০৮৫, নতুন করে জিপিএ–৫ পেল ৩০৭৯ শিক্ষার্থী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b48259c1",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "A hawkish Fed, a firmer Dollar: Why Bangladesh should brace for costlier imports",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-09-09",
       "dateBn": "৯ সেপ্টেম্বর ২০২৬, বুধবার",
@@ -368,74 +436,6 @@
           "topic": "ডিজিটাল শাসন",
           "title": "Bangladesh’s digital transformation still needs human intermediaries",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-03",
-      "dateBn": "৩ সেপ্টেম্বর ২০২৬, বৃহস্পতিবার",
-      "hash": "c5f228f1bb438263c610b9d3",
-      "file": "data/2026-09-03.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-03T08:08:22.978Z",
-      "headlines": [
-        {
-          "id": "bn-4258ad4e",
-          "lang": "bn",
-          "topic": "পর্যটন ও দুর্যোগ ব্যবস্থাপনা",
-          "title": "নিরাপত্তা নিশ্চিতে নির্দেশনা বাস্তবায়ন জরুরি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5be896d7",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Bangladesh’s climate pledges need political ownership",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b6aaf846",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "বেসরকারি খাতেও বেতনের সমন্বয় কেন জরুরি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a753ebba",
-          "lang": "en",
-          "topic": "ডিজিটাল নিরাপত্তা",
-          "title": "Citizens’ personal data is not for sale",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-1d87f800",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "দুই স্বাস্থ্যকর্মীর হাতে সাড়ে ১০ হাজারের বেশি স্বাভাবিক প্রসব",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-81940de6",
-          "lang": "en",
-          "topic": "বাংলার অর্থনীতি",
-          "title": "Govt jobs are getting better, but what about the private sector?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-54206b7a",
-          "lang": "bn",
-          "topic": "বাংলাদেশের প্রশাসন",
-          "title": "র‍্যাবের নতুন সদর দপ্তর ভবন নির্মাণে ১৭২ কোটি টাকার কাজ পেল এম জামাল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1cd39e7e",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "NBR mulls return to monthly VAT payments amid collection slump",
-          "source": "The Business Standard"
         }
       ]
     }
