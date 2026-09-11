@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T08:10:26.106Z",
-  "latestDate": "2026-09-10",
-  "latestHash": "e17782e87e71cadb05a01cdf",
+  "updatedAt": "2026-09-11T10:39:13.474Z",
+  "latestDate": "2026-09-11",
+  "latestHash": "c2c27960d51d6250de957ffd",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-11",
+      "dateBn": "১১ সেপ্টেম্বর ২০২৬, শুক্রবার",
+      "hash": "c2c27960d51d6250de957ffd",
+      "file": "data/2026-09-11.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-11T10:39:13.474Z",
+      "headlines": [
+        {
+          "id": "bn-108bd745",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "যুক্তরাষ্ট্রে জ্বালানির দামে রেকর্ড, পাম্পের ডিসপ্লেতে দাম দেখানোর জায়গা নেই",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8710039c",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Energy security is now an investment imperative",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-37ad3bfd",
+          "lang": "bn",
+          "topic": "বাংলাদেশের শিক্ষা ব্যবস্থা",
+          "title": "ঢাকা বিশ্ববিদ্যালয়ে শিক্ষক মূল্যায়ন শুরু করল ডাকসু, বৈধতা নিয়ে প্রশ্ন প্রশাসনের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2b7124e9",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "We must change the narrative around suicide",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d12ac9d9",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ভারতের সঙ্গে ১০১ চুক্তি পর্যালোচনা করছে সরকার, ফলাফল শিগগির: চিফ হুইপ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-9d1c98a3",
+          "lang": "en",
+          "topic": "মানবাধিকার",
+          "title": "I survived enforced disappearance. Parliament has now weakened the safeguards",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-5a669183",
+          "lang": "bn",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "উষ্ণতম মাস ছিল আগস্ট, চরম বিপদের মুখে পৃথিবী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c35c038e",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "25 years after 9/11, how did the ‘war on terror’ change the US?",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "dateBn": "১০ সেপ্টেম্বর ২০২৬, বৃহস্পতিবার",
@@ -368,74 +436,6 @@
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "Progress for the privileged: Celebrating innovation, ignoring access",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "dateBn": "৪ সেপ্টেম্বর ২০২৬, শুক্রবার",
-      "hash": "d7ba6357656c56b1e541fbb2",
-      "file": "data/2026-09-04.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-04T08:27:34.694Z",
-      "headlines": [
-        {
-          "id": "bn-4feda0bd",
-          "lang": "bn",
-          "topic": "জনপ্রশাসন ও সংস্কার",
-          "title": "জনপ্রশাসনে আস্থা তৈরি করতে হবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ff855786",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Nepal’s claim for climate compensation and why it matters for us",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-d2cbd579",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "রাজস্ব খাত: সংস্কারের পেছনে সদিচ্ছা, নাকি ঋণ পাওয়ার শর্ত পূরণ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b2aebf4e",
-          "lang": "en",
-          "topic": "সামাজিক কল্যাণ",
-          "title": "Protect children in state custody",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6e97e632",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি ও প্রশাসন",
-          "title": "সংসদের পাশাপাশি রাজপথে সক্রিয় হচ্ছে এনসিপি, সামনে লংমার্চ-মহাসমাবেশ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-46e6f249",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Time to draw up a reform roadmap for LDC graduation",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-71f2c89d",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি ও পরিবহন ব্যবস্থা",
-          "title": "ব্যাটারিচালিত রিকশা: ঢালাও নিষেধাজ্ঞা নাকি প্রযুক্তিগত ও প্রাতিষ্ঠানিক শৃঙ্খলা?",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4f7918c7",
-          "lang": "en",
-          "topic": "ডিজিটাল শাসন",
-          "title": "Bangladesh’s digital transformation still needs human intermediaries",
-          "source": "The Daily Star"
         }
       ]
     }
