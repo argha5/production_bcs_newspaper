@@ -1,10 +1,82 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T10:39:13.474Z",
-  "latestDate": "2026-09-11",
-  "latestHash": "c2c27960d51d6250de957ffd",
+  "updatedAt": "2026-09-12T08:43:08.153Z",
+  "latestDate": "2026-09-12",
+  "latestHash": "5f48375c2ad5f20b00f079be",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-12",
+      "dateBn": "১২ সেপ্টেম্বর ২০২৬, শনিবার",
+      "hash": "5f48375c2ad5f20b00f079be",
+      "file": "data/2026-09-12.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-12T08:43:08.153Z",
+      "headlines": [
+        {
+          "id": "bn-ffc4b100",
+          "lang": "bn",
+          "topic": "স্থানীয় সরকার ও নির্বাচনী ব্যবস্থা",
+          "title": "ঢাকার দুই সিটিতে এনসিপিকে ছাড়\nদেবে না জামায়াত, ১১–দলীয় ঐক্যের অন্যরা কী করছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c0252f64",
+          "lang": "en",
+          "topic": "",
+          "title": "Bangladesh's time to look south again",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-226e4c7c",
+          "lang": "bn",
+          "topic": "বিজ্ঞান ও প্রযুক্তি",
+          "title": "ঠান্ডায় পানি যেভাবে রূপ নেয় রহস্যময় কাচে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-600b2d7c",
+          "lang": "en",
+          "topic": "প্রযুক্তি ও শিক্ষা",
+          "title": "What will remain ours in the age of AI?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-dfa794ea",
+          "lang": "bn",
+          "topic": [
+            "মানব সম্পদ উন্নয়ন",
+            "সামাজিক কল্যাণ",
+            "অর্থনীতি ও জীবিকা"
+          ],
+          "title": "অভাবের সঙ্গে লড়াই করে বড় স্বপ্ন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-cd495f06",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Measles has exposed the cracks beneath Bangladesh's immunisation success",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-7ee4a608",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "নতুন পে স্কেলে স্বস্তির আড়ালে আর্থিক ঝুঁকি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4e34af83",
+          "lang": "en",
+          "topic": "আনন্তর্বৈদেশিক নীতি",
+          "title": "Asia's oil industry wants Trump to leave the Gulf, but expects he won't",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-09-11",
       "dateBn": "১১ সেপ্টেম্বর ২০২৬, শুক্রবার",
@@ -402,39 +474,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "Sammilito Islami Bank readies Tk5,000cr as withdrawal requests hits Tk4,000cr in 4 days",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-05",
-      "dateBn": "৫ সেপ্টেম্বর ২০২৬, শনিবার",
-      "hash": "44f8f08cf271266f076b2be5",
-      "file": "data/2026-09-05.json",
-      "articleCount": 3,
-      "bengaliCount": 0,
-      "englishCount": 3,
-      "generatedAt": "2026-09-06T19:32:19.736Z",
-      "headlines": [
-        {
-          "id": "en-38b76074",
-          "lang": "en",
-          "topic": "বাংলার অর্থনৈতি",
-          "title": "Global uncertainty is reshaping the world. Is Bangladesh ready?",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-f8a481a7",
-          "lang": "en",
-          "topic": "ব্যাংকিং ও আর্থিক প্রতিষ্ঠান",
-          "title": "Beyond seismic zones: Rethinking banking data resilience",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-9495699e",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Progress for the privileged: Celebrating innovation, ignoring access",
           "source": "The Business Standard"
         }
       ]
