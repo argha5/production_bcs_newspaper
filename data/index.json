@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T08:22:58.805Z",
-  "latestDate": "2026-09-13",
-  "latestHash": "b647e31c01c575f04d5c0876",
+  "updatedAt": "2026-09-14T09:42:56.846Z",
+  "latestDate": "2026-09-14",
+  "latestHash": "b73ab7423a6997ab82f32eed",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-14",
+      "dateBn": "১৪ সেপ্টেম্বর ২০২৬, সোমবার",
+      "hash": "b73ab7423a6997ab82f32eed",
+      "file": "data/2026-09-14.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-14T09:42:56.846Z",
+      "headlines": [
+        {
+          "id": "bn-4acce685",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "এলডিসি উত্তরণের আগে যত বেশি বাণিজ্যচুক্তি করা যায়, সেই চেষ্টা চলছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-9dfc183e",
+          "lang": "en",
+          "topic": "বাংলদেশের শাসনব্যবস্থা",
+          "title": "A faster, cheaper path to rural justice",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-0ad29934",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "নিয়ন্ত্রণ বেশি থাকলে ব্যবসা–বাণিজ্যে অনিশ্চয়তা বেড়ে যায়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-03400ed4",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Adani unit resumes power supply, but recovery offset as Rampal generation halves",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-2ff000a5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "বাংলাদেশ ব্যাংকের বিপুল মুনাফার আড়ালে কী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ea119c8a",
+          "lang": "en",
+          "topic": "মানবাধিকার ও শাসনতন্ত্র",
+          "title": "New rights laws: Those who control evidence eventually control accountability",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-97ac3e8b",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "৫৭ টাকা কেজি দেখিয়ে ভারত থেকে ইলিশ আমদানি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-73811cef",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Oil markets survived the Iran war sprint. Now comes the marathon",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-09-13",
       "dateBn": "১৩ সেপ্টেম্বর ২০২৬, রবিবার",
@@ -406,74 +474,6 @@
           "lang": "en",
           "topic": "পরবশ ও জলবায়ু",
           "title": "How the new plastic waste rules fall short for micro and cottage enterprises",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "dateBn": "৭ সেপ্টেম্বর ২০২৬, সোমবার",
-      "hash": "96c70fc6b8ab19c5da040648",
-      "file": "data/2026-09-07.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-07T05:19:46.926Z",
-      "headlines": [
-        {
-          "id": "bn-d55c6796",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "অর্থনৈতিক মন্দাভাবের মধ্যে এত মুনাফা কীভাবে কেন্দ্রীয় ব্যাংকের",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8c348ce4",
-          "lang": "en",
-          "topic": "শাসনতন্ত্র ও প্রশাসন",
-          "title": "Routine audit at government offices a must",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-25a46b3e",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "বৈদেশিক মুদ্রার রিজার্ভ বেড়ে ৩৬ বিলিয়ন ডলার, সামলানো যাচ্ছে বাড়তি আমদানি খরচ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ffcf3e6e",
-          "lang": "en",
-          "topic": "রাজনীতি ও গণতন্ত্র",
-          "title": "When can political rivals in Bangladesh safely distrust each other?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-917a82de",
-          "lang": "bn",
-          "topic": "নাগরিক অধিকার ও পুলিশ প্রশাসন",
-          "title": "ঘটনাটির নিরপেক্ষ তদন্ত করুন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-013803ff",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Potato exports halve as Mideast war drives up shipping costs",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-e9b1e513",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও বিশ্ব রাজনীতি",
-          "title": "তৃতীয় বিশ্বযুদ্ধ শুরু হয়ে গেছে—কেন মনে করছেন অনেকে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-04a5e27b",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Laldia can handle bigger ships, but can the inland network keep up?",
           "source": "The Daily Star"
         }
       ]
