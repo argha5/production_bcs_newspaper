@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T09:42:56.846Z",
-  "latestDate": "2026-09-14",
-  "latestHash": "b73ab7423a6997ab82f32eed",
+  "updatedAt": "2026-09-15T08:28:55.868Z",
+  "latestDate": "2026-09-15",
+  "latestHash": "b035f4b0cddbd1644797ed40",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-15",
+      "dateBn": "১৫ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
+      "hash": "b035f4b0cddbd1644797ed40",
+      "file": "data/2026-09-15.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-15T08:28:55.868Z",
+      "headlines": [
+        {
+          "id": "bn-f3a14c92",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও মধ্যপ্রাচ্য",
+          "title": "লোহিত সাগরের উপকূলে নিয়ন্ত্রণ বাড়ছে হুতিদের, যেভাবে তারা শুল্ক–কর আদায় করে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-95fe616b",
+          "lang": "en",
+          "topic": "বাংলাদেশের আন্তর্জাতিক অর্থনীতি",
+          "title": "How can we navigate a fragmented global geo-economic order?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-ca528d6d",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "মহাকাশে অস্ত্র মোতায়েন করেছে যুক্তরাষ্ট্র, এবার কি ‘স্টার ওয়ার্স’ শুরু করবে দেশটি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-bd88a8a8",
+          "lang": "en",
+          "topic": "শাসনব্যবস্থা ও অধিকার",
+          "title": "Citizens’ right to know and the long wait for an Information Commission",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-65f4c792",
+          "lang": "bn",
+          "topic": "",
+          "title": "যুক্তরাষ্ট্রের নতুন ভিসা নিয়ম: আন্তর্জাতিক শিক্ষার্থীদের যে সতর্কতা হার্ভার্ডের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8d6958b9",
+          "lang": "en",
+          "topic": "পরিস্থিতি ও সমস্যা",
+          "title": "Act now to protect our national fish",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e6da5cfc",
+          "lang": "bn",
+          "topic": "প্রকৃতি ও পরিবেশ",
+          "title": "জলপাই-পিঠ তুলিকার কথা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-78c21ffd",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Bangladesh needs a comprehensive strategy to tackle cancer",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "dateBn": "১৪ সেপ্টেম্বর ২০২৬, সোমবার",
@@ -406,74 +474,6 @@
           "lang": "en",
           "topic": "মানবাধিকার ও শাসনতন্ত্র",
           "title": "Why are we weakening our human rights safeguards?",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "dateBn": "৮ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
-      "hash": "5bd55a9155ac97bcc8d25e32",
-      "file": "data/2026-09-08.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-08T08:03:22.548Z",
-      "headlines": [
-        {
-          "id": "bn-70e959b9",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "পশ্চিমবঙ্গের দুটি বিধানসভা আসনের উপনির্বাচন ৬ অক্টোবর, মমতা কি লড়বেন মুর্শিদাবাদের রেজিনগরে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-742bcc71",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Make remittance transfers cheaper",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-f83e6cb7",
-          "lang": "bn",
-          "topic": "বাংলাদেশের শিক্ষা ব্যবস্থা",
-          "title": "‘আমার নির্বাচনী এলাকায় বিশ্ববিদ্যালয় চাই’—এই দাবি কেন বদলাতে হবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-bb7b8d2c",
-          "lang": "en",
-          "topic": "বিশ্ব অর্থনীতি",
-          "title": "Rethinking debt management for developing countries",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-cbf31cd5",
-          "lang": "bn",
-          "topic": "আইন, রাজনীতি ও গণতন্ত্র",
-          "title": "দলনিরপেক্ষ স্থানীয় নির্বাচন কেন জরুরি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-3a02eeef",
-          "lang": "en",
-          "topic": "বাংলার রাজনীতি",
-          "title": "Suhrawardy and the tensions that shaped his politics",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-9b467c95",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ইমরান খান কি ভুট্টোর ভাগ্য বরণ করতে যাচ্ছেন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4fed026a",
-          "lang": "en",
-          "topic": "পরবশ ও জলবায়ু",
-          "title": "How the new plastic waste rules fall short for micro and cottage enterprises",
           "source": "The Daily Star"
         }
       ]
