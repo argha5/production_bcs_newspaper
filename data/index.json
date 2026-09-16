@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T08:28:55.868Z",
-  "latestDate": "2026-09-15",
-  "latestHash": "b035f4b0cddbd1644797ed40",
+  "updatedAt": "2026-09-16T08:29:37.825Z",
+  "latestDate": "2026-09-16",
+  "latestHash": "eed4b5838caa81e839ac4b86",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-16",
+      "dateBn": "১৬ সেপ্টেম্বর ২০২৬, বুধবার",
+      "hash": "eed4b5838caa81e839ac4b86",
+      "file": "data/2026-09-16.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-16T08:29:37.825Z",
+      "headlines": [
+        {
+          "id": "bn-70049f80",
+          "lang": "bn",
+          "topic": "বিশ্ব অর্থনীতি",
+          "title": "যুক্তরাষ্ট্রের তেলের মজুত বেড়েছে, কমেছে দাম",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-bd351e96",
+          "lang": "en",
+          "topic": "শাসনতন্ত্র ও গণতন্ত্র",
+          "title": "Higher viva marks may undermine fairness in public recruitment",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-f131ab87",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "সোনালী ব্যাংকের কর্মকর্তা–কর্মচারীরা বাড়তি বোনাস নিয়েছেন ১১৬ কোটি টাকা, ফেরত দেওয়ার নির্দেশ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-04b3ca7f",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Bangladesh must strategise carefully for the next Ganges treaty",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-2c05f10d",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "হুতিদের হাতে বাব আল-মানদেব গেলে যা হবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-85648c54",
+          "lang": "en",
+          "topic": "সামাজিক ও সাংস্কৃতিক সম্পদ",
+          "title": "Preserve Gopalganj’s historic library",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-f50ad7f9",
+          "lang": "bn",
+          "topic": "প্রকৃতি ও পরিবেশ",
+          "title": "শরতে সুদর্শন বিচিত্রা কেঁউ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-96fef6a3",
+          "lang": "en",
+          "topic": "শিশু অধিকার ও শিক্ষা",
+          "title": "Make child safety non-negotiable in residential madrasas",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-15",
       "dateBn": "১৫ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
@@ -414,67 +482,6 @@
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "A hawkish Fed, a firmer Dollar: Why Bangladesh should brace for costlier imports",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "dateBn": "৯ সেপ্টেম্বর ২০২৬, বুধবার",
-      "hash": "1f6bb5e975d1e23885ec2168",
-      "file": "data/2026-09-09.json",
-      "articleCount": 7,
-      "bengaliCount": 3,
-      "englishCount": 4,
-      "generatedAt": "2026-09-09T08:13:56.715Z",
-      "headlines": [
-        {
-          "id": "bn-05c01b6c",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "মার্কিন নৌবাহিনী চরম বিপর্যয়ে, চীন যেভাবে টেক্কা দিচ্ছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f25704b2",
-          "lang": "en",
-          "topic": "বাংলদেশের অর্থনীতি",
-          "title": "The fiscal risk of a pay rise without revenue reform",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a22b0ec0",
-          "lang": "bn",
-          "topic": "শিক্ষা ব্যবস্থা ও পুষ্টি",
-          "title": "খাবারের মান নিয়ে আপস করা যাবে না",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-eba714df",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Who will pay for Nepal’s – and our – climate losses?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-cf7ded7d",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "কলকাতায় খাদ্য সুরক্ষা অভিযান, ৪০ রেস্তোরাঁর লাইসেন্স স্থগিত",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0478ac8e",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও রাজনীতি",
-          "title": "Attack on Badhan quite alarming",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-8a3146e2",
-          "lang": "en",
-          "topic": "মানবাধিকার ও শাসনতন্ত্র",
-          "title": "Why are we weakening our human rights safeguards?",
-          "source": "The Daily Star"
         }
       ]
     }
