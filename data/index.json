@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T08:19:19.994Z",
-  "latestDate": "2026-09-18",
-  "latestHash": "c8a20283b2a0df79f0b8f2f1",
+  "updatedAt": "2026-09-19T07:59:41.674Z",
+  "latestDate": "2026-09-19",
+  "latestHash": "81efd282a9d5235bf8948887",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-19",
+      "dateBn": "১৯ সেপ্টেম্বর ২০২৬, শনিবার",
+      "hash": "81efd282a9d5235bf8948887",
+      "file": "data/2026-09-19.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-19T07:59:41.674Z",
+      "headlines": [
+        {
+          "id": "bn-d621d8bd",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও রাজনীতি",
+          "title": "ইরানের ওপর নিষেধাজ্ঞা ২০৩১ সাল পর্যন্ত বৃদ্ধি করলেন ট্রাম্প",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-daadd989",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Fixing Bangladesh's VAT cash squeeze without reversing reform",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d2b7b9b2",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "‘সরকার গণভোট অগ্রাহ্য করে অপমান করেছে, সেই প্রতিশোধ নিতে আমরা নেমেছি’",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c1d96436",
+          "lang": "en",
+          "topic": "জনসংখ্যা ও উন্নয়ন",
+          "title": "Bangladesh's population policy must go beyond family planning",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-fae2ecad",
+          "lang": "bn",
+          "topic": "বাংলাদেশ-ভারত সম্পর্ক",
+          "title": "ভারতের নাগরিককে ‘পুশ ইনের’ করুণ কাহিনি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-81f73fd4",
+          "lang": "en",
+          "topic": "",
+          "title": "Beyond traditional aid: Why Bangladesh needs to diversify public project financing",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-45702c1f",
+          "lang": "bn",
+          "topic": "বিজ্ঞান ও প্রযুক্তি",
+          "title": "মহাকাশে ৮৪টি উজ্জ্বল বস্তুর সন্ধান, বিজ্ঞানীদের দলে রয়েছেন এক বাংলাদেশিও",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e2a71566",
+          "lang": "en",
+          "topic": "সড়ক নিরাপত্তা",
+          "title": "Only safe helmets should be marketed",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "dateBn": "১৮ সেপ্টেম্বর ২০২৬, শুক্রবার",
@@ -410,78 +478,6 @@
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "We need a long-term dengue control plan",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "dateBn": "১২ সেপ্টেম্বর ২০২৬, শনিবার",
-      "hash": "5f48375c2ad5f20b00f079be",
-      "file": "data/2026-09-12.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-12T08:43:08.153Z",
-      "headlines": [
-        {
-          "id": "bn-ffc4b100",
-          "lang": "bn",
-          "topic": "স্থানীয় সরকার ও নির্বাচনী ব্যবস্থা",
-          "title": "ঢাকার দুই সিটিতে এনসিপিকে ছাড়\nদেবে না জামায়াত, ১১–দলীয় ঐক্যের অন্যরা কী করছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-c0252f64",
-          "lang": "en",
-          "topic": "",
-          "title": "Bangladesh's time to look south again",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-226e4c7c",
-          "lang": "bn",
-          "topic": "বিজ্ঞান ও প্রযুক্তি",
-          "title": "ঠান্ডায় পানি যেভাবে রূপ নেয় রহস্যময় কাচে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-600b2d7c",
-          "lang": "en",
-          "topic": "প্রযুক্তি ও শিক্ষা",
-          "title": "What will remain ours in the age of AI?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-dfa794ea",
-          "lang": "bn",
-          "topic": [
-            "মানব সম্পদ উন্নয়ন",
-            "সামাজিক কল্যাণ",
-            "অর্থনীতি ও জীবিকা"
-          ],
-          "title": "অভাবের সঙ্গে লড়াই করে বড় স্বপ্ন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-cd495f06",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Measles has exposed the cracks beneath Bangladesh's immunisation success",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-7ee4a608",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "নতুন পে স্কেলে স্বস্তির আড়ালে আর্থিক ঝুঁকি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4e34af83",
-          "lang": "en",
-          "topic": "আনন্তর্বৈদেশিক নীতি",
-          "title": "Asia's oil industry wants Trump to leave the Gulf, but expects he won't",
-          "source": "The Business Standard"
         }
       ]
     }
