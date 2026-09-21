@@ -1,10 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T09:24:38.646Z",
-  "latestDate": "2026-09-20",
-  "latestHash": "62fcc0f6679cda5110f1463c",
+  "updatedAt": "2026-09-21T09:30:31.996Z",
+  "latestDate": "2026-09-21",
+  "latestHash": "2b24b66b0709a27e584b56a5",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-21",
+      "dateBn": "২১ সেপ্টেম্বর ২০২৬, সোমবার",
+      "hash": "2b24b66b0709a27e584b56a5",
+      "file": "data/2026-09-21.json",
+      "articleCount": 2,
+      "bengaliCount": 0,
+      "englishCount": 2,
+      "generatedAt": "2026-09-21T09:30:31.996Z",
+      "headlines": [
+        {
+          "id": "en-92c7c6f9",
+          "lang": "en",
+          "topic": "বিচার ব্যবস্থা",
+          "title": "Space deficit mustn’t drive case backlogs",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "en-70ca6a03",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Bangladesh must prepare for its growing dementia crisis",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-20",
       "dateBn": "২০ সেপ্টেম্বর ২০২৬, রবিবার",
@@ -410,74 +436,6 @@
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "Bangladesh needs a comprehensive strategy to tackle cancer",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "dateBn": "১৪ সেপ্টেম্বর ২০২৬, সোমবার",
-      "hash": "b73ab7423a6997ab82f32eed",
-      "file": "data/2026-09-14.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-14T09:42:56.846Z",
-      "headlines": [
-        {
-          "id": "bn-4acce685",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "এলডিসি উত্তরণের আগে যত বেশি বাণিজ্যচুক্তি করা যায়, সেই চেষ্টা চলছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-9dfc183e",
-          "lang": "en",
-          "topic": "বাংলদেশের শাসনব্যবস্থা",
-          "title": "A faster, cheaper path to rural justice",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-0ad29934",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "নিয়ন্ত্রণ বেশি থাকলে ব্যবসা–বাণিজ্যে অনিশ্চয়তা বেড়ে যায়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-03400ed4",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Adani unit resumes power supply, but recovery offset as Rampal generation halves",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-2ff000a5",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "বাংলাদেশ ব্যাংকের বিপুল মুনাফার আড়ালে কী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ea119c8a",
-          "lang": "en",
-          "topic": "মানবাধিকার ও শাসনতন্ত্র",
-          "title": "New rights laws: Those who control evidence eventually control accountability",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-97ac3e8b",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "৫৭ টাকা কেজি দেখিয়ে ভারত থেকে ইলিশ আমদানি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-73811cef",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Oil markets survived the Iran war sprint. Now comes the marathon",
-          "source": "The Business Standard"
         }
       ]
     }

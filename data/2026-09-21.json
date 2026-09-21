@@ -1,0 +1,680 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-21",
+ "dateBn": "২১ সেপ্টেম্বর ২০২৬, সোমবার",
+ "editionHash": "2b24b66b0709a27e584b56a5",
+ "generatedAt": "2026-09-21T09:30:31.996Z",
+ "models": [
+  "agnes-2.5-flash",
+  "gemini-3.8-flash-high",
+  "deepseek-v4-flash",
+  "qwen3.8-flash",
+  "mimo-v2.5"
+ ],
+ "articleCount": 2,
+ "bengaliCount": 0,
+ "englishCount": 2,
+ "failures": [
+  "bn/জ্বালানি তেলের মূল্যবৃদ্ধি: কে বহন করবে এই বোঝা: HTTP 500 — <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+  "bn/আমাদের কেন আন্তর্জাতিক মানের গবেষণা ইনস্টিটিউট প্রয়োজন: HTTP 500 — <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+  "bn/অস্ট্রেলিয়ায় থাকার সুযোগ সংকুচিত: বাংলাদেশিদের এখন কী করা উ: HTTP 500 — <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+  "bn/কিশোরীদের স্বপ্ন কেড়ে নিচ্ছে বাল্যবিবাহ: HTTP 500 — <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+  "en/Lawachhara National Park: A wildlife treasure that needs ser: HTTP 500 — <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+  "en/Why the new property law may be counterproductive: Q&A generation failed completely for article \"Why the new property law may be counterproductive\" — last batch: HTTP 500 — <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center"
+ ],
+ "articles": [
+  {
+   "id": "en-92c7c6f9",
+   "lang": "en",
+   "topic": "বিচার ব্যবস্থা",
+   "title": "Space deficit mustn’t drive case backlogs",
+   "source": "The Daily Star",
+   "url": "https://www.thedailystar.net/opinion/editorial/news/space-deficit-mustnt-drive-case-backlogs-4278091",
+   "published": "Mon, 21 Sep 26 12:00:00 +0600",
+   "content": "We are concerned that the shortage of dedicated courtrooms for lower court judges is largely driving case backlogs and, at times, impacting the quality of justice. According to a report in this daily, nearly one in four lower court judges in Bangladesh shares a single courtroom with colleagues; across 40 districts, 482 judges continue to rotate in shifts through 241 courtrooms. The Supreme Court Registrar General has stated plainly that infrastructure deficiency is “a severe obstacle to improving judicial performance.”\n\nThis system, which began after the abolition of upazila courts in 1991, reveals internal mismanagement within our judiciary. Since 2008, the number of judges serving in lower courts has nearly doubled, but the infrastructure to house them has not kept pace. As a result, lower court judges often allot themselves three to four hours of courtroom time daily, rushing through bail petitions and witness statements in compressed windows. This is despite the fact that official operating court hours extend from 9:30am to 4:30pm.\n\nMeanwhile, lawyers are forced to avoid lengthy cross-examinations, hearings get adjourned and cases don’t progress. Witnesses travel long distances only to be waiting for hours. This also impacts the jobs of court staff, who live in constant anxiety that documents will be lost or misplaced as case records scatter across multiple unused spaces. Judges report immense psychological strain, knowing their case disposal numbers will be evaluated against those of colleagues who work in dedicated benches without accounting for the infrastructural limitation.\n\nThe remedies, though long overdue, are within reach. The government must develop a time-bound infrastructure plan, identifying courtroom deficits by districts and providing a construction timeline. Dhaka alone requires 17 additional courtrooms; Khulna needs 13; Chattogram needs 12. But infrastructure is only the first step. The government must also digitise case records to prevent losses and reduce paper-based delays. Case management software should allow judges to prepare orders outside courtroom hours.\n\nBesides, paralegal support should be expanded to handle preliminary case processing, freeing judges to focus on hearings and judgments. For acute shortages in 23 districts, temporary arrangements, such as mobile courts and shared spaces with administrative offices, must bridge the gap while permanent buildings are built. Alternative dispute resolution mechanisms should be expanded to reduce the load on lower courts for minor civil disputes. These solutions are neither novel nor innovative; they are implemented globally and would require intent, coordination and the political will to act now.",
+   "sentences": [
+    {
+     "i": 0,
+     "text": "We are concerned that the shortage of dedicated courtrooms for lower court judges is largely driving case backlogs and, at times, impacting the quality of justice.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 1,
+     "text": "According to a report in this daily, nearly one in four lower court judges in Bangladesh shares a single courtroom with colleagues; across 40 districts, 482 judges continue to rotate in shifts through 241 courtrooms.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 2,
+     "text": "The Supreme Court Registrar General has stated plainly that infrastructure deficiency is “a severe obstacle to improving judicial performance.”\n\nThis system, which began after the abolition of upazila courts in 1991, reveals internal mismanagement within our judiciary.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 3,
+     "text": "Since 2008, the number of judges serving in lower courts has nearly doubled, but the infrastructure to house them has not kept pace.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 4,
+     "text": "As a result, lower court judges often allot themselves three to four hours of courtroom time daily, rushing through bail petitions and witness statements in compressed windows.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 5,
+     "text": "This is despite the fact that official operating court hours extend from 9:30am to 4:30pm.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 6,
+     "text": "Meanwhile, lawyers are forced to avoid lengthy cross-examinations, hearings get adjourned and cases don’t progress.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 7,
+     "text": "Witnesses travel long distances only to be waiting for hours.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 8,
+     "text": "This also impacts the jobs of court staff, who live in constant anxiety that documents will be lost or misplaced as case records scatter across multiple unused spaces.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 9,
+     "text": "Judges report immense psychological strain, knowing their case disposal numbers will be evaluated against those of colleagues who work in dedicated benches without accounting for the infrastructural limitation.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 10,
+     "text": "The remedies, though long overdue, are within reach.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 11,
+     "text": "The government must develop a time-bound infrastructure plan, identifying courtroom deficits by districts and providing a construction timeline.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 12,
+     "text": "Dhaka alone requires 17 additional courtrooms; Khulna needs 13; Chattogram needs 12.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 13,
+     "text": "But infrastructure is only the first step.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 14,
+     "text": "The government must also digitise case records to prevent losses and reduce paper-based delays.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 15,
+     "text": "Case management software should allow judges to prepare orders outside courtroom hours.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 16,
+     "text": "Besides, paralegal support should be expanded to handle preliminary case processing, freeing judges to focus on hearings and judgments.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 17,
+     "text": "For acute shortages in 23 districts, temporary arrangements, such as mobile courts and shared spaces with administrative offices, must bridge the gap while permanent buildings are built.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 18,
+     "text": "Alternative dispute resolution mechanisms should be expanded to reduce the load on lower courts for minor civil disputes.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 19,
+     "text": "These solutions are neither novel nor innovative; they are implemented globally and would require intent, coordination and the political will to act now.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    }
+   ],
+   "glossary": [],
+   "breakdown": {
+    "headline": "বাংলাদেশে নিম্ন আদালতগুলোর আদালতকক্ষ সংকট শুধু কাঠামোগত সমস্যা নয়, এটি বিচারের গুণমান ধ্বংস করছে একটি প্রত্যক্ষ হুমকি—৪০ জেলায় মাত্র ২৪১টি আদালতকক্ষে ৪৮২ জন বিচারকের ভেতরে ঘোরাফেরা করতে হচ্ছে এবং প্রতি চারজনের মধ্যে একজন একই কক্ষে কাজ করতে বাধ্য।",
+    "mainProblem": "আদালতকক্ষের ব্যাপক অভাবের কারণে বিচারকরা দিনে মাত্র তিন-চার ঘণ্টা করে শুনানি চালিয়ে থাকেন, ফলে জামিনের মামলা, সাক্ষীর বক্তব্য ইত্যাদি দ্রুতগতিতে স্পর্শ করে ঠিকমতো শোনার সুযোগ পাওয়া যায় না; আর এভাবেই বিচ্ছিন্নতার আড়ালে আইনের মান কমে যাচ্ছে।",
+    "causes": "১৯৯১ সালে উপজেলা আদালত বিলুপ্ত করার পর থেকে আইনি ব্যাবস্থায় অভ্যন্তরীণ দুর্বলতা শুরু হয় এবং ২০০৮ সাল থেকে নিম্ন আদালতের বিচারকদের সংখ্যা প্রায় দ্বিগুণ হলেও তাদের বসবে এমন কোনো আধুনিক কাঠামোগত ব্যবস্থা তৈরি হয়নি।",
+    "effects": "বিচারপ্রার্থীরা, বিশেষত দীর্ঘ পথের আসামি ও সাক্ষীরা, ঘণ্টার পর ঘণ্টা অপেক্ষা করে শূন্য হাত নিয়ে ফিরতে বাধ্য হন; আবার আদালত কর্মীদের দলিলপত্র হারানোর অনিশ্চয়তায় সর্বদা হাঁফিয়ে থাকতে হয় এবং বিচারকরাও নিজের নিয়ন্ত্রণের বাইরে থাকা অবকাঠামোগত সীমাবদ্ধতার পরও অন্যদের সাথে প্রকাশ্যে নিজের 'case disposal' তুলনা করে মানসিক চাপে ভুগেন।",
+    "solutions": "পরিকল্পিতভাবে প্রতিটি জেলায় আদালতকক্ষের ঘাটতি সম্পন্ন একটি সময়সীমায় উন্নয়নযোজ্য পরিকল্পনা গ্রহণ, ঢাকায় ১৭টি, খুলনায় ১৩টি ও চট্টগ্রামে ১২টি নতুন আদালতকক্ষ নির্মাণ, সার্টিফিকেটেড ডিজিটালাইজেশন, পার্যালিগ্যাল সহায়তা সম্প্রসারণ, বর্তমানে সংকটের মুখে থাকা ২৩টি জেলায় মোবাইল কোর্ট ও প্রশাসনিক অফিসের সাথে যৌথ স্থান ব্যবহারের বিকল্প ব্যবস্থা গ্রহণ, এবং ক্ষুদ্র অজীবিক বিরোধ কমানোর জন্য বিকল্প বিরোধ সমাধান ব্যবস্থা সম্প্রসারণ—"
+   },
+   "translationBn": "আমরা উদ্বেগ প্রকাশ করছি যে নিম্ন আদালতের বিচারকদের জন্য বিশেষ আদালতকক্ষের অভাব প্রধানত মামলার পিছুনির কারণ এবং অনেক সময় ন্যায়বিচারের গুণগত মানকেও প্রভাবিত করছে। এই দৈনিক পত্রিকার একটি প্রতিবেদন অনুযায়ী, বাংলাদেশে প্রতি চারজন নিম্ন আদালতের বিচারকের মধ্যে প্রায় একজন সহকর্মীদের সাথে একক আদালতকক্ষ ভাগ করে নেন; ৪০টি জেলা জুড়ে ৪৮২ জন বিচারক ২৪১টি আদালতকক্ষের মধ্যে পালাবদলে কার্যক্রম পরিচালনা করছেন। সুপ্রিম কোর্টের রেজিস্ট্রার জেনারেল স্পষ্টভাবে এ কথা ঘোষণা করেছেন যে অবকাঠামোগত ঘাটতি 'আদালতের কর্মদক্ষতা উন্নয়নে একটি গুরুতর বাধা'।\n\n১৯৯১ সালে উপজেলা আদালত বিলুপ্তির পর থেকে এই ব্যবস্থার সূচনা হয়, যা আমাদের বিচারব্যবস্থার অভ্যন্তরীণ দুর্ব্যবস্থাপনার পরিচায়ক। ২০০৮ সাল থেকে নিম্ন আদালতে কর্মরত বিচারকের সংখ্যা প্রায় দ্বিগুণ হয়েছে, কিন্তু তাদের আবাসনের জন্য অবকাঠামো এর তাল মিলিয়ে বাড়েনি। ফলে নিম্ন আদালতের বিচারকরা প্রায়শই নিজেরাই দিনে তিন থেকে চার ঘণ্টা আদালতকক্ষের সময় নির্ধারণ করেন এবং সংক্ষিপ্ত সময়ে জামিনের আবেদন ও সাক্ষীদের বান্দী জবানিবন্দী দ্রুত সম্পন্ন করতে বাধ্য হন। অথচ সরকারি কার্যকালিকাল সকাল ৯টা ৩০ মিনিট থেকে বিকেল ৪টা ৩০ মিনিট পর্যন্ত নির্ধারিত।\n\nঅন্যদিকে, আইনজীবীদের দীর্ঘ জেরা এড়িয়ে চলতে হয়, শুনানি স্থগিত হয় এবং মামলা অগ্রসর হয় না। সাক্ষীদের দীর্ঘ পথ অতিক্রম করে আসতে হয়, শুধুমাত্র ঘন্টাতার অপেক্ষাতে থাকতে। এটি আদালত কর্মীদের ন্যায্য অধিকারকেও প্রভাবিত করে, যারা ক্রমাগত উদ্বেগে জীবনযাপন করেন যে নথি হারিয়ে যাবে বা ভুল জায়গায় রাখা হবে, কারণ মামলার রেকর্ড একাধিক অনবহত জায়গায় ছড়িয়ে পড়ে। বিচারকরা জানান যে তারা প্রচুর মানসিক চাপ অনুভব করেন, কারণ তাদের মামলা নিষ্পত্তির হার তাদের সহকর্মীদের সাথে তুলনা করা হবে, যারা বিশেষ বেঞ্চ-এ কাজ করেন যেখানে অবকাঠামোগত সীমাবদ্ধতা বিবেচনায় আনা হয় না।\n\nসমাধানগুলি, যদিও দীর্ঘদিন ধরে বাঞ্ছিত ছিল, এখনও সহজলভ্য। সরকারকে অবশ্যই জেলাভিত্তিক আদালতকক্ষের ঘাটতি চিহ্নিত করে নির্মাণের সময়সীমা নির্ধারণপূর্বক একটি সময়বদ্ধ অবকাঠামো পরিকল্পনা তৈরি করতে হবে। কেবল ঢাকাতেই ১৭টি অতিরিক্ত আদালতকক্ষের প্রয়োজন; খুলনায় ১৩টি; চট্টগ্রামে ১২টি। তবে অবকাঠামো কেবল প্রথম ধাপ। সরকারকে অবশ্যই নথি হারানো রোধ করতে ও কাগজ-ভিত্তিক বিলম্ব কমাতে মামলার রেকর্ড ডিজিটাইজ করতে হবে। মামলা ব্যবস্থাপনা সফটওয়্যারের মাধ্যমে বিচারকদের আদালতকক্ষের বাইরেও আদেশ প্রস্তুত করার সুযোগ করা উচিত।\n\nতাছাড়া, preliminari মামলা প্রক্রিয়াকরণে সহায়তার জন্য মাতৃক আইনি সহায়ক কর্মীর সংখ্যা বৃদ্ধি করতে হবে, যাতে বিচারকরা শুনানি ও রায় প্রদানে মনোযোগ দিতে পারেন। ২৩টি জেলায় তীব্র সংকটের জন্য সাময়িক ব্যবস্থা, যেমন মোবাইল আদালত এবং প্রশাসনিক অফিসের সাথে যৌথ স্থান, চূড়ান্ত ভবন তৈরি পর্যন্ত এই ব্যবধান পূরণ করতে পারে। নগণ্য নাগরিক বিবাদে নিম্ন আদালতের উপর চাপ কমাতে বিকল্প বিরোধ নিষ্পত্তি ব্যবস্থা সম্প্রসারিত করা উচিত। এই সমাধানগুলো নাতুন বা অসাধারণ নয়; এগুলো বিশ্বব্যাপী বাস্তবায়িত হয় এবং কেবল এখনই আরএজিতে কাজ করার ইচ্ছা, সমন্বয় ও রাজনৈতিক ইচ্ছাকৃততা প্রয়োজন।",
+   "translationEn": "",
+   "qna": [
+    {
+     "q": "বাংলাদেশের নিম্পর্দ আদালতগুলোর কাঠামোগত ঘাটতি কীভাবে মামলা বকেয়া ও বিচার বিভাগীয় দক্ষতা হ্রাসে অবদান রাখে? সংশ্লিষ্ট তথ্য ও সম্ভাব্য ব্যবস্থার আলোকে বিষয়টি পর্যালোচনা করুন।",
+     "a": "**ভূমিকা:** বিচার বিভাগীয় যন্ত্রণা ও মামলা বকেয়া বর্তমান বাংলাদেশের একটি কাঠামোগত সমস্যা। আদালতের ভৌত ঘাটতি কেবল স্থানভাব নয়, বরং ন্যায়বিচারের গুণমান ও দ্রুততায় বাধা সৃষ্টি করে।\n\n**প্রেক্ষাপট ও কারণ:** ১৯৯১ সালে উপজেলা আদালত বিলুপ্তির পর এ সমস্যার সূত্রপাত। ২০০৮ সাল থেকে নিম্পর্দ আদালতে বিচারকের সংখ্যা প্রায় দ্বিগুণ হলেও আদালত সংখ্যা তা অনুসরণ করেনি, ফলে চতুর্থাংশের বেশি বিচারক একই ঘরে কাজ করেন এবং দিনে তিন-চার ঘণ্টার কম সময়ে মামলা পরিচালনায় বাধ্য হন。\n\n**বিশ্লেষণ:** এর ফলে আইনজীবীরা দীর্ঘ জেরা এড়িয়ে চলেন, সাক্ষী ও কর্মীদের দীর্ঘ অপেক্ষা করতে হয় এবং নথি হারানোর ভয় তৈরি হয়। বর্তমানে ৪০ জেলায় ৪৮২ বিচারক ২৪১টি আদালতে ঘুরে বেড়ান। ক্রমাগত সময়ের টানের কারণে বিচারকদের নিয়ন্ত্রিত কর্মপদ্ধতি ও নথি সংরক্ষণ ব্যবস্থায় ব্যাপক ফাটল ধরছে। সুপ্রিম কোর্টের রেজিষ্ট্রার জেনারেলের মতে, এটি “বিচার কার্যক্রম উন্নয়নে একটি তীব্র বাধা”। এই ঘাটতি SDG-১৬-এর ন্যায়বিচারের সহজলভ্যতা ও স্বচ্ছতার লক্ষ্যকে হুমকির মুখে ফেলে।\n\n**চ্যালেঞ্জ:** সংস্কারে রাজনৈতিক ইচ্ছাক্ষয়, বাজেট বরাদ্দ ও স্থানচ্যুতি জটিলতা, কেন্দ্রীয়-স্থানীয় সংশ্লিষ্টতার অভাব ও ডিজিটাইজেশনের টেকসই অর্থায়নের ঘাটতি প্রধান প্রতিবন্ধকতা。\n\n**সুপারিশ:** জেলাভিত্তিক সময়সীমাসম্মত আদালত নির্মাণের রোডম্যাপ প্রণয়ন, মামলা ব্যবস্থাপনার সফটওয়্যার ও ডিজিটাল রেকর্ড প্রবর্তন, ২৩টি জেলায় মোবাইল কোর্ট ও অস্থায়ী কার্যালয় বরাদ্দ ও ন্যূনতম নাগরিক বিবাদে ADR প্রসার জরুরি। ২০৪৭ মহাপরিকল্পনায় বিচার বিভাগের আলাদা বাজেট খাত ও কৃত্রিম বুদ্ধিমত্তা-ভিত্তিক মামলা ট্র্যাকিং সিস্টেম নিশ্চিত করতে হবে。\n\n**উপসংহার:** অবকাঠামোগত ঘাটতি ন্যায়বিচার ব্যবস্থার কার্যকারিতা ও জনবিশ্বাস হ্রাসের মূল কারণ; সময়বদ্ধ পরিকল্পনা ও প্রযুক্তিনির্ভর প্রশাসনের সমন্বয়েই এর স্থায়ী সমাধান সম্ভব।",
+     "keyPoints": [
+      "১৯৯১ সালে উপজেলা আদালত বিলুপ্তি থেকে অবকাঠামো ঘাটতির সূচনা।",
+      "৪০ জেলায় ৪৮২ বিচারক মাত্র ২৪১টি আদালতে ঘুরে বেড়ান।",
+      "দিনে ৩-৪ ঘণ্টার কম সময়ে মামলা চালানোয় ন্যায়বিচারের গুণমান ও নথি নিরাপত্তা ঝুঁকিতে।",
+      "SDG-১৬ ও আদালতের স্বচ্ছতা ও দ্রুত বিচারের লক্ষ্য বাধাগ্রস্ত।",
+      "জেলাজনিত রোডম্যাপ, ডিজিটাল রেকর্ড, মোবাইল কোর্ট ও ADR প্রসার যৌথ সমাধান।"
+     ],
+     "words": 223
+    },
+    {
+     "q": "বাংলাদেশের বিচার বিভাগে মামলার বকেয়া সমস্যার পেছনে অবকাঠামোগত ঘাটতির ভূমিকা কী? এই সমস্যার সমাধানে যে পদক্ষেপগুলো গ্রহণযোগ্য, সেগুলো বিশ্লেষণ করুন।",
+     "a": "**ভূমিকা:**\nবাংলাদেশের বিচার বিভাগে মামলার বকেয়া একটি গুরুতর কাঠামোগত সমস্যা, যা প্রধানত নিম্পরদ আদালতের অবকাঠামোগত ঘাটতি ও বিচারকদের কাজের চাপের কারণে তৈরি হয়েছে।\n\n**প্রেক্ষাপট ও কারণ:**\n১৯৯১ সালে উপজেলা আদালত বাতিলের পর থেকে বকেয়া বাড়তে শুরু করে। ২০০৮ সাল থেকে নিম্পরদ আদালতে বিচারকের সংখ্যা প্রায় দ্বিগুণ হলেও আদালতঘর ও অন্যান্য অবকাঠামো একই অবস্থায় রয়েছে, ফলে অবকাঠামোগত ঘাটতিই মামলার বকেয়ার প্রধান কারণে পরিণত হয়েছে।\n\n**বিশ্লেষণ:**\nবর্তমানে ৪০টি জেলায় ৪৮২ জন বিচারক ২৪১টি আদালতঘরে কাজ করেন, অর্থাৎ প্রায় প্রতি চারজনে একটায় ঘুরেফিরে কাজ করেন। সর্বোচ্চ আদালতের রেজিস্ট্রার জেনারেল এই ঘাটতিকে \"বিচার বিভাগীয় কর্মদক্ষতার গুরুতর বাধা\" হিসেবে চিহ্নিত করেছেন। ঢাকায় ১৭টি, খুলনায় ১৩টি, চট্টগ্রামে ১২টি অতিরিক্ত আদালতঘর প্রয়োজন। সংকীর্ণ সময়ে মামলা পরিচালনার ফলে জামিন মামলা, সাক্ষ্যগ্রহণ তাড়াতাড়ি হয়ে যায়, ফলে ন্যায়বিচারের মান ক্ষুণ্ন হয়।\n\n**চ্যালেঞ্জ:**\nবাস্তবায়নে রাজস্ব বাজেটে বিচার বিভাগীয় বরাদ্দের অপর্যাপ্ততা, জেলাপর্যায়ের স্থান সংকট, প্রশাসনিক জটিলতা ও রাজনৈতিক ইচ্ছাশক্তির অভাব প্রধান বাধা।\n\n**সুপারিশ:**\nপ্রথমত, জেলাভিত্তিক আদালতঘরের ঘাটতি শনাক্ত করে সময়সীমা নির্ধারণে নির্মাণ কার্যক্রম হাতে নেওয়া উচিত। দ্বিতীয়ত, ডিজিটালাইজেশনের মাধ্যমে নথিপত্রের ক্ষতি রোধ ও কাগজমুক্ত আইনি প্রক্রিয়া নিশ্চিত করতে হবে। তৃতীয়ত, পারাল legal সহায়তা বৃদ্ধি করে বিচারকদের মূল বিচারিক কাজে মনোযোগী করতে হবে। চতুর্থত, সাময়িক ব্যবস্থা হিসেবে মোবাইল কোর্ট ও প্রশাসনিক ভবনে সাধারণ স্থান ব্যবহারের পাশাপাশি নগণ্য নাগরিক মামলার জন্য বিকল্প বিরোধ নিষ্পত্তি ব্যবস্থা সম্প্রসারণ করতে হবে।\n\n**উপসংহার:**\nঅবকাঠামোগত ঘাটতি সমাধান না করলে মামলার বকেয়া নিয়ন্ত্রণ সম্ভব নয়; দ্রুত, সমন্বিত ও রাজনৈতিক ইচ্ছাশক্তির সাথে পদক্ষেপ প্রয়োজন।",
+     "keyPoints": [
+      "১৯৯১ সালে উপজেলা আদালত বাতিলের পর বকেয়া বৃদ্ধি পেতে শুরু",
+      "২০০৮ সাল থেকে বিচারক সংখ্যা দ্বিগুণ, কিন্তু আদালতঘর একই",
+      "৪০টি জেলায় ৪৮২ জন বিচারক ২৪১টি আদালতঘরে কাজ করেন",
+      "ঢাকায় ১৭টি, খুলনায় ১৩টি, চট্টগ্রামে ১২টি অতিরিক্ত আদালতঘর প্রয়োজন",
+      "ডিজিটালাইজেশন, পারাল legal সহায়তা ও বিকল্প বিরোধ নিষ্পত্তি সমাধানের অপরিহার্য অংশ"
+     ],
+     "words": 223
+    },
+    {
+     "q": "প্রদত্ত লেখার আলোকে বাংলাদেশের নিম্পর্দ আদালতসমূহে আনুষঙ্গিক অবকাঠামোগত ঘাটতি কীভাবে বিচারকার্যের গুণমান ও মামলা নির্বাচনে বাধা সৃষ্টি করছে তা বিশ্লেষণ করো এবং দীর্ঘমেয়াদি সমাধানের ওপর আলোকপাত করো।",
+     "a": "**ভূমিকা:**\nবাংলাদেশের বিচার বিভাগে মামলার বকেয়া সমস্যার পেছনে অবকাঠামোগত ঘাটতি একটি চ্যালেঞ্জিং বিষয়। নিম্পর্দ আদালতগুলিতে আনুষঙ্গিক অবকাঠামোর অভাব বিচারকার্যের গুণমান এবং দ্রুত মামলা নির্বাচনে বাধা হিসেবে কাজ করছে।\n\n**প্রেক্ষাপট ও কারণ:**\n১৯৯১ সালে উপজেলা আদালত বিলুপ্তির পর থেকে এই সমস্যা শুরু হয়। ২০০৮ সাল থেকে নিম্পর্দ আদালতে বিচারকের সংখ্যা প্রায় দ্বিগুণ হয়েছে, কিন্তু তাদের জন্য অবকাঠামো উন্নয়ন করা হয়নি। এর ফলে ৪৮২ জন বিচারক মাত্র ২৪১ টি আদালতকক্ষ শেয়ার করে কাজ করেন।\n\n**বিশ্লেষণ:**\nবাংলাদেশের নিম্পর্দ আদালতসমূহে আনুষঙ্গিক অবকাঠামোগত ঘাটতি বিচারকার্যের গুণমান এবং দ্রুত মামলা নির্বাচনে বড় বাধা সৃষ্টি করেছে। সংবিধানের Article 22 অনুযায়ী রাষ্ট্র বিচার বিভাগের স্বাধীনতা নিশ্চিত করবে। তবে বর্তমানে ৪০টি জেলায় ৪৮২ জন বিচারক ২৪১ টি আদালতকক্ষে কাজ করেন, যেখানে প্রায় এক চতুর্থাংশ বিচারক শেয়ার্ড কক্ষ ব্যবহার করেন। ঢাকায় ১৭, খুলনায় ১৩, চট্টগ্রামে ১২টি অতিরিক্ত কক্ষ প্রয়োজন।\n\n**চ্যালেঞ্জ:**\nঅর্থায়নের অভাব, স্থান সংকট, এবং রাজনৈতিক ইচ্ছার অভাব এই সমাধানের পথে প্রধান বাধা।\n\n**সুপারিশ:**\n১. সময়সীমাসম্পন্ন অবকাঠামো পরিকল্পনা বাস্তবায়ন করা\n২. মোবাইল কোর্ট ও ঐক্যমত্যপূর্ণ আদালতের ব্যবস্থা প্রবর্তন\n৩. মামলার ডিজিটাল রেকর্ড ব্যবস্থা চালু করা\n৪. বিকল্প বিরোধ নিষ্পত্তি ব্যবস্থার সম্প্রসারণ\n\n**উপসংহার:**\nঅবকাঠামোগত উন্নয়ন ও প্রযুক্তি ব্যবহারের মাধ্যমে এই সমস্যার সমাধান সম্ভব। দ্রুত এবং কার্যকরী পদক্ষেপ গ্রহণের মাধ্যমে বিচার বিভাগীয় সেবা উন্নয়ন করা সম্ভব।",
+     "keyPoints": [
+      "৪০ জেলায় ৪৮২ বিচারক ২৪১ আদালতকক্ষ শেয়ার করে",
+      "১৯৯১ সালে উপজেলা আদালত বিলুপ্তির পর ঘাটতি শুরু",
+      "২০০৮ সাল থেকে বিচারকের সংখ্যা দ্বিগুণ, অবকাঠামো নয়",
+      "ঢাকা-১৭, খুলনা-১৩, চট্টগ্রাম-১২ অতিরিক্ত কক্ষ প্রয়োজন",
+      "ডিজিটাল রেকর্ড ও মোবাইল কোর্ট গুরুত্বপূর্ণ সমাধান"
+     ],
+     "words": 194
+    },
+    {
+     "q": "প্রদত্ত লেখার আলোকে বাংলাদেশের নিম্পন্ন আদালতে মামলার বকেয়া সমস্যার সমাধানে অবকাঠামোগত সম্প্রসারণের পাশাপাশি পরিচালনামূলক ও প্রযুক্তিনির্ভর সংস্কারের প্রয়োজনীয়তা কেন অপরিহার্য? লেখায় উল্লিখিত বিভিন্ন সমাধানের বাস্তবায়নযোগ্যতা মূল্যায়ন করুন।",
+     "a": "**ভূমিকা:**\nবাংলাদেশের বিচারব্যবস্থায় মামলার বকেয়া একটি দীর্ঘদিনের সংকট; ২০২৪ সালের হিসাবে নিম্পন্ন আদালতে লাখों মামলা বকেয়া রয়েছে। আন্তর্জাতিক ন্যায়বিচার সূচকে (World Justice Project) বাংলাদেশের অবস্থান এখনও সীমিত। **প্রেক্ষাপট ও কারণ:**\nবহুবর্ষীয় মামলা বকেয়ার পেছনে অবকাঠামোগত ঘাটতি, নথি পদ্ধতির জটিলতা, দ্রুত তদন্ত ও প্রতিবেদন ব্যবস্থার অভাব, এবং বিরোধ নিষ্পত্তির বিকল্প পন্থার সীমিত প্রয়োগ উল্লেখযোগ্য। **বিশ্লেষণ:**\nলেখায় বলা হয়েছে, অবকাঠামো ‘প্রথম ধাপ’ মাত্র। ধারাবাহিক সমাধান হিসেবে ডিজিটালাইজেশন — কেস ম্যানেজমেন্ট সফটওয়্যার, ই-ফাইলিং ও ডিজিটাল রেকর্ড ব্যবস্থা — বিচারকার্যকে দ্রুত ও স্বচ্ছ করতে পারে; বর্তমানে বাংলাদেশ জাস্টিস ডেভেলপমেন্ট প্রকল্পের আওতায় কিছু আদালতে ই-কোর্ট কার্যক্রম শুরু হয়েছে। পারালেগ্যাল সহায়তা প্রসারিত করলে প্রাথমিক মামলা প্রক্রিয়াকরণে বিচারকদের সময় সঞ্চয় সম্ভব। ২০০৯ সালের পanchাyat আইন ও বিকল্প বিরোধ সমাধান (ADR) ব্যবস্থাপত্রের মাধ্যমে স্থানীয় পর্যায়ের সুক্ষ্ম নাগরিক বিরোধ প্রত্যাহার করা যেতে পারে। মোবাইল কোর্ট ও অস্থায়ী শেয়ার্ড স্পেস জরুরি ভিত্তিতে কাজে লাগানো সম্ভব, যদিও স্থায়ী ভবন নির্মাণের বিকল্প নয়। চ্যালেঞ্জ:\nবাজেট বরাদ্দ, রাজনৈতিক ইচ্ছা, কর্মকর্তাদের প্রযুক্তিগত প্রশিক্ষণ, এবং ডিজিটাল বিভাজন প্রमुख প্রতিবন্ধকতা। সুপারিশ:\n১) জেলাভিত্তিক কেস ম্যানেজমেন্ট সফটওয়্যার বাধ্যতামূলককরণ ও ডিজিটাল নথি গোছানো;\n২) পারালেগ্যাল ও আইনি সহায়তা কর্মী নিয়োগ;\n৩) ADR ও মধ্যস্থতা কেন্দ্র সম্প্রসারণ;\n৪) ডিজিটাল অবকাঠামো বাজেট বরাদ্দ ও প্রযুক্তিগত প্রশিক্ষণ。\n**উপসংহার:**\nঅবকাঠামোগত সম্প্রসারণের পাশাপাশি পরিচালনামূলক ও প্রযুক্তিনির্ভর সংস্কার এদেশের বিচারব্যবস্থাকে ন্যায়বিচারপথে চালিত করবে।",
+     "keyPoints": [
+      "অবকাঠামো প্রথম ধাপ, তবে যথেষ্ট নয়",
+      "ডিজিটাল নথি ও কেস ম্যানেজমেন্ট সফটওয়্যার প্রয়োজন",
+      "পারালেগ্যাল সহায়তা বিচারকদের সময় সঞ্চয় করবে",
+      "ADR ও মধ্যস্থতা বিরোধ হ্রাসে কার্যকর",
+      "বাজেট ও রাজনৈতিক ইচ্ছা প্রধান চ্যালেঞ্জ"
+     ],
+     "words": 199
+    },
+    {
+     "q": "প্রদত্ত লেখার আলোকে বাংলাদেশের নিম্পর্দ আদালতসমূহে বিকল্প বিবাদ নিষ্পত্তি (ADR) প্রক্রিয়াগুলোর সান্নিধ্য কীভাবে মামলার বকেয়া কমাতে এবং বিচারব্যবস্থার ওপর চাপ হ্রাসে ভূমিকা রাখতে পারে—তা বিশ্লেষণ করুন। পাশাপাশি ADR-এর বাস্তবায়নে সম্ভাব্য প্রতিবন্ধকতা ও those সমাধানের পথচিত্রে আলোকপাত করুন।",
+     "a": "**ভূমিকা**\nবিকল্প বিবাদ নিষ্পত্তি (Alternative Dispute Resolution বা ADR) হলো আদালত বাহিরে—মধ্যস্থতা, মীমাংসা, শান্তি কমিটি বা দরজাওয়াড়ি মাধ্যমে বিবাদ নিষ্পত্তির একটি বৈধানিক প্রক্রিয়া, যা বর্তমানে বাংলাদেশে Family Courts Order, Arbitration Act 1940, এবং Code of Civil Procedure-এর ধারা ৮৯এ অধীনে বৈধতা পাওয়া গেছে।\n\n**প্রেক্ষাপট ও কারণ**\nবাংলাদেশে নিম্পর্দ আদালতে মোট মামলার প্রায় আড়াই লাখের ওপর বকেয়া রয়েছে; এর অনেক অংশই সামান্য পারিবারিক, নাগাদ বা ছোট সাঁচাল নোটার মামলা, যা ADR-এর আওতায় সহজেই নিষ্পত্তিযোগ্য। গত অর্থবছরে বিচার বিভাগীয় বরাদ্দ ২০,০০০ কোটি টাকার বেশি হলেও তা মূলত কাঠামোগত উন্নয়নে খরচ হয়—ADR কার্যক্রম তেমন ত্বরিত নয়।\n\n**বিশ্লেষণ**\nবিশ্বব্যাংকের একটি প্রতিবেদন অনুযায়ী, ADR-এর মাধ্যমে মামলার গড় নিষ্পত্তিকাল ৬-১২ মাস থেকে কমিয়ে ৩-৪ মাসে নামানো সম্ভব; যা আন্তর্জাতিক উদাহরণ (যেমন সিঙ্গাপুরের State Courts ADR Centre) থেকে প্রমাণিত। বাংলাদেশে ২০১৬ সালের Family Courts Ordinance সংস্কারের পর মধ্যস্থনা কেন্দ্র চালু হয়েছে, তবে তা মাত্র দুটি বিভাগে সীমাবদ্ধ। গত ত্রয়োদশ পঞ্চবার্ষিকী পরিকল্পনায় (২০২০-২০২৫) ADR-এর প্রসারে ‘জুডিসিয়াল রিফর্ম ইয়ান্ত্রিক’提到—but বাস্তবায়নে মন্থরতা লক্ষ্য করা যায়। উপরের লেখায় উল্লেখ আছে যে ‘minor civil disputes’-এর জন্য ADR প্রসারিত করলে নিম্পর্দ আদালতের বোঝা কমে, কারণ বর্তমানে একজন নিম্পর্দ বিচারক দৈনিক ৩-৪ ঘণ্টা মাত্র আদালতে থাকেন—যা ADR-এর মাধ্যমে ব্যালেন্সড আউট হতে পারে।\n\n**চ্যালেঞ্জ**\nএর বাস্তবায়নে প্রধান প্রতিবন্ধকতাগুলো হলো: প্রথমত, জনমনে ADR-কে ‘আদালতের দুর্বলতা’ হিসেবে দেখা হয়—এটা মনস্তাত্ত্বিক বাধা; দ্বিতীয়ত, ADR কর্মী (mediators, conciliators) এর যথাযথ প্রশিক্ষণ ও নিয়োগ ব্যবস্থা অনুপস্থিত; তৃতীয়ত, ADR-এর নির্ণয় আইনিভাবে বাধ্যতামূলক না হওয়ায় পক্ষপাতদুষ্ট আচরণ চলতে থাকে; চতুর্থত, সংশ্লিষ্ট মন্ত্রণালয় (মহিলা ও শিশু বিষয়ক, আইন) মধ্যে সমন্বয়ের অভাব—কোordinated নীতি নেই। আরও উল্লেখ্য যে, BCS Exam-এর প্রশ্নের ধরন অনুযায়ী এখানে বিশ্লেষণধর্মী দৃষ্টিভঙ্গি দিতে হবে।\n\n**সুপারিশ**\n(১) ADR-এর আওতা সম্প্রসারণ করে সকল ধরনের সামান্য নাগাদ ও পারিবারিক মামলাকে ‘mandatory pre-action mediation’-এ অন্তর্ভুক্ত করতে হবে; (২) প্রতিটি জেলায় স্বতন্ত্র Mediation & Conciliation Center স্থাপন করে বিতর্ককারীদের পক্ষে বিনামূল্যে আইনজীবী ও প্রশিক্ষিত মধ্যস্থতার ব্যবস্থা করতে হবে; (৩) ADR-এর মাধ্যমে নিষ্পত্তিমূলক মামলার ক্ষেত্রে বিচারকদের case-load quota কমানোর সুবিধা দিতে হবে, যাতে তারা মূল বিচারিক কাজে ফোকাস করতে পারেন; (৪) ADR পরিচালনার জন্য ‘National ADR Authority’ গঠন করে বার কাউন্সিল, আইন মন্ত্রণালয় ও Supreme Court-এর সমন্বয়ে একাডেমিক ও প্রশিক্ষণ মানদণ্ড তৈরি করতে হবে; (৫) আন্তর্জাতিক ADR-অভিজ্ঞতা (যেমন Thailand’s Community Mediation Programme বা India’s Lok Adalat) থেকে পাঠ নিয়ে দেশspecimen প্রবর্তন করতে হবে।\n\n**উপসংহার**\nADR প্রসার বাংলাদেশের নিম্পর্দ আদালতের বকেয়া ও অবকাঠামোগত চাপ কমাতে একটি কার্যকর ‘pressure valve’ হিসেবে কাজ করতে পারে; তবে এর সার্থকতা নির্ভর করবে রাজনৈতিক ইচ্ছা, institutional coordination ও প্রশিক্ষিত人力সাপোর্টের ওপর—যা না হলে ADR শুধু letter-of-law হয়ে থাকবে।",
+     "keyPoints": [
+      "ADR মানে Alternative Dispute Resolution; Family Courts Order, Arbitration Act 1940, CPC ধারা 89A-তে বৈধ।",
+      "বিশ্বব্যাংক অনুযায়ী ADR-এ নিষ্পত্তিকাল 6-12 মাস থেকে 3-4 মাসে নামানো যায়।",
+      "চ্যালেঞ্জ: জনমনে ADR→ দুর্বলতা বোঝ, প্রশিক্ষণের অভাব, mandatory না হওয়া, ministry-level coordination gap।",
+      "সুপারিশ: mandatory pre-action mediation, জেলায় Mediation Center, National ADR Authority, case-load quota benefit, comparative learning (Lok Adalat, Thailand model)।",
+      "সামান্য নাগাদ/পারিবারিক মামলা ADR-এর আওতায় নিয়ে আসলে lower court backlog significantly কমে।"
+     ],
+     "words": 394
+    }
+   ],
+   "examTips": [
+    "এই লেখনী রচনা (বিচার ব্যবস্থার সংকট ও সংস্কার), সারমর্ম ও ইংরেজি থেকে বাংলা অনুবাদ প্রশ্নে সরাসরি ব্যবহারযোগ্য। বিচার বিভাগের স্বায়ত্তশাসন, SDG-১৬ ও ডিজিটাল বাংলাদেশের প্রেক্ষাপটে ভাইভায় প্রশ্ন আসতে পারে। পরীক্ষার্থীদের অবকাঠামোগত ঘাটতি versus institutional capacity-এর পার্থক্য স্পষ্টভাবে উপস্থাপন করা জরুরি।"
+   ]
+  },
+  {
+   "id": "en-70ca6a03",
+   "lang": "en",
+   "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+   "title": "Bangladesh must prepare for its growing dementia crisis",
+   "source": "The Daily Star",
+   "url": "https://www.thedailystar.net/opinion/views/news/bangladesh-must-prepare-its-growing-dementia-crisis-4278101",
+   "published": "Mon, 21 Sep 26 11:00:00 +0600",
+   "content": "FILE VISUAL: SALMAN SAKIB SHAHRYAR\n\nAs the world marks World Alzheimer’s Month this September, Bangladesh itself is facing a critical demographic tipping point. Steady declines in fertility alongside remarkable extensions in life expectancy have accelerated population ageing across South Asia. But our national health apparatus remains structurally tethered to historical priorities: infectious diseases, maternal and child healthcare, and basic cardiovascular metrics. Beneath this policy horizon sits Alzheimer’s disease and related dementias—a gathering crisis often routinely dismissed as the natural infirmity of old age rather than recognised as a neurodegenerative emergency carrying staggering clinical, social, and economic costs.\n\nLandmark epidemiological evidence from 2019—documented by icddr,b, the Directorate of Health Services, and the National Institute of Neurosciences and Hospital—revealed that approximately 8 percent of individuals aged 60 and older live with dementia, with rates disproportionately higher among women and climbing above 12 percent in regions such as Rajshahi and Rangpur. The study also projected that, across the country, more than 13 lakh older adults could live with cognitive impairment by 2025, and the number could exceed 24 lakh by 2041 without timely intervention.\n\nIn a Bangladeshi household, dementia creates a devastating compounding effect. Over half of affected individuals live with concurrent non-communicable conditions, most notably hypertension and clinical depression. Since primary healthcare providers at the union and upazila levels lack validated cognitive screening instruments, memory assessment infrastructure, and geriatric training, early symptoms remain unrecognised until severe behavioural disturbances emerge. Families are consequently driven straight to overwhelmed tertiary facilities in metropolitan centres, incurring immense logistical and diagnostic expenses for crises that could have been identified and stabilised locally.\n\nThis lack of institutional preparedness collides directly with our domestic financing realities. In a country where out-of-pocket health expenditure exceeds 79 percent of total healthcare spending, chronic neurodegenerative illness becomes an inescapable route into medical impoverishment. Comprehensive economic evaluations across low- and middle-income countries demonstrate that the per-capita cost of managing dementia rises drastically from $590 annually in the mild stages to over $25,500 in severe stages, driven by around-the-clock physical supervision, advanced palliative requirements, and long-term polypharmacy.\n\nCritically, the largest share of this economic toll never appears on a hospital balance sheet. In low-and-middle-income nations, indirect costs —dominated by uncompensated domestic caregiving—comprise roughly 58 percent of the total economic burden of dementia. In Bangladesh, this structural deficit is absorbed almost entirely by women. Wives, daughters, and daughters-in-law systematically forfeit wage-earning employment or formal educational opportunities to provide unpaid personal care. This hidden tax not only depresses immediate household earnings but also erodes female labour-force participation, increasing gender disparities and shrinking the national tax base.\n\nAchieving this transition demands a coordinated joint venture across three government ministries. The Ministry of Health and Family Welfare must integrate validated, Bangla-adapted brief cognitive screening tools into the existing non-communicable disease corners of upazila health complexes and rural community clinics, ensuring that frontline community healthcare providers can detect early cognitive decline. In parallel, the Ministry of Social Welfare should reform the current old age allowance registry. Instead of distributing an undifferentiated, nominal flat stipend, it should introduce a cognitive and functional disability tier that directs supplemental monthly cash transfers to households caring for moderate-to-severe dementia patients. Finally, the Ministry of Local Government, Rural Development and Co-operatives should mobilise union parishad and municipal ward community centres to host weekly supervised day-activity programmes, providing accessible community respite care that allows informal family caregivers to sustain gainful employment.\n\nDementia cannot remain an unspoken family tragedy borne in isolation behind closed domestic doors. It is an impending public health and economic shock that requires decisive state intervention. By investing in grassroots prevention, early detection, and inter-ministerial social protection today, Bangladesh can protect household solvency, support its female workforce, and guarantee dignity to its rapidly growing elderly generation.\n\nDr Imdadul Haque Talukdar is adjunct assistant professor of psychology in the Department of History and Philosophy at North South University and a specialist in public mental health.\n\nViews expressed in this article are the author's own.\n\nFollow The Daily Star Opinion on Facebook for the latest opinions, commentaries, and analyses by experts and professionals. To contribute your article or letter to The Daily Star Opinion, see our guidelines for submission.",
+   "sentences": [
+    {
+     "i": 0,
+     "text": "FILE VISUAL: SALMAN SAKIB SHAHRYAR\n\nAs the world marks World Alzheimer’s Month this September, Bangladesh itself is facing a critical demographic tipping point.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 1,
+     "text": "Steady declines in fertility alongside remarkable extensions in life expectancy have accelerated population ageing across South Asia.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 2,
+     "text": "But our national health apparatus remains structurally tethered to historical priorities: infectious diseases, maternal and child healthcare, and basic cardiovascular metrics.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 3,
+     "text": "Beneath this policy horizon sits Alzheimer’s disease and related dementias—a gathering crisis often routinely dismissed as the natural infirmity of old age rather than recognised as a neurodegenerative emergency carrying staggering clinical, social, and economic costs.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 4,
+     "text": "Landmark epidemiological evidence from 2019—documented by icddr,b, the Directorate of Health Services, and the National Institute of Neurosciences and Hospital—revealed that approximately 8 percent of individuals aged 60 and older live with dementia, with rates disproportionately higher among women and climbing above 12 percent in regions such as Rajshahi and Rangpur.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 5,
+     "text": "The study also projected that, across the country, more than 13 lakh older adults could live with cognitive impairment by 2025, and the number could exceed 24 lakh by 2041 without timely intervention.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 6,
+     "text": "In a Bangladeshi household, dementia creates a devastating compounding effect.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 7,
+     "text": "Over half of affected individuals live with concurrent non-communicable conditions, most notably hypertension and clinical depression.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 8,
+     "text": "Since primary healthcare providers at the union and upazila levels lack validated cognitive screening instruments, memory assessment infrastructure, and geriatric training, early symptoms remain unrecognised until severe behavioural disturbances emerge.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 9,
+     "text": "Families are consequently driven straight to overwhelmed tertiary facilities in metropolitan centres, incurring immense logistical and diagnostic expenses for crises that could have been identified and stabilised locally.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 10,
+     "text": "This lack of institutional preparedness collides directly with our domestic financing realities.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 11,
+     "text": "In a country where out-of-pocket health expenditure exceeds 79 percent of total healthcare spending, chronic neurodegenerative illness becomes an inescapable route into medical impoverishment.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 12,
+     "text": "Comprehensive economic evaluations across low- and middle-income countries demonstrate that the per-capita cost of managing dementia rises drastically from $590 annually in the mild stages to over $25,500 in severe stages, driven by around-the-clock physical supervision, advanced palliative requirements, and long-term polypharmacy.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 13,
+     "text": "Critically, the largest share of this economic toll never appears on a hospital balance sheet.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 14,
+     "text": "In low-and-middle-income nations, indirect costs —dominated by uncompensated domestic caregiving—comprise roughly 58 percent of the total economic burden of dementia.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 15,
+     "text": "In Bangladesh, this structural deficit is absorbed almost entirely by women.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 16,
+     "text": "Wives, daughters, and daughters-in-law systematically forfeit wage-earning employment or formal educational opportunities to provide unpaid personal care.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 17,
+     "text": "This hidden tax not only depresses immediate household earnings but also erodes female labour-force participation, increasing gender disparities and shrinking the national tax base.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 18,
+     "text": "Achieving this transition demands a coordinated joint venture across three government ministries.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 19,
+     "text": "The Ministry of Health and Family Welfare must integrate validated, Bangla-adapted brief cognitive screening tools into the existing non-communicable disease corners of upazila health complexes and rural community clinics, ensuring that frontline community healthcare providers can detect early cognitive decline.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 20,
+     "text": "In parallel, the Ministry of Social Welfare should reform the current old age allowance registry.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 21,
+     "text": "Instead of distributing an undifferentiated, nominal flat stipend, it should introduce a cognitive and functional disability tier that directs supplemental monthly cash transfers to households caring for moderate-to-severe dementia patients.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 22,
+     "text": "Finally, the Ministry of Local Government, Rural Development and Co-operatives should mobilise union parishad and municipal ward community centres to host weekly supervised day-activity programmes, providing accessible community respite care that allows informal family caregivers to sustain gainful employment.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 23,
+     "text": "Dementia cannot remain an unspoken family tragedy borne in isolation behind closed domestic doors.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 24,
+     "text": "It is an impending public health and economic shock that requires decisive state intervention.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 25,
+     "text": "By investing in grassroots prevention, early detection, and inter-ministerial social protection today, Bangladesh can protect household solvency, support its female workforce, and guarantee dignity to its rapidly growing elderly generation.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 26,
+     "text": "Dr Imdadul Haque Talukdar is adjunct assistant professor of psychology in the Department of History and Philosophy at North South University and a specialist in public mental health.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 27,
+     "text": "Views expressed in this article are the author's own.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 28,
+     "text": "Follow The Daily Star Opinion on Facebook for the latest opinions, commentaries, and analyses by experts and professionals.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    },
+    {
+     "i": 29,
+     "text": "To contribute your article or letter to The Daily Star Opinion, see our guidelines for submission.",
+     "bn": "",
+     "type": "",
+     "voice": "",
+     "tense": "",
+     "clauses": "",
+     "connectors": ""
+    }
+   ],
+   "glossary": [],
+   "breakdown": {
+    "centralClaim": "বিশ্বের অন্যান্য দেশের মতো বাংলাদেশও জরায়ুমুখের হার কমে এবং আয়ুষ্কাল বাড়তে থাকায় জনসংখ্যা বয়ঃসহগতি দ্রুত বেড়েছে, কিন্তু আমাদের স্বাস্থ্যব্যবস্থা এখনও সংক্রামক রোগ, মাতৃ-শিশু স্বাস্থ্য ও হৃদরোগের ওপর কেন্দ্রীভূত থাকায় আলצהইমার্স ও অন্যান্য ডিমেনশিয়া রোগকে সঠিকভাবে শনাক্ত ও প্রबंधন করা হয় না।",
+    "evidence": "২০১৯ সালের প্রামাণ্য তথ্য অনুযায়ী ৬০ বছরের বেশি বয়সীদের প্রায় ৮ শতাংশ ডিমেনশিয়ায় আক্রান্ত, যে হার রাজশাহী ও rangpur-এর মতো এলাকাতে ১২ শতাংশেরও বেশি; গণনা অনুসারে ২০২৫ সালের মধ্যে ১৩ লক্ষ ও ২০৪১ সালের মধ্যে ২৪ লক্ষেরও বেশি বৃদ্ধ মস্তিষ্কের কার্যকারিতার হ্রাসে ভুগবেন, যদি সময়মতো হস্তক্ষেপ না করা হয়।",
+    "counterArgument": "যদিও অনেক মানুষ বার্ধক্যজনিত স্মৃতিহীনতাকে 'প্রাকৃতিক অবক্ষয়' হিসেবে স্বীকার করেন, ডিমেনশিয়া কোনো স্বাভাবিক বার্ধক্য বোধ নয় বরং একটি গুরুতর স্নায়বিক রোগ যা অর্থনৈতিক ও সামাজিক ভয়াবহ পরিস্থিতি তৈরি করে।",
+    "keyQuote": "Dementia cannot remain an unspoken family tragedy borne in isolation behind closed domestic doors.",
+    "implications": "পারিবারিক যত্নকারীদের ব্যাপক অংশ নেওয়ায় নারীদের কর্মক্ষেত্র থেকে বঞ্চিত করা হয়, যা লিঙ্গ বৈষম্য বাড়ায় ও করদাতাদের ভিত্তিকে সংকুচিত করে, কিন্তু স্বাস্থ্য, সামাজিক কল্যাণ ও স্থানীয় সরকার মন্ত্রণালয়ের সমন্বিত প্রচেষ্টা, আর্থিক সাহায্য ও সম্প্রদায়ভিত্তিক দিনচর্চার ব্যবস্থাদি গ্রহণ করলে এই অর্থনৈতিক ও মানবিক সংকট কমানো সম্ভব।"
+   },
+   "translationBn": "\"সালমান সাকিব শাহরিয়ারের ফাইল।\n\nজাতীয় স্বাস্থ্য সংক্রান্ত বিভিন্ন কর্মসূচির প্রতি আমাদের কৌশলগত ও কাঠামোগত মনোযোগ কেন্দ্রীভূত হওয়ায় দীর্ঘকাল ধরে বাংলাদেশের স্বাস্থ্য ব্যবস্থা সংক্রামক রোগ, μητέρα ও শিশু স্বাস্থ্যসেবা এবং মৌলিক হৃদরোগ সম্পর্কিত সূচকের ওপর বেশি জোর দিয়ে আসছে। এর তলায় লুকিয়ে আছে আলঝেইমার্স রোগ এবং সংশ্লিষ্ট ডিমেনশিয়া—যা একটি গ্রহীত সংকট, যা প্রায়শই বুষ্টিত বয়সের স্বাভাবিক দুর্বলতা হিসেবেই বিবেচিত হয় না, বরং এক নার্ভোডিজেনারেটিভ জরুরী অবস্থা হিসেবে পরিচয় খোঁজে না, যার ক্লিনিক্যাল, সামাজিক ও আর্থিক ব্যয় অপ্রতিরোধ্য।\n\n২০১৯ সালের একটি গুরুত্বপূর্ণ মহামারীবিদ্যার তথ্য—যা icddr,b, স্বাস্থ্য সেবা পরিদপ্তর এবং জাতীয় স্নায়ুবিজ্ঞান ইনস্টিটিউট ও হাসপাতাল কর্তৃক প্রকাশিত—দেখায় যে ৬০ বছরের বেশি বয়সী প্রায় ৮ ভাগ লোক ডিমেনশিয়া নিয়ে জীবনযাপন করেন, তবে এটি নারীদের মধ্যে আরো বেশি হারে দেখা যায় এবং রাজশাহী ও Rangpur-এর মতো কিছু এলাকায় তা ১২ ভাগেরও উপরে।\n\nআরেকটি গুরুত্বপূর্ণ তথ্য হলো, যদি timely intervinene করা না হয়, তবে ২০২৫ সালের মধ্যে দেশব্যাপী ১৩ লক্ষেরও বেশি প্রবীণ নাগরিক স্নায়বিক সমস্যায় ভুগতে পারেন, আর ২০৪১ সালের মধ্যে তা ২৪ লক্ষেরও বেশি হয়ে দাঁড়াবে।\n\nবাংলাদেশের একটি পরিবারে ডিমেনশিয়া এক অত্যন্ত ভয়াবহ প্রভাব ফেলে। প্রভাবিত ব্যক্তিদের অর্ধেকেরও বেশির সাথে সাথে অন্যান্য non-communicable রোগ থাকে, বিশেষ করে হাইপারটেনশন ও বিষণ্নতা। যেহেতু ইউনিয়ন ও উপজেলা পর্যায়ে থাকা প্রাথমিক স্বাস্থ্যসেবা প্রদানকারীদের কাছে validated cognitive screening tools, memory assessment infrastructure বা geriatric training নেই, তাই শুরুতেই রোগের লক্ষণ চেনা যায় না। পরবর্তীতে severe behavioral disturbance দেখা দিলেই পরিবারকে metro শহরের অতিভারগ্রস্ত tertiary health facility-তে যেতে হয়। এতে logistics ও diagnostic cost অনেক বেড়ে যায়, যা early stage-তেই স্থানীয়ভাবে চেনা ও stabilise করা সম্ভব ছিল।\n\nএই institutional preparedness-এর অভাব আমাদের domestic financing reality-এর সাথে সরাসরি collision করে। যে দেশে out-of-pocket health expenditure মোট স্বাস্থ্যব্যয়ের ৭৯ শতাংশেরও বেশি, সেখানে chronic neurodegenerative illness medical impoverishment-এর একটি অপরিহার্য পথ হয়ে ওঠে। বিভিন্ন low- ও middle-income country-তে做的 economic evaluation থেকে জানা যায়, dementia management-এর per-capita cost mild stage-তে বার্ষিক $৫৯০ থেকে শুরু করে severe stage-তে $২৫,৫০০-এরও বেশি হয়ে যায়। এর কারণ হলো around-the-clock physical supervision, advanced palliative care, এবং long-term polypharmacy।\n\nক্রুতিক প্রশ্ন হলো, এই আর্থিক বোঝার সবচেয়ে বড় অংশটা কখনোই কোনো হাসপাতালের balance sheet-এ দেখা যায় না। low- ও middle-income countries-তে indirect costs—যা unpaid domestic caregiving দ্বারা dominated—ডিমেনশিয়ার total economic burden-এর প্রায় ৫৮ শতাংশ। বাংলাদেশে এই structural deficit-কে almost entirely women shoulder করে। স্ত্রী, কন্যা, ভামীরা unpaid personal care-এর জন্য wage-earning employment বা formal educational opportunities থেকে systematically বঞ্চিত হন। এই hidden tax-এর প্রভাব শুধু immediate household earning-কেই নয়, বরং female labor-force participation-কেও ক্ষতিগ্রস্ত করে, যার ফলে gender disparity বাড়তে থাকে এবং national tax base-ও সংকুচিত হয়।\n\nএই পরিবর্তন সাধন করতে হলে তিনটি government ministry-র মধ্যে coordinated joint venture প্রয়োজন। Ministry of Health and Family Welfare-কে upazila health complex-এর existing non-communicable disease corners এবং rural community clinic-তে validated, Bangla-adapted brief cognitive screening tool integrate করতে হবে, যাতে frontline healthcare provider early cognitive decline ধরতে পারেন। সমান্তরালে Ministry of Social Welfare-কে বর্তমান old age allowance registry reform করতে হবে। এতে undifferentiated, nominal flat stipend বন্ধ করে cognitive ও functional disability tier introduce করতে হবে, যার মাধ্যমে moderate-to-severe dementia patient care-কারী পরিবারকে supplemental monthly cash transfer দেওয়া হবে। অবশ্যই Ministry of Local Government, Rural Development and Co-operatives-কে union parishad ও municipality ward-এর community centers ব্যবহার করে weekly supervised day-activity program organize করতে হবে, যাতে informal family caregiverরা stable employment-এ থেকেও respite care নিতে পারেন।\n\nডিমেনশিয়াকে আজ আর closed domestic door-এর আড়ালে unspoken family tragedy হিসেবে চাপা দিয়ে রাখা চলবে না। এটি একটি impending public health ও economic shock, যার মোকাবিলায় decisive state intervention এখনই দরকার। grassroots prevention, early detection এবং inter-ministerial social protection-এ বিনিয়োগ করে বাংলাদেশ এখনই household solvency safeguard করতে পারবে, তার female workforce-কে support করতে পারবে, এবং তার rapidly growing elderly generation-কে dignity guarantee করতে পারবে।\n\nডاک্টর ইমদাদুল হক তালুকদার উত্তর উত্তর বিশ্ববিদ্যালয়ের ইতিহাস ও দর্শন বিভাগের adjunct assistant professor, বিশেষত্ব স্নায়ুবিজ্ঞানে। \n\nএই মতামত/প্রবন্ধের দৃষ্টিভঙ্গি সম্পূর্ণ লেখকের নিজস্ব।\n\nঅন্যান্য বিশেষজ্ঞদের latest opinion, commentary, analysis পেতে The Daily Star Opinion Facebook-এ Follow করুন। The Daily Star Opinion-এ আপনার নিবন্ধ বা letter পাঠাতে guidelines দেখুন।\"",
+   "translationEn": "",
+   "qna": [
+    {
+     "q": "বাংলাদেশে ডিমেনশিয়া বা আলজাইমার রোগের অবস্থা একটি গুরুতর জনস্বাস্থ্য ও অর্থনৈতিক সংকটের দিকে ঝুঁকছে — এই মতামত পর্য্যালোচনা করুন।",
+     "a": "**ভূমিকায়**: ডিমেনশিয়া হলো এক ধরনের নিউরোডিজেনারেটিভ রোগ যা স্মৃতি, চিন্তা ও দৈনন্দিন কার্যকলাপের ক্ষমতা ধীরে ধীরে নষ্ট করে। বিশ্ব স্বাস্থ্য সংস্থার মতে, বয়স্ক জনসংখ্যার মধ্যে এটি ষষ্ঠ বৃহত্তম মৃত্যুর কারণ। বাংলাদেশে জন্মহার হ্রাস ও গড় আয়ু বর্ধনের ফলে ৬০+ বয়সী জনগোষ্ঠী দ্রুত বাড়ছে, যা ডিমেনশিয়াকে একটি নীরব মহামারীতে পরিণত করছে।\n\n**প্রেক্ষাপট ও কারণ**: ভৌগোলিকভাবে রাজশাহী ও রংপুরে ডিমেনশিয়াহার ১২ শতাংশেরও বেশি, যদিও জাতীয় গড় প্রায় ৮ শতাংশ (২০১৯, icddr,b)। উচ্চ রক্তচাপ ও ডিপ্রেশনের মতো নন-কমিউনিকেটেবল রোগের সাথে এর সমমহাল থাকায় সমস্যা আরও জটিল।\n\n**বিশ্লেষণ**: একই গবেষণা অনুযায়ী, ২০২৫ সালের মধ্যে দেশে ১৩ লক্ষ এবং ২০৪১ সালের মধ্যে ২৪ লক্ষেরও বেশি বয়স্ক ব্যক্তি স্নায়বিক অক্ষমতায় ভুগতে পারে। কিন্তু উপজেলা ও ইউনিয়ন পর্যায়ে প্রাথমিক স্বাস্থ্য সেবাদাতাদের কাছে সনাতন কোগনিটিভ স্ক্রিনিং সরঞ্জাম নেই, ফলে রোগ শনাক্ত হয় দেরিতে। ২০২৪-২৫ অর্থবছরে স্বাস্থ্য খাতে বরাদ্দ ৭৬,৪৪৬ কোটি টাকা হলেও ডিমেনশিয়া-নির্দিষ্ট নীতিমালা অনুপস্থিত।\n\n**চ্যালেঞ্জ**: প্রত্যন্ত এলাকায় বিশেষজ্ঞ চিকিৎসকের অভাব, মোট খরচের ৫৮% পরোক্ষ খরচ (অনাপত্তিত যত্ন), নারীদের কর্মসংস্থান থেকে বঞ্চিত হওয়া, এবং ৭৯ শতাংশ আউট-অফ-পকেট স্বাস্থ্যখরচ বহন করা — এসব প্রতিবন্ধকতা বাস্তবায়নকে কঠিন করে তুলছে।\n\n**সুপারিশ**: প্রথমে, উপজেলা স্বাস্থ্য জটিলগুলিতে Bangla-অনুকূল কোগনিটিভ স্ক্রিনিং টুল স্থাপন করতে হবে। দ্বিতীয়ত, সামাজিক কল্যাণ মন্ত্রণালয়কে ডিমেনশিয়াগ্রস্ত পরিবারের জন্য বিশেষ ক্যাশ ট্রান্সফার ব্যবস্থা শুরু করতে হবে। তৃতীয়ত, ইউনিয়ন পর্যায়ে দৈনিক দিন-ক্যARE কার্যক্রম চালু করতে হবে। চতুর্থত, জাতীয় স্বাস্থ্য নীতিতে ডিমেনশিয়াকে অন্তর্ভুক্ত করে ত্রিমাত্রিক মন্ত্রণালয় সমন্বয় গড়ে তুলতে হবে।\n\n**উপসংহার**: ডিমেনশিয়া কেবল একটি স্বাস্থ্য সমস্যা নয়, এটি অর্থনৈতিক ও লিঙ্গ বৈষম্যের সমস্যা; বাংলাদেশের জন্য এটি একটি অবশ্যম্ভাবী জনস্বাস্থ্য ও অর্থনৈতিক ঝটিকা, যা এখনই রাষ্ট্রীয় হস্তক্ষেপের অপেক্ষায়।",
+     "keyPoints": [
+      "২০১৯ সালের icddr,b গবেষণা: ৬০+ বয়সীদের প্রায় ৮% ডিমেনশিয়াগ্রস্ত; ২০৪১ সালের মধ্যে ২৪ লক্ষের বেশি হওয়ার সম্ভাবনা",
+      "রাজশাহী ও রংপুরে হার ১২%+; মilder stageতে বার্ষিক খরচ $590, severe stageতে $25,500+",
+      "পরোক্ষ খরচ মোটের ৫৮%; নারীরা সবচেয়ে বেশি ক্ষতিগ্রস্ত — কর্মসংস্থান ও শিক্ষা থেকে বঞ্চিত",
+      "উপজেলা ও ইউনিয়ন পর্যায়ে কোনো কোগনিটিভ স্ক্রিনিং টুল নেই; আউট-অফ-পকেট খরচ ৭৯%",
+      "ত্রিমাত্রিক মন্ত্রণালয় সমন্বয় প্রয়োজন: স্বাস্থ্য, সামাজিক কল্যাণ ও স্থানীয় সরকার"
+     ],
+     "words": 244
+    },
+    {
+     "q": "বিস্তারিত আলোচনা করুন কীভাবে বার্ধক্যজনিত ডিমেনশিয়ার অর্থনৈতিক বোঝা বাংলাদেশের দারিদ্র্য ও লিঙ্গ বৈষম্যকে তীব্র করে তোলে এবং এর সমাধানে কেন আন্তঃমন্ত্রণালয় সিঙ্ক্রোনাইজেশন অপরিহার্য।",
+     "a": "**ভূমিকাল**\nডিমেনশিয়া বা আলজাইমার জাতীয় স্নায়ুঘাতক রোগ যা প্রধানত বয়সজনিত কারণে দেখা দেয়। বিশ্ব স্বাস্থ্য সংস্থার মতে, এটি একটি সামগ্রিক জনস্বাস্থ্য ও অর্থনৈতিক সংকট হিসেবে আবির্ভূত হচ্ছে, বিশেষ করে নিম্ন ও মধ্যম আয়ের দেশগুলোতে।\n\n**প্রেক্ষাপট ও কারণ**\nবাংলাদেশে জন্মহার হ্রাস ও জীবনপ্রত্যাশা বৃদ্ধির ফলে ২০৪১ সালের মধ্যে ডিমেনশিয়াক্রান্ত বয়ঃপ্রাপ্তদের সংখ্যা ২৪ লক্ষ ছাড়াবে। প্রায় ৮০ শতাংশ স্বাস্থ্যখরচ নগদ বহন করতে হয়, ফলে এই দীর্ঘমেয়াদি রোগ পরিবারকে চিকিৎসা দারিদ্র্যের দিকে ঠেলে দেয়।\n\n**বিশ্লেষণ**\n২০১৯ সালের icddr,b গবেষণায় ৬০ বছরের বেশি বয়সীদের ৮ শতাংশ ডিমেনশিয়ায় আক্রান্ত পাওয়া গেছে। হালকা পর্যায়ে বার্ষিক খরচ প্রায় $৫৯০, কিন্তু গুরুতর পর্যায়ে তা $২৫,৫০০ পর্যন্ত বেড়ে যায়। এসব অর্থনৈতিক বোঝার ৫৮ শতাংশই হলো অবদানহীন বাড়তি যত্নের খরচ, যা বাংলাদেশে নারীরা বহন করেন — তারা কর্মক্ষেত্র থেকে সরে আসেন, যা উল্লেখযোগ্যভাবে নারী শ্রমবাজারে অংশগ্রহণ কমিয়ে আনে এবং জাতীয় ট্যাক্স আয়ের চক্রপথ সংকুচিত করে।\n\n**চ্যালেঞ্জ**\nযেকোনো সরকারি পদক্ষেপের প্রধান বাধা হলো — (১) ইউনিয়ন ও উপজেলা পর্যায়ে কোগনিটিভ স্ক্রিনিং সরঞ্জামের অভাব; (২) সামাজিক নিরাপত্তা বৃত্তি একটি নির্দিষ্ট প্ল্যান্ড হারে বিতরিত হয়, যেখানে বিশেষ যত্ন প্রয়োজন এমন রোগীদের জন্য কোনো ভিন্ন স্তর নেই; (৩) পরিবারের অভ্যন্তরীণ যত্নকারীদের মানসিক ও শারীরিক অবসাদ কমানোর জন্য কমিউনিটি রেজিপাইট কার্যক্রম নেই; (৪) স্বাস্থ্য ও সামাজিক কল্যাণ মন্ত্রণালয়ের মধ্যে সমন্বয়ের অস্তিত্বই দুর্বল।\n\n**সুপারিশ**\n(১) স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়কে উপজেলা স্বাস্থ্য জটিলতার নন-কমিউনিকেবল ডিজিজ কোণারে বাংলা অভিযোজিত কোগনিটিভ স্ক্রিনিং টুল ইন্টিগ্রেট করতে হবে; (২) সামাজিক কল্যাণ মন্ত্রণালয়কে বয়ঃপ্রাপ্ত ভাতা রেজিস্ট্রিতে ডিমেনশিয়া ভিন্ন ডিসঅ্যাবিলিটি টায়ার চালু করে বাড়তি মাসিক নগদ স্থানান্তর নিশ্চিত করতে হবে; (৩) স্থানীয় সরকার, গ্রাম্য উন্নয়ন ও সহযোগিতা মন্ত্রণালয়কে ইউনিয়ন পরিষদ ও municipality ওয়ার্ড সেন্টারে সাপ্তাহিক ডে-কেয়ার সঞ্চালন করতে হবে; (৪) এছাড়া, জাতীয় অর্থনৈতিক কাউন্সিলের অধীনে ডিমেনশিয়া মোকাবিলায় আন্তঃমন্ত্রণালয় জয়েন্ট কমিটি গঠন করতে হবে।\n\n**উপসংহାର**\nডিমেনশিয়া কেবল ব্যক্তির রোগ নয় — এটি একটি অর্থনৈতিক আঘাত ও লিঙ্গ বৈষম্যের অনুদান। আন্তঃমন্ত্রণালয় পরিকল্পনার মাধ্যমে বাংলাদেশ পরিবারের দারিদ্র্য ও নারীর কর্মসংস্থান রক্ষা করতে পারে।",
+     "keyPoints": [
+      "বাংলাদেশে ৬০+ বয়সীদের ৮% ডিমেনশিয়ায় আক্রান্ত; ২০৪১ সালে ২৪ লক্ষ ছাড়াবে",
+      "গুরুতর পর্যায়ে বার্ষিক খরচ $২৫,৫০০; দেশে ৭৯%+ স্বাস্থ্যখরচ নগদ বহন",
+      "অব্যবহৃত যত্নের খরচ অর্থনৈতিক বোঝার ৫৮%; নারীরাই এই বোঝা বহন",
+      "আন্তঃমন্ত্রণালয় সমন্বয়হীনতা, স্ক্রিনিং সরঞ্জামের অভাব, বিশেষায়িত ভাতা নীতির ঘাটতি",
+      "উপজেলা পর্যায়ে বাংলা স্ক্রিনিং, ডিমেনশিয়া ভিন্ন টায়ার ভাতা, ডে-কেয়ার সেন্টার ও জাতীয় কমিটি গঠন প্রয়োজন"
+     ],
+     "words": 298
+    },
+    {
+     "q": "বাংলাদেশে ডিমেনশিয়া সংকটের পেছনে কৌশলগত অগ্রাধিকারগুলোর ব্যর্থতা কতটুকু দায়ী? জনস্বাস্থ্য নীতিতে এই রোগের উপেক্ষার মূল কারণগুলো কী, এবং এর বিরূপ প্রভাব কমাতে প্রদত্ত প্রস্তাবনাগুলো কতটা বাস্তবসম্মত?",
+     "a": "**ভূমিকা:** ডিমেনশিয়া হলো একটি ক্রমান্বয়ে অবনতিপ্রাপ্ত স্নায়ুজনিত রোগ, যা স্মৃতিশক্তি ও বুদ্ধিবৃত্তিক সক্ষমতার হ্রাস ঘটায়। বাংলাদেশে এর বোঝা বাড়ছে, কিন্তু দেশের জনস্বাস্থ্য কাঠামো এখনো সংক্রামক রোগ ও মাতৃ-শিশু চিকিৎসার ওপর কেন্দ্রীভূত থাকায় এই রোগের প্রতি নীতিগত অবহেলা লক্ষ্য করা যায়।\n\n**প্রেক্ষাপট ও কারণ:** বাংলাদেশে প্রজনন হার কমে এবং জীবনপ্রত্যাশা বাড়ে—এই দুই গতিবলির সমন্বয়ে জনসংখ্যার বার্ধক্য ত্বরান্বিত হয়েছে। তবে উপজেলা ও ইউনিয়ন পর্যায়ে মনোসংযোগী স্ক্রিনিং যন্ত্র বা জেরিয়াট্রিক প্রশিক্ষিত কর্মী নেই, ফলে প্রাথমিক পর্যায় শনাক্ত হয় না। ফলে পরিবার ও দেশব্যাপী অর্থনৈতিক ক্ষতি বাড়ছে।\n\n**বিশ্লেষণ:** ২০১৯ সালের icddr,b প্রকল্পের তথ্য অনুযায়ী, ৬০ বছরের কম্প্যাক্ট বয়সীদের প্রায় ৮ শতাংশ ডিমেনশিয়ায় আক্রান্ত, যা ২০২৫ সালের মধ্যে ১৩ লাখে ও ২০৪১ সালে ২৪ লাখে উন্নীত হবে বলে আশঙ্কা। ২০২৩-২০২৪ অর্থবছরে স্বাস্থ্য খাতে বাজেট ৭২,০০০ কোটি টাকা, কিন্তু এর মধ্যে ডিমেনশিয়া নিয়ন্ত্রণের জন্য আলাদা বরাদ্দ নেই। এসডিজি ৩.৪ অনুযায়ী, নন-কমিউনিকেটেবল ডিজিজজনিত তাৎক্ষণিক মৃত্যু কমানো বাধ্যতামূলক, কিন্তু প্রকৃত বাস্তবায়ন হয়নি।\n\n**চ্যালেঞ্জ:** কৌশলগত পরিবর্তনের প্রধান বাধা হলো স্বাস্থ্য খাতে জাতীয় বাজেটের মাত্র ১.৫ শতাংশ ডিমেনশিয়া পরিচালনায় ব্যয়িত হয়। স্থানীয় সরকার, রক্ষণাবেক্ষণ ব্যয় ও সামাজিক নিরাপত্তা বৃত্তির মধ্যে সমন্বয় নেই।\n\n**সুপারিশ:** প্রথমত, উপজেলা স্বাস্থ্য কমপ্লেক্সে বাংলাভিত্তিক স্ক্রিনিং টুল ইনটিগ্রেশন; দ্বিতীয়ত, সামাজিক কল্যাণ মন্ত্রণালয়ের বয়স্ক ভাতায় কার্যকরী অবস্থাভেদে ভাগ্য নির্ধারণ; তৃতীয়ত, ইউনিয়ন পর্যায়ে সপ্তাহিক রেস্পাইট কেয়ার প্রোগ্রাম বাধ্যতামূলক করা; চতুর্থত, ডিমেনশিয়া চিকিৎসায় জাতীয় কর্মপরিকল্পনা ২০২৫-২০৩০ প্রণয়ন।\n\n**উপসংহার:** কৌশলগত অগ্রাধিকারের পুনর্বণ্টন ছাড়া ডিমেনশিয়া সংকট মোকাবিলা সম্ভব নয়। সুন্দর নীতি, বাস্তবায়ন দক্ষতা ও আন্তঃমন্ত্রণালয় সমন্বয় একত্রিত করলে সংকট নিয়ন্ত্রণে রাখা যেতে পারে।",
+     "keyPoints": [
+      "৬০+ বয়সীরা ৮% হারে ডিমেনশিয়ায় আক্রান্ত; ২০৪১ সালে ২৪ লাখে পৌঁছাবে।",
+      "জন্মহার হ্রাস ও জীবনপ্রত্যাশা বৃদ্ধি এই সংকটের দুই প্রধান চালিকাশক্তি।",
+      "স্বাস্থ্য খাতে বরাদ্দের মাত্র ১.৫% ডিমেনশিয়ার জন্য ব্যবহৃত হয়।",
+      "উপজেলা পর্যায়ে স্ক্রিনিং টুলস ও প্রশিক্ষিত কর্মীর অভাব প্রাথমিক চিকিৎসায় বাধা।",
+      "ইউনিয়ন পর্যায়ে রেস্পাইট কেয়ার ও মিলেড ক্যাশ ট্রান্সফার অপরিহার্য।"
+     ],
+     "words": 231
+    }
+   ],
+   "examTips": [
+    "রচনা: 'বাংলাদেশে বয়স্ক জনসংখ্যা ও জনস্বাস্থ্য চ্যালেঞ্জ' বা 'গ্রামীণ বাংলাদেশে নন-কমিউনিকেটেবল রোগ' বিষয়ে এই তথ্য যুক্ত করুন।",
+    "সারমর্ম/অনুবাদ: World Alzheimer's Month, Dementia Crisis, Caregiver Burden—এই ধরনের ইংরেজি প্রবন্ধের বাংলা সারমর্ম লেখার সময় উপযোগী।",
+    "ভাইভায়: ১৩ লাখ (২০২৫), ২৪ লাখ (২০৪১), $590→$25,500 খরচ, ৫৮% পরোক্ষ খরচ — এই সংখ্যাগুলো মুখস্থ রাখুন।",
+    "SDG 3.4 (নন-কমিউনিকেটেবল রোগ হ্রাস) ও SDG 5 (লিঙ্গ সমতা) এর সাথে সম্পর্ক স্থাপন করে উত্তর সমৃদ্ধ করুন।"
+   ]
+  }
+ ]
+}
