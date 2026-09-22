@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T09:30:31.996Z",
-  "latestDate": "2026-09-21",
-  "latestHash": "2b24b66b0709a27e584b56a5",
+  "updatedAt": "2026-09-22T08:48:49.515Z",
+  "latestDate": "2026-09-22",
+  "latestHash": "6d92b0c0e611cd4f0ec5e56e",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-22",
+      "dateBn": "২২ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
+      "hash": "6d92b0c0e611cd4f0ec5e56e",
+      "file": "data/2026-09-22.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-22T08:48:49.515Z",
+      "headlines": [
+        {
+          "id": "bn-62694681",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও অর্থনীতি",
+          "title": "বিশ্বজুড়ে ইরানি এয়ারলাইনের কার্যক্রম কীভাবে বন্ধ করতে চায় যুক্তরাষ্ট্র",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4123bf51",
+          "lang": "en",
+          "topic": "পর্যবেশ ও জলবায়ু",
+          "title": "Time to speak up against fossil fuel use",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-2b40a79c",
+          "lang": "bn",
+          "topic": "বিজ্ঞান ও প্রযুক্তি",
+          "title": "চীনের কারখানায় রোবটের সহায়তায় তৈরি হচ্ছে নতুন রোবট",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ac9d8213",
+          "lang": "en",
+          "topic": "পরিশিক্ষা ও জলবায়ু",
+          "title": "Global Goal on Adaptation: What Nepal could have gained from earlier action",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-d3d48d58",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "অস্বস্তিকর সময়ে বাড়বে ব্যবসার খরচ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e64b028e",
+          "lang": "en",
+          "topic": "বাংলদেশের অর্থনীতি",
+          "title": "Biman: An airline that flies on political fumes",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-cf978e0f",
+          "lang": "bn",
+          "topic": "চিকিৎসা পর্যটন",
+          "title": "কলকাতায় হোটেল-গেস্টহাউসে কড়াকড়ি, বিপাকে বাংলাদেশি রোগীরা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ad7bd064",
+          "lang": "en",
+          "topic": "শিক্ষা ও জনস্বাস্থ্য",
+          "title": "No school should be without toilets",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-21",
       "dateBn": "২১ সেপ্টেম্বর ২০২৬, সোমবার",
@@ -367,74 +435,6 @@
           "lang": "en",
           "topic": "শিশু অধিকার ও শিক্ষা",
           "title": "Make child safety non-negotiable in residential madrasas",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "dateBn": "১৫ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
-      "hash": "b035f4b0cddbd1644797ed40",
-      "file": "data/2026-09-15.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-15T08:28:55.868Z",
-      "headlines": [
-        {
-          "id": "bn-f3a14c92",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও মধ্যপ্রাচ্য",
-          "title": "লোহিত সাগরের উপকূলে নিয়ন্ত্রণ বাড়ছে হুতিদের, যেভাবে তারা শুল্ক–কর আদায় করে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-95fe616b",
-          "lang": "en",
-          "topic": "বাংলাদেশের আন্তর্জাতিক অর্থনীতি",
-          "title": "How can we navigate a fragmented global geo-economic order?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-ca528d6d",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "মহাকাশে অস্ত্র মোতায়েন করেছে যুক্তরাষ্ট্র, এবার কি ‘স্টার ওয়ার্স’ শুরু করবে দেশটি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-bd88a8a8",
-          "lang": "en",
-          "topic": "শাসনব্যবস্থা ও অধিকার",
-          "title": "Citizens’ right to know and the long wait for an Information Commission",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-65f4c792",
-          "lang": "bn",
-          "topic": "",
-          "title": "যুক্তরাষ্ট্রের নতুন ভিসা নিয়ম: আন্তর্জাতিক শিক্ষার্থীদের যে সতর্কতা হার্ভার্ডের",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8d6958b9",
-          "lang": "en",
-          "topic": "পরিস্থিতি ও সমস্যা",
-          "title": "Act now to protect our national fish",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e6da5cfc",
-          "lang": "bn",
-          "topic": "প্রকৃতি ও পরিবেশ",
-          "title": "জলপাই-পিঠ তুলিকার কথা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-78c21ffd",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Bangladesh needs a comprehensive strategy to tackle cancer",
           "source": "The Daily Star"
         }
       ]
