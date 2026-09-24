@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T08:36:44.868Z",
-  "latestDate": "2026-09-23",
-  "latestHash": "cd288147f3ab2c3c1181d609",
+  "updatedAt": "2026-09-24T10:00:54.068Z",
+  "latestDate": "2026-09-24",
+  "latestHash": "7f4fb937e90732a8c748290d",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-24",
+      "dateBn": "২৪ সেপ্টেম্বর ২০২৬, বৃহস্পতিবার",
+      "hash": "7f4fb937e90732a8c748290d",
+      "file": "data/2026-09-24.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-24T10:00:54.068Z",
+      "headlines": [
+        {
+          "id": "bn-e7498efc",
+          "lang": "bn",
+          "topic": "ভারতের সাম্প্রদায়িক রাজনীতি",
+          "title": "ভারতে ব্রিকস সম্মেলন: নিরামিষভোজনের নামে হিন্দুত্ববাদী রাজনীতি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5bf4e35c",
+          "lang": "en",
+          "topic": "ডিজিটাল নিরাপত্তা",
+          "title": "A single digital ID can simplify life, but who will protect the data?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-a061ad10",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "ক্ষুদ্রঋণ প্রতিষ্ঠানের পর্ষদ বাতিল করে প্রশাসক বসানোর পূর্ণ ক্ষমতা চায় এমআরএ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2af1f431",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Nine years without MRI service!",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-c1a90474",
+          "lang": "bn",
+          "topic": "বিশ্ব অর্থনীতি ও বাণিজ্য",
+          "title": "তেলের দাম আবার ১০০ ডলারের ওপরে, কোন দিকে যাচ্ছে বাজার",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d800d94b",
+          "lang": "en",
+          "topic": "পরিবেশ ও শক্তি",
+          "title": "We need reliable buyers to build more solar power",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-aaded5e3",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "মামদানির আমলে আজ প্রথম নিউইয়র্কে যাচ্ছেন নেতানিয়াহু, কী হতে পারে সেখানে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a8baab93",
+          "lang": "en",
+          "topic": "নারী ও উন্নয়ন",
+          "title": "For women, ‘diversifying income’ can become another form of depletion",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-23",
       "dateBn": "২৩ সেপ্টেম্বর ২০২৬, বুধবার",
@@ -367,74 +435,6 @@
           "lang": "en",
           "topic": "পর্যবেশ ও বন",
           "title": "Don’t allow roads through Moheshkhali protected forest",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "dateBn": "১৭ সেপ্টেম্বর ২০২৬, বৃহস্পতিবার",
-      "hash": "ba5e3a46ce2f155fb5a133f2",
-      "file": "data/2026-09-17.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-17T08:37:04.676Z",
-      "headlines": [
-        {
-          "id": "bn-983a38b5",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও রাজনীতি",
-          "title": "যুক্তরাষ্ট্রের কংগ্রেসে বিল পাস: ট্রাম্প সই করলেই ভারতের ওপর ১০০% শুল্ক",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8f34307e",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Taxpayers should not have to bear the cost of bad loans",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-bad32b03",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "চীন যেভাবে যুক্তরাষ্ট্রকে মধ্যপ্রাচ্য থেকে সরিয়ে দিতে চায়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-80265cf8",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "What the decline in hilsa production tells us about our changing rivers",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-55beed71",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক অর্থনীতি",
-          "title": "তিন বছরের বেশি সময় পর সুদ বাড়াল ফেডারেল রিজার্ভ, বিশ্ব অর্থনীতিতে কী প্রভাব",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-54789b50",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "How the measles vaccine drive exposed gaps in coverage and data",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b54d5a5b",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি, পরিবেশ ও জলবায়ু",
-          "title": "নীতির পরিবর্তনে ঘুরছে পরিবেশবান্ধব গাড়ির চাকা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1fdcbcd5",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Coastal women need better chances",
           "source": "The Daily Star"
         }
       ]
