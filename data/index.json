@@ -1,10 +1,57 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T10:00:54.068Z",
-  "latestDate": "2026-09-24",
-  "latestHash": "7f4fb937e90732a8c748290d",
+  "updatedAt": "2026-09-25T10:33:43.905Z",
+  "latestDate": "2026-09-25",
+  "latestHash": "68d85042c4ef1c439ae160c9",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-25",
+      "dateBn": "২৫ সেপ্টেম্বর ২০২৬, শুক্রবার",
+      "hash": "68d85042c4ef1c439ae160c9",
+      "file": "data/2026-09-25.json",
+      "articleCount": 5,
+      "bengaliCount": 4,
+      "englishCount": 1,
+      "generatedAt": "2026-09-25T10:33:43.905Z",
+      "headlines": [
+        {
+          "id": "bn-8e72a5dc",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ট্রাম্পের চোখে ‘দারুণ বন্ধুত্ব’, সিও কি তা-ই মনে করেন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-6460144d",
+          "lang": "en",
+          "topic": "গণতান্ত্রিক অধিকার",
+          "title": "The draft cyber law will restrict the media",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-c0ad935a",
+          "lang": "bn",
+          "topic": "বাংলাদেশের শাসনব্যবস্থা",
+          "title": "গাজী নজরুলকে ঘিরে বিতর্কের পর সংসদ সদস্য আচরণ আইন আবার আলোচনায়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "bn-d8360614",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি ও উন্নয়ন",
+          "title": "সমৃদ্ধ, স্বনির্ভর ও কল্যাণমুখী গণতান্ত্রিক রাষ্ট্র প্রতিষ্ঠা করতে চায় বাংলাদেশ: প্রধানমন্ত্রী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "bn-df2b7413",
+          "lang": "bn",
+          "topic": "জাতীয় রাজস্ব ও করনীতি",
+          "title": "ভ্যাট আদায় কমেছে, প্রতি মাসে ভ্যাট রিটার্নে ফিরছে এনবিআর",
+          "source": "প্রথম আলো"
+        }
+      ]
+    },
     {
       "date": "2026-09-24",
       "dateBn": "২৪ সেপ্টেম্বর ২০২৬, বৃহস্পতিবার",
@@ -367,74 +414,6 @@
           "lang": "en",
           "topic": "সড়ক নিরাপত্তা",
           "title": "Only safe helmets should be marketed",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "dateBn": "১৮ সেপ্টেম্বর ২০২৬, শুক্রবার",
-      "hash": "c8a20283b2a0df79f0b8f2f1",
-      "file": "data/2026-09-18.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-18T08:19:19.994Z",
-      "headlines": [
-        {
-          "id": "bn-0cf57f37",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "রপ্তানিকারকদের আগ্রহ কম, তবু বিদেশে ১০ মেলা আয়োজন করতে চায় ইপিবি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-cda1b152",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Why regional diplomacy needs a feminist lens",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6357a695",
-          "lang": "bn",
-          "topic": "ভারতীয় রাজনীতি",
-          "title": "উপনির্বাচনে জোড়া ফুল প্রতীক পাচ্ছে না তৃণমূলের কোনো পক্ষ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-e6ef264f",
-          "lang": "en",
-          "topic": "বাংল্য়াদেশের অর্থনীতি",
-          "title": "Without structural fixes, the one-crore job promise will remain hollow",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a81913ea",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "বাণিজ্যমন্ত্রীর গাড়ি থামিয়ে বঞ্চনার প্রতিকার চাইলেন টিসিবির বঞ্চিত ডিলাররা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b6ca000d",
-          "lang": "en",
-          "topic": "",
-          "title": "Renewed push for open-pit mining in Phulbari ignores hard-earned lessons",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-05e2ff62",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "এআই আমাদের বেকার করবে না, বরং বহুগুণ বেশি উৎপাদনশীল করবে—সানি মো. আশরাফ খান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-cf6c3f1a",
-          "lang": "en",
-          "topic": "পর্যবেশ ও বন",
-          "title": "Don’t allow roads through Moheshkhali protected forest",
           "source": "The Daily Star"
         }
       ]
