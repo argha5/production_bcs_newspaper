@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T10:33:43.905Z",
-  "latestDate": "2026-09-25",
-  "latestHash": "68d85042c4ef1c439ae160c9",
+  "updatedAt": "2026-09-26T08:51:50.128Z",
+  "latestDate": "2026-09-26",
+  "latestHash": "0229d826432e278a35211746",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-26",
+      "dateBn": "২৬ সেপ্টেম্বর ২০২৬, শনিবার",
+      "hash": "0229d826432e278a35211746",
+      "file": "data/2026-09-26.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-26T08:51:50.128Z",
+      "headlines": [
+        {
+          "id": "bn-55ddb177",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "শেখ হাসিনার বিষয়ে বাংলাদেশ ও ভারত সিদ্ধান্ত নেবে বলে আশা করে যুক্তরাষ্ট্র",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a4c00647",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Climate action cannot accelerate without climate justice",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-c45953be",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "আয়কর রিটার্নে তথ্য গোপন করলে কী শাস্তি হতে পারে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e02d9548",
+          "lang": "en",
+          "topic": "সমাজ ও শিশু অধিকার",
+          "title": "The system is failing our children",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-19a23ec7",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "সরকারি সিকিউরিটিজে বিনিয়োগ থেকে ৩ বেসরকারি ব্যাংক সরে যাচ্ছে কেন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8f511d99",
+          "lang": "en",
+          "topic": "",
+          "title": "Protect RMG workers from rising heat",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-6b39df93",
+          "lang": "bn",
+          "topic": "ভারতের অর্থনীতি",
+          "title": "পশ্চিমবঙ্গে পশুর হাট চালুর অনুমোদন, কৃষক ও ব্যবসায়ীদের স্বস্তি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8085b42f",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "A-Challan can change how we manage public money",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-25",
       "dateBn": "২৫ সেপ্টেম্বর ২০২৬, শুক্রবার",
@@ -346,74 +414,6 @@
           "lang": "en",
           "topic": "সামাজিক সমস্যা",
           "title": "Is action cinema influencing teen gangs?",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "dateBn": "১৯ সেপ্টেম্বর ২০২৬, শনিবার",
-      "hash": "81efd282a9d5235bf8948887",
-      "file": "data/2026-09-19.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-19T07:59:41.674Z",
-      "headlines": [
-        {
-          "id": "bn-d621d8bd",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও রাজনীতি",
-          "title": "ইরানের ওপর নিষেধাজ্ঞা ২০৩১ সাল পর্যন্ত বৃদ্ধি করলেন ট্রাম্প",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-daadd989",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Fixing Bangladesh's VAT cash squeeze without reversing reform",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-d2b7b9b2",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি",
-          "title": "‘সরকার গণভোট অগ্রাহ্য করে অপমান করেছে, সেই প্রতিশোধ নিতে আমরা নেমেছি’",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-c1d96436",
-          "lang": "en",
-          "topic": "জনসংখ্যা ও উন্নয়ন",
-          "title": "Bangladesh's population policy must go beyond family planning",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-fae2ecad",
-          "lang": "bn",
-          "topic": "বাংলাদেশ-ভারত সম্পর্ক",
-          "title": "ভারতের নাগরিককে ‘পুশ ইনের’ করুণ কাহিনি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-81f73fd4",
-          "lang": "en",
-          "topic": "",
-          "title": "Beyond traditional aid: Why Bangladesh needs to diversify public project financing",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-45702c1f",
-          "lang": "bn",
-          "topic": "বিজ্ঞান ও প্রযুক্তি",
-          "title": "মহাকাশে ৮৪টি উজ্জ্বল বস্তুর সন্ধান, বিজ্ঞানীদের দলে রয়েছেন এক বাংলাদেশিও",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-e2a71566",
-          "lang": "en",
-          "topic": "সড়ক নিরাপত্তা",
-          "title": "Only safe helmets should be marketed",
           "source": "The Daily Star"
         }
       ]
