@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T09:18:17.814Z",
-  "latestDate": "2026-09-27",
-  "latestHash": "d4f77e787262065f7b687a36",
+  "updatedAt": "2026-09-28T11:35:30.671Z",
+  "latestDate": "2026-09-28",
+  "latestHash": "51a414ed4c27b926c15eda16",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-28",
+      "dateBn": "২৮ সেপ্টেম্বর ২০২৬, সোমবার",
+      "hash": "51a414ed4c27b926c15eda16",
+      "file": "data/2026-09-28.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-28T11:35:30.671Z",
+      "headlines": [
+        {
+          "id": "bn-df0dc071",
+          "lang": "bn",
+          "topic": "ডিজিটাল আইন ও অধিকার",
+          "title": "মতপ্রকাশকে সীমিত করতে সাইবার সুরক্ষা আইন সংশোধন কেন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-620aa44c",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Rohingya repatriation roadmap must include citizenship rights",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-f7481dff",
+          "lang": "bn",
+          "topic": "অন্তর্জাতিক বাণিজ্য ও অর্থনীতি",
+          "title": "বাণিজ্য জোট আরসিইপির সদস্য হতে চায় বাংলাদেশ, লাভ কী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4bf5b94a",
+          "lang": "en",
+          "topic": "গণমাধ্যম ও প্রযুক্তি",
+          "title": "Media reform and journalism protection law can help counter disinformation",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-70893511",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি ও রাজস্ব",
+          "title": "যাঁর সঞ্চয় সবচেয়ে কম, তাঁর কাছ থেকেই নেবে অতিরিক্ত রাজস্ব",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d5b51972",
+          "lang": "en",
+          "topic": "পরিসংখ্যান",
+          "title": "AI’s hidden water cost, and why it matters",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-8c34a3f8",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "১০–২০ টাকা করে যাঁরা সঞ্চয় করেন, তাঁদের থেকেও কর নিতে চায় সরকার",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0c603a30",
+          "lang": "en",
+          "topic": "রাজনীতি ও শাসনতন্ত্র",
+          "title": "Police must act on evidence alone",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-27",
       "dateBn": "২৭ সেপ্টেম্বর ২০২৬, রবিবার",
@@ -388,32 +456,6 @@
           "lang": "en",
           "topic": "শিক্ষা ও জনস্বাস্থ্য",
           "title": "No school should be without toilets",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "dateBn": "২১ সেপ্টেম্বর ২০২৬, সোমবার",
-      "hash": "2b24b66b0709a27e584b56a5",
-      "file": "data/2026-09-21.json",
-      "articleCount": 2,
-      "bengaliCount": 0,
-      "englishCount": 2,
-      "generatedAt": "2026-09-21T09:30:31.996Z",
-      "headlines": [
-        {
-          "id": "en-92c7c6f9",
-          "lang": "en",
-          "topic": "বিচার ব্যবস্থা",
-          "title": "Space deficit mustn’t drive case backlogs",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-70ca6a03",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Bangladesh must prepare for its growing dementia crisis",
           "source": "The Daily Star"
         }
       ]
