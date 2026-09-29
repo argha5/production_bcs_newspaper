@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T11:35:30.671Z",
-  "latestDate": "2026-09-28",
-  "latestHash": "51a414ed4c27b926c15eda16",
+  "updatedAt": "2026-09-29T11:10:54.090Z",
+  "latestDate": "2026-09-29",
+  "latestHash": "c733e4c0a31adbc34b573576",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-29",
+      "dateBn": "২৯ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
+      "hash": "c733e4c0a31adbc34b573576",
+      "file": "data/2026-09-29.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-29T11:10:54.090Z",
+      "headlines": [
+        {
+          "id": "bn-b8afed20",
+          "lang": "bn",
+          "topic": "বিশ্ব অর্থনীতি",
+          "title": "তেলের দাম প্রায় ১০৭ ডলার, যুক্তরাষ্ট্রের মজুত ৪৪ বছরের মধ্যে সর্বনিম্ন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-6b055f6a",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Is our fiscal system addressing inherited inequality?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-7613eebb",
+          "lang": "bn",
+          "topic": "",
+          "title": "কট্টর অভিবাসনবিরোধী নেতারাই যখন অভিবাসী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-752a3512",
+          "lang": "en",
+          "topic": "পরিবেশ ও প্রাকৃতিক সম্পদ",
+          "title": "Invest in wetlands for growth and resilience",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-2223938c",
+          "lang": "bn",
+          "topic": "পরিস্থিতি ও জলবায়ু",
+          "title": "সৈকত সুরক্ষায় বালিয়াড়িভিত্তিক ব্যবস্থাপনা কেন জরুরি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f2b7b8ee",
+          "lang": "en",
+          "topic": "",
+          "title": "End the deadlock at the Information Commission",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-5b8a23c2",
+          "lang": "bn",
+          "topic": "সুশাসন ও প্রশাসনিক সংস্কার",
+          "title": "ট্রাফিক জরিমানা আদায়ে ভারতের সুপ্রিম কোর্টের অভিনব পরামর্শ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-75fc08a3",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "How public schools can protect children from extreme heat",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-28",
       "dateBn": "২৮ সেপ্টেম্বর ২০২৬, সোমবার",
@@ -388,74 +456,6 @@
           "lang": "en",
           "topic": "",
           "title": "Reliable data to fight dengue vital",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "dateBn": "২২ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
-      "hash": "6d92b0c0e611cd4f0ec5e56e",
-      "file": "data/2026-09-22.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-22T08:48:49.515Z",
-      "headlines": [
-        {
-          "id": "bn-62694681",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও অর্থনীতি",
-          "title": "বিশ্বজুড়ে ইরানি এয়ারলাইনের কার্যক্রম কীভাবে বন্ধ করতে চায় যুক্তরাষ্ট্র",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4123bf51",
-          "lang": "en",
-          "topic": "পর্যবেশ ও জলবায়ু",
-          "title": "Time to speak up against fossil fuel use",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-2b40a79c",
-          "lang": "bn",
-          "topic": "বিজ্ঞান ও প্রযুক্তি",
-          "title": "চীনের কারখানায় রোবটের সহায়তায় তৈরি হচ্ছে নতুন রোবট",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ac9d8213",
-          "lang": "en",
-          "topic": "পরিশিক্ষা ও জলবায়ু",
-          "title": "Global Goal on Adaptation: What Nepal could have gained from earlier action",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-d3d48d58",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "অস্বস্তিকর সময়ে বাড়বে ব্যবসার খরচ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-e64b028e",
-          "lang": "en",
-          "topic": "বাংলদেশের অর্থনীতি",
-          "title": "Biman: An airline that flies on political fumes",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-cf978e0f",
-          "lang": "bn",
-          "topic": "চিকিৎসা পর্যটন",
-          "title": "কলকাতায় হোটেল-গেস্টহাউসে কড়াকড়ি, বিপাকে বাংলাদেশি রোগীরা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ad7bd064",
-          "lang": "en",
-          "topic": "শিক্ষা ও জনস্বাস্থ্য",
-          "title": "No school should be without toilets",
           "source": "The Daily Star"
         }
       ]
