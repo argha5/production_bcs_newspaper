@@ -1,10 +1,81 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T11:10:54.090Z",
-  "latestDate": "2026-09-29",
-  "latestHash": "c733e4c0a31adbc34b573576",
+  "updatedAt": "2026-09-30T09:00:27.062Z",
+  "latestDate": "2026-09-30",
+  "latestHash": "a45fe2b4085833c615aae1a0",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-09-30",
+      "dateBn": "৩০ সেপ্টেম্বর ২০২৬, বুধবার",
+      "hash": "a45fe2b4085833c615aae1a0",
+      "file": "data/2026-09-30.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-09-30T09:00:27.062Z",
+      "headlines": [
+        {
+          "id": "bn-f9ebcbc8",
+          "lang": "bn",
+          "topic": [
+            "বাংলাদেশের অর্থনীতি",
+            "প্রযুক্তি ও যোগাযোগ"
+          ],
+          "title": "ডিজিটাল রূপান্তরের পাশাপাশি সাইবার নিরাপত্তায় নজর থাকবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0d416439",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Businesses can help close the public toilet gap, but oversight is key",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-7401c763",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "করপোরেট সুশাসন শতভাগ মেনে চলার চেষ্টা করছি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-460c1354",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Why cheaper credit is not enough to spur private investment",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-de9be460",
+          "lang": "bn",
+          "topic": "অর্থনীতি ও ব্যাংকিং",
+          "title": "গ্রাহকদের আরও সহজ ও দ্রুত ব্যাংকিং সেবা দিতে চাই",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-59094123",
+          "lang": "en",
+          "topic": "নারী ও শিশু অধিকার",
+          "title": "Can we give our daughters the life they deserve?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-0259309d",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "ব্যাংকের গতি ফেরাতে পারে সুশাসন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-67170973",
+          "lang": "en",
+          "topic": "শাসন ও সুশাসন",
+          "title": "What 2026 BNP can learn from 2002 BNP about talking law and order",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-09-29",
       "dateBn": "২৯ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
@@ -388,74 +459,6 @@
           "lang": "en",
           "topic": "নারী ও উন্নয়ন",
           "title": "For women, ‘diversifying income’ can become another form of depletion",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "dateBn": "২৩ সেপ্টেম্বর ২০২৬, বুধবার",
-      "hash": "cd288147f3ab2c3c1181d609",
-      "file": "data/2026-09-23.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-23T08:36:44.868Z",
-      "headlines": [
-        {
-          "id": "bn-5dd92fa8",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "যুক্তরাষ্ট্রের সঙ্গে গ্রিনল্যান্ড–ডেনমার্কের নিরাপত্তা চুক্তি সই, কী আছে চুক্তিতে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-6fde6df3",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Time to put warning labels on unhealthy packaged foods",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e98f4cec",
-          "lang": "bn",
-          "topic": "মানবাধিকার ও নাগরিক অধিকার",
-          "title": "ইশারা ভাষার মানুষকে নীরব করে রাখবেন না",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-774b591b",
-          "lang": "en",
-          "topic": "সামাজিক সমস্যা",
-          "title": "We must do more to protect boys from sexual abuse",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-3039279c",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "পশ্চিমবঙ্গের সরকারি তথ্যকেন্দ্রে ‘সাইবার হামলা’, নথি হারানোর আশঙ্কা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-febfa19b",
-          "lang": "en",
-          "topic": "বাংলান্ডের অর্থনৈতিক",
-          "title": "Amid narrowing choices, we need a credible economic strategy",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e84f3445",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "জাতিসংঘের মঞ্চে দাঁড়িয়ে ট্রাম্প ঘোষণা করলেন, যুদ্ধ জিতলে লুটের মালে বিজয়ীরই অধিকার",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-337a8744",
-          "lang": "en",
-          "topic": "",
-          "title": "Reliable data to fight dengue vital",
           "source": "The Daily Star"
         }
       ]
