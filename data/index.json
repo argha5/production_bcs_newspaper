@@ -1,10 +1,82 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T09:26:33.443Z",
-  "latestDate": "2026-10-01",
-  "latestHash": "8e71cf429cc0ae4bdcf36ab7",
+  "updatedAt": "2026-10-02T09:19:07.824Z",
+  "latestDate": "2026-10-02",
+  "latestHash": "fe49c875a13a79230bf8c62a",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-02",
+      "dateBn": "২ অক্টোবর ২০২৬, শুক্রবার",
+      "hash": "fe49c875a13a79230bf8c62a",
+      "file": "data/2026-10-02.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-02T09:19:07.824Z",
+      "headlines": [
+        {
+          "id": "bn-463838ef",
+          "lang": "bn",
+          "topic": "বিজ্ঞান ও প্রযুক্তি",
+          "title": "মহাশূন্যে নভোচারীরা লেখালেখি করেন যে ধরনের কলম দিয়ে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0dd2fae8",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Time for a comprehensive law to regulate unhealthy foods",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-bf087329",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "২০০১ সালের নির্বাচনে বিএনপির নেতৃত্বাধীন জোটের বিপুল বিজয়, নেপথ্যে কী কী ছিল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-99089abd",
+          "lang": "en",
+          "topic": "নগর ব্যবস্থাপনা",
+          "title": "Make evictions work for a change",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-1da249f8",
+          "lang": "bn",
+          "topic": [
+            "আন্তর্জাতিক সম্পর্ক ও ভূ-রাজনীতি",
+            "বাংলাদেশের অর্থনীতি",
+            "জ্বালানি ও শক্তি নিরাপত্তা"
+          ],
+          "title": "ডিজেল রপ্তানি বন্ধের হুমকি দিচ্ছেন ট্রাম্প, ইউরোপকে মজুত ছাড় দেওয়ার আহ্বান",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4032a85c",
+          "lang": "en",
+          "topic": "যোগাযোগ ব্যবস্থা",
+          "title": "We need smarter networks for a more connected Bangladesh",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-5d07e240",
+          "lang": "bn",
+          "topic": "",
+          "title": "‘চিলেকোঠার সেপাই’ কেন পাঠকের ভাবনা ওলটপালট করে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-28c4b3f1",
+          "lang": "en",
+          "topic": "অভিব্যক্তি স্বাধীনতা",
+          "title": "The UPL incident shows how to ban a book without banning it",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-01",
       "dateBn": "১ অক্টোবর ২০২৬, বৃহস্পতিবার",
@@ -413,53 +485,6 @@
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "A-Challan can change how we manage public money",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "dateBn": "২৫ সেপ্টেম্বর ২০২৬, শুক্রবার",
-      "hash": "68d85042c4ef1c439ae160c9",
-      "file": "data/2026-09-25.json",
-      "articleCount": 5,
-      "bengaliCount": 4,
-      "englishCount": 1,
-      "generatedAt": "2026-09-25T10:33:43.905Z",
-      "headlines": [
-        {
-          "id": "bn-8e72a5dc",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ট্রাম্পের চোখে ‘দারুণ বন্ধুত্ব’, সিও কি তা-ই মনে করেন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-6460144d",
-          "lang": "en",
-          "topic": "গণতান্ত্রিক অধিকার",
-          "title": "The draft cyber law will restrict the media",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-c0ad935a",
-          "lang": "bn",
-          "topic": "বাংলাদেশের শাসনব্যবস্থা",
-          "title": "গাজী নজরুলকে ঘিরে বিতর্কের পর সংসদ সদস্য আচরণ আইন আবার আলোচনায়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "bn-d8360614",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি ও উন্নয়ন",
-          "title": "সমৃদ্ধ, স্বনির্ভর ও কল্যাণমুখী গণতান্ত্রিক রাষ্ট্র প্রতিষ্ঠা করতে চায় বাংলাদেশ: প্রধানমন্ত্রী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "bn-df2b7413",
-          "lang": "bn",
-          "topic": "জাতীয় রাজস্ব ও করনীতি",
-          "title": "ভ্যাট আদায় কমেছে, প্রতি মাসে ভ্যাট রিটার্নে ফিরছে এনবিআর",
-          "source": "প্রথম আলো"
         }
       ]
     }
