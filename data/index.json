@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T09:19:07.824Z",
-  "latestDate": "2026-10-02",
-  "latestHash": "fe49c875a13a79230bf8c62a",
+  "updatedAt": "2026-10-03T09:59:38.684Z",
+  "latestDate": "2026-10-03",
+  "latestHash": "0288feb817115db3dd756419",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-03",
+      "dateBn": "৩ অক্টোবর ২০২৬, শনিবার",
+      "hash": "0288feb817115db3dd756419",
+      "file": "data/2026-10-03.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-03T09:59:38.684Z",
+      "headlines": [
+        {
+          "id": "bn-d32bb0a7",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক বিষয়াবলী",
+          "title": "যুক্তরাষ্ট্রে ফুলব্রাইট ভিজিটিং স্কলার, বাংলাদেশিদের শিক্ষকতা ও গবেষণার সুযোগ, আবদনের সময় বৃদ্ধি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8ed4169e",
+          "lang": "en",
+          "topic": "শিক্ষা ও মানবসম্পদ",
+          "title": "To end learning poverty, we must embrace global assessments",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-adc7565d",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "সৌদি আরব ও কাতারে বাড়তি প্যাট্রিয়ট ক্ষেপণাস্ত্রব্যবস্থা পাঠিয়ে যুক্তরাষ্ট্র কী ইঙ্গিত দিচ্ছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1d4bd6d7",
+          "lang": "en",
+          "topic": "মানবাধিকার ও সামাজিক ন্যায়",
+          "title": "Seeking justice should not become a burden for abuse survivors",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-1c491983",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "‘রত্না আমাদের ছেড়ে চলে গেল, তাঁর ছোট দুইটা সন্তান নিয়ে কী করব’",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f3e939d5",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Why are we failing to contain dengue?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d9357094",
+          "lang": "bn",
+          "topic": "ভারত বিষয়ক স্মারক",
+          "title": "দুই রাজ্যেই বিজেপি ক্ষমতায়, এক রাজ্যে পুলিশ মারমুখী হলেও অন্যটিতে সংযত",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-51518499",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Preparing Bangladesh’s capital market for AI",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-10-02",
       "dateBn": "২ অক্টোবর ২০২৬, শুক্রবার",
@@ -416,74 +484,6 @@
           "lang": "en",
           "topic": "পর্যটন ও পরিবেশ",
           "title": "As tourism changes, let’s not lose sight of why we travel",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "dateBn": "২৬ সেপ্টেম্বর ২০২৬, শনিবার",
-      "hash": "0229d826432e278a35211746",
-      "file": "data/2026-09-26.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-26T08:51:50.128Z",
-      "headlines": [
-        {
-          "id": "bn-55ddb177",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "শেখ হাসিনার বিষয়ে বাংলাদেশ ও ভারত সিদ্ধান্ত নেবে বলে আশা করে যুক্তরাষ্ট্র",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a4c00647",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Climate action cannot accelerate without climate justice",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-c45953be",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "আয়কর রিটার্নে তথ্য গোপন করলে কী শাস্তি হতে পারে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-e02d9548",
-          "lang": "en",
-          "topic": "সমাজ ও শিশু অধিকার",
-          "title": "The system is failing our children",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-19a23ec7",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "সরকারি সিকিউরিটিজে বিনিয়োগ থেকে ৩ বেসরকারি ব্যাংক সরে যাচ্ছে কেন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8f511d99",
-          "lang": "en",
-          "topic": "",
-          "title": "Protect RMG workers from rising heat",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6b39df93",
-          "lang": "bn",
-          "topic": "ভারতের অর্থনীতি",
-          "title": "পশ্চিমবঙ্গে পশুর হাট চালুর অনুমোদন, কৃষক ও ব্যবসায়ীদের স্বস্তি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8085b42f",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "A-Challan can change how we manage public money",
           "source": "The Daily Star"
         }
       ]
