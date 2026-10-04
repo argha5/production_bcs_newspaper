@@ -1,10 +1,84 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T09:59:38.684Z",
-  "latestDate": "2026-10-03",
-  "latestHash": "0288feb817115db3dd756419",
+  "updatedAt": "2026-10-04T10:50:56.060Z",
+  "latestDate": "2026-10-04",
+  "latestHash": "f82051bf5e530426b8ceb6ca",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-04",
+      "dateBn": "৪ অক্টোবর ২০২৬, রবিবার",
+      "hash": "f82051bf5e530426b8ceb6ca",
+      "file": "data/2026-10-04.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-04T10:50:56.060Z",
+      "headlines": [
+        {
+          "id": "bn-b0436c56",
+          "lang": "bn",
+          "topic": [
+            "বিশ্বরাজনীতি",
+            "আন্তর্জাতিক সম্পর্ক",
+            "ভারতীয় অভ্যন্তরীণ রাজনীতি",
+            "গণতন্ত্র ও অধিকার",
+            "নির্বাচন ও ভোটব্যবস্থা"
+          ],
+          "title": "ভারত যেভাবে ফ্যাসিবাদের আঁতুড়ঘর হয়ে উঠছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2e0f113a",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Bangladesh needs digital banking, but not more banks",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-6260b20f",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি ও মুক্তিযুদ্ধ স্মৃতি",
+          "title": "একজন মুক্তিযোদ্ধাকে অপমানিত করার হীন পদক্ষেপ নেওয়া হয়েছে: শফিকুর রহমান",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-bd6d92b2",
+          "lang": "en",
+          "topic": "পর্যৱেষণ আৰু প্ৰকৃতি সংৰক্ষণ",
+          "title": "Rare wildlife found in Inani puts our conservation efforts to the test",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e7d6cb3e",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "সব উপজেলা স্বাস্থ্য কমপ্লেক্স ১৫১ শয্যায় উন্নীত করা কতটা যৌক্তিক",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-408b6f0d",
+          "lang": "en",
+          "topic": "পর্যবেক্ষণ নিয়ন্ত্রণ",
+          "title": "Factories must stop polluting rivers",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-92d36917",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "অর্থনীতিতে এখন সবচেয়ে উদ্বেগজনক সূচক কী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a4569f49",
+          "lang": "en",
+          "topic": "বাংলদেশের অর্থনীতি",
+          "title": "Paperless by December? Ctg port must get the transition right",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-03",
       "dateBn": "৩ অক্টোবর ২০২৬, শনিবার",
@@ -416,74 +490,6 @@
           "lang": "en",
           "topic": "রাজনীতি ও শাসনতন্ত্র",
           "title": "Police must act on evidence alone",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "dateBn": "২৭ সেপ্টেম্বর ২০২৬, রবিবার",
-      "hash": "d4f77e787262065f7b687a36",
-      "file": "data/2026-09-27.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-27T09:18:17.814Z",
-      "headlines": [
-        {
-          "id": "bn-b9fe3c11",
-          "lang": "bn",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "বন, নদী, জল ও জীবন: বিপন্ন বাংলার ধমনী এবং আমাদের দায়",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-4746de32",
-          "lang": "en",
-          "topic": "",
-          "title": "Act before anthrax spreads further",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-c6f8cc22",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ভারত কেন ইসরায়েলের হাইফা দিবস পালন করে?",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8bdfb95c",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "NAZA, Israel’s war on witnesses, and media complicity",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6f7d2f29",
-          "lang": "bn",
-          "topic": "বাংলাদেশের শিক্ষা ব্যবস্থা",
-          "title": "ইন্দোনেশিয়ায় আন্তর্জাতিক গণিত ও বিজ্ঞান অলিম্পিয়াডে অংশ নেবে বাংলাদেশ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f3f18976",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলব্যবস্থা",
-          "title": "Why are our rivers still dying despite so many projects?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a7644a81",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক বিষয়ক",
-          "title": "যুক্তরাষ্ট্রে ঝড়বৃষ্টিতে একজনের মৃত্যু, হাজারো মানুষ বিদ্যুৎহীন, ফ্লাইট চলাচলে বিঘ্ন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-42f6201b",
-          "lang": "en",
-          "topic": "পর্যটন ও পরিবেশ",
-          "title": "As tourism changes, let’s not lose sight of why we travel",
           "source": "The Daily Star"
         }
       ]
