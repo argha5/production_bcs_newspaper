@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T10:50:56.060Z",
-  "latestDate": "2026-10-04",
-  "latestHash": "f82051bf5e530426b8ceb6ca",
+  "updatedAt": "2026-10-05T09:32:50.749Z",
+  "latestDate": "2026-10-05",
+  "latestHash": "5e34d84654a8bee8ff2b75e5",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-05",
+      "dateBn": "৫ অক্টোবর ২০২৬, সোমবার",
+      "hash": "5e34d84654a8bee8ff2b75e5",
+      "file": "data/2026-10-05.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-05T09:32:50.749Z",
+      "headlines": [
+        {
+          "id": "bn-eb719fce",
+          "lang": "bn",
+          "topic": "প্রযুক্তি ও উদ্ভাবন",
+          "title": "কলেজ পাস না–করা এক দত্তক সন্তান কীভাবে বদলে দিলেন প্রযুক্তি দুনিয়া",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0568405e",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Biman needs more than new aircraft to compete globally",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-3ae09187",
+          "lang": "bn",
+          "topic": "বিশ্ব রাজনীতি ও নির্বাচন ব্যবস্থা",
+          "title": "যুক্তরাষ্ট্রে মধ্যবর্তী নির্বাচন: ৪৭০টি আসন, ব্যয় ১২ বিলিয়ন ডলার ও অনুপস্থিত প্রেসিডেন্ট",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a7917023",
+          "lang": "en",
+          "topic": "শিক্ষাব্যবস্থা",
+          "title": "Teaching is serious business. It takes commitment, not just expertise",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-70440671",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "জাতিসংঘের উদ্বেগ উপেক্ষা করে দেড় হাজার শরণার্থীকে মিয়ানমারে ফেরত পাঠাল মালয়েশিয়া",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-507faa4a",
+          "lang": "en",
+          "topic": "প্রশাসন ও নগর ব্যবস্থাপনা",
+          "title": "Syndicates mustn’t control slum utilities",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-034d22fa",
+          "lang": "bn",
+          "topic": "বাংলাদেশের প্রশাসন",
+          "title": "দুর্বল ব্যবস্থা টিকিয়ে রেখে এআই যুক্ত করলেই সংকট কাটবে না",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-9c3fdfe9",
+          "lang": "en",
+          "topic": "শিক্ষা আৰু শিক্ষাব্যৱস্থা",
+          "title": "O Captain! My Captain!: Remembering the Keatings of our lives",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-10-04",
       "dateBn": "৪ অক্টোবর ২০২৬, রবিবার",
@@ -422,74 +490,6 @@
           "lang": "en",
           "topic": "পরিবেশ ও জলবায়ু",
           "title": "How public schools can protect children from extreme heat",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "dateBn": "২৮ সেপ্টেম্বর ২০২৬, সোমবার",
-      "hash": "51a414ed4c27b926c15eda16",
-      "file": "data/2026-09-28.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-28T11:35:30.671Z",
-      "headlines": [
-        {
-          "id": "bn-df0dc071",
-          "lang": "bn",
-          "topic": "ডিজিটাল আইন ও অধিকার",
-          "title": "মতপ্রকাশকে সীমিত করতে সাইবার সুরক্ষা আইন সংশোধন কেন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-620aa44c",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Rohingya repatriation roadmap must include citizenship rights",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-f7481dff",
-          "lang": "bn",
-          "topic": "অন্তর্জাতিক বাণিজ্য ও অর্থনীতি",
-          "title": "বাণিজ্য জোট আরসিইপির সদস্য হতে চায় বাংলাদেশ, লাভ কী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4bf5b94a",
-          "lang": "en",
-          "topic": "গণমাধ্যম ও প্রযুক্তি",
-          "title": "Media reform and journalism protection law can help counter disinformation",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-70893511",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি ও রাজস্ব",
-          "title": "যাঁর সঞ্চয় সবচেয়ে কম, তাঁর কাছ থেকেই নেবে অতিরিক্ত রাজস্ব",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-d5b51972",
-          "lang": "en",
-          "topic": "পরিসংখ্যান",
-          "title": "AI’s hidden water cost, and why it matters",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-8c34a3f8",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "১০–২০ টাকা করে যাঁরা সঞ্চয় করেন, তাঁদের থেকেও কর নিতে চায় সরকার",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0c603a30",
-          "lang": "en",
-          "topic": "রাজনীতি ও শাসনতন্ত্র",
-          "title": "Police must act on evidence alone",
           "source": "The Daily Star"
         }
       ]
