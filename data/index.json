@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T09:32:50.749Z",
-  "latestDate": "2026-10-05",
-  "latestHash": "5e34d84654a8bee8ff2b75e5",
+  "updatedAt": "2026-10-06T09:45:41.840Z",
+  "latestDate": "2026-10-06",
+  "latestHash": "165892710371913f17e820f8",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-06",
+      "dateBn": "৬ অক্টোবর ২০২৬, মঙ্গলবার",
+      "hash": "165892710371913f17e820f8",
+      "file": "data/2026-10-06.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-06T09:45:41.840Z",
+      "headlines": [
+        {
+          "id": "bn-6046770f",
+          "lang": "bn",
+          "topic": "",
+          "title": "নারী সাংবাদিকের হেনস্তাকারী পুলিশ কর্তাকে পদোন্নতি, প্রতিবাদের পর স্থগিত রাখল দিল্লি সরকার",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-3c9ee6ff",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "What keeps counterfeit products flowing into our markets?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-839f70ea",
+          "lang": "bn",
+          "topic": "চিকিৎসা বিজ্ঞান ও গবেষণা",
+          "title": "যে গবেষণার জন্য চিকিৎসাবিজ্ঞানে নোবেল পেলেন তিন বিজ্ঞানী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-275a15f6",
+          "lang": "en",
+          "topic": "পরিবেশ ও ভূতত্ত্ব",
+          "title": "Our geodiversity deserves protection, just like our biodiversity",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-5be1fb1b",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক রাজনীতি ও নির্বাচনী ব্যবস্থা",
+          "title": "সিনেট কি এবার তাহলে ডেমোক্র্যাটদের দখলে যেতে পারে, ঠিক করে দেবে এই ১০ আসন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b2f6446d",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Stop rewarding LPG market manipulation",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-1c25da23",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "মাল্টা, পোলাওয়ের চাল, ডিমের দাম নিয়ে নাহিদের স্ট্যাটাস, দায়ী করলেন সিন্ডিকেটকে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-85cb993e",
+          "lang": "en",
+          "topic": "বাংলদেশের অর্থনীতি",
+          "title": "Banking woes, energy shortages, low revenue threaten Bangladesh's growth: World Bank",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "dateBn": "৫ অক্টোবর ২০২৬, সোমবার",
@@ -422,74 +490,6 @@
           "lang": "en",
           "topic": "শাসন ও সুশাসন",
           "title": "What 2026 BNP can learn from 2002 BNP about talking law and order",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "dateBn": "২৯ সেপ্টেম্বর ২০২৬, মঙ্গলবার",
-      "hash": "c733e4c0a31adbc34b573576",
-      "file": "data/2026-09-29.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-09-29T11:10:54.090Z",
-      "headlines": [
-        {
-          "id": "bn-b8afed20",
-          "lang": "bn",
-          "topic": "বিশ্ব অর্থনীতি",
-          "title": "তেলের দাম প্রায় ১০৭ ডলার, যুক্তরাষ্ট্রের মজুত ৪৪ বছরের মধ্যে সর্বনিম্ন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-6b055f6a",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Is our fiscal system addressing inherited inequality?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-7613eebb",
-          "lang": "bn",
-          "topic": "",
-          "title": "কট্টর অভিবাসনবিরোধী নেতারাই যখন অভিবাসী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-752a3512",
-          "lang": "en",
-          "topic": "পরিবেশ ও প্রাকৃতিক সম্পদ",
-          "title": "Invest in wetlands for growth and resilience",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-2223938c",
-          "lang": "bn",
-          "topic": "পরিস্থিতি ও জলবায়ু",
-          "title": "সৈকত সুরক্ষায় বালিয়াড়িভিত্তিক ব্যবস্থাপনা কেন জরুরি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f2b7b8ee",
-          "lang": "en",
-          "topic": "",
-          "title": "End the deadlock at the Information Commission",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-5b8a23c2",
-          "lang": "bn",
-          "topic": "সুশাসন ও প্রশাসনিক সংস্কার",
-          "title": "ট্রাফিক জরিমানা আদায়ে ভারতের সুপ্রিম কোর্টের অভিনব পরামর্শ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-75fc08a3",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "How public schools can protect children from extreme heat",
           "source": "The Daily Star"
         }
       ]
