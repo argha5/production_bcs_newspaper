@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T09:59:16.284Z",
-  "latestDate": "2026-10-07",
-  "latestHash": "7fdbfaac75d1a8fb19f57ae9",
+  "updatedAt": "2026-10-08T11:11:57.852Z",
+  "latestDate": "2026-10-08",
+  "latestHash": "1eba950526f0263942166516",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-08",
+      "dateBn": "৮ অক্টোবর ২০২৬, বৃহস্পতিবার",
+      "hash": "1eba950526f0263942166516",
+      "file": "data/2026-10-08.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-08T11:11:57.852Z",
+      "headlines": [
+        {
+          "id": "bn-1a1bf90e",
+          "lang": "bn",
+          "topic": "শিক্ষা ও যুববিষয়",
+          "title": "আন্তর্জাতিক গণিত ও বিজ্ঞান অলিম্পিয়াডে বাংলাদেশের প্রথম স্বর্ণ জয়, মোট পদক ১৫টি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-322c5fdd",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "What each investor in New York could build in Bangladesh",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-3cc5c4a9",
+          "lang": "bn",
+          "topic": "বাংলার ইতিহাস ও সংস্কৃতি",
+          "title": "আবদুল করিম সাহিত্যবিশারদকে স্মরণ করল পটিয়া বন্ধুসভা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2155fa6a",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Tk36 tax from Tk135 diesel: How govt's revenue drive fuels inflationary fire",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-a0b1ad4e",
+          "lang": "bn",
+          "topic": "সমাজকল্যাণ",
+          "title": "প্যারেন্টিং শিক্ষায় বিনিয়োগ প্রয়োজন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e09fa93a",
+          "lang": "en",
+          "topic": "প্রযুক্তি ও ব্যবস্থাপনা",
+          "title": "Corporate rush is outrunning AI readiness",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-68eb43e5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "'ডিজাইন ইন বাংলাদেশ' উইকে ফ্যাশনের মাধ্যমে টেকসই ও সৃজনশীল অর্থনীতির সম্ভাবনা নিয়ে আলোচনা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1087527c",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "The Q-Cash crisis: Why banking resilience cannot be outsourced",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-10-07",
       "dateBn": "৭ অক্টোবর ২০২৬, বুধবার",
@@ -419,74 +487,6 @@
           "lang": "en",
           "topic": "অভিব্যক্তি স্বাধীনতা",
           "title": "The UPL incident shows how to ban a book without banning it",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "dateBn": "১ অক্টোবর ২০২৬, বৃহস্পতিবার",
-      "hash": "8e71cf429cc0ae4bdcf36ab7",
-      "file": "data/2026-10-01.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-01T09:26:33.443Z",
-      "headlines": [
-        {
-          "id": "bn-612a2e21",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "চলনবিলের বুকে প্রাচীন বাণিজ্যকেন্দ্র চাটমোহরের ‘পুরাতন বাজার’, শত বছরের ইতিহাস কী বলে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4009344e",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh needs to reform its trade policy to boost exports",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b5a93fa8",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "ভারতের একের পর এক শুল্কচাপে বাংলাদেশের পাট খাত",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-2f26a866",
-          "lang": "en",
-          "topic": "শাসনতন্ত্র ও মানবাধিকার",
-          "title": "How long must Ramu wait for justice?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-755a1de0",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "বাংলাদেশে ৫০ কোটি ডলারের বেশি বিনিয়োগের সম্ভাবনা দেখছে যুক্তরাষ্ট্রের প্লাগ অ্যান্ড প্লে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-2c2cbf24",
-          "lang": "en",
-          "topic": "বৃদ্ধসেবা ও সামাজিক মর্যাদা",
-          "title": "The elderly deserve dignity, not just care or support",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-dddb8398",
-          "lang": "bn",
-          "topic": "রাজনীতি ও শাসন",
-          "title": "মেয়াদোত্তীর্ণ রাজনীতির সংকটে পড়েছে বাংলাদেশ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a66bffcd",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Time to fix the anthrax vaccination strategy",
           "source": "The Daily Star"
         }
       ]
