@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T11:11:57.852Z",
-  "latestDate": "2026-10-08",
-  "latestHash": "1eba950526f0263942166516",
+  "updatedAt": "2026-10-09T10:54:06.511Z",
+  "latestDate": "2026-10-09",
+  "latestHash": "79058f70b9fa3cdb8b195962",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-09",
+      "dateBn": "৯ অক্টোবর ২০২৬, শুক্রবার",
+      "hash": "79058f70b9fa3cdb8b195962",
+      "file": "data/2026-10-09.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-09T10:54:06.511Z",
+      "headlines": [
+        {
+          "id": "bn-373912c7",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি ও সংবিধান",
+          "title": "গণভোটের রায় পাশ কাটিয়ে সংবিধান সংশোধন মানবে না জামায়াত, জোরদার করবে রাজপথের আন্দোলন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f9e5fb0b",
+          "lang": "en",
+          "topic": "পুলিশ ও আইন-শৃঙ্খলা",
+          "title": "Effective cyber policing needs expertise and safeguards",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-cf8d613d",
+          "lang": "bn",
+          "topic": "দক্ষিণ এশিয়ার রাজনীতি",
+          "title": "তৃণমূলের ১০ বিধায়কের পদ বাতিলের আবেদন খারিজ করলেন স্পিকার",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b417863f",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Better healthcare needs clearer communication with patients",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-11c108da",
+          "lang": "bn",
+          "topic": "বাংলাদেশের শিক্ষাব্যবস্থা ও প্রশাসন",
+          "title": "রাজশাহী বিশ্ববিদ্যালয়ে ছাত্রদলের তিন নেতা ও হল সংসদের জিএসের ছাত্রত্ব সাময়িক বাতিল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5fd2f8b3",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Alarming rise in cancer cases, deaths",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-06db0fa4",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও প্রযুক্তি",
+          "title": "বাংলাদেশে স্টারলিংক সেবা চালুর দিন ভারতের ‘অলিগার্কদের’ ওপর কেন খেপলেন ইলন মাস্ক",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-471fb443",
+          "lang": "en",
+          "topic": "আইন ও সুশাসন",
+          "title": "Why Bangladesh needs a civil legal framework for adoption",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-08",
       "dateBn": "৮ অক্টোবর ২০২৬, বৃহস্পতিবার",
@@ -416,78 +484,6 @@
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "Preparing Bangladesh’s capital market for AI",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "dateBn": "২ অক্টোবর ২০২৬, শুক্রবার",
-      "hash": "fe49c875a13a79230bf8c62a",
-      "file": "data/2026-10-02.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-02T09:19:07.824Z",
-      "headlines": [
-        {
-          "id": "bn-463838ef",
-          "lang": "bn",
-          "topic": "বিজ্ঞান ও প্রযুক্তি",
-          "title": "মহাশূন্যে নভোচারীরা লেখালেখি করেন যে ধরনের কলম দিয়ে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0dd2fae8",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Time for a comprehensive law to regulate unhealthy foods",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-bf087329",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি",
-          "title": "২০০১ সালের নির্বাচনে বিএনপির নেতৃত্বাধীন জোটের বিপুল বিজয়, নেপথ্যে কী কী ছিল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-99089abd",
-          "lang": "en",
-          "topic": "নগর ব্যবস্থাপনা",
-          "title": "Make evictions work for a change",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-1da249f8",
-          "lang": "bn",
-          "topic": [
-            "আন্তর্জাতিক সম্পর্ক ও ভূ-রাজনীতি",
-            "বাংলাদেশের অর্থনীতি",
-            "জ্বালানি ও শক্তি নিরাপত্তা"
-          ],
-          "title": "ডিজেল রপ্তানি বন্ধের হুমকি দিচ্ছেন ট্রাম্প, ইউরোপকে মজুত ছাড় দেওয়ার আহ্বান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4032a85c",
-          "lang": "en",
-          "topic": "যোগাযোগ ব্যবস্থা",
-          "title": "We need smarter networks for a more connected Bangladesh",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-5d07e240",
-          "lang": "bn",
-          "topic": "",
-          "title": "‘চিলেকোঠার সেপাই’ কেন পাঠকের ভাবনা ওলটপালট করে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-28c4b3f1",
-          "lang": "en",
-          "topic": "অভিব্যক্তি স্বাধীনতা",
-          "title": "The UPL incident shows how to ban a book without banning it",
-          "source": "The Daily Star"
         }
       ]
     }
