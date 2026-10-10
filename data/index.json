@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T10:54:06.511Z",
-  "latestDate": "2026-10-09",
-  "latestHash": "79058f70b9fa3cdb8b195962",
+  "updatedAt": "2026-10-10T10:43:06.292Z",
+  "latestDate": "2026-10-10",
+  "latestHash": "2c0d6e13722048962d526d75",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-10",
+      "dateBn": "১০ অক্টোবর ২০২৬, শনিবার",
+      "hash": "2c0d6e13722048962d526d75",
+      "file": "data/2026-10-10.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-10T10:43:06.292Z",
+      "headlines": [
+        {
+          "id": "bn-bd8f5d78",
+          "lang": "bn",
+          "topic": "শিক্ষা ও প্রশাসন",
+          "title": "‘শাটডাউন’ কর্মসূচিতে শিক্ষার্থীরা, প্রশাসনিক ভবনে তালা, এর মধ্যেই চুয়েট ভিসির রুটিন দায়িত্বে অধ্যাপক আরাফাত",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-db792e2c",
+          "lang": "en",
+          "topic": "",
+          "title": "The real solution to our garbage problem lies in governance",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-2bd545b3",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "দিল্লিতে কড়া নিরাপত্তা, বিক্ষোভ ঘিরে কী কী বন্ধ, কী কী খোলা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-69e0062e",
+          "lang": "en",
+          "topic": "",
+          "title": "Who listens when mental health struggles disrupt daily life?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-0ec2a7fa",
+          "lang": "bn",
+          "topic": "",
+          "title": "এমন বজ্র আঁটুনি আগে দেখেনি দিল্লি, আন্দোলনকারীর চেয়ে বেশি পুলিশি বহর",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-69dfb325",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও মানসিক স্বাস্থ্য",
+          "title": "‘New mothers must be supported to recover in every way, not just physically’",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-b7a1979d",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "হোয়াইট হাউসের নতুন প্রেস সেক্রেটারি হচ্ছেন কেটি জাকারাইয়া",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d706711e",
+          "lang": "en",
+          "topic": "পরিকল্পনা ও উন্নয়ন",
+          "title": "Dhaka needs a plan that’s implementable",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-09",
       "dateBn": "৯ অক্টোবর ২০২৬, শুক্রবার",
@@ -416,74 +484,6 @@
           "topic": "বাংলদেশের অর্থনীতি",
           "title": "Paperless by December? Ctg port must get the transition right",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "dateBn": "৩ অক্টোবর ২০২৬, শনিবার",
-      "hash": "0288feb817115db3dd756419",
-      "file": "data/2026-10-03.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-03T09:59:38.684Z",
-      "headlines": [
-        {
-          "id": "bn-d32bb0a7",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক বিষয়াবলী",
-          "title": "যুক্তরাষ্ট্রে ফুলব্রাইট ভিজিটিং স্কলার, বাংলাদেশিদের শিক্ষকতা ও গবেষণার সুযোগ, আবদনের সময় বৃদ্ধি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8ed4169e",
-          "lang": "en",
-          "topic": "শিক্ষা ও মানবসম্পদ",
-          "title": "To end learning poverty, we must embrace global assessments",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-adc7565d",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "সৌদি আরব ও কাতারে বাড়তি প্যাট্রিয়ট ক্ষেপণাস্ত্রব্যবস্থা পাঠিয়ে যুক্তরাষ্ট্র কী ইঙ্গিত দিচ্ছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1d4bd6d7",
-          "lang": "en",
-          "topic": "মানবাধিকার ও সামাজিক ন্যায়",
-          "title": "Seeking justice should not become a burden for abuse survivors",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-1c491983",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "‘রত্না আমাদের ছেড়ে চলে গেল, তাঁর ছোট দুইটা সন্তান নিয়ে কী করব’",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f3e939d5",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Why are we failing to contain dengue?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-d9357094",
-          "lang": "bn",
-          "topic": "ভারত বিষয়ক স্মারক",
-          "title": "দুই রাজ্যেই বিজেপি ক্ষমতায়, এক রাজ্যে পুলিশ মারমুখী হলেও অন্যটিতে সংযত",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-51518499",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Preparing Bangladesh’s capital market for AI",
-          "source": "The Business Standard"
         }
       ]
     }
