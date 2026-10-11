@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T10:43:06.292Z",
-  "latestDate": "2026-10-10",
-  "latestHash": "2c0d6e13722048962d526d75",
+  "updatedAt": "2026-10-11T11:11:55.257Z",
+  "latestDate": "2026-10-11",
+  "latestHash": "1801948943012dcd938d7dab",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-11",
+      "dateBn": "১১ অক্টোবর ২০২৬, রবিবার",
+      "hash": "1801948943012dcd938d7dab",
+      "file": "data/2026-10-11.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-11T11:11:55.257Z",
+      "headlines": [
+        {
+          "id": "bn-0c18c89f",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও এশিয়া",
+          "title": "সৌদি বিমানবন্দরে হুতিদের ভয়াবহ হামলা, যুক্তরাষ্ট্র এখন কী করবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0aab9d6b",
+          "lang": "en",
+          "topic": "বাংলADেশের অর্থনীতি",
+          "title": "New NCT deal must deliver measurable gains for Bangladesh",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-b41ad9c2",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "জ্ঞানেশ পদত্যাগ করলে কি ভারতে আন্দোলন থামবে?",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0110458a",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Tea workers deserve a say in reforms to their industry",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e2daee16",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "মণিপুরে একের পর এক হামলা–গোলাগুলি, গুলি ও শিরশ্ছেদ করে ৯ জনকে হত্যা, বাড়িঘরে আগুন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b5040b39",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও সামাজিক সমস্যা",
+          "title": "Is social media use getting out of hand?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-f3aef879",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "এবার কেনিয়ায় টিভি, ফ্রিজ, ওয়াশিং মেশিন রপ্তানি করবে ওয়ালটন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-00d5c084",
+          "lang": "en",
+          "topic": "প্রযুক্তি ও সমাজ",
+          "title": "Beware machines that always take our side",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-10",
       "dateBn": "১০ অক্টোবর ২০২৬, শনিবার",
@@ -410,80 +478,6 @@
           "topic": "শিক্ষা আৰু শিক্ষাব্যৱস্থা",
           "title": "O Captain! My Captain!: Remembering the Keatings of our lives",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "dateBn": "৪ অক্টোবর ২০২৬, রবিবার",
-      "hash": "f82051bf5e530426b8ceb6ca",
-      "file": "data/2026-10-04.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-04T10:50:56.060Z",
-      "headlines": [
-        {
-          "id": "bn-b0436c56",
-          "lang": "bn",
-          "topic": [
-            "বিশ্বরাজনীতি",
-            "আন্তর্জাতিক সম্পর্ক",
-            "ভারতীয় অভ্যন্তরীণ রাজনীতি",
-            "গণতন্ত্র ও অধিকার",
-            "নির্বাচন ও ভোটব্যবস্থা"
-          ],
-          "title": "ভারত যেভাবে ফ্যাসিবাদের আঁতুড়ঘর হয়ে উঠছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-2e0f113a",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh needs digital banking, but not more banks",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-6260b20f",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি ও মুক্তিযুদ্ধ স্মৃতি",
-          "title": "একজন মুক্তিযোদ্ধাকে অপমানিত করার হীন পদক্ষেপ নেওয়া হয়েছে: শফিকুর রহমান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-bd6d92b2",
-          "lang": "en",
-          "topic": "পর্যৱেষণ আৰু প্ৰকৃতি সংৰক্ষণ",
-          "title": "Rare wildlife found in Inani puts our conservation efforts to the test",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e7d6cb3e",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "সব উপজেলা স্বাস্থ্য কমপ্লেক্স ১৫১ শয্যায় উন্নীত করা কতটা যৌক্তিক",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-408b6f0d",
-          "lang": "en",
-          "topic": "পর্যবেক্ষণ নিয়ন্ত্রণ",
-          "title": "Factories must stop polluting rivers",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-92d36917",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "অর্থনীতিতে এখন সবচেয়ে উদ্বেগজনক সূচক কী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a4569f49",
-          "lang": "en",
-          "topic": "বাংলদেশের অর্থনীতি",
-          "title": "Paperless by December? Ctg port must get the transition right",
-          "source": "The Daily Star"
         }
       ]
     }
