@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T14:59:46.191Z",
-  "latestDate": "2026-10-12",
-  "latestHash": "e6a5d0e69782e19a33f66e53",
+  "updatedAt": "2026-10-13T10:39:17.368Z",
+  "latestDate": "2026-10-13",
+  "latestHash": "bbbe35814434681dad67ffbe",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-13",
+      "dateBn": "১৩ অক্টোবর ২০২৬, মঙ্গলবার",
+      "hash": "bbbe35814434681dad67ffbe",
+      "file": "data/2026-10-13.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-13T10:39:17.368Z",
+      "headlines": [
+        {
+          "id": "bn-aa05b423",
+          "lang": "bn",
+          "topic": "ভারতের রাজনীতি ও গণতন্ত্র",
+          "title": "দিল্লিতে বিক্ষোভ আয়োজন করতে আগে ময়দান ভাড়া নিতে হবে: বিজেপি সরকারের নতুন কৌশল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-363a729b",
+          "lang": "en",
+          "topic": "মাধ্যম ও গণতন্ত্র",
+          "title": "Stop attacks on campus journalists and ensure accountability",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-ffa204c1",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি ও পরিবেশ",
+          "title": "সময়মতো প্রকল্প হস্তান্তর করা ক্রেতা ও নির্মাতা উভয়ের লাভ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f0706490",
+          "lang": "en",
+          "topic": "নারীর অধিকার ও খেলাধুলা",
+          "title": "Girls must be able to play without fear",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-a3f4279c",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি ও শাসনতন্ত্র",
+          "title": "বিএনপির কর্মীরা বিষয়গুলো ভেবে দেখবেন কি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ba862246",
+          "lang": "en",
+          "topic": "পরিসংখ্যান ও সমাজবিজ্ঞান",
+          "title": "We must prepare for disasters before they strike",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-830f78d5",
+          "lang": "bn",
+          "topic": "পরিস্থিতি ও জলবায়ু",
+          "title": "আগামী বছর বিশ্বের জলবায়ু যে দুই কারণে বদলে যেতে পারে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-7ab7f43a",
+          "lang": "en",
+          "topic": "",
+          "title": "IMF cites AI slowdown, spiking yields as looming global market risks",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-10-12",
       "dateBn": "১২ অক্টোবর ২০২৬, সোমবার",
@@ -381,74 +449,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "Businesses seek faster loans from Tk20,000cr factory revival fund",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "dateBn": "৬ অক্টোবর ২০২৬, মঙ্গলবার",
-      "hash": "165892710371913f17e820f8",
-      "file": "data/2026-10-06.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-06T09:45:41.840Z",
-      "headlines": [
-        {
-          "id": "bn-6046770f",
-          "lang": "bn",
-          "topic": "",
-          "title": "নারী সাংবাদিকের হেনস্তাকারী পুলিশ কর্তাকে পদোন্নতি, প্রতিবাদের পর স্থগিত রাখল দিল্লি সরকার",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-3c9ee6ff",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "What keeps counterfeit products flowing into our markets?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-839f70ea",
-          "lang": "bn",
-          "topic": "চিকিৎসা বিজ্ঞান ও গবেষণা",
-          "title": "যে গবেষণার জন্য চিকিৎসাবিজ্ঞানে নোবেল পেলেন তিন বিজ্ঞানী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-275a15f6",
-          "lang": "en",
-          "topic": "পরিবেশ ও ভূতত্ত্ব",
-          "title": "Our geodiversity deserves protection, just like our biodiversity",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-5be1fb1b",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক রাজনীতি ও নির্বাচনী ব্যবস্থা",
-          "title": "সিনেট কি এবার তাহলে ডেমোক্র্যাটদের দখলে যেতে পারে, ঠিক করে দেবে এই ১০ আসন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b2f6446d",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Stop rewarding LPG market manipulation",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-1c25da23",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "মাল্টা, পোলাওয়ের চাল, ডিমের দাম নিয়ে নাহিদের স্ট্যাটাস, দায়ী করলেন সিন্ডিকেটকে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-85cb993e",
-          "lang": "en",
-          "topic": "বাংলদেশের অর্থনীতি",
-          "title": "Banking woes, energy shortages, low revenue threaten Bangladesh's growth: World Bank",
           "source": "The Business Standard"
         }
       ]
