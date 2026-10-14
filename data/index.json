@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T10:39:17.368Z",
-  "latestDate": "2026-10-13",
-  "latestHash": "bbbe35814434681dad67ffbe",
+  "updatedAt": "2026-10-14T10:04:33.995Z",
+  "latestDate": "2026-10-14",
+  "latestHash": "59dafeca26ce5094b184d8f1",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-14",
+      "dateBn": "১৪ অক্টোবর ২০২৬, বুধবার",
+      "hash": "59dafeca26ce5094b184d8f1",
+      "file": "data/2026-10-14.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-14T10:04:33.995Z",
+      "headlines": [
+        {
+          "id": "bn-3996d146",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "মোদি সরকারের জলবিদ্যুৎ প্রকল্প নিয়ে অরুণাচলে আদিবাসীদের ক্ষোভ বাড়ছে, কেন এই প্রকল্প করতে চায় ভারত",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-680565c7",
+          "lang": "en",
+          "topic": "",
+          "title": "Protecting farmers from heat stress is also part of climate adaptation",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-126f9ec4",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "জনগণ জরিমানা দিতে চায় না, স্বস্তি চায়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4908e4e1",
+          "lang": "en",
+          "topic": "",
+          "title": "Can government and fishers work together to restore hilsa abundance?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-ae272a8a",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "প্রবৃদ্ধি কমবে, মূল্যস্ফীতি বাড়বে, আরও চাপে পড়বে মানুষ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-377b5e04",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "What India’s current protests mean, and what they do not",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-b6cdf8ae",
+          "lang": "bn",
+          "topic": "গণমাধ্যম ও গণতন্ত্র",
+          "title": "সাংবাদিকদের জরিমানা করাসহ স্বপ্রণোদিত ব্যবস্থা নেওয়ার ক্ষমতা চায় প্রেস কাউন্সিল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5f50f6c7",
+          "lang": "en",
+          "topic": "সামাজিক কল্যাণ",
+          "title": "Take better care of children in prisons",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "dateBn": "১৩ অক্টোবর ২০২৬, মঙ্গলবার",
@@ -381,74 +449,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "The Q-Cash crisis: Why banking resilience cannot be outsourced",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "dateBn": "৭ অক্টোবর ২০২৬, বুধবার",
-      "hash": "7fdbfaac75d1a8fb19f57ae9",
-      "file": "data/2026-10-07.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-07T09:59:16.284Z",
-      "headlines": [
-        {
-          "id": "bn-dfd6f57b",
-          "lang": "bn",
-          "topic": "শিক্ষা ও গবেষণা",
-          "title": "ঢাকা বিশ্ববিদ্যালয়ে ‘আলী রীয়াজ স্নাতকোত্তর গবেষণা পুরস্কার’ পেলেন সাত শিক্ষার্থী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-79e64475",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Why strategic neutrality is Bangladesh’s only viable compass",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-ec873dec",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "সেন্ট মার্টিনে ‘বিনা মূল্যে খতনা’ কর্মসূচির পর হাসপাতালে ৫০ শিশু, ক্ষতস্থানে রক্তক্ষরণ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-c3787be1",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Trade deficit widens 29% in first two months of FY27",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-6973664a",
-          "lang": "bn",
-          "topic": "শিক্ষা ও অধ্যয়ন",
-          "title": "পরীক্ষার ফল ভালো করব কীভাবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4849d6b3",
-          "lang": "en",
-          "topic": "বাংলার অর্থনীতি",
-          "title": "How a Russian contract dispute brought down Bangladesh's digital payment",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-b59983a7",
-          "lang": "bn",
-          "topic": "পরিস্থিতি ও জলবায়ু",
-          "title": "এবার শীত কি কম হবে, কেন এমনটা বলা হচ্ছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-fd85cbc5",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Businesses seek faster loans from Tk20,000cr factory revival fund",
           "source": "The Business Standard"
         }
       ]
