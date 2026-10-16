@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T09:17:00.402Z",
-  "latestDate": "2026-10-15",
-  "latestHash": "63e1a7799f100f2900bfc94a",
+  "updatedAt": "2026-10-16T10:35:16.905Z",
+  "latestDate": "2026-10-16",
+  "latestHash": "82219cb6a3712b22b7c9e217",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-16",
+      "dateBn": "১৬ অক্টোবর ২০২৬, শুক্রবার",
+      "hash": "82219cb6a3712b22b7c9e217",
+      "file": "data/2026-10-16.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-16T10:35:16.905Z",
+      "headlines": [
+        {
+          "id": "bn-7fab6dc6",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি ও শাসনতন্ত্র",
+          "title": "জ্বালানি তেলের বেসরকারীকরণের ঝুঁকি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-caca1024",
+          "lang": "en",
+          "topic": "",
+          "title": "What Bangladesh can learn from the 2026 economics Nobel-winning research",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-ee3e1c20",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "নয়াদিল্লিতে সিজেপির কর্মসূচি ঘিরে সতর্ক ৩২ হাজারের বেশি নিরাপত্তাকর্মী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d010cad7",
+          "lang": "en",
+          "topic": "কৃষি ও খাদ্য নিরাপত্তা",
+          "title": "Innovation is key to a more resilient food future for Bangladesh",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-2e412384",
+          "lang": "bn",
+          "topic": "নারী উন্নয়ন ও সামাজিক সমস্যা",
+          "title": "নীরবতা ভেঙে জবাবদিহি নিশ্চিত করুন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a4a64da3",
+          "lang": "en",
+          "topic": "",
+          "title": "‘Some form of change will have to happen following India protests’",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-1ad3d45b",
+          "lang": "bn",
+          "topic": "স্থানীয় সরকার ও উন্নয়ন",
+          "title": "সড়কটি দ্রুত পাকা করার উদ্যোগ নিন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5381c18e",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Garment workers deserve a living wage",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-15",
       "dateBn": "১৫ অক্টোবর ২০২৬, বৃহস্পতিবার",
@@ -374,74 +442,6 @@
           "lang": "en",
           "topic": "পরিকল্পনা ও উন্নয়ন",
           "title": "Dhaka needs a plan that’s implementable",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "dateBn": "৯ অক্টোবর ২০২৬, শুক্রবার",
-      "hash": "79058f70b9fa3cdb8b195962",
-      "file": "data/2026-10-09.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-09T10:54:06.511Z",
-      "headlines": [
-        {
-          "id": "bn-373912c7",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি ও সংবিধান",
-          "title": "গণভোটের রায় পাশ কাটিয়ে সংবিধান সংশোধন মানবে না জামায়াত, জোরদার করবে রাজপথের আন্দোলন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f9e5fb0b",
-          "lang": "en",
-          "topic": "পুলিশ ও আইন-শৃঙ্খলা",
-          "title": "Effective cyber policing needs expertise and safeguards",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-cf8d613d",
-          "lang": "bn",
-          "topic": "দক্ষিণ এশিয়ার রাজনীতি",
-          "title": "তৃণমূলের ১০ বিধায়কের পদ বাতিলের আবেদন খারিজ করলেন স্পিকার",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b417863f",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Better healthcare needs clearer communication with patients",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-11c108da",
-          "lang": "bn",
-          "topic": "বাংলাদেশের শিক্ষাব্যবস্থা ও প্রশাসন",
-          "title": "রাজশাহী বিশ্ববিদ্যালয়ে ছাত্রদলের তিন নেতা ও হল সংসদের জিএসের ছাত্রত্ব সাময়িক বাতিল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5fd2f8b3",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Alarming rise in cancer cases, deaths",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-06db0fa4",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও প্রযুক্তি",
-          "title": "বাংলাদেশে স্টারলিংক সেবা চালুর দিন ভারতের ‘অলিগার্কদের’ ওপর কেন খেপলেন ইলন মাস্ক",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-471fb443",
-          "lang": "en",
-          "topic": "আইন ও সুশাসন",
-          "title": "Why Bangladesh needs a civil legal framework for adoption",
           "source": "The Daily Star"
         }
       ]
