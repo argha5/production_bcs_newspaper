@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T07:49:14.132Z",
-  "latestDate": "2026-10-17",
-  "latestHash": "214cb0a6cfa4899af75edba4",
+  "updatedAt": "2026-10-18T08:50:19.643Z",
+  "latestDate": "2026-10-18",
+  "latestHash": "0e732ff54aea405c525efc21",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-18",
+      "dateBn": "১৮ অক্টোবর ২০২৬, রবিবার",
+      "hash": "0e732ff54aea405c525efc21",
+      "file": "data/2026-10-18.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-18T08:50:19.643Z",
+      "headlines": [
+        {
+          "id": "bn-84051443",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও বিশ্বরাজনীতি",
+          "title": "রিয়াদে হুতির হামলা: বিশ্বরাজনীতি, তেল ও অর্থনীতিতে যে প্রভাব ফেলবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-3d5075bc",
+          "lang": "en",
+          "topic": "শিক্ষা ব্যবস্থা",
+          "title": "Give SSC students who failed a second chance, but fix the learning gaps too",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-243c394d",
+          "lang": "bn",
+          "topic": "ভারতের রাজনীতি ও বাংলাদেশ-ভারত সম্পর্ক",
+          "title": "সৌরভ-আশুতোষকে আজই মুক্তির আলটিমেটাম ‘ককরোচ’দের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-9882dd2d",
+          "lang": "en",
+          "topic": "জনপ্রশাসন ও সড়ক নিরাপত্তা",
+          "title": "Stop this deadly negligence",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e666c684",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "ফেসবুকে বিএনপি নেতার পোস্ট: ‘ল্যাপটপগুলি ভাগাভাগি করে নিজেদের মধ্যে খেয়ে ফেললেন’",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-28d8d412",
+          "lang": "en",
+          "topic": "শাসন ও সুশাসন",
+          "title": "BNP’s first eight months: Promise, power, and the test of change",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-0be6621f",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "টিকা কর্মসূচি ঢেলে সাজাতে হবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5cb36b67",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Two executions and the limits of diplomatic friendship",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-17",
       "dateBn": "১৭ অক্টোবর ২০২৬, শনিবার",
@@ -361,74 +429,6 @@
           "topic": "বিশ্ব অর্থনীতি ও বাণিজ্য",
           "title": "Chinese company to invest $17m in Mongla EPZ garment factory",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "dateBn": "১১ অক্টোবর ২০২৬, রবিবার",
-      "hash": "1801948943012dcd938d7dab",
-      "file": "data/2026-10-11.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-11T11:11:55.257Z",
-      "headlines": [
-        {
-          "id": "bn-0c18c89f",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও এশিয়া",
-          "title": "সৌদি বিমানবন্দরে হুতিদের ভয়াবহ হামলা, যুক্তরাষ্ট্র এখন কী করবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0aab9d6b",
-          "lang": "en",
-          "topic": "বাংলADেশের অর্থনীতি",
-          "title": "New NCT deal must deliver measurable gains for Bangladesh",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b41ad9c2",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "জ্ঞানেশ পদত্যাগ করলে কি ভারতে আন্দোলন থামবে?",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0110458a",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Tea workers deserve a say in reforms to their industry",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e2daee16",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "মণিপুরে একের পর এক হামলা–গোলাগুলি, গুলি ও শিরশ্ছেদ করে ৯ জনকে হত্যা, বাড়িঘরে আগুন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b5040b39",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও সামাজিক সমস্যা",
-          "title": "Is social media use getting out of hand?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-f3aef879",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "এবার কেনিয়ায় টিভি, ফ্রিজ, ওয়াশিং মেশিন রপ্তানি করবে ওয়ালটন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-00d5c084",
-          "lang": "en",
-          "topic": "প্রযুক্তি ও সমাজ",
-          "title": "Beware machines that always take our side",
-          "source": "The Daily Star"
         }
       ]
     }
