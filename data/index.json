@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T08:50:19.643Z",
-  "latestDate": "2026-10-18",
-  "latestHash": "0e732ff54aea405c525efc21",
+  "updatedAt": "2026-10-19T09:29:30.273Z",
+  "latestDate": "2026-10-19",
+  "latestHash": "abb31c3d0cbc478ae3ea517d",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-19",
+      "dateBn": "১৯ অক্টোবর ২০২৬, সোমবার",
+      "hash": "abb31c3d0cbc478ae3ea517d",
+      "file": "data/2026-10-19.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-19T09:29:30.273Z",
+      "headlines": [
+        {
+          "id": "bn-2e7f009e",
+          "lang": "bn",
+          "topic": "তথ্যপ্রযুক্তি",
+          "title": "ডিজিটাল ব্যাংকিংয়ে বড় সম্ভাবনা দেখছে আজিয়াটা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1f117f46",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Our economic recovery must ease the burden of survival",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-5a052231",
+          "lang": "bn",
+          "topic": "রাজনীতি ও সরকার ব্যবস্থা",
+          "title": "ভারতের গণতন্ত্র যেভাবে ভেতর থেকে দুর্বল হচ্ছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b782f4fb",
+          "lang": "en",
+          "topic": "ভারতের রাজনীতি",
+          "title": "Why is trust in India’s democratic watchdog eroding?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-eda15e1c",
+          "lang": "bn",
+          "topic": "",
+          "title": "নিজেকে জাহির করতে গিয়ে মন্ত্রিত্ব হারাচ্ছেন ইশরাক",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-df614677",
+          "lang": "en",
+          "topic": "",
+          "title": "Prepare our children for the world, not just exams",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-3cefe106",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "ব্যাংকে পরিবারতন্ত্র যাচ্ছে না, বদলাচ্ছে শুধু মুখ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-790c5211",
+          "lang": "en",
+          "topic": "",
+          "title": "The economics of saying no in marriage",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-18",
       "dateBn": "১৮ অক্টোবর ২০২৬, রবিবার",
@@ -388,46 +456,6 @@
           "lang": "en",
           "topic": "",
           "title": "IMF cites AI slowdown, spiking yields as looming global market risks",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "dateBn": "১২ অক্টোবর ২০২৬, সোমবার",
-      "hash": "e6a5d0e69782e19a33f66e53",
-      "file": "data/2026-10-12.json",
-      "articleCount": 4,
-      "bengaliCount": 0,
-      "englishCount": 4,
-      "generatedAt": "2026-10-12T14:59:46.191Z",
-      "headlines": [
-        {
-          "id": "en-8286d121",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Navi Pillay’s Nobel Prize and the convenient conscience of international law",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-b1417a3c",
-          "lang": "en",
-          "topic": "বাংলদেশের শাসনতন্ত্র ও রাজনীতি",
-          "title": "BNP must enforce intra-party discipline",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "en-23483121",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh, WB, IMF reach policy consensus on reforms, govt focuses on investment",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "en-6a57b566",
-          "lang": "en",
-          "topic": "বিশ্ব অর্থনীতি ও বাণিজ্য",
-          "title": "Chinese company to invest $17m in Mongla EPZ garment factory",
           "source": "The Business Standard"
         }
       ]
