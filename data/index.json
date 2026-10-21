@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T10:09:21.728Z",
-  "latestDate": "2026-10-20",
-  "latestHash": "f957455c8af339e0ae13f96a",
+  "updatedAt": "2026-10-21T09:42:51.960Z",
+  "latestDate": "2026-10-21",
+  "latestHash": "dbf98afa9e4486267ecb2487",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-21",
+      "dateBn": "২১ অক্টোবর ২০২৬, বুধবার",
+      "hash": "dbf98afa9e4486267ecb2487",
+      "file": "data/2026-10-21.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-21T09:42:51.960Z",
+      "headlines": [
+        {
+          "id": "bn-a22475eb",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "৩ লাখের বেশি ভিসা বাতিল করেছে ট্রাম্প প্রশাসন, কিন্তু কেন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-455b4ebe",
+          "lang": "en",
+          "topic": "",
+          "title": "Reform NGO funding to help grassroots organisations survive",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-a171d027",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "নির্বাচনে নেতানিয়াহুকে ট্রাম্পের সমর্থন: যুক্তরাষ্ট্র কি ইসরায়েলকে নিয়ে আবার ইরানে হামলার ছক কষছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-75943162",
+          "lang": "en",
+          "topic": "",
+          "title": "Maintain what’s built before building more",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-448716e4",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "রংপুরে শিল্পের বিকাশে বড় বাধা অর্থায়ন ও জ্বালানিসংকট",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b951fb59",
+          "lang": "en",
+          "topic": "শিশু স্বাস্থ্য ও শিক্ষা",
+          "title": "When did play stop being a part of childhood?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-61decf5a",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও অর্থনীতি",
+          "title": "চীন কেন বিপুল পরিমাণে সোনা কিনছে? কাহিনী কী?",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e37214ef",
+          "lang": "en",
+          "topic": "",
+          "title": "Can BNP keep its own ranks in check?",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-20",
       "dateBn": "২০ অক্টোবর ২০২৬, মঙ্গলবার",
@@ -389,74 +457,6 @@
           "topic": "",
           "title": "ব্যাংকে ‘পরিবারতন্ত্রের’ সুযোগ \nরেখে আইনের নতুন খসড়া",
           "source": "প্রথম আলো"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "dateBn": "১৪ অক্টোবর ২০২৬, বুধবার",
-      "hash": "59dafeca26ce5094b184d8f1",
-      "file": "data/2026-10-14.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-14T10:04:33.995Z",
-      "headlines": [
-        {
-          "id": "bn-3996d146",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "মোদি সরকারের জলবিদ্যুৎ প্রকল্প নিয়ে অরুণাচলে আদিবাসীদের ক্ষোভ বাড়ছে, কেন এই প্রকল্প করতে চায় ভারত",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-680565c7",
-          "lang": "en",
-          "topic": "",
-          "title": "Protecting farmers from heat stress is also part of climate adaptation",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-126f9ec4",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "জনগণ জরিমানা দিতে চায় না, স্বস্তি চায়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4908e4e1",
-          "lang": "en",
-          "topic": "",
-          "title": "Can government and fishers work together to restore hilsa abundance?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-ae272a8a",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "প্রবৃদ্ধি কমবে, মূল্যস্ফীতি বাড়বে, আরও চাপে পড়বে মানুষ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-377b5e04",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "What India’s current protests mean, and what they do not",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b6cdf8ae",
-          "lang": "bn",
-          "topic": "গণমাধ্যম ও গণতন্ত্র",
-          "title": "সাংবাদিকদের জরিমানা করাসহ স্বপ্রণোদিত ব্যবস্থা নেওয়ার ক্ষমতা চায় প্রেস কাউন্সিল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5f50f6c7",
-          "lang": "en",
-          "topic": "সামাজিক কল্যাণ",
-          "title": "Take better care of children in prisons",
-          "source": "The Daily Star"
         }
       ]
     }
