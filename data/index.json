@@ -1,10 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T09:42:51.960Z",
-  "latestDate": "2026-10-21",
-  "latestHash": "dbf98afa9e4486267ecb2487",
+  "updatedAt": "2026-10-22T09:07:38.982Z",
+  "latestDate": "2026-10-22",
+  "latestHash": "f83a47f14245417bb3b50536",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-22",
+      "dateBn": "২২ অক্টোবর ২০২৬, বৃহস্পতিবার",
+      "hash": "f83a47f14245417bb3b50536",
+      "file": "data/2026-10-22.json",
+      "articleCount": 7,
+      "bengaliCount": 4,
+      "englishCount": 3,
+      "generatedAt": "2026-10-22T09:07:38.982Z",
+      "headlines": [
+        {
+          "id": "bn-80fff8cc",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "মার্কিন দূতাবাসের কিছু কর্মী ও তাঁদের পরিবারকে সৌদি আরব ছাড়ার নির্দেশ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-81881ddf",
+          "lang": "en",
+          "topic": "জলবায়ু ও নারী",
+          "title": "Climate resilience must not come at the cost of women’s debt",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-1e7cfd48",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক বিষয়",
+          "title": "আকাশে উড়োজাহাজের দরজা দিয়ে লাফিয়ে অদৃশ্য ছিনতাইকারী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-92d7e76d",
+          "lang": "en",
+          "topic": "পরিবেশ ও বন",
+          "title": "Forests need more than paper promises",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-8f54f267",
+          "lang": "bn",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "রাজশাহী মেডিকেলে দ্বিতীয় দিনের মতো ইন্টার্ন চিকিৎসকদের কর্মবিরতি, রোগীদের ভোগান্তি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2f04485b",
+          "lang": "en",
+          "topic": "",
+          "title": "Before being satisfied with law and order, ask if citizens feel safer",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-a3155061",
+          "lang": "bn",
+          "topic": "শিশু অধিকার ও স্বাস্থ্য",
+          "title": "স্কুলব্যাগের ওজন: ভারবাহী প্রাণীরাও ছাড় পায়, শিশুদের কি মাফ নেই",
+          "source": "প্রথম আলো"
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "dateBn": "২১ অক্টোবর ২০২৬, বুধবার",
@@ -396,67 +457,6 @@
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "Garment workers deserve a living wage",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "dateBn": "১৫ অক্টোবর ২০২৬, বৃহস্পতিবার",
-      "hash": "63e1a7799f100f2900bfc94a",
-      "file": "data/2026-10-15.json",
-      "articleCount": 7,
-      "bengaliCount": 4,
-      "englishCount": 3,
-      "generatedAt": "2026-10-15T09:17:00.402Z",
-      "headlines": [
-        {
-          "id": "bn-98237035",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "আগামী দুই বছর নিয়ে আমার আশঙ্কা: পল ক্রুগম্যান",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-48f7d494",
-          "lang": "en",
-          "topic": "বাংলাদেশের সমাজ ও সংস্কৃতি",
-          "title": "Child marriage law should be reformed",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6a365520",
-          "lang": "bn",
-          "topic": "মানবাধিকার ও সামাজিক ন্যায়বিচার",
-          "title": "সুস্থ পরিবেশে স্বাভাবিক বিকাশ নিশ্চিত করুন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-9568bc37",
-          "lang": "en",
-          "topic": "",
-          "title": "As the world rediscovers industrial policy, we must rethink protectionism",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a00f4e06",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "৫ লাখ টাকার ডিজিটাল ঋণ দেবে ব্র্যাক ব্যাংক, আবেদন করবেন কীভাবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-c66b0ce8",
-          "lang": "en",
-          "topic": "",
-          "title": "Recognition of women’s role as the engine of rural life is long overdue",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a45ff0bb",
-          "lang": "bn",
-          "topic": "",
-          "title": "ব্যাংকে ‘পরিবারতন্ত্রের’ সুযোগ \nরেখে আইনের নতুন খসড়া",
-          "source": "প্রথম আলো"
         }
       ]
     }
