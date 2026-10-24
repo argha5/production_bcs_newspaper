@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T11:19:51.836Z",
-  "latestDate": "2026-10-23",
-  "latestHash": "9937f551e218980b2942dccb",
+  "updatedAt": "2026-10-24T09:00:25.545Z",
+  "latestDate": "2026-10-24",
+  "latestHash": "1ed400189795789e0a234b9d",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-24",
+      "dateBn": "২৪ অক্টোবর ২০২৬, শনিবার",
+      "hash": "1ed400189795789e0a234b9d",
+      "file": "data/2026-10-24.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-24T09:00:25.545Z",
+      "headlines": [
+        {
+          "id": "bn-e1f33b80",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "অরুণাচল প্রদেশের ৬-৭ কিলোমিটার ভেতরে আসলেই কি ঢুকে পড়েছে চীনের বাহিনী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-864274f1",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Our jute industry needs more than tariff relief",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-aba438f4",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও নীতি",
+          "title": "ক্যালিফোর্নিয়ায় শতকোটিপতিদের সম্পদে ৫ শতাংশ কর আরোপের প্রস্তাব",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-db2923f7",
+          "lang": "en",
+          "topic": "বাংলার অর্থনীতি",
+          "title": "Will repurposing unspent World Bank loans serve development needs?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-f77cd5ca",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "গ্রামগুলোকে মূলধারায় সম্পৃক্ত করতে হবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2db6e036",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক অর্থনীতি",
+          "title": "Bangkok’s promises and the developing world’s funding gap",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d0677ec2",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "নির্বাচন ইসরায়েলে, মাথাব্যথা যুক্তরাষ্ট্রের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-9803ab39",
+          "lang": "en",
+          "topic": "পরিস্থিতি ও জলবায়ু",
+          "title": "Stop Chattogram’s expansion into flood-prone areas",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "dateBn": "২৩ অক্টোবর ২০২৬, শুক্রবার",
@@ -403,60 +471,6 @@
           "topic": "আন্তর্জাতিক সম্পর্ক",
           "title": "Two executions and the limits of diplomatic friendship",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "dateBn": "১৭ অক্টোবর ২০২৬, শনিবার",
-      "hash": "214cb0a6cfa4899af75edba4",
-      "file": "data/2026-10-17.json",
-      "articleCount": 6,
-      "bengaliCount": 4,
-      "englishCount": 2,
-      "generatedAt": "2026-10-17T07:49:14.132Z",
-      "headlines": [
-        {
-          "id": "bn-6c7b10b0",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "জ্বালানি তেলের দাম পাঁচ মাসের মধ্যে সর্বোচ্চ, কারণ কী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a7ef59c4",
-          "lang": "en",
-          "topic": "জলবায়ু অর্থনৈতি",
-          "title": "How to make climate finance more equitable",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b7fb04ad",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি ও উন্নয়ন",
-          "title": "পদ্মা সেতুর সুফল পেতে বাধা দূর করুন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-78fb7260",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Why is our economic growth failing to reduce poverty?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-3ac01983",
-          "lang": "bn",
-          "topic": "পরিস্থিতি ও পরিবেশ",
-          "title": "উচ্চ শব্দে মাইক, অপ্রয়োজনীয় আলো থেকে বিরত থাকাসহ পরিবেশবান্ধব পূজা আয়োজনে কয়েক নির্দেশনা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "bn-9f00f6b4",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ইন্ডিয়া জোটের বিক্ষোভে যোগ দিল থালাপতি বিজয়ের টিভিকে",
-          "source": "প্রথম আলো"
         }
       ]
     }
