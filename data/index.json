@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T09:00:25.545Z",
-  "latestDate": "2026-10-24",
-  "latestHash": "1ed400189795789e0a234b9d",
+  "updatedAt": "2026-10-25T09:19:38.658Z",
+  "latestDate": "2026-10-25",
+  "latestHash": "d8832a513d62b8750322b4de",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-25",
+      "dateBn": "২৫ অক্টোবর ২০২৬, রবিবার",
+      "hash": "d8832a513d62b8750322b4de",
+      "file": "data/2026-10-25.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-25T09:19:38.658Z",
+      "headlines": [
+        {
+          "id": "bn-b1a96b2c",
+          "lang": "bn",
+          "topic": "",
+          "title": "যুক্তরাষ্ট্রের মধ্যবর্তী নির্বাচনে মাস্কের ৪৪ কোটি ৩০ লাখ ডলারের অনুদান",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1c7ff787",
+          "lang": "en",
+          "topic": "বাংলদেশের অর্থনীতি",
+          "title": "A trillion-dollar economy sounds good, but it must benefit the people",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-f4e8dabb",
+          "lang": "bn",
+          "topic": "প্রযুক্তি ও নিরাপত্তা",
+          "title": "এআইয়ের কারণে বাড়ছে সফটওয়্যারের নিরাপত্তাঝুঁকি, বড় সংকটের আশঙ্কা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-fbe14dd0",
+          "lang": "en",
+          "topic": "বাংলার অর্থনীতি",
+          "title": "The 'time tax' we have to pay every day",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-980ba9d9",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "জামায়াতের জেলা নেতৃত্বে বছরের পর \nবছর একই মুখ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-3cb2bbe3",
+          "lang": "en",
+          "topic": "গণমাধ্যম ও নৈতিকতা",
+          "title": "Police and media have no right to shame detainees",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d02fec29",
+          "lang": "bn",
+          "topic": "শিক্ষা ও সাংস্কৃতিক বিষয়",
+          "title": "কেরানীগঞ্জে প্রাথমিক বিদ্যালয়ে পাঠাগার প্রতিষ্ঠা করল বন্ধুসভা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-9079261c",
+          "lang": "en",
+          "topic": "",
+          "title": "Ensure transparency in BR online ticketing",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-24",
       "dateBn": "২৪ অক্টোবর ২০২৬, শনিবার",
@@ -402,74 +470,6 @@
           "lang": "en",
           "topic": "",
           "title": "The economics of saying no in marriage",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "dateBn": "১৮ অক্টোবর ২০২৬, রবিবার",
-      "hash": "0e732ff54aea405c525efc21",
-      "file": "data/2026-10-18.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-18T08:50:19.643Z",
-      "headlines": [
-        {
-          "id": "bn-84051443",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও বিশ্বরাজনীতি",
-          "title": "রিয়াদে হুতির হামলা: বিশ্বরাজনীতি, তেল ও অর্থনীতিতে যে প্রভাব ফেলবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-3d5075bc",
-          "lang": "en",
-          "topic": "শিক্ষা ব্যবস্থা",
-          "title": "Give SSC students who failed a second chance, but fix the learning gaps too",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-243c394d",
-          "lang": "bn",
-          "topic": "ভারতের রাজনীতি ও বাংলাদেশ-ভারত সম্পর্ক",
-          "title": "সৌরভ-আশুতোষকে আজই মুক্তির আলটিমেটাম ‘ককরোচ’দের",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-9882dd2d",
-          "lang": "en",
-          "topic": "জনপ্রশাসন ও সড়ক নিরাপত্তা",
-          "title": "Stop this deadly negligence",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e666c684",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি",
-          "title": "ফেসবুকে বিএনপি নেতার পোস্ট: ‘ল্যাপটপগুলি ভাগাভাগি করে নিজেদের মধ্যে খেয়ে ফেললেন’",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-28d8d412",
-          "lang": "en",
-          "topic": "শাসন ও সুশাসন",
-          "title": "BNP’s first eight months: Promise, power, and the test of change",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-0be6621f",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "টিকা কর্মসূচি ঢেলে সাজাতে হবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5cb36b67",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Two executions and the limits of diplomatic friendship",
           "source": "The Daily Star"
         }
       ]
