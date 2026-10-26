@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T09:19:38.658Z",
-  "latestDate": "2026-10-25",
-  "latestHash": "d8832a513d62b8750322b4de",
+  "updatedAt": "2026-10-26T09:55:05.222Z",
+  "latestDate": "2026-10-26",
+  "latestHash": "d13114366988ffe9fee604db",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-26",
+      "dateBn": "২৬ অক্টোবর ২০২৬, সোমবার",
+      "hash": "d13114366988ffe9fee604db",
+      "file": "data/2026-10-26.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-26T09:55:05.222Z",
+      "headlines": [
+        {
+          "id": "bn-955c4fb5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "মাথাপিছু জিডিপিতে আবার ভারতকে ছাড়াবে বাংলাদেশ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e9d6e05b",
+          "lang": "en",
+          "topic": "পরিস্থিতি ও জলবায়ু",
+          "title": "COP31 must deliver climate justice for displaced people",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-29cc175b",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "বিরোধী দলে থাকতেই কবর দিতে বাধা দিচ্ছে, রাষ্ট্রক্ষমতা হাতে গেলে কী করবে: তাসনিম জারা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e4a354fe",
+          "lang": "en",
+          "topic": "পরিবেশ ও অর্থনীতি",
+          "title": "Why risk relaxing environmental safeguards in shipbreaking?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-628ca60e",
+          "lang": "bn",
+          "topic": "পরিসংখ্যান ও পরিবেশ",
+          "title": "ধ্বংসের মুখে আমাজন, উধাও ২৪ কোটি একরের বনাঞ্চল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e70e3f9d",
+          "lang": "en",
+          "topic": "শহুরে পরিকল্পনা ও পরিবহন",
+          "title": "Dhaka built flyovers and a metro, but forgot the bus",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-aa941047",
+          "lang": "bn",
+          "topic": "জনপ্রশাসন ও সুশাসন",
+          "title": "বিভাগীয় কমিশনারের নির্দেশেও তথ্য দেয়নি সিলেট জেলা প্রশাসন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-31f040f4",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "A trillion-dollar ambition needs more than GDP growth",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "dateBn": "২৫ অক্টোবর ২০২৬, রবিবার",
@@ -402,74 +470,6 @@
           "lang": "en",
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "A lasting safe water system must be the goal, not more projects",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "dateBn": "১৯ অক্টোবর ২০২৬, সোমবার",
-      "hash": "abb31c3d0cbc478ae3ea517d",
-      "file": "data/2026-10-19.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-19T09:29:30.273Z",
-      "headlines": [
-        {
-          "id": "bn-2e7f009e",
-          "lang": "bn",
-          "topic": "তথ্যপ্রযুক্তি",
-          "title": "ডিজিটাল ব্যাংকিংয়ে বড় সম্ভাবনা দেখছে আজিয়াটা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1f117f46",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Our economic recovery must ease the burden of survival",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-5a052231",
-          "lang": "bn",
-          "topic": "রাজনীতি ও সরকার ব্যবস্থা",
-          "title": "ভারতের গণতন্ত্র যেভাবে ভেতর থেকে দুর্বল হচ্ছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b782f4fb",
-          "lang": "en",
-          "topic": "ভারতের রাজনীতি",
-          "title": "Why is trust in India’s democratic watchdog eroding?",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-eda15e1c",
-          "lang": "bn",
-          "topic": "",
-          "title": "নিজেকে জাহির করতে গিয়ে মন্ত্রিত্ব হারাচ্ছেন ইশরাক",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-df614677",
-          "lang": "en",
-          "topic": "",
-          "title": "Prepare our children for the world, not just exams",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-3cefe106",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "ব্যাংকে পরিবারতন্ত্র যাচ্ছে না, বদলাচ্ছে শুধু মুখ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-790c5211",
-          "lang": "en",
-          "topic": "",
-          "title": "The economics of saying no in marriage",
           "source": "The Daily Star"
         }
       ]
