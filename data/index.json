@@ -1,10 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T09:55:05.222Z",
-  "latestDate": "2026-10-26",
-  "latestHash": "d13114366988ffe9fee604db",
+  "updatedAt": "2026-10-27T10:26:40.643Z",
+  "latestDate": "2026-10-27",
+  "latestHash": "c9f38e32c62d78bcf0d85e95",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-27",
+      "dateBn": "২৭ অক্টোবর ২০২৬, মঙ্গলবার",
+      "hash": "c9f38e32c62d78bcf0d85e95",
+      "file": "data/2026-10-27.json",
+      "articleCount": 7,
+      "bengaliCount": 4,
+      "englishCount": 3,
+      "generatedAt": "2026-10-27T10:26:40.643Z",
+      "headlines": [
+        {
+          "id": "bn-bc8bfdac",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "কুষ্টিয়ায় স্টেডিয়ামে অনুমতি দিল প্রশাসন, জামায়াত জিলা স্কুল মাঠে সমাবেশ করতে অনড়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e78da5f9",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Our dengue response needs a fundamental overhaul",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d82e0ec2",
+          "lang": "bn",
+          "topic": "পুলিশ ও প্রশাসন",
+          "title": "প্রশাসন, পুলিশে নিয়মিত পদোন্নতি, যোগ্যতা থাকলেও হয় না শিক্ষা ক্যাডারে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a6e91000",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Bangladesh needs a strategy to wean itself off imported gas",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-5d54b51a",
+          "lang": "bn",
+          "topic": "মানবাধিকার ও সমাজ",
+          "title": "কিশোরীকে ‘চুমু’, রাস্তায় উলঙ্গ হাঁটানো হলো প্রেমিক, তাঁর বাবা ও বন্ধুকে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f78ea896",
+          "lang": "en",
+          "topic": "পৰিৱেশ তথা প্ৰাকৃতিক সম্পদ",
+          "title": "Profits must not trump conservation",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-ac590034",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক রাজনীতি",
+          "title": "লুলার বিজয় ইউরোপের আন্দোলনে যে কারণে উদ্দীপনা ছড়াল",
+          "source": "প্রথম আলো"
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "dateBn": "২৬ অক্টোবর ২০২৬, সোমবার",
@@ -402,74 +463,6 @@
           "lang": "en",
           "topic": "",
           "title": "Can BNP keep its own ranks in check?",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "dateBn": "২০ অক্টোবর ২০২৬, মঙ্গলবার",
-      "hash": "f957455c8af339e0ae13f96a",
-      "file": "data/2026-10-20.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-20T10:09:21.728Z",
-      "headlines": [
-        {
-          "id": "bn-67c82b01",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি ও নির্বাচন",
-          "title": "ঢাকার দুই সিটি করপোরেশন নির্বাচনে কাউন্সিলর পদে জামায়াতের প্রার্থী প্রায় চূড়ান্ত",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-2e117301",
-          "lang": "en",
-          "topic": "",
-          "title": "Can COP31 deliver on climate finance and trade justice?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-1bc7e18f",
-          "lang": "bn",
-          "topic": "বাংলাদেশের পরিবেশ ও পর্যটন",
-          "title": "প্রশাসনের কঠোর তদারকি ও হস্তক্ষেপ জরুরি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-227c87e6",
-          "lang": "en",
-          "topic": "বাংলদেশর রাযনীতি",
-          "title": "Cyber law must not muzzle dissent",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-88695ec6",
-          "lang": "bn",
-          "topic": "প্রশাসন ও দুরাশাসন",
-          "title": "দরপত্র ছাড়াই ‘ক্ষতিগ্রস্ত’ বিএনপি নেতাকে দুই বালুমহালের দখল বুঝিয়ে দিল প্রশাসন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-66365751",
-          "lang": "en",
-          "topic": "",
-          "title": "65 years of BADC: Strengthening the foundations of Bangladesh’s food security",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-2272b316",
-          "lang": "bn",
-          "topic": "প্রাচ্যবাদ ও চিন্তাধারা",
-          "title": "প্রাচ্যবাদ: অন্যকে সংজ্ঞায়িত করার রাজনীতি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-514eb962",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "A lasting safe water system must be the goal, not more projects",
           "source": "The Daily Star"
         }
       ]
