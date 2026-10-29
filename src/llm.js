@@ -45,7 +45,7 @@ console.log(`LLM: ${apiKeys.length} API key(s) loaded (${routerKeys} router, ${g
 
 const keyName = (key) => `key…${key.slice(-4)}`;
 
-export async function checkAvailableModels() {
+export async function checkAvailableModels(configuredModels = []) {
   const found = new Set();
   for (const key of apiKeys) {
     const isGroq = key.startsWith('gsk_');
@@ -70,6 +70,20 @@ export async function checkAvailableModels() {
       console.warn(`[LLM] Error querying models on ${isGroq ? 'Groq' : 'Bynara'}: ${err.message}`);
     }
   }
+
+  // If models were discovered, proactively retire any configured model that does not exist
+  if (discoveredModels.size > 0 && configuredModels.length > 0) {
+    for (const m of configuredModels) {
+      if (!discoveredModels.has(m)) {
+        console.warn(`[LLM] Configured model "${m}" is not available on active providers; retiring upfront.`);
+        retiredModels.add(m);
+        for (const state of lanes.values()) {
+          if (state.model === m) state.dailyDone = true;
+        }
+      }
+    }
+  }
+
   return [...found];
 }
 
@@ -148,8 +162,9 @@ function acquireLane(models, label) {
   if (filteredModels.length === 0) {
     const fallback = [...discoveredModels].filter((m) => !retiredModels.has(m) && !models.includes(m));
     if (fallback.length > 0) {
-      console.warn(`  ! ${label}: all configured models retired, dynamically falling back to "${fallback[0]}"`);
-      filteredModels = [fallback[0]];
+      const preferred = fallback.find((m) => /flash|fast|mini/i.test(m)) || fallback[0];
+      console.warn(`  ! ${label}: all configured models retired, dynamically falling back to "${preferred}"`);
+      filteredModels = [preferred];
     } else {
       throw new Error(`all configured models are unavailable: ${models.join(', ')}`);
     }
@@ -313,13 +328,17 @@ export async function generate({
           continue;
         }
 
-        if (res.status === 404 && /model does not exist|model_not_found|requested model/i.test(detail)) {
+        const isModelUnavailable =
+          (res.status === 404 || res.status === 400 || res.status === 422) &&
+          /model does not exist|model_not_found|requested model|not available|model.*not.*found|invalid.*model|unknown.*model/i.test(detail);
+
+        if (isModelUnavailable) {
           retiredModels.add(l.model);
           for (const state of lanes.values()) {
             if (state.model === l.model) state.dailyDone = true;
           }
-          console.warn(`  ! ${label}: model "${l.model}" is unavailable (HTTP 404: ${detail.trim()}), retiring it and falling back`);
-          lastError = new Error(`HTTP 404 model-not-found — ${l.model}`);
+          console.warn(`  ! ${label}: model "${l.model}" is unavailable (HTTP ${res.status}: ${detail.trim()}), retiring it and falling back`);
+          lastError = new Error(`HTTP ${res.status} model-unavailable — ${l.model}`);
           continue;
         }
 

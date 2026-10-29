@@ -1,10 +1,10 @@
 {
-  "//models": "NaraRouter (https://router.bynara.id/) — active models verified on 2026-09-07: agnes-2.5-flash, gemini-3.8-flash-high, deepseek-v4-flash, qwen3.8-flash, mimo-v2.5.",
+  "//models": "NaraRouter (https://router.bynara.id/) — active models verified on 2026-10-29: gemini-3.8-flash-high, deepseek-v4.1-flash, deepseek-v4-flash, qwen3.8-flash, mimo-v2.6-flash.",
   "models": {
-    "study":     ["agnes-2.5-flash", "gemini-3.8-flash-high", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.5"],
-    "qna":       ["agnes-2.5-flash", "gemini-3.8-flash-high", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.5"],
-    "translate": ["agnes-2.5-flash", "gemini-3.8-flash-high", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.5"],
-    "dissect":   ["agnes-2.5-flash", "gemini-3.8-flash-high", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.5"]
+    "study":     ["gemini-3.8-flash-high", "deepseek-v4.1-flash", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.6-flash"],
+    "qna":       ["gemini-3.8-flash-high", "deepseek-v4.1-flash", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.6-flash"],
+    "translate": ["gemini-3.8-flash-high", "deepseek-v4.1-flash", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.6-flash"],
+    "dissect":   ["gemini-3.8-flash-high", "deepseek-v4.1-flash", "deepseek-v4-flash", "qwen3.8-flash", "mimo-v2.6-flash"]
   },
 
   "//budget": "7M+ daily tokens from NaraRouter — no budget guard in the build; every sourced article is fully processed.",

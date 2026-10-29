@@ -441,7 +441,7 @@ const avoidTitles = await recentTitles(index);
 
 const allModels = [...new Set(Object.values(config.models).flat())];
 console.log(`Building edition ${date} using ${allModels.join(', ')}`);
-await checkAvailableModels();
+await checkAvailableModels(allModels);
 
 // Sourcing happens first and costs nothing: if the feeds are down we find out
 // before spending a single model call.
