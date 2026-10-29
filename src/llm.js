@@ -157,7 +157,7 @@ let cursor = 0;
  * Bynara router has generous limits, so we skip any lane that signals
  * a temporary 429 and immediately try the next model/key.
  */
-function acquireLane(models, label) {
+async function acquireLane(models, label) {
   let filteredModels = models.filter((model) => !retiredModels.has(model));
   if (filteredModels.length === 0) {
     const fallback = [...discoveredModels].filter((m) => !retiredModels.has(m) && !models.includes(m));
@@ -182,7 +182,7 @@ function acquireLane(models, label) {
       .map((l) => `${l.model}/${keyName(l.key)}: dailyDone`)
       .join(', ');
     throw new Error(
-      `every key/model lane has spent its daily allowance (${filteredModels.join(', ')}). Lanes: ${summary}`,
+      `every key/model lane has spent its daily allowance or has insufficient credits (${filteredModels.join(', ')}). Lanes: ${summary}`,
     );
   }
 
@@ -202,10 +202,12 @@ function acquireLane(models, label) {
     }
   }
 
-  // All lanes cooling — pick the one that resumes soonest
+  // All lanes cooling — pick the one that resumes soonest and actually sleep
   const fallback = alive.reduce((a, b) => (a.readyAt < b.readyAt ? a : b));
-  const waitSec = Math.max(0, Math.round((fallback.readyAt - now()) / 1000));
+  const waitMs = Math.max(0, fallback.readyAt - now());
+  const waitSec = Math.max(1, Math.round(waitMs / 1000));
   console.log(`  … ${label}: all lanes busy, waiting ${waitSec}s (next: ${fallback.model}/${keyName(fallback.key)})`);
+  await sleep(Math.min(waitMs, 30_000));
   return fallback;
 }
 
@@ -276,7 +278,7 @@ export async function generate({
   let body = { ...base };
 
   while (attempt < maxAttempts) {
-    const l = acquireLane(models, label);
+    const l = await acquireLane(models, label);
     body.model = l.model;
 
     try {
@@ -291,6 +293,17 @@ export async function generate({
 
       if (!res.ok) {
         const detail = (await res.text()).slice(0, 400);
+
+        // 402 Payment Required: Insufficient balance on account.
+        // Mark all lanes using this key as dead immediately to stop fruitless retries.
+        if (res.status === 402 || /insufficient credits|payment_required/i.test(detail)) {
+          console.error(`  ! ${label}: API key ${keyName(l.key)} has INSUFFICIENT CREDITS (HTTP 402: ${detail.trim()}). Marking key dead.`);
+          for (const state of lanes.values()) {
+            if (state.key === l.key) state.dailyDone = true;
+          }
+          lastError = new Error(`HTTP 402 Insufficient credits — ${keyName(l.key)}`);
+          continue;
+        }
 
         // The daily allowance is a rolling 24h window, not a midnight reset, so
         // a capped lane frees up again on its own. Record when, and treat a lane
@@ -315,15 +328,19 @@ export async function generate({
         // 429 (window spent) and 413 (this request is larger than what is left
         // in the window) both mean: this lane is busy, try another one.
         if (res.status === 429 || res.status === 413) {
+          const waitMs = Math.min(parseDuration(res.headers.get('retry-after')) || 5000, 30_000);
           l.remaining = 0;
-          l.readyAt = now() + (parseDuration(res.headers.get('retry-after')) || 30_000);
+          l.readyAt = now() + waitMs;
           lastError = new Error(`HTTP ${res.status} — ${detail}`);
+          await sleep(Math.min(waitMs, 5000));
           continue;
         }
 
         if (res.status === 403 || res.status === 401) {
-          console.warn(`  ! ${label}: ${l.model} on ${keyName(l.key)} returned HTTP ${res.status}, skipping lane`);
-          l.dailyDone = true;
+          console.warn(`  ! ${label}: key ${keyName(l.key)} returned HTTP ${res.status}, marking key invalid`);
+          for (const state of lanes.values()) {
+            if (state.key === l.key) state.dailyDone = true;
+          }
           lastError = new Error(`HTTP ${res.status} — ${detail}`);
           continue;
         }
