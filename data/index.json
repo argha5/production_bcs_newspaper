@@ -1,29 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T12:00:54.260Z",
-  "latestDate": "2026-10-29",
-  "latestHash": "2b41423479425d4f66512220",
+  "updatedAt": "2026-10-27T10:26:40.643Z",
+  "latestDate": "2026-10-27",
+  "latestHash": "c9f38e32c62d78bcf0d85e95",
   "keepDays": 7,
   "editions": [
-    {
-      "date": "2026-10-29",
-      "dateBn": "২৯ অক্টোবর ২০২৬, বৃহস্পতিবার",
-      "hash": "2b41423479425d4f66512220",
-      "file": "data/2026-10-29.json",
-      "articleCount": 1,
-      "bengaliCount": 1,
-      "englishCount": 0,
-      "generatedAt": "2026-10-29T12:00:54.260Z",
-      "headlines": [
-        {
-          "id": "bn-7160eec5",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "বেকার হয়ে পড়া শ্রমিক: কী করছেন, কীভাবে বেঁচে আছেন",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        }
-      ]
-    },
     {
       "date": "2026-10-27",
       "dateBn": "২৭ অক্টোবর ২০২৬, মঙ্গলবার",

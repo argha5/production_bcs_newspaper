@@ -1,10 +1,10 @@
 {
-  "//models": "Groq & NaraRouter — active verified models: openai/gpt-oss-120b, openai/gpt-oss-20b, qwen/qwen3.8-27b, gemini-3.8-flash-high, deepseek-v4.1-flash.",
+  "//models": "Groq (https://groq.com) — confirmed active models: openai/gpt-oss-120b, openai/gpt-oss-20b, qwen/qwen3.8-27b.",
   "models": {
-    "study":     ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b", "gemini-3.8-flash-high", "deepseek-v4.1-flash"],
-    "qna":       ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b", "gemini-3.8-flash-high", "deepseek-v4.1-flash"],
-    "translate": ["openai/gpt-oss-20b", "openai/gpt-oss-120b", "gemini-3.8-flash-high", "deepseek-v4.1-flash"],
-    "dissect":   ["openai/gpt-oss-20b", "openai/gpt-oss-120b", "gemini-3.8-flash-high", "deepseek-v4.1-flash"]
+    "study":     ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b"],
+    "qna":       ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b"],
+    "translate": ["openai/gpt-oss-20b", "openai/gpt-oss-120b", "qwen/qwen3.8-27b"],
+    "dissect":   ["openai/gpt-oss-20b", "openai/gpt-oss-120b", "qwen/qwen3.8-27b"]
   },
 
   "//budget": "7M+ daily tokens from NaraRouter — no budget guard in the build; every sourced article is fully processed.",

@@ -201,12 +201,11 @@ async function acquireLane(models, label) {
 
   // Prefer ready lanes in model-preference order
   for (const model of filteredModels) {
-    const forModel = apiKeys
-      .map((_, i) => lane(apiKeys[(cursor + i) % apiKeys.length], model))
-      .filter((l) => !l.dailyDone && l.readyAt <= now());
+    const forModel = candidates
+      .filter((l) => l.model === model && !l.dailyDone && l.readyAt <= now());
     if (forModel.length > 0) {
-      cursor = (cursor + 1) % apiKeys.length;
-      return forModel[0];
+      cursor = (cursor + 1) % forModel.length;
+      return forModel[cursor];
     }
   }
 
@@ -358,11 +357,17 @@ export async function generate({
           /model does not exist|model_not_found|requested model|not available|model.*not.*found|invalid.*model|unknown.*model/i.test(detail);
 
         if (isModelUnavailable) {
-          retiredModels.add(l.model);
-          for (const state of lanes.values()) {
-            if (state.model === l.model) state.dailyDone = true;
+          l.dailyDone = true;
+          const otherProvidersHaveIt = apiKeys.some(
+            (k) => k !== l.key && modelsByKey.get(k)?.has(l.model)
+          );
+          if (!otherProvidersHaveIt) {
+            retiredModels.add(l.model);
+            for (const state of lanes.values()) {
+              if (state.model === l.model) state.dailyDone = true;
+            }
           }
-          console.warn(`  ! ${label}: model "${l.model}" is unavailable (HTTP ${res.status}: ${detail.trim()}), retiring it and falling back`);
+          console.warn(`  ! ${label}: model "${l.model}" is unavailable on ${keyName(l.key)} (HTTP ${res.status}: ${detail.trim()}), skipping lane for this key`);
           lastError = new Error(`HTTP ${res.status} model-unavailable — ${l.model}`);
           continue;
         }
