@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T10:26:40.643Z",
-  "latestDate": "2026-10-27",
-  "latestHash": "c9f38e32c62d78bcf0d85e95",
+  "updatedAt": "2026-10-29T12:53:06.088Z",
+  "latestDate": "2026-10-29",
+  "latestHash": "e152603718188424ec4a0313",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-29",
+      "dateBn": "২৯ অক্টোবর ২০২৬, বৃহস্পতিবার",
+      "hash": "e152603718188424ec4a0313",
+      "file": "data/2026-10-29.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-29T12:53:06.088Z",
+      "headlines": [
+        {
+          "id": "bn-7160eec5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "বেকার হয়ে পড়া শ্রমিক: কী করছেন, কীভাবে বেঁচে আছেন",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-2c45b8cc",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Time to count unpaid care in our economy",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-f88d407e",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক বাণিজ্য ও অর্থনীতি",
+          "title": "মালয়েশিয়ার বাজার ধরতে রপ্তানি পণ্যে বৈচিত্র্য আনতে হবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-142a31ae",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Bangladesh cannot wait two years to manage its energy demand",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-730d799a",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি ও আন্তর্জাতিক সম্পর্ক",
+          "title": "জাপানের বিগ–বি পরিকল্পনায় বাংলাদেশের অর্থনৈতিক সুযোগ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-7711c388",
+          "lang": "en",
+          "topic": "শহুরে পরিকল্পনা ও পরিবহন",
+          "title": "Dhaka needs traffic discipline, not just new transport initiatives",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-4d3421a4",
+          "lang": "bn",
+          "topic": "ভারতীয় রাজনীতি ও প্রশাসন",
+          "title": "বিধান পরিষদ নির্বাচন বিজেপি ও কংগ্রেসকে চিন্তায় ফেলে দিল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ab07dac3",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Liquidity without dilution: Direct listing as a shareholder exit route",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "dateBn": "২৭ অক্টোবর ২০২৬, মঙ্গলবার",
