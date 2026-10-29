@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T10:26:40.643Z",
-  "latestDate": "2026-10-27",
-  "latestHash": "c9f38e32c62d78bcf0d85e95",
+  "updatedAt": "2026-10-29T12:00:54.260Z",
+  "latestDate": "2026-10-29",
+  "latestHash": "2b41423479425d4f66512220",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-29",
+      "dateBn": "২৯ অক্টোবর ২০২৬, বৃহস্পতিবার",
+      "hash": "2b41423479425d4f66512220",
+      "file": "data/2026-10-29.json",
+      "articleCount": 1,
+      "bengaliCount": 1,
+      "englishCount": 0,
+      "generatedAt": "2026-10-29T12:00:54.260Z",
+      "headlines": [
+        {
+          "id": "bn-7160eec5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "বেকার হয়ে পড়া শ্রমিক: কী করছেন, কীভাবে বেঁচে আছেন",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "dateBn": "২৭ অক্টোবর ২০২৬, মঙ্গলবার",
@@ -396,74 +415,6 @@
           "topic": "শিশু অধিকার ও স্বাস্থ্য",
           "title": "স্কুলব্যাগের ওজন: ভারবাহী প্রাণীরাও ছাড় পায়, শিশুদের কি মাফ নেই",
           "source": "প্রথম আলো"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "dateBn": "২১ অক্টোবর ২০২৬, বুধবার",
-      "hash": "dbf98afa9e4486267ecb2487",
-      "file": "data/2026-10-21.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-21T09:42:51.960Z",
-      "headlines": [
-        {
-          "id": "bn-a22475eb",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "৩ লাখের বেশি ভিসা বাতিল করেছে ট্রাম্প প্রশাসন, কিন্তু কেন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-455b4ebe",
-          "lang": "en",
-          "topic": "",
-          "title": "Reform NGO funding to help grassroots organisations survive",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a171d027",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "নির্বাচনে নেতানিয়াহুকে ট্রাম্পের সমর্থন: যুক্তরাষ্ট্র কি ইসরায়েলকে নিয়ে আবার ইরানে হামলার ছক কষছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-75943162",
-          "lang": "en",
-          "topic": "",
-          "title": "Maintain what’s built before building more",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-448716e4",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "রংপুরে শিল্পের বিকাশে বড় বাধা অর্থায়ন ও জ্বালানিসংকট",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b951fb59",
-          "lang": "en",
-          "topic": "শিশু স্বাস্থ্য ও শিক্ষা",
-          "title": "When did play stop being a part of childhood?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-61decf5a",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও অর্থনীতি",
-          "title": "চীন কেন বিপুল পরিমাণে সোনা কিনছে? কাহিনী কী?",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-e37214ef",
-          "lang": "en",
-          "topic": "",
-          "title": "Can BNP keep its own ranks in check?",
-          "source": "The Daily Star"
         }
       ]
     }
