@@ -45,6 +45,8 @@ console.log(`LLM: ${apiKeys.length} API key(s) loaded (${routerKeys} router, ${g
 
 const keyName = (key) => `key…${key.slice(-4)}`;
 
+const modelsByKey = new Map();
+
 export async function checkAvailableModels(configuredModels = []) {
   const found = new Set();
   for (const key of apiKeys) {
@@ -58,6 +60,7 @@ export async function checkAvailableModels(configuredModels = []) {
         const json = await res.json();
         const ids = (json.data || []).map((m) => m.id);
         console.log(`[LLM] Available models on ${isGroq ? 'Groq' : 'Bynara'} (${keyName(key)}): ${ids.length} models ->`, ids.join(', '));
+        modelsByKey.set(key, new Set(ids));
         ids.forEach((id) => {
           found.add(id);
           discoveredModels.add(id);
@@ -172,7 +175,12 @@ async function acquireLane(models, label) {
 
   const candidates = [];
   for (const model of filteredModels) {
-    for (const key of apiKeys) candidates.push(lane(key, model));
+    for (const key of apiKeys) {
+      if (modelsByKey.has(key) && !modelsByKey.get(key).has(model)) {
+        continue;
+      }
+      candidates.push(lane(key, model));
+    }
   }
 
   const alive = candidates.filter((l) => !l.dailyDone);
