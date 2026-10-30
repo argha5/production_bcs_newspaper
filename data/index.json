@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T12:53:06.088Z",
-  "latestDate": "2026-10-29",
-  "latestHash": "e152603718188424ec4a0313",
+  "updatedAt": "2026-10-30T08:56:28.804Z",
+  "latestDate": "2026-10-30",
+  "latestHash": "c8d9384017c5fdd9d5a10ab3",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-10-30",
+      "dateBn": "৩০ অক্টোবর ২০২৬, শুক্রবার",
+      "hash": "c8d9384017c5fdd9d5a10ab3",
+      "file": "data/2026-10-30.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-10-30T08:56:28.804Z",
+      "headlines": [
+        {
+          "id": "bn-e7b38cfa",
+          "lang": "bn",
+          "topic": "রাজনৈতিক সংস্কৃতি ও ভাষা",
+          "title": "বাংলাদেশে রাজনীতির মাঠ যেন একটা বক্সিং রিং",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8f4a981f",
+          "lang": "en",
+          "topic": "পরিবহন ও অবকাঠামো",
+          "title": "‘Bureaucratic obstinacy is the root cause of the BRT failure’",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-4d6e93a9",
+          "lang": "bn",
+          "topic": "কৃত্রিম বুদ্ধিমত্তা ও শিক্ষা",
+          "title": "আন্তর্জাতিক কৃত্রিম বুদ্ধিমত্তা অলিম্পিয়াডের বাংলাদেশ জাতীয় পর্ব ৩১ অক্টোবর",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d05a357d",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "What should Bangladesh gain from its first sovereign bond?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-8d975031",
+          "lang": "bn",
+          "topic": "ব্র্যাক ব্যাংকের আর্থিক ফলাফল",
+          "title": "৯ মাসে ২,১২১ কোটি টাকার রেকর্ড মুনাফা অর্জন ব্র্যাক ব্যাংকের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f3d1b018",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Safeguards are key to preventing irregularities in the financial sector",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-5a0344ad",
+          "lang": "bn",
+          "topic": "কর ও রাজস্ব ব্যবস্থাপনা",
+          "title": "ভ্যাট রিটার্ন দাখিলের সময়সীমা নিয়ে পিছুটান, কী শিক্ষা পেলাম",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-81a8d440",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Garment exporters accuse local yarn mills of raising prices after import restrictions",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "dateBn": "২৯ অক্টোবর ২০২৬, বৃহস্পতিবার",
@@ -403,67 +471,6 @@
           "topic": "আন্তর্জাতিক সম্পর্ক",
           "title": "Israeli settler terror thrives on impunity and silence",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "dateBn": "২২ অক্টোবর ২০২৬, বৃহস্পতিবার",
-      "hash": "f83a47f14245417bb3b50536",
-      "file": "data/2026-10-22.json",
-      "articleCount": 7,
-      "bengaliCount": 4,
-      "englishCount": 3,
-      "generatedAt": "2026-10-22T09:07:38.982Z",
-      "headlines": [
-        {
-          "id": "bn-80fff8cc",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "মার্কিন দূতাবাসের কিছু কর্মী ও তাঁদের পরিবারকে সৌদি আরব ছাড়ার নির্দেশ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-81881ddf",
-          "lang": "en",
-          "topic": "জলবায়ু ও নারী",
-          "title": "Climate resilience must not come at the cost of women’s debt",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-1e7cfd48",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক বিষয়",
-          "title": "আকাশে উড়োজাহাজের দরজা দিয়ে লাফিয়ে অদৃশ্য ছিনতাইকারী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-92d7e76d",
-          "lang": "en",
-          "topic": "পরিবেশ ও বন",
-          "title": "Forests need more than paper promises",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-8f54f267",
-          "lang": "bn",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "রাজশাহী মেডিকেলে দ্বিতীয় দিনের মতো ইন্টার্ন চিকিৎসকদের কর্মবিরতি, রোগীদের ভোগান্তি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-2f04485b",
-          "lang": "en",
-          "topic": "",
-          "title": "Before being satisfied with law and order, ask if citizens feel safer",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a3155061",
-          "lang": "bn",
-          "topic": "শিশু অধিকার ও স্বাস্থ্য",
-          "title": "স্কুলব্যাগের ওজন: ভারবাহী প্রাণীরাও ছাড় পায়, শিশুদের কি মাফ নেই",
-          "source": "প্রথম আলো"
         }
       ]
     }
