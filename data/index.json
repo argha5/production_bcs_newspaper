@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T08:48:11.624Z",
-  "latestDate": "2026-10-31",
-  "latestHash": "907e66d3575e43613874f97f",
+  "updatedAt": "2026-11-01T09:29:44.594Z",
+  "latestDate": "2026-11-01",
+  "latestHash": "c39957d4a474baa6e8463eef",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-01",
+      "dateBn": "১ নভেম্বর ২০২৬, রবিবার",
+      "hash": "c39957d4a474baa6e8463eef",
+      "file": "data/2026-11-01.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-01T09:29:44.594Z",
+      "headlines": [
+        {
+          "id": "bn-cb120ed2",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "১১ বছর পর নতুন কাঠামোয় বেতন পেলেন সরকারি কর্মকর্তা–কর্মচারীরা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-1c955897",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "How to make Bangladesh's jute industry thrive at last",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-78f0d965",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "হাসিনাকে নীরব রাখতে বাধা ভারতের অভ্যন্তরীণ রাজনীতি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-051d56f8",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Is Britain's MI6 trying to save Pakistani media from death?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-dbc147f6",
+          "lang": "bn",
+          "topic": "রাজনীতি ও শাসনব্যবস্থা",
+          "title": "ঠাকুরগাঁওয়ের উপনির্বাচন নিয়ে জামায়াতের ‘দ্বিমুখী’ আচরণের বিরুদ্ধে সরব এনসিপি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d59ee589",
+          "lang": "en",
+          "topic": "জনস্বাস্থ্য ও স্বাস্থ্যসেবা",
+          "title": "Make public toilets women-friendly",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-bd3e2474",
+          "lang": "bn",
+          "topic": "শিক্ষা ও মানবসম্পদ উন্নয়ন",
+          "title": "এইচএসসি পরীক্ষা: ফেল করা মানেই জীবনযুদ্ধে হেরে যাওয়া নয়",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a4e64d1e",
+          "lang": "en",
+          "topic": "বাংলাদেশের রাজনীতি",
+          "title": "Awami League and Jamaat: Strange turns in the history of political alliances",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-10-31",
       "dateBn": "৩১ অক্টোবর ২০২৬, শনিবার",
@@ -402,74 +470,6 @@
           "lang": "en",
           "topic": "",
           "title": "Ensure transparency in BR online ticketing",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "dateBn": "২৪ অক্টোবর ২০২৬, শনিবার",
-      "hash": "1ed400189795789e0a234b9d",
-      "file": "data/2026-10-24.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-24T09:00:25.545Z",
-      "headlines": [
-        {
-          "id": "bn-e1f33b80",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "অরুণাচল প্রদেশের ৬-৭ কিলোমিটার ভেতরে আসলেই কি ঢুকে পড়েছে চীনের বাহিনী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-864274f1",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Our jute industry needs more than tariff relief",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-aba438f4",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও নীতি",
-          "title": "ক্যালিফোর্নিয়ায় শতকোটিপতিদের সম্পদে ৫ শতাংশ কর আরোপের প্রস্তাব",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-db2923f7",
-          "lang": "en",
-          "topic": "বাংলার অর্থনীতি",
-          "title": "Will repurposing unspent World Bank loans serve development needs?",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-f77cd5ca",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "গ্রামগুলোকে মূলধারায় সম্পৃক্ত করতে হবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-2db6e036",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক অর্থনীতি",
-          "title": "Bangkok’s promises and the developing world’s funding gap",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-d0677ec2",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "নির্বাচন ইসরায়েলে, মাথাব্যথা যুক্তরাষ্ট্রের",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-9803ab39",
-          "lang": "en",
-          "topic": "পরিস্থিতি ও জলবায়ু",
-          "title": "Stop Chattogram’s expansion into flood-prone areas",
           "source": "The Daily Star"
         }
       ]
