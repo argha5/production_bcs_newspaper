@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T09:53:21.618Z",
-  "latestDate": "2026-11-03",
-  "latestHash": "f9543534f1410fb0a02ee05d",
+  "updatedAt": "2026-11-04T09:26:40.217Z",
+  "latestDate": "2026-11-04",
+  "latestHash": "9dba7f30d69649371347f210",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-04",
+      "dateBn": "৪ নভেম্বর ২০২৬, বুধবার",
+      "hash": "9dba7f30d69649371347f210",
+      "file": "data/2026-11-04.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-04T09:26:40.217Z",
+      "headlines": [
+        {
+          "id": "bn-6a959b78",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "পোশাক শ্রমিকদের আন্দোলন ও বিক্ষোভ: ক্ষতি কার",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-0d24f2b6",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Amid mounting questions, Bangladesh must account for citizens drawn into Russia’s war",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-43b8dcad",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও প্রযুক্তি",
+          "title": "কার হাতে আমাদের ডেটা, কার নিয়মে আমাদের এআই",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-98b2a6a9",
+          "lang": "en",
+          "topic": "নারী অধিকার ও সমতা",
+          "title": "Women cricketers deserve equal rights, not discretionary favours",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-6aa3d1c8",
+          "lang": "bn",
+          "topic": "",
+          "title": "মহাকাশ গবেষণার ভবিষ্যৎ বদলে দিচ্ছেন বাংলাদেশের মাহমুদা সুলতানা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4e6a6d9a",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Whose interests is BERC protecting?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-1f5750dc",
+          "lang": "bn",
+          "topic": "মিডিয়া ও যোগাযোগ",
+          "title": "এক চোখে আলো নেই, তবু ৪০ বছর ধরে পত্রিকা বিলি করেন ইনামুল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-23dc57f5",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "When political loyalty replaces professional judgment, development suffers",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-11-03",
       "dateBn": "৩ নভেম্বর ২০২৬, মঙ্গলবার",
@@ -410,67 +478,6 @@
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "Liquidity without dilution: Direct listing as a shareholder exit route",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "dateBn": "২৭ অক্টোবর ২০২৬, মঙ্গলবার",
-      "hash": "c9f38e32c62d78bcf0d85e95",
-      "file": "data/2026-10-27.json",
-      "articleCount": 7,
-      "bengaliCount": 4,
-      "englishCount": 3,
-      "generatedAt": "2026-10-27T10:26:40.643Z",
-      "headlines": [
-        {
-          "id": "bn-bc8bfdac",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি",
-          "title": "কুষ্টিয়ায় স্টেডিয়ামে অনুমতি দিল প্রশাসন, জামায়াত জিলা স্কুল মাঠে সমাবেশ করতে অনড়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-e78da5f9",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Our dengue response needs a fundamental overhaul",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-d82e0ec2",
-          "lang": "bn",
-          "topic": "পুলিশ ও প্রশাসন",
-          "title": "প্রশাসন, পুলিশে নিয়মিত পদোন্নতি, যোগ্যতা থাকলেও হয় না শিক্ষা ক্যাডারে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a6e91000",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh needs a strategy to wean itself off imported gas",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-5d54b51a",
-          "lang": "bn",
-          "topic": "মানবাধিকার ও সমাজ",
-          "title": "কিশোরীকে ‘চুমু’, রাস্তায় উলঙ্গ হাঁটানো হলো প্রেমিক, তাঁর বাবা ও বন্ধুকে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f78ea896",
-          "lang": "en",
-          "topic": "পৰিৱেশ তথা প্ৰাকৃতিক সম্পদ",
-          "title": "Profits must not trump conservation",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-ac590034",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক রাজনীতি",
-          "title": "লুলার বিজয় ইউরোপের আন্দোলনে যে কারণে উদ্দীপনা ছড়াল",
-          "source": "প্রথম আলো"
         }
       ]
     }
