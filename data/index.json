@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T09:26:40.217Z",
-  "latestDate": "2026-11-04",
-  "latestHash": "9dba7f30d69649371347f210",
+  "updatedAt": "2026-11-05T09:52:15.218Z",
+  "latestDate": "2026-11-05",
+  "latestHash": "ef55170b8939bf5ff5dd4b6b",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-05",
+      "dateBn": "৫ নভেম্বর ২০২৬, বৃহস্পতিবার",
+      "hash": "ef55170b8939bf5ff5dd4b6b",
+      "file": "data/2026-11-05.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-05T09:52:15.218Z",
+      "headlines": [
+        {
+          "id": "bn-da6353f2",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ইরান যুদ্ধের কারণে মধ্যবর্তী নির্বাচনে হার, অবশেষে স্বীকার করলেন ট্রাম্প",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-38cd0156",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "US midterm results: What it means for Bangladesh’s trade and economic challenges",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-a8ec2303",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "খুলনা অঞ্চলের চুইঝালের শতকোটি টাকার বাণিজ্য",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c6b5b4dc",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Biman’s fleet expansion must be matched by structural reform",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-9835de8e",
+          "lang": "bn",
+          "topic": "শিক্ষা ও প্রযুক্তি",
+          "title": "শিক্ষার ডিজিটাল রূপান্তরে বিএনপির সামনে যে সুযোগ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5fd30601",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Why we must forge a new economic vision",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d21c60e7",
+          "lang": "bn",
+          "topic": "সাইবার নিরাপত্তা",
+          "title": "সুপারমার্কেটের ফ্রিজ হ্যাকড হলে অন্যান্য প্রযুক্তিপণ্য কতটা ঝুঁকিপূর্ণ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-de64effa",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক অর্থনীতি",
+          "title": "South Asia's demographic shift is an opportunity, but only if the region acts now",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "dateBn": "৪ নভেম্বর ২০২৬, বুধবার",
@@ -409,74 +477,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "Garment exporters accuse local yarn mills of raising prices after import restrictions",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "dateBn": "২৯ অক্টোবর ২০২৬, বৃহস্পতিবার",
-      "hash": "e152603718188424ec4a0313",
-      "file": "data/2026-10-29.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-29T12:53:06.088Z",
-      "headlines": [
-        {
-          "id": "bn-7160eec5",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "বেকার হয়ে পড়া শ্রমিক: কী করছেন, কীভাবে বেঁচে আছেন",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-2c45b8cc",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Time to count unpaid care in our economy",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-f88d407e",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক বাণিজ্য ও অর্থনীতি",
-          "title": "মালয়েশিয়ার বাজার ধরতে রপ্তানি পণ্যে বৈচিত্র্য আনতে হবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-142a31ae",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh cannot wait two years to manage its energy demand",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-730d799a",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি ও আন্তর্জাতিক সম্পর্ক",
-          "title": "জাপানের বিগ–বি পরিকল্পনায় বাংলাদেশের অর্থনৈতিক সুযোগ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-7711c388",
-          "lang": "en",
-          "topic": "শহুরে পরিকল্পনা ও পরিবহন",
-          "title": "Dhaka needs traffic discipline, not just new transport initiatives",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-4d3421a4",
-          "lang": "bn",
-          "topic": "ভারতীয় রাজনীতি ও প্রশাসন",
-          "title": "বিধান পরিষদ নির্বাচন বিজেপি ও কংগ্রেসকে চিন্তায় ফেলে দিল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ab07dac3",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Liquidity without dilution: Direct listing as a shareholder exit route",
           "source": "The Business Standard"
         }
       ]
