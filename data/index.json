@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T09:52:15.218Z",
-  "latestDate": "2026-11-05",
-  "latestHash": "ef55170b8939bf5ff5dd4b6b",
+  "updatedAt": "2026-11-06T09:43:52.147Z",
+  "latestDate": "2026-11-06",
+  "latestHash": "eea8878b63ba7749e3c65e38",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-06",
+      "dateBn": "৬ নভেম্বর ২০২৬, শুক্রবার",
+      "hash": "eea8878b63ba7749e3c65e38",
+      "file": "data/2026-11-06.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-06T09:43:52.147Z",
+      "headlines": [
+        {
+          "id": "bn-81ebfc5f",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "লভ্যাংশ করের নতুন সমীকরণ: উদ্যোক্তাদের করভার কমলেও ছোট বিনিয়োগকারীর কী হবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-34e10eb6",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি ও প্রযুক্তি",
+          "title": "Bangladesh must protect digital inclusion as the AI boom drives up costs",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-4d49a2e7",
+          "lang": "bn",
+          "topic": "প্রযুক্তি ও সমাজ",
+          "title": "এআই উদ্ভাবন না করলেই হয়তো ভালো হতো: জিওফ্রি হিন্টন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-fbbb784e",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "RMG wage revision must be grounded in evidence, not assumptions",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-b282b6e4",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "নিউইয়র্কের পর লস অ্যাঞ্জেলেসের মেয়র হতে যাচ্ছেন আরেক ভারতীয় মার্কিন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ecdd9ebe",
+          "lang": "en",
+          "topic": "ডিজিটাল অর্থনীতি",
+          "title": "Digital payment ecology: a practitioner’s perspective",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-9b2c1871",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি ও সংবিধান",
+          "title": "সংবিধান সংশোধনে গণতান্ত্রিক প্রক্রিয়া কেন গুরুত্বপূর্ণ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c0fd7c1f",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "What the US midterm results mean for Trump, Washington, and the wider world",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-05",
       "dateBn": "৫ নভেম্বর ২০২৬, বৃহস্পতিবার",
@@ -410,74 +478,6 @@
           "topic": "শহুরে পরিকল্পনা ও প্রশাসন",
           "title": "The secretariat relocation plan should open up Dhaka",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "dateBn": "৩০ অক্টোবর ২০২৬, শুক্রবার",
-      "hash": "c8d9384017c5fdd9d5a10ab3",
-      "file": "data/2026-10-30.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-30T08:56:28.804Z",
-      "headlines": [
-        {
-          "id": "bn-e7b38cfa",
-          "lang": "bn",
-          "topic": "রাজনৈতিক সংস্কৃতি ও ভাষা",
-          "title": "বাংলাদেশে রাজনীতির মাঠ যেন একটা বক্সিং রিং",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8f4a981f",
-          "lang": "en",
-          "topic": "পরিবহন ও অবকাঠামো",
-          "title": "‘Bureaucratic obstinacy is the root cause of the BRT failure’",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-4d6e93a9",
-          "lang": "bn",
-          "topic": "কৃত্রিম বুদ্ধিমত্তা ও শিক্ষা",
-          "title": "আন্তর্জাতিক কৃত্রিম বুদ্ধিমত্তা অলিম্পিয়াডের বাংলাদেশ জাতীয় পর্ব ৩১ অক্টোবর",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-d05a357d",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "What should Bangladesh gain from its first sovereign bond?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-8d975031",
-          "lang": "bn",
-          "topic": "ব্র্যাক ব্যাংকের আর্থিক ফলাফল",
-          "title": "৯ মাসে ২,১২১ কোটি টাকার রেকর্ড মুনাফা অর্জন ব্র্যাক ব্যাংকের",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f3d1b018",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Safeguards are key to preventing irregularities in the financial sector",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-5a0344ad",
-          "lang": "bn",
-          "topic": "কর ও রাজস্ব ব্যবস্থাপনা",
-          "title": "ভ্যাট রিটার্ন দাখিলের সময়সীমা নিয়ে পিছুটান, কী শিক্ষা পেলাম",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-81a8d440",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Garment exporters accuse local yarn mills of raising prices after import restrictions",
-          "source": "The Business Standard"
         }
       ]
     }
