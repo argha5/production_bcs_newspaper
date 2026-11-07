@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T09:43:52.147Z",
-  "latestDate": "2026-11-06",
-  "latestHash": "eea8878b63ba7749e3c65e38",
+  "updatedAt": "2026-11-07T09:09:07.577Z",
+  "latestDate": "2026-11-07",
+  "latestHash": "a09afee4c34adccae44e2607",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-07",
+      "dateBn": "৭ নভেম্বর ২০২৬, শনিবার",
+      "hash": "a09afee4c34adccae44e2607",
+      "file": "data/2026-11-07.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-07T09:09:07.577Z",
+      "headlines": [
+        {
+          "id": "bn-f7accc0d",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "সুসিকে সরিয়ে কট্টর অভিবাসনবিরোধী মিলারকে হোয়াইট হাউসের চিফ অব স্টাফ করে কী বার্তা দিচ্ছেন ট্রাম্প",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-91bf8cbb",
+          "lang": "en",
+          "topic": "রাজনীতি ও প্রশাসন",
+          "title": "Ensure accountability in all recruitment",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-952d41d0",
+          "lang": "bn",
+          "topic": "বাংলাদেশের রাজনীতি ও ইতিহাস",
+          "title": "৭ নভেম্বর: জাতীয় সংহতি, সার্বভৌমত্ব ও বাংলাদেশের আত্মমর্যাদার অঙ্গীকার",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-df547113",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Bangladesh needs a bipartisan US strategy",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-b4fc9118",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "সি চিন পিংয়ের বিদায়ের পর চীনের প্রেসিডেন্ট কে হবেন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-96614ab4",
+          "lang": "en",
+          "topic": "স্বাধীনতা ও তথ্য প্রযুক্তি",
+          "title": "Whose hands hold our data, whose rules govern our AI?",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-6df1dadc",
+          "lang": "bn",
+          "topic": "বিজ্ঞান ও প্রযুক্তি",
+          "title": "দুবার নোবেলজয়ী বিরল বিজ্ঞানী তিনি, কেন তাঁকে সিসার তৈরি বদ্ধ কফিনে সমাহিত করা হলো",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-04cf91b6",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "A trillion dollars, one constraint at a time",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "dateBn": "৬ নভেম্বর ২০২৬, শুক্রবার",
@@ -409,74 +477,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের রাজনীতি",
           "title": "Awami League and Jamaat: Strange turns in the history of political alliances",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "dateBn": "৩১ অক্টোবর ২০২৬, শনিবার",
-      "hash": "907e66d3575e43613874f97f",
-      "file": "data/2026-10-31.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-10-31T08:48:11.624Z",
-      "headlines": [
-        {
-          "id": "bn-fd73f544",
-          "lang": "bn",
-          "topic": "অর্থনৈতিক নীতি",
-          "title": "এই বাড়তি সময়কে কাজে লাগিয়ে সংস্কার করতে হবে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f4b073ad",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh must use the LDC extension for lasting economic gains",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e23fef7d",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "যুক্তরাষ্ট্রের মধ্যবর্তী নির্বাচন কী, কেন গুরুত্বপূর্ণ, কী কী জানা দরকার",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8721976b",
-          "lang": "en",
-          "topic": "শিক্ষা ও শিশু স্বাস্থ্য",
-          "title": "Schools can help address Dhaka's playground crisis",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-b0aed271",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "চীনা বিনিয়োগ ও বাণিজ্যে নজর ব্যাংকগুলোর, খুলছে চায়না ডেস্ক",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-350a2133",
-          "lang": "en",
-          "topic": "কৃষি ও খাদ্য নিরাপত্তা",
-          "title": "Don’t turn fruits into a luxury",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-f97116f0",
-          "lang": "bn",
-          "topic": "রাজনীতি ও শাসনব্যবস্থা",
-          "title": "জনগণের রায় অগ্রাহ্য করলে সরকারকে চরম মূল্য দিতে হবে: শফিকুর রহমান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1c9ee7ae",
-          "lang": "en",
-          "topic": "শহুরে পরিকল্পনা ও প্রশাসন",
-          "title": "The secretariat relocation plan should open up Dhaka",
           "source": "The Daily Star"
         }
       ]
