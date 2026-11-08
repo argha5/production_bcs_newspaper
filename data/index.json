@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T09:09:07.577Z",
-  "latestDate": "2026-11-07",
-  "latestHash": "a09afee4c34adccae44e2607",
+  "updatedAt": "2026-11-08T15:25:55.884Z",
+  "latestDate": "2026-11-08",
+  "latestHash": "b4890246074bc98158435fdf",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-08",
+      "dateBn": "৮ নভেম্বর ২০২৬, রবিবার",
+      "hash": "b4890246074bc98158435fdf",
+      "file": "data/2026-11-08.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-08T15:25:55.884Z",
+      "headlines": [
+        {
+          "id": "bn-566877a7",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "যুক্তরাষ্ট্র কি আর ট্রাম্প-পূর্ব আমলের রাজনীতিতে ফিরতে পারবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-25eb4069",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "The LPG market needs urgent disciplining",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-43d1325e",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "গঙ্গা চুক্তি থেকে মাতারবাড়ী—সংসদে যেসব বিষয়ে সরব হবে জামায়াত",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8c8117fb",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Renata's Q1 profit jumps 37% to Tk102cr on export growth, lower finance costs",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-f0bb6f60",
+          "lang": "bn",
+          "topic": "ভিসা ও অভিবাসন",
+          "title": "ভিসা নথির জালিয়াতি কমাতে পারে ভিজিবল ডিজিটাল সিল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-cc8db55c",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Jamuna Oil cuts dividend to 120% as FY26 profit falls 34%",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-b77f513c",
+          "lang": "bn",
+          "topic": "প্রশাসন ও আইন",
+          "title": "অধিবেশন বসছে কাল, সংসদ চত্বর ধূমপানমুক্ত এলাকা ঘোষণা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-25b60c77",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Envoy Textiles Q1 profit jumps 40% to Tk53cr on export growth, lower financing costs",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-11-07",
       "dateBn": "৭ নভেম্বর ২০২৬, শনিবার",
@@ -409,74 +477,6 @@
           "lang": "en",
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "Health reform can't be left to the ministry alone. It needs a central, PM-led drive",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "dateBn": "১ নভেম্বর ২০২৬, রবিবার",
-      "hash": "c39957d4a474baa6e8463eef",
-      "file": "data/2026-11-01.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-01T09:29:44.594Z",
-      "headlines": [
-        {
-          "id": "bn-cb120ed2",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "১১ বছর পর নতুন কাঠামোয় বেতন পেলেন সরকারি কর্মকর্তা–কর্মচারীরা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1c955897",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "How to make Bangladesh's jute industry thrive at last",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-78f0d965",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "হাসিনাকে নীরব রাখতে বাধা ভারতের অভ্যন্তরীণ রাজনীতি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-051d56f8",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Is Britain's MI6 trying to save Pakistani media from death?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-dbc147f6",
-          "lang": "bn",
-          "topic": "রাজনীতি ও শাসনব্যবস্থা",
-          "title": "ঠাকুরগাঁওয়ের উপনির্বাচন নিয়ে জামায়াতের ‘দ্বিমুখী’ আচরণের বিরুদ্ধে সরব এনসিপি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-d59ee589",
-          "lang": "en",
-          "topic": "জনস্বাস্থ্য ও স্বাস্থ্যসেবা",
-          "title": "Make public toilets women-friendly",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-bd3e2474",
-          "lang": "bn",
-          "topic": "শিক্ষা ও মানবসম্পদ উন্নয়ন",
-          "title": "এইচএসসি পরীক্ষা: ফেল করা মানেই জীবনযুদ্ধে হেরে যাওয়া নয়",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a4e64d1e",
-          "lang": "en",
-          "topic": "বাংলাদেশের রাজনীতি",
-          "title": "Awami League and Jamaat: Strange turns in the history of political alliances",
           "source": "The Daily Star"
         }
       ]
