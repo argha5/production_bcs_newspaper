@@ -1,10 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:25:55.884Z",
-  "latestDate": "2026-11-08",
-  "latestHash": "b4890246074bc98158435fdf",
+  "updatedAt": "2026-11-09T10:08:48.880Z",
+  "latestDate": "2026-11-09",
+  "latestHash": "a906544229532bf9109e7ae6",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-09",
+      "dateBn": "৯ নভেম্বর ২০২৬, সোমবার",
+      "hash": "a906544229532bf9109e7ae6",
+      "file": "data/2026-11-09.json",
+      "articleCount": 7,
+      "bengaliCount": 4,
+      "englishCount": 3,
+      "generatedAt": "2026-11-09T10:08:48.880Z",
+      "headlines": [
+        {
+          "id": "bn-5d6848e6",
+          "lang": "bn",
+          "topic": "বিবাহ ও পারিবারিক আইন",
+          "title": "বিচ্ছেদের পর দেনমোহর আদায়ের অন্তহীন লড়াই: পারিবারিক আদালতে মামলার দীর্ঘসূত্রিতা",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        },
+        {
+          "id": "en-7ffcee16",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Rohingya rights cannot remain on hold until repatriation",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-98078cfa",
+          "lang": "bn",
+          "topic": "দূষণ নিয়ন্ত্রণ",
+          "title": "দূষণে হাঁসফাঁস করছে দিল্লি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a918514a",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Rohingyas' last hope rests on the ICJ verdict",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-fc0e2a33",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ইরানের অত্যাধুনিক অস্ত্র সরবরাহ বন্ধে টাস্কফোর্স করেছে যুক্তরাষ্ট্র, আদৌ কি এটি কাজে আসবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c704294f",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Dhaka’s rooftop solar revolution must also consider urban heat",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-f95df27c",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "‘ট্রাম্প সম্পর্কে বিশ্বকে সতর্ক করেছিলাম’: ভাবমূর্তি ফেরাতে মরিয়া পদক্ষেপ নিতে পারেন ট্রাম্প, ডেকে আনতে পারেন অভূতপূর্ব বিপর্যয়",
+          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
+        }
+      ]
+    },
     {
       "date": "2026-11-08",
       "dateBn": "৮ নভেম্বর ২০২৬, রবিবার",
@@ -409,74 +470,6 @@
           "lang": "en",
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "How to put idle public assets to work",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "dateBn": "২ নভেম্বর ২০২৬, সোমবার",
-      "hash": "69be974cfa8a7fe4ffd37c00",
-      "file": "data/2026-11-02.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-02T09:47:31.380Z",
-      "headlines": [
-        {
-          "id": "bn-6833c77f",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "রামলীলায় এত বড় সমাবেশ কীভাবে ঘটাল ইন্ডিয়া জোট, কটাক্ষ করে কী বলছে বিজেপি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-984c1cbf",
-          "lang": "en",
-          "topic": "কৃষি ও পশুপালন",
-          "title": "Fix staffing gaps in government veterinary services",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-bf9f7a00",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "ব্যাংক উদ্ধার প্রকল্প ও জবাবিদিহি নিয়ে কিছু প্রশ্ন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0167d8b2",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Making the most of Japan’s investment opportunity will take more than incentives",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-283ab9f7",
-          "lang": "bn",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "ট্রাক্টর নিয়ে পুরোনো বাণিজ্য মেলার মাঠে শেকৃবি শিক্ষার্থীরা, অস্থায়ী স্থাপনা ভাঙচুর",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0aad4e05",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "‘Lithuania eyes deeper tech, trade, and institutional ties with Bangladesh’",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-47090aeb",
-          "lang": "bn",
-          "topic": "শ্রম ও সামাজিক নিরাপত্তা",
-          "title": "জানুয়ারি থেকে পোশাকশ্রমিকেরা যেন মজুরি পান সেভাবে কাজ করব: শ্রমিক প্রতিনিধি বাবুল আখতার",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-52928256",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Health reform can't be left to the ministry alone. It needs a central, PM-led drive",
           "source": "The Daily Star"
         }
       ]
