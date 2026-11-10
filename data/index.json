@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T10:08:48.880Z",
-  "latestDate": "2026-11-09",
-  "latestHash": "a906544229532bf9109e7ae6",
+  "updatedAt": "2026-11-10T08:53:58.017Z",
+  "latestDate": "2026-11-10",
+  "latestHash": "36e42941c82a934854cd9208",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-10",
+      "dateBn": "১০ নভেম্বর ২০২৬, মঙ্গলবার",
+      "hash": "36e42941c82a934854cd9208",
+      "file": "data/2026-11-10.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-10T08:53:58.017Z",
+      "headlines": [
+        {
+          "id": "bn-54b48a23",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক অর্থনীতি",
+          "title": "বিচ্ছেদ হলে স্ত্রীকে কত অর্থ দিতে হবে এনভিডিয়ার প্রধানকে, হিসাব করলে চোখ কপালে উঠবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-a7db030c",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Bangladesh needs a sustainable debt management policy",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-19b2dca1",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "চার দেশে কর্তৃত্ববাদী সরকারের বিরুদ্ধে ব্যালট বক্স বিপ্লব, বিশ্বজুড়ে কী বার্তা দিচ্ছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-16b33b05",
+          "lang": "en",
+          "topic": "শিক্ষা নীতি",
+          "title": "The danger of defining young lives by exam results",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-28ef1e37",
+          "lang": "bn",
+          "topic": "পরিবেশ ও প্রকৃতি",
+          "title": "খয়রা শিকরে প্যাঁচার গল্প",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ba0246ae",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Food inflation needs urgent remedy",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-8cda8d01",
+          "lang": "bn",
+          "topic": "প্রযুক্তি ও তথ্যপ্রবাহ",
+          "title": "গুগল ম্যাপসে যুক্ত হচ্ছে নতুন সুবিধা, উপকৃত হবেন যাঁরা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8f2612bb",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Rising LPG costs pushing the poor to the end of survival",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-09",
       "dateBn": "৯ নভেম্বর ২০২৬, সোমবার",
@@ -403,74 +471,6 @@
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "When political loyalty replaces professional judgment, development suffers",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "dateBn": "৩ নভেম্বর ২০২৬, মঙ্গলবার",
-      "hash": "f9543534f1410fb0a02ee05d",
-      "file": "data/2026-11-03.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-03T09:53:21.618Z",
-      "headlines": [
-        {
-          "id": "bn-6b99384f",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ইরান যুদ্ধের সুযোগ কাজে লাগিয়ে কীভাবে মার্কিন কোম্পানিগুলো বিপুল মুনাফা করল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5521d844",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক গণমাধ্যম",
-          "title": "30 years of the other opinion",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e0441c83",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "কিম জং-উনের শাসন যেভাবে ভেতর থেকে ভেঙে পড়ছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-733de746",
-          "lang": "en",
-          "topic": "শিক্ষা ও সামাজিক নীতি",
-          "title": "Sexual abuse in madrasas: Children must not pay the price for institutional silence",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-40bd3811",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ফ্লোরিডায় বিধ্বস্ত উড়োজাহাজের সহপাইলটের বয়স ছিল ২০ বছর",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-3ff6a576",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "The backbone bleeds: Why Bangladesh’s RMG unrest was foreseeable",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-cbfe832e",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "গার্মেন্টস শ্রমিকদের মজুরি আসলে কত হওয়া উচিৎ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-6e7cff31",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "How to put idle public assets to work",
-          "source": "The Daily Star"
         }
       ]
     }
