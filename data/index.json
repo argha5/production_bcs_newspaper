@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:53:58.017Z",
-  "latestDate": "2026-11-10",
-  "latestHash": "36e42941c82a934854cd9208",
+  "updatedAt": "2026-11-11T07:09:49.024Z",
+  "latestDate": "2026-11-11",
+  "latestHash": "245f2321c0f52dc5af84ca12",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-11",
+      "dateBn": "১১ নভেম্বর ২০২৬, বুধবার",
+      "hash": "245f2321c0f52dc5af84ca12",
+      "file": "data/2026-11-11.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-11T07:09:49.024Z",
+      "headlines": [
+        {
+          "id": "bn-c56619fc",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "৯% সুদে ৫০ হাজার টাকা পর্যন্ত ডিজিটাল ঋণ পাবেন প্রান্তিক ও সুবিধাবঞ্চিত মানুষ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f5b918a4",
+          "lang": "en",
+          "topic": "ব্যাংকিং ও তথ্য গোপনীয়তা",
+          "title": "Our banking future cannot come at the cost of data privacy",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-05172c44",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "সুতা আমদানি নিয়ে সিদ্ধান্ত আজ, দুই পক্ষ দুই অবস্থানে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f021fa77",
+          "lang": "en",
+          "topic": "সামাজিক সমস্যা ও নারী",
+          "title": "Child marriage must see preventive actions",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-013e5b8f",
+          "lang": "bn",
+          "topic": "ব্যক্তিগত ঋণ",
+          "title": "৫০ হাজার টাকা বেতন হলে ৬ লাখ টাকা পর্যন্ত ঋণ দেবে সিটি ব্যাংক, আবেদন করবেন কীভাবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-76b1c43a",
+          "lang": "en",
+          "topic": "অন্তর্জাতিক শ্রম নীতি",
+          "title": "Bangladesh must seek the truth behind women migrant workers’ deaths",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-2b9cd75c",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ইরান যুদ্ধের খরচ মেটাতে হবে ইসরায়েলকে, ট্রাম্পের এই হুংকার কি রাজনৈতিক চাল, নাকি বাস্তব",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c809affb",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "The growing threat of unregulated tourism",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-10",
       "dateBn": "১০ নভেম্বর ২০২৬, মঙ্গলবার",
@@ -402,74 +470,6 @@
           "lang": "en",
           "topic": "আন্তর্জাতিক অর্থনীতি",
           "title": "South Asia's demographic shift is an opportunity, but only if the region acts now",
-          "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "dateBn": "৪ নভেম্বর ২০২৬, বুধবার",
-      "hash": "9dba7f30d69649371347f210",
-      "file": "data/2026-11-04.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-04T09:26:40.217Z",
-      "headlines": [
-        {
-          "id": "bn-6a959b78",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "পোশাক শ্রমিকদের আন্দোলন ও বিক্ষোভ: ক্ষতি কার",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-0d24f2b6",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Amid mounting questions, Bangladesh must account for citizens drawn into Russia’s war",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-43b8dcad",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও প্রযুক্তি",
-          "title": "কার হাতে আমাদের ডেটা, কার নিয়মে আমাদের এআই",
-          "source": "দ্য বিজনেস স্ট্যান্ডার্ড বাংলা"
-        },
-        {
-          "id": "en-98b2a6a9",
-          "lang": "en",
-          "topic": "নারী অধিকার ও সমতা",
-          "title": "Women cricketers deserve equal rights, not discretionary favours",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6aa3d1c8",
-          "lang": "bn",
-          "topic": "",
-          "title": "মহাকাশ গবেষণার ভবিষ্যৎ বদলে দিচ্ছেন বাংলাদেশের মাহমুদা সুলতানা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-4e6a6d9a",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Whose interests is BERC protecting?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-1f5750dc",
-          "lang": "bn",
-          "topic": "মিডিয়া ও যোগাযোগ",
-          "title": "এক চোখে আলো নেই, তবু ৪০ বছর ধরে পত্রিকা বিলি করেন ইনামুল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-23dc57f5",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "When political loyalty replaces professional judgment, development suffers",
           "source": "The Business Standard"
         }
       ]
