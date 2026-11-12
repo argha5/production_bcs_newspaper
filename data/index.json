@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T07:09:49.024Z",
-  "latestDate": "2026-11-11",
-  "latestHash": "245f2321c0f52dc5af84ca12",
+  "updatedAt": "2026-11-12T07:15:15.502Z",
+  "latestDate": "2026-11-12",
+  "latestHash": "dde1388c54e1981cc3a5188e",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-12",
+      "dateBn": "১২ নভেম্বর ২০২৬, বৃহস্পতিবার",
+      "hash": "dde1388c54e1981cc3a5188e",
+      "file": "data/2026-11-12.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-12T07:15:15.502Z",
+      "headlines": [
+        {
+          "id": "bn-d5728b89",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "চীনের গোয়েন্দা সংস্থা যেভাবে যৌনতাকে হাতিয়ার বানাল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-f9fece01",
+          "lang": "en",
+          "topic": "আইনি ও শাসনব্যবস্থা",
+          "title": "Draft cyber law revisions could still be a tool for silencing dissent",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-a1a08cb9",
+          "lang": "bn",
+          "topic": "প্রযুক্তি ও আন্তর্জাতিক সম্পর্ক",
+          "title": "প্রধান নির্বাহী জেনসেন হুয়াংকে সরানোর প্রস্তুতি নিচ্ছে এনভিডিয়া",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ce66bb94",
+          "lang": "en",
+          "topic": "সংস্কৃতি ও রাজনীতি",
+          "title": "Stop policing cultural events",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-d025c2a2",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "নতুন সমীকরণে ‘হোয়াইট হাউস’, এদের হাতে আমেরিকার গণতন্ত্র!",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e1e418fa",
+          "lang": "en",
+          "topic": "সামাজিক নীতি ও নৈতিকতা",
+          "title": "Peter Singer made me rethink NGOs' priorities – and chickens",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-a0c76607",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক রাজনীতি",
+          "title": "দুবার ক্যানসারে আক্রান্ত হয়ে সেরে উঠেছেন সোনিয়া গান্ধী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-3fc35580",
+          "lang": "en",
+          "topic": "রাষ্ট্রনীতি ও নিরাপত্তা",
+          "title": "Why Dhaka doesn’t want Hasina back",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "dateBn": "১১ নভেম্বর ২০২৬, বুধবার",
@@ -403,74 +471,6 @@
           "topic": "আন্তর্জাতিক সম্পর্ক",
           "title": "What the US midterm results mean for Trump, Washington, and the wider world",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "dateBn": "৫ নভেম্বর ২০২৬, বৃহস্পতিবার",
-      "hash": "ef55170b8939bf5ff5dd4b6b",
-      "file": "data/2026-11-05.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-05T09:52:15.218Z",
-      "headlines": [
-        {
-          "id": "bn-da6353f2",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ইরান যুদ্ধের কারণে মধ্যবর্তী নির্বাচনে হার, অবশেষে স্বীকার করলেন ট্রাম্প",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-38cd0156",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "US midterm results: What it means for Bangladesh’s trade and economic challenges",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a8ec2303",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "খুলনা অঞ্চলের চুইঝালের শতকোটি টাকার বাণিজ্য",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-c6b5b4dc",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Biman’s fleet expansion must be matched by structural reform",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-9835de8e",
-          "lang": "bn",
-          "topic": "শিক্ষা ও প্রযুক্তি",
-          "title": "শিক্ষার ডিজিটাল রূপান্তরে বিএনপির সামনে যে সুযোগ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5fd30601",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Why we must forge a new economic vision",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-d21c60e7",
-          "lang": "bn",
-          "topic": "সাইবার নিরাপত্তা",
-          "title": "সুপারমার্কেটের ফ্রিজ হ্যাকড হলে অন্যান্য প্রযুক্তিপণ্য কতটা ঝুঁকিপূর্ণ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-de64effa",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক অর্থনীতি",
-          "title": "South Asia's demographic shift is an opportunity, but only if the region acts now",
-          "source": "The Business Standard"
         }
       ]
     }
