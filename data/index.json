@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T10:31:10.499Z",
-  "latestDate": "2026-11-18",
-  "latestHash": "b862be01b3cf6cfa9067a3f9",
+  "updatedAt": "2026-11-19T10:42:22.025Z",
+  "latestDate": "2026-11-19",
+  "latestHash": "eab721061002c415024fe31a",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-19",
+      "dateBn": "১৯ নভেম্বর ২০২৬, বৃহস্পতিবার",
+      "hash": "eab721061002c415024fe31a",
+      "file": "data/2026-11-19.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-19T10:42:22.025Z",
+      "headlines": [
+        {
+          "id": "bn-0e467ea5",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "ব্রহ্মপুত্রতীরে প্রাচীন বাণিজ্য কেন্দ্র ‘দত্তের বাজার’",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-95f8efc4",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "We cannot ignore the psychological scars of climate change",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-33957fd2",
+          "lang": "bn",
+          "topic": "বিজ্ঞান ও প্রযুক্তি",
+          "title": "কোয়ান্টাম গবেষণায় ডেভিসন-জার্মার পুরস্কার পেলেন বাংলাদেশের বিজ্ঞানী জাহিদ হাসান",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-cc7f49b6",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "A fairer garments wage requires more than a higher minimum",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-0bcb1cec",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি ও কৃষি",
+          "title": "সত্যিই কি কৃষি ‘ধ্বংস’ হচ্ছে এবং ‘সব অটোওয়ালার দোষ’",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-44772b5d",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Why is contraception still seen as solely a woman’s responsibility?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-fc92cdf8",
+          "lang": "bn",
+          "topic": "রাজনৈতিক বিজ্ঞান",
+          "title": "সরকারপ্রধানের ডাকে ঐক্যের বিষয়ে প্রাথমিকভাবে সাড়া দিয়েছেন জামায়াত আমির: মামুনুল হক",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-bfa554a3",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Lack of public toilets is undermining women's mobility and well-being",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "dateBn": "১৮ নভেম্বর ২০২৬, বুধবার",
@@ -409,74 +477,6 @@
           "lang": "en",
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "Assess local healthcare needs before expanding UHCs",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-12",
-      "dateBn": "১২ নভেম্বর ২০২৬, বৃহস্পতিবার",
-      "hash": "dde1388c54e1981cc3a5188e",
-      "file": "data/2026-11-12.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-12T07:15:15.502Z",
-      "headlines": [
-        {
-          "id": "bn-d5728b89",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "চীনের গোয়েন্দা সংস্থা যেভাবে যৌনতাকে হাতিয়ার বানাল",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f9fece01",
-          "lang": "en",
-          "topic": "আইনি ও শাসনব্যবস্থা",
-          "title": "Draft cyber law revisions could still be a tool for silencing dissent",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a1a08cb9",
-          "lang": "bn",
-          "topic": "প্রযুক্তি ও আন্তর্জাতিক সম্পর্ক",
-          "title": "প্রধান নির্বাহী জেনসেন হুয়াংকে সরানোর প্রস্তুতি নিচ্ছে এনভিডিয়া",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ce66bb94",
-          "lang": "en",
-          "topic": "সংস্কৃতি ও রাজনীতি",
-          "title": "Stop policing cultural events",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-d025c2a2",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "নতুন সমীকরণে ‘হোয়াইট হাউস’, এদের হাতে আমেরিকার গণতন্ত্র!",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-e1e418fa",
-          "lang": "en",
-          "topic": "সামাজিক নীতি ও নৈতিকতা",
-          "title": "Peter Singer made me rethink NGOs' priorities – and chickens",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-a0c76607",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক রাজনীতি",
-          "title": "দুবার ক্যানসারে আক্রান্ত হয়ে সেরে উঠেছেন সোনিয়া গান্ধী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-3fc35580",
-          "lang": "en",
-          "topic": "রাষ্ট্রনীতি ও নিরাপত্তা",
-          "title": "Why Dhaka doesn’t want Hasina back",
           "source": "The Daily Star"
         }
       ]
