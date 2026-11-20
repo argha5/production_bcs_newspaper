@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T10:42:22.025Z",
-  "latestDate": "2026-11-19",
-  "latestHash": "eab721061002c415024fe31a",
+  "updatedAt": "2026-11-20T10:23:09.491Z",
+  "latestDate": "2026-11-20",
+  "latestHash": "3247c98d08fe06134f5d6f30",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-20",
+      "dateBn": "২০ নভেম্বর ২০২৬, শুক্রবার",
+      "hash": "3247c98d08fe06134f5d6f30",
+      "file": "data/2026-11-20.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-20T10:23:09.491Z",
+      "headlines": [
+        {
+          "id": "bn-02d44761",
+          "lang": "bn",
+          "topic": "সাইবার নিরাপত্তা",
+          "title": "যুক্তরাষ্ট্রে সাইবার হামলায় ব্যাংকসহ ভিসা ও মাস্টারকার্ড ব্যবহারকারীদের তথ্য চুরি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d30bf95f",
+          "lang": "en",
+          "topic": "ডিজিটাল নিরাপত্তা",
+          "title": "AI is worsening online child sexual abuse. Are we prepared to respond?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e1104862",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ক্ষতিপূরণ আদায়ে ও রোহিঙ্গাদের নিরাপদে ফেরত পাঠাতে কাজ করবে বাংলাদেশ: পররাষ্ট্র প্রতিমন্ত্রী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-3d567842",
+          "lang": "en",
+          "topic": "শিশু অধিকার ও সমাজ",
+          "title": "By failing our children, we are failing the future of our society",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-67c69df3",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "আইসিজের রায় রোহিঙ্গাদের অধিকার পুনঃপ্রতিষ্ঠার শেষ সুযোগ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-8ed1027d",
+          "lang": "en",
+          "topic": "মিডিয়া ও সংবাদ",
+          "title": "Break the cycle of speech prosecutions",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-efaaa3fc",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ভারতের উত্তর থেকে পূর্ব, বুলডোজারে মুসলিম স্থাপনা গুঁড়িয়ে দেওয়া চলছেই",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-fa4b81e7",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Capital shortfall at 22 banks exceeds Tk3 lakh crore in June",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "dateBn": "১৯ নভেম্বর ২০২৬, বৃহস্পতিবার",
@@ -409,74 +477,6 @@
           "lang": "en",
           "topic": "শিক্ষা ব্যবস্থা",
           "title": "Our students deserve a better university admission system",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "dateBn": "১৩ নভেম্বর ২০২৬, শুক্রবার",
-      "hash": "54b47f8736ff52c8a71c2138",
-      "file": "data/2026-11-13.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-13T09:55:58.697Z",
-      "headlines": [
-        {
-          "id": "bn-60979f31",
-          "lang": "bn",
-          "topic": "অর্থনীতি ও রাজনীতি",
-          "title": "রাজনীতি–সংশ্লিষ্টতা যাঁদের নেই, তাঁদের ব্যাংক হিসাব চালু হচ্ছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-595ee376",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Precision farming must go hand in hand with groundwater protection",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-8df8b3b2",
-          "lang": "bn",
-          "topic": "প্রযুক্তি ও তথ্যপ্রণালী",
-          "title": "বাংলাদেশে ব্যবহার করা যাচ্ছে না আউটলুক, মাইক্রোসফট টিমসসহ ওয়ার্ড ৩৬৫",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-efcb125c",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "The energy crisis really hits home when it hits the kitchen",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-9d91bfdb",
-          "lang": "bn",
-          "topic": "বাংলাদেশের রাজনীতি ও নিরাপত্তা",
-          "title": "জনগণ কোনোভাবেই পতিত স্বৈরাচারকে এ দেশে রাজনীতি করার সুযোগ দেবে না: আইনমন্ত্রী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-b2904e46",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Chattogram's expansion into flood-prone areas is a dangerous gamble",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6fb21bd5",
-          "lang": "bn",
-          "topic": "প্রযুক্তি ও দুর্যোগ ব্যবস্থাপনা",
-          "title": "ভূমিকম্পে বুয়েটের প্রযুক্তি বাঁচাতে পারবে লাখো জীবন?",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f4b36c6e",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Assess local healthcare needs before expanding UHCs",
           "source": "The Daily Star"
         }
       ]
