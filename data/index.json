@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T10:23:09.491Z",
-  "latestDate": "2026-11-20",
-  "latestHash": "3247c98d08fe06134f5d6f30",
+  "updatedAt": "2026-11-21T10:16:55.310Z",
+  "latestDate": "2026-11-21",
+  "latestHash": "bb1636325b3ea1e71a977e0e",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-21",
+      "dateBn": "২১ নভেম্বর ২০২৬, শনিবার",
+      "hash": "bb1636325b3ea1e71a977e0e",
+      "file": "data/2026-11-21.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-21T10:16:55.310Z",
+      "headlines": [
+        {
+          "id": "bn-90ad4229",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "যুক্তরাষ্ট্রের রন্ধ্রে রন্ধ্রে যেভাবে চীনা গোয়েন্দারা ঢুকে পড়েছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5a506a9e",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Our digital finance revolution faces a test of trust",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-09e75fb2",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও প্রযুক্তি",
+          "title": "যুক্তরাষ্ট্রের বাইরে এআই ডেটা সেন্টার বানানো মার্কিন কোম্পানি নিষিদ্ধ করার হুমকি ট্রাম্পের",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5fe3815f",
+          "lang": "en",
+          "topic": "পরিবেশ ও অর্থনীতি",
+          "title": "Green growth must be at the heart of Bangladesh's economy",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-fd5f6db4",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "সম্ভাবনা থাকলেও তরুণদের কাজের সুযোগ কম, ৫ অঞ্চল নিয়ে পিপিআরসির গবেষণা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0f8e6e9a",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "After the ICJ verdict, will the Rohingya have a home?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-0ebfa5b0",
+          "lang": "bn",
+          "topic": "সার্বভৌমত্ব ও আইনশৃঙ্খলা",
+          "title": "নড়াইলে কার্যক্রম নিষিদ্ধ আওয়ামী লীগ নেতা–কর্মীদের অন্তত ২০–৩০টি বাড়িতে হামলা–আগুন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0508156e",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "The ICJ verdict against Myanmar is more than a ruling on genocide",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "dateBn": "২০ নভেম্বর ২০২৬, শুক্রবার",
@@ -409,74 +477,6 @@
           "lang": "en",
           "topic": "পরিবেশ ও জলবায়ু",
           "title": "Tourism taking a toll on Chera Dwip",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "dateBn": "১৪ নভেম্বর ২০২৬, শনিবার",
-      "hash": "e4f3ee09b096aac16c88642c",
-      "file": "data/2026-11-14.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-14T09:29:34.954Z",
-      "headlines": [
-        {
-          "id": "bn-24a73e95",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "বিদেশি গোয়েন্দারা কেন, কীভাবে, কোন কৌশলে হানিট্র্যাপ করে?",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-99ca444a",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Bangladesh cannot adapt its way out of the climate crisis",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-ef6a1f4b",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "বিশ্বে সত্যিই কি দক্ষিণপন্থার দুর্দিন শুরু হলো",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-7b720354",
-          "lang": "en",
-          "topic": "মানব পাচার ও নিরাপত্তা",
-          "title": "Trafficking networks must be dismantled",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-0b08f42d",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "মণিপুরে আবার হামলা, ৪ নাগা নাগরিকের মৃত্যু",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f5f7207c",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Saving banks takes more than clearing bad loans",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-fb14b3c1",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "স্ত্রীর মৃত্যুর পর কেন নেহরু কোটে তাজা গোলাপ গুঁজে রাখতেন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-3028415a",
-          "lang": "en",
-          "topic": "শিক্ষা ব্যবস্থা",
-          "title": "Our students deserve a better university admission system",
           "source": "The Daily Star"
         }
       ]
