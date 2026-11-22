@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T10:16:55.310Z",
-  "latestDate": "2026-11-21",
-  "latestHash": "bb1636325b3ea1e71a977e0e",
+  "updatedAt": "2026-11-22T10:05:32.930Z",
+  "latestDate": "2026-11-22",
+  "latestHash": "4d42f82d93a32ee72b92db5d",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-22",
+      "dateBn": "২২ নভেম্বর ২০২৬, রবিবার",
+      "hash": "4d42f82d93a32ee72b92db5d",
+      "file": "data/2026-11-22.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-22T10:05:32.930Z",
+      "headlines": [
+        {
+          "id": "bn-136f390d",
+          "lang": "bn",
+          "topic": "সাংস্কৃতিক ঐতিহ্য",
+          "title": "খুলনায় নতুন করে আঁকা রবীন্দ্রনাথের প্রতিকৃতিতে আবারও কালি লেপন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-e2125744",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Bangladesh must build trust in its shrimp supply chain",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-caffbc60",
+          "lang": "bn",
+          "topic": "ডিজিটাল বিজ্ঞাপন ও এআই প্রযুক্তি",
+          "title": "বাংলাদেশসহ ৪৪টি দেশে চ্যাটজিপিটির বিজ্ঞাপনসেবা সম্প্রসারণ করল ওপেনএআই",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-0e9645c3",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Turn the ICT genocide verdict into a roadmap for Rohingya return",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-be9171c5",
+          "lang": "bn",
+          "topic": "উচ্চশিক্ষা নীতি",
+          "title": "শিক্ষক–শিক্ষার্থীর রাজনীতির উদ্দেশ্যে বিশ্ববিদ্যালয়ে নতুন বিভাগ চালু নয়: শিক্ষামন্ত্রী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-635ef68e",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "CPD says energy crisis, high interest rates no excuse for keeping RMG wages low",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-691c0a92",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "এসএমই খাতে ২৫ লাখ নতুন কর্মসংস্থান সৃষ্টির লক্ষ্য সরকারের: প্রধানমন্ত্রী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5de632b1",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Don't let industry pressure weaken ship-recycling safeguards",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-21",
       "dateBn": "২১ নভেম্বর ২০২৬, শনিবার",
@@ -409,74 +477,6 @@
           "lang": "en",
           "topic": "সাংস্কৃতিক সম্পদ ও পাবলিক সেবা",
           "title": "Rebuilding a library shouldn’t take this long",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "dateBn": "১৫ নভেম্বর ২০২৬, রবিবার",
-      "hash": "354e79358c4af21ec4c34aa0",
-      "file": "data/2026-11-15.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-15T09:41:33.256Z",
-      "headlines": [
-        {
-          "id": "bn-a7ca356c",
-          "lang": "bn",
-          "topic": "অর্থনীতি ও কর্পোরেট গবর্নেন্স",
-          "title": "এনভিডিয়ার ছয় শীর্ষ কর্তার সম্পদ কমেছে ৫৬০ কোটি ডলার, তিনজন হারালেন শতকোটিপতির মর্যাদা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f18dda4f",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Water must move to the centre of climate action",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-72e338d2",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "যুক্তরাজ্যে নিজেদের ঘাঁটিগুলো কেন খালি করে ফেলছে যুক্তরাষ্ট্র",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-68ba0917",
-          "lang": "en",
-          "topic": "শ্রম অর্থনীতি",
-          "title": "Garment workers’ minimum wages should be based on data, not just bargaining",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-5400e58a",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "কানাডীয় প্রেমিকার বয়স ৬১ বছর জেনেই বিয়েতে বেঁকে বসলেন রাজস্থানের তরুণ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a699487b",
-          "lang": "en",
-          "topic": "তথ্য ও স্বচ্ছতা",
-          "title": "The information commission has a chance to win back public trust",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-f4c04940",
-          "lang": "bn",
-          "topic": "রাজনীতি ও রাষ্ট্রবিজ্ঞান",
-          "title": "পঁচাত্তরের ৭ নভেম্বর থেকে বাংলাদেশি জাতীয়তাবাদ দর্শনের সংগঠিত যাত্রা শুরু: জহির উদ্দিন স্বপন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a5baba70",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Tourism taking a toll on Chera Dwip",
           "source": "The Daily Star"
         }
       ]
