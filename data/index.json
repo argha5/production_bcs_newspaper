@@ -1,10 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T10:05:32.930Z",
-  "latestDate": "2026-11-22",
-  "latestHash": "4d42f82d93a32ee72b92db5d",
+  "updatedAt": "2026-11-23T12:25:02.495Z",
+  "latestDate": "2026-11-23",
+  "latestHash": "da94b4b7dff63d9827b05c61",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-23",
+      "dateBn": "২৩ নভেম্বর ২০২৬, সোমবার",
+      "hash": "da94b4b7dff63d9827b05c61",
+      "file": "data/2026-11-23.json",
+      "articleCount": 4,
+      "bengaliCount": 4,
+      "englishCount": 0,
+      "generatedAt": "2026-11-23T12:25:02.495Z",
+      "headlines": [
+        {
+          "id": "bn-2b38b1a7",
+          "lang": "bn",
+          "topic": "শিক্ষা ও প্রযুক্তি",
+          "title": "স্কুলে এআই শেখাব, নাকি এআইকে প্রশ্ন করতে শেখাব?",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "bn-7f1b42bf",
+          "lang": "bn",
+          "topic": "বৈশ্বিক অর্থনীতি ও সম্পদ",
+          "title": "বছরে ৩৮৪ টন, বিশ্বে সবচেয়ে বেশি সোনা উৎপাদন করে এই দেশ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "bn-cc6de52f",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক রাজনীতি",
+          "title": "চাক শুমার সিনেটে ডেমোক্র্যাট নেতা হলে তাঁর সঙ্গে কাজ করা কঠিন হবে: ট্রাম্প",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "bn-b0b68e11",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক রাজনীতি",
+          "title": "মার্কিন প্রতিনিধি পরিষদে ৩৫ বছরের মধ্যে সবচেয়ে বেশি সংখ্যাগরিষ্ঠতা পেতে যাচ্ছে ডেমোক্র্যাটরা",
+          "source": "প্রথম আলো"
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "dateBn": "২২ নভেম্বর ২০২৬, রবিবার",
@@ -409,74 +449,6 @@
           "lang": "en",
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "Closure of Shastho Batayon unfortunate",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "dateBn": "১৬ নভেম্বর ২০২৬, সোমবার",
-      "hash": "ec5856727577cd6496de0535",
-      "file": "data/2026-11-16.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-16T07:58:12.558Z",
-      "headlines": [
-        {
-          "id": "bn-ffcfeba8",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "পুলিশ কর্মকর্তা থেকে মাদকসম্রাট বনে যাওয়া মেক্সিকোর গুয়াদালাহারা কার্টেল প্রতিষ্ঠাতার মৃত্যু",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-32674409",
-          "lang": "en",
-          "topic": "সরকারি নির্বাহ ও স্বচ্ছতা",
-          "title": "Forensic auditing as a tool for institutional reform in Bangladesh",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-f69a2553",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "মধ্যপ্রাচ্যে রণতরি পাঠাল যুক্তরাষ্ট্র, হামলার জন্য অপেক্ষা করবে না ইরান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-dd69023e",
-          "lang": "en",
-          "topic": "বন্দর ও লজিস্টিক্স",
-          "title": "New port rules, but where are the safeguards against monopoly?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-61abed81",
-          "lang": "bn",
-          "topic": "ব্যাংক ও উত্তরাধিকার আইন",
-          "title": "সঞ্চয়পত্র ও ব্যাংক হিসাবের নমিনি মানেই পুরো টাকার মালিক নন, উত্তরাধিকারেরা কী করবেন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-c761c6d8",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "Between extradition and voluntary return, where does Hasina's future lie?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-c102bbec",
-          "lang": "bn",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "পাহাড়ের রাজা রাজধনেশ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-7467a798",
-          "lang": "en",
-          "topic": "সাংস্কৃতিক সম্পদ ও পাবলিক সেবা",
-          "title": "Rebuilding a library shouldn’t take this long",
           "source": "The Daily Star"
         }
       ]
