@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T12:25:02.495Z",
-  "latestDate": "2026-11-23",
-  "latestHash": "da94b4b7dff63d9827b05c61",
+  "updatedAt": "2026-11-24T13:03:07.984Z",
+  "latestDate": "2026-11-24",
+  "latestHash": "a21d0c48177425ab2402e785",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-24",
+      "dateBn": "২৪ নভেম্বর ২০২৬, মঙ্গলবার",
+      "hash": "a21d0c48177425ab2402e785",
+      "file": "data/2026-11-24.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-24T13:03:07.984Z",
+      "headlines": [
+        {
+          "id": "bn-4d28c4a0",
+          "lang": "bn",
+          "topic": "ব্যাংক শাসন ও নিয়ন্ত্রণ",
+          "title": "স্বতন্ত্র পরিচালকদের স্বাধীনভাবে কাজের পরিবেশ থাকতে হবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4ddd66c1",
+          "lang": "en",
+          "topic": "পরিবেশ ও নবায়নযোগ্য শক্তি",
+          "title": "New solar ordinance: Turning rooftop obligations into sustainable investment",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-0d38692a",
+          "lang": "bn",
+          "topic": "শক্তি ও প্রযুক্তি",
+          "title": "সূর্যের আলো থেকে জ্বালানি তৈরির ব্যাটারিবিহীন যন্ত্র তৈরি করেছেন বিজ্ঞানীরা",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4a0b0016",
+          "lang": "en",
+          "topic": "অন্তর্ভুক্তি ও সংস্কৃতি",
+          "title": "The Marrakesh Treaty must lead to better access to books",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-71ae9dfc",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "সরকারি প্রায় ৫০টি কারখানায় বেসরকারি বিনিয়োগ আহ্বান করা হবে: বাণিজ্যমন্ত্রী",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-86a94f4a",
+          "lang": "en",
+          "topic": "বিমান ও পরিবহন",
+          "title": "Millat orders advanced technology at airports to prevent bird strikes",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-a5d1775d",
+          "lang": "bn",
+          "topic": "রাজনীতি ও সাম্প্রদায়িকতা",
+          "title": "হিন্দুত্ববাদী সাভারকরকে নিয়ে আত্মকথায় ‘আপত্তিকর’ মন্তব্য, সোনিয়াকে আইনি নোটিশ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-71f38417",
+          "lang": "en",
+          "topic": "মিডিয়া ও প্রেস আইন",
+          "title": "Why Bangladesh needs to reform its press and publications law",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-11-23",
       "dateBn": "২৩ নভেম্বর ২০২৬, সোমবার",
@@ -382,74 +450,6 @@
           "topic": "বাণিজ্য ও অর্থনীতি",
           "title": "CIID seizes 444 reams of counterfeit Double A paper in Old Dhaka",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "dateBn": "১৭ নভেম্বর ২০২৬, মঙ্গলবার",
-      "hash": "9d043fb75973d1a32274aee1",
-      "file": "data/2026-11-17.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-17T11:09:24.130Z",
-      "headlines": [
-        {
-          "id": "bn-b1c44d11",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "যুক্তরাষ্ট্রে উবারচালকদের ব্যক্তিগত তথ্য ফাঁস",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-a63f5342",
-          "lang": "en",
-          "topic": "বাংলাদেশের শক্তি খাত",
-          "title": "Rooppur power plant's first unit begins 350MW trial supply to nat'l grid",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-886f046c",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক অর্থনীতি",
-          "title": "ঋণ, বিনিয়োগ ও বিমা সুরক্ষা—যুক্তরাষ্ট্রের ডিএফসির কাছে কী কী সুবিধা পাবে বাংলাদেশ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ce54dc9e",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Can COP31 restore confidence in global climate cooperation?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-42954f75",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "আত্মহত্যা নয়, যৌন নিপীড়ক এপস্টিনকে কারাগারে হত্যা করা হয়েছিল—বিশেষজ্ঞদের বিস্ফোরক দাবি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ca8fe3a9",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Rushing into Phulbari coal mining without assessing its costs will be unwise",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-53021861",
-          "lang": "bn",
-          "topic": "ইন্টারনেট ও তথ্য নিরাপত্তা",
-          "title": "ডার্ক ওয়েব কী, যেভাবে কাজ করে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-ef3036a9",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Closure of Shastho Batayon unfortunate",
-          "source": "The Daily Star"
         }
       ]
     }
