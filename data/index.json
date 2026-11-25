@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T13:03:07.984Z",
-  "latestDate": "2026-11-24",
-  "latestHash": "a21d0c48177425ab2402e785",
+  "updatedAt": "2026-11-25T11:47:05.679Z",
+  "latestDate": "2026-11-25",
+  "latestHash": "0ded44bc89e0abffb2e0b0d0",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-25",
+      "dateBn": "২৫ নভেম্বর ২০২৬, বুধবার",
+      "hash": "0ded44bc89e0abffb2e0b0d0",
+      "file": "data/2026-11-25.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-25T11:47:05.679Z",
+      "headlines": [
+        {
+          "id": "bn-4c21651f",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "চীনের প্রস্তাবিত করিডর ঢাকা–বেইজিং সম্পর্কের জন্য বিশেষভাবে গুরুত্বপূর্ণ",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-000fe496",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "COP31 failed, but a weak climate deal would have been worse",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e8aebd81",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ট্রাম্পের শুল্কের খড়্গে আবার পড়তে যাচ্ছে ভারত",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ecb604ed",
+          "lang": "en",
+          "topic": "শ্রম ও শিল্প নীতি",
+          "title": "Wage deal reached, but political conspiracy fuelling Gazipur labour unrest:Home minister",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-a48f3091",
+          "lang": "bn",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "ইডটকোর নিয়ন্ত্রণমূলক শেয়ারের মালিকানা গ্রহণ করছে ওসাইরিস",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-84e84596",
+          "lang": "en",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "Bangladesh must help Rohingya survivors prepare to claim reparations",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-3d4cf982",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "ইউক্রেন-রাশিয়া যুদ্ধ কি এবার পুরো ইউরোপে ছড়িয়ে পড়বে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-c3adc6e0",
+          "lang": "en",
+          "topic": "শ্রম অধিকার ও সংগঠন",
+          "title": "As tea union election nears, time to rethink workers' needs and representation",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "dateBn": "২৪ নভেম্বর ২০২৬, মঙ্গলবার",
@@ -382,74 +450,6 @@
           "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
           "title": "Lack of public toilets is undermining women's mobility and well-being",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "dateBn": "১৮ নভেম্বর ২০২৬, বুধবার",
-      "hash": "b862be01b3cf6cfa9067a3f9",
-      "file": "data/2026-11-18.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-18T10:31:10.499Z",
-      "headlines": [
-        {
-          "id": "bn-340e6d77",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "এবার মার্কিন জাতীয় নিরাপত্তা সংস্থার অত্যন্ত গোপন যোগাযোগ নেটওয়ার্ক অচল, কী বলছেন কর্মকর্তারা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-1dddd24e",
-          "lang": "en",
-          "topic": "শ্রম ও কর্মসংস্থান",
-          "title": "It's not enough to promote women's leadership. Employers must remove barriers to their advancement",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-6b8b02e5",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "রোহিঙ্গা সংকটের সমাধান কোন পথে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5da3be3d",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Bangladesh Bank approves resolution process for crisis-hit Padma Bank",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-375cf7f0",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "হুতিরা সৌদি আরবের কিছু অংশ ‘দখল’ করেছে, পডকাস্টার কার্লসনের এই দাবি কতটা সত্য",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-354b203b",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "Building a resilient food system is key to our future food security",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-9d96c321",
-          "lang": "bn",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "ভারত ও পাকিস্তানের দূষিত বায়ুতে ভুগছে বাংলাদেশ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-f70b4bfc",
-          "lang": "en",
-          "topic": "বাণিজ্য ও অর্থনীতি",
-          "title": "CIID seizes 444 reams of counterfeit Double A paper in Old Dhaka",
-          "source": "The Business Standard"
         }
       ]
     }
