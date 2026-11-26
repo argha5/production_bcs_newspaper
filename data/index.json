@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T11:47:05.679Z",
-  "latestDate": "2026-11-25",
-  "latestHash": "0ded44bc89e0abffb2e0b0d0",
+  "updatedAt": "2026-11-26T11:11:14.131Z",
+  "latestDate": "2026-11-26",
+  "latestHash": "1bb16ff88babfe27ff076372",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-26",
+      "dateBn": "২৬ নভেম্বর ২০২৬, বৃহস্পতিবার",
+      "hash": "1bb16ff88babfe27ff076372",
+      "file": "data/2026-11-26.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-26T11:11:14.131Z",
+      "headlines": [
+        {
+          "id": "bn-ce73c473",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "যুক্তরাষ্ট্র ২৫ শতাংশ শুল্ক আরোপের প্রস্তাব ঘোষণার পর কী বলছে ভারত",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-271dc4d3",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Healthcare should not come at the cost of financial security",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-e1029bdc",
+          "lang": "bn",
+          "topic": "স্থানীয় সরকার ও ডিজিটাল বাংলাদেশ",
+          "title": "তরুণবান্ধব নিরাপদ ডিজিটাল মাধ্যম স্থানীয় সরকারকে গতিশীল করবে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2e4542f8",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "The failure of climate leadership is a failure of gender justice, too",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-08458be6",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "যুক্তরাষ্ট্রের শুল্কনীতি বাংলাদেশের অর্থনীতির জন্য কী ঝুঁকি তৈরি করছে",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-121e455f",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Why climate advocacy must move from protest to practical action",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-b70a80c4",
+          "lang": "bn",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "আইওয়ায় বিস্ফোরণ: ‘শুধু ধুপধাপ শব্দ হচ্ছিল! জানালা কেঁপে উঠছিল আর কুকুরগুলো করছিল ঘেউ ঘেউ’",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-4d72266d",
+          "lang": "en",
+          "topic": "জাতীয় অবকাঠামো ও শক্তি",
+          "title": "Bangladesh needs to rethink how power lines cross its major rivers",
+          "source": "The Business Standard"
+        }
+      ]
+    },
     {
       "date": "2026-11-25",
       "dateBn": "২৫ নভেম্বর ২০২৬, বুধবার",
@@ -382,74 +450,6 @@
           "topic": "বাংলাদেশের অর্থনীতি",
           "title": "Capital shortfall at 22 banks exceeds Tk3 lakh crore in June",
           "source": "The Business Standard"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-19",
-      "dateBn": "১৯ নভেম্বর ২০২৬, বৃহস্পতিবার",
-      "hash": "eab721061002c415024fe31a",
-      "file": "data/2026-11-19.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-19T10:42:22.025Z",
-      "headlines": [
-        {
-          "id": "bn-0e467ea5",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "ব্রহ্মপুত্রতীরে প্রাচীন বাণিজ্য কেন্দ্র ‘দত্তের বাজার’",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-95f8efc4",
-          "lang": "en",
-          "topic": "পরিবেশ ও জলবায়ু",
-          "title": "We cannot ignore the psychological scars of climate change",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-33957fd2",
-          "lang": "bn",
-          "topic": "বিজ্ঞান ও প্রযুক্তি",
-          "title": "কোয়ান্টাম গবেষণায় ডেভিসন-জার্মার পুরস্কার পেলেন বাংলাদেশের বিজ্ঞানী জাহিদ হাসান",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-cc7f49b6",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "A fairer garments wage requires more than a higher minimum",
-          "source": "The Business Standard"
-        },
-        {
-          "id": "bn-0bcb1cec",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি ও কৃষি",
-          "title": "সত্যিই কি কৃষি ‘ধ্বংস’ হচ্ছে এবং ‘সব অটোওয়ালার দোষ’",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-44772b5d",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Why is contraception still seen as solely a woman’s responsibility?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-fc92cdf8",
-          "lang": "bn",
-          "topic": "রাজনৈতিক বিজ্ঞান",
-          "title": "সরকারপ্রধানের ডাকে ঐক্যের বিষয়ে প্রাথমিকভাবে সাড়া দিয়েছেন জামায়াত আমির: মামুনুল হক",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-bfa554a3",
-          "lang": "en",
-          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
-          "title": "Lack of public toilets is undermining women's mobility and well-being",
-          "source": "The Daily Star"
         }
       ]
     }
