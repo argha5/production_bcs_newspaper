@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T11:11:14.131Z",
-  "latestDate": "2026-11-26",
-  "latestHash": "1bb16ff88babfe27ff076372",
+  "updatedAt": "2026-11-27T11:16:30.372Z",
+  "latestDate": "2026-11-27",
+  "latestHash": "f2def9a5d3982d54f14b40e2",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-27",
+      "dateBn": "২৭ নভেম্বর ২০২৬, শুক্রবার",
+      "hash": "f2def9a5d3982d54f14b40e2",
+      "file": "data/2026-11-27.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-27T11:16:30.372Z",
+      "headlines": [
+        {
+          "id": "bn-59ee62ba",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "অ্যামাজন থেকে মাইক্রোসফট, ফিলিস্তিনি নিধনে ইসরায়েলের সঙ্গে কীভাবে জড়িয়ে পড়ছে মার্কিন প্রযুক্তিপ্রতিষ্ঠান",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2bd7cd2a",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "Global brands shift hundreds of millions in orders from Bangladesh to India amid unrest",
+          "source": "The Business Standard"
+        },
+        {
+          "id": "bn-753d63d8",
+          "lang": "bn",
+          "topic": "রাজনৈতিক ও সামাজিক সমস্যা",
+          "title": "৫ লাখ অতিথির বিয়েতে ৩০ লাখ রসগোল্লা আর ৫০ লাখ গুলাব জামুন, টাকার বৃষ্টি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-81dfcf04",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Urgently tackle the nutrition crisis",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-6b30b98d",
+          "lang": "bn",
+          "topic": "গণমাধ্যম ও মিথ্যা তথ্য",
+          "title": "মিছিল হলো টুঙ্গিপাড়ায়, আ.লীগ প্রচার করল বনানীতে ‘মা–বোনদের’ মিছিল",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-ba9506df",
+          "lang": "en",
+          "topic": "শ্রম আইন ও মজুরি",
+          "title": "Is the wage board merely a theatre of negotiation?",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-ae412565",
+          "lang": "bn",
+          "topic": "গ্রাম্য সমাজ ও সংস্কৃতি",
+          "title": "জাদুকর এসেছিল!",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-2cc1b5d6",
+          "lang": "en",
+          "topic": "বাংলাদেশের অর্থনীতি",
+          "title": "How did the RMG wage board arrive at Tk 17,000?",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-26",
       "dateBn": "২৬ নভেম্বর ২০২৬, বৃহস্পতিবার",
@@ -382,74 +450,6 @@
           "topic": "আন্তর্জাতিক সম্পর্ক",
           "title": "The ICJ verdict against Myanmar is more than a ruling on genocide",
           "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "dateBn": "২০ নভেম্বর ২০২৬, শুক্রবার",
-      "hash": "3247c98d08fe06134f5d6f30",
-      "file": "data/2026-11-20.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-20T10:23:09.491Z",
-      "headlines": [
-        {
-          "id": "bn-02d44761",
-          "lang": "bn",
-          "topic": "সাইবার নিরাপত্তা",
-          "title": "যুক্তরাষ্ট্রে সাইবার হামলায় ব্যাংকসহ ভিসা ও মাস্টারকার্ড ব্যবহারকারীদের তথ্য চুরি",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-d30bf95f",
-          "lang": "en",
-          "topic": "ডিজিটাল নিরাপত্তা",
-          "title": "AI is worsening online child sexual abuse. Are we prepared to respond?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-e1104862",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ক্ষতিপূরণ আদায়ে ও রোহিঙ্গাদের নিরাপদে ফেরত পাঠাতে কাজ করবে বাংলাদেশ: পররাষ্ট্র প্রতিমন্ত্রী",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-3d567842",
-          "lang": "en",
-          "topic": "শিশু অধিকার ও সমাজ",
-          "title": "By failing our children, we are failing the future of our society",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-67c69df3",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "আইসিজের রায় রোহিঙ্গাদের অধিকার পুনঃপ্রতিষ্ঠার শেষ সুযোগ",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-8ed1027d",
-          "lang": "en",
-          "topic": "মিডিয়া ও সংবাদ",
-          "title": "Break the cycle of speech prosecutions",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-efaaa3fc",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "ভারতের উত্তর থেকে পূর্ব, বুলডোজারে মুসলিম স্থাপনা গুঁড়িয়ে দেওয়া চলছেই",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-fa4b81e7",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Capital shortfall at 22 banks exceeds Tk3 lakh crore in June",
-          "source": "The Business Standard"
         }
       ]
     }
