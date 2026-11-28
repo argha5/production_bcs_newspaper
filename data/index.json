@@ -1,10 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T11:16:30.372Z",
-  "latestDate": "2026-11-27",
-  "latestHash": "f2def9a5d3982d54f14b40e2",
+  "updatedAt": "2026-11-28T10:48:55.221Z",
+  "latestDate": "2026-11-28",
+  "latestHash": "217798f8497d6cd4a0c11ada",
   "keepDays": 7,
   "editions": [
+    {
+      "date": "2026-11-28",
+      "dateBn": "২৮ নভেম্বর ২০২৬, শনিবার",
+      "hash": "217798f8497d6cd4a0c11ada",
+      "file": "data/2026-11-28.json",
+      "articleCount": 8,
+      "bengaliCount": 4,
+      "englishCount": 4,
+      "generatedAt": "2026-11-28T10:48:55.221Z",
+      "headlines": [
+        {
+          "id": "bn-031fa4f6",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "যুদ্ধ শেষ করতে এবার ইরানের শীর্ষ নেতাদের হত্যার ছক কষছে ট্রাম্প প্রশাসন",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-b8f2d4bc",
+          "lang": "en",
+          "topic": "বাংলাদেশের জ্বালানি নীতি",
+          "title": "Bangladesh must learn to trade electricity, not just import it",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-8ec78592",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক ও পানি কূটনীতি",
+          "title": "গঙ্গাচুক্তি না হলে ভারতেরই কেন ক্ষতি বেশি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-03b4b9b7",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Technology alone cannot bridge our mental health treatment gap",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-6dec9ff5",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "গঙ্গার পানিবণ্টন চুক্তি: মেয়াদ ফুরাচ্ছে, দরকার বিচক্ষণ কূটনীতি",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-d73797bc",
+          "lang": "en",
+          "topic": "পরিবেশ ও জলবায়ু",
+          "title": "Stop treating Dhaka's water as an endless resource",
+          "source": "The Daily Star"
+        },
+        {
+          "id": "bn-5e180ea9",
+          "lang": "bn",
+          "topic": "আন্তর্জাতিক সম্পর্ক",
+          "title": "কেন চেষ্টা করেও শহরটি জয় করতে পারেননি গ্রেট আলেকজান্ডার",
+          "source": "প্রথম আলো"
+        },
+        {
+          "id": "en-5edf562d",
+          "lang": "en",
+          "topic": "স্বাস্থ্য ও জনস্বাস্থ্য",
+          "title": "Act now to curb antibiotic resistance",
+          "source": "The Daily Star"
+        }
+      ]
+    },
     {
       "date": "2026-11-27",
       "dateBn": "২৭ নভেম্বর ২০২৬, শুক্রবার",
@@ -381,74 +449,6 @@
           "lang": "en",
           "topic": "পরিবেশ ও জলবায়ু",
           "title": "Don't let industry pressure weaken ship-recycling safeguards",
-          "source": "The Daily Star"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "dateBn": "২১ নভেম্বর ২০২৬, শনিবার",
-      "hash": "bb1636325b3ea1e71a977e0e",
-      "file": "data/2026-11-21.json",
-      "articleCount": 8,
-      "bengaliCount": 4,
-      "englishCount": 4,
-      "generatedAt": "2026-11-21T10:16:55.310Z",
-      "headlines": [
-        {
-          "id": "bn-90ad4229",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "যুক্তরাষ্ট্রের রন্ধ্রে রন্ধ্রে যেভাবে চীনা গোয়েন্দারা ঢুকে পড়েছে",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5a506a9e",
-          "lang": "en",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "Our digital finance revolution faces a test of trust",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-09e75fb2",
-          "lang": "bn",
-          "topic": "আন্তর্জাতিক সম্পর্ক ও প্রযুক্তি",
-          "title": "যুক্তরাষ্ট্রের বাইরে এআই ডেটা সেন্টার বানানো মার্কিন কোম্পানি নিষিদ্ধ করার হুমকি ট্রাম্পের",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-5fe3815f",
-          "lang": "en",
-          "topic": "পরিবেশ ও অর্থনীতি",
-          "title": "Green growth must be at the heart of Bangladesh's economy",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-fd5f6db4",
-          "lang": "bn",
-          "topic": "বাংলাদেশের অর্থনীতি",
-          "title": "সম্ভাবনা থাকলেও তরুণদের কাজের সুযোগ কম, ৫ অঞ্চল নিয়ে পিপিআরসির গবেষণা",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0f8e6e9a",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "After the ICJ verdict, will the Rohingya have a home?",
-          "source": "The Daily Star"
-        },
-        {
-          "id": "bn-0ebfa5b0",
-          "lang": "bn",
-          "topic": "সার্বভৌমত্ব ও আইনশৃঙ্খলা",
-          "title": "নড়াইলে কার্যক্রম নিষিদ্ধ আওয়ামী লীগ নেতা–কর্মীদের অন্তত ২০–৩০টি বাড়িতে হামলা–আগুন",
-          "source": "প্রথম আলো"
-        },
-        {
-          "id": "en-0508156e",
-          "lang": "en",
-          "topic": "আন্তর্জাতিক সম্পর্ক",
-          "title": "The ICJ verdict against Myanmar is more than a ruling on genocide",
           "source": "The Daily Star"
         }
       ]
